@@ -1,0 +1,1323 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Verbi: AI note taker and voice recorder</title>
+<meta name="description" content="Verbi records meetings, lectures and interviews of any length, writes them down in 39 languages and gives you a summary with a to-do list.">
+<meta name="apple-itunes-app" content="app-id=6752242891">
+<meta name="theme-color" content="#5532BD">
+<link rel="canonical" href="https://theverbiapp.github.io/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://theverbiapp.github.io/">
+<meta property="og:image" content="https://theverbiapp.github.io/assets/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="You talk. Verbi takes the notes.">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="og:title" content="Verbi">
+<meta property="og:description" content="You talk. Verbi takes the notes: a transcript in 39 languages, the speakers told apart, and a summary with a to-do list.">
+<link rel="icon" type="image/png" href="assets/favicon-64.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Host+Grotesk:wght@300..800&display=swap">
+<script>document.documentElement.classList.add('js')</script>
+<style>
+/* Layout: a flat Verbi-violet stage whose headline transcribes itself live, then a quiet
+   paper document (the transcript beside what it turns into, the app, the plans), closing
+   on a second violet stage. Left-aligned throughout; one family, Host Grotesk, carries it. */
+:root {
+  /* the stage: the app icon's violet, the same in both themes */
+  --stage: #5532BD;
+  --on-stage: #FFFFFF;
+  --on-stage-2: #E4DEF7;
+  --stage-rule: rgba(255, 255, 255, .34);
+  --interim: #C3B2FF;          /* words the recogniser has not settled yet */
+  --rec: #FF4D5E;              /* the recording dot, and nothing else */
+  --bezel: #120D24;
+
+  /* the paper */
+  --paper: #FBFAFE;
+  --surface: #FFFFFF;
+  --ink: #1D1436;              /* the app's own dark */
+  --ink-2: #5B5474;
+  --rule: #E4DFF2;
+  --accent: #5532BD;
+  --accent-fill: #5532BD;
+  --on-accent: #FFFFFF;
+  --mark: rgba(85, 50, 189, .13);
+  --seg-bg: #EFEBF8;
+  --seg-shadow: 0 1px 3px rgba(29, 20, 54, .14);
+  --phone-shadow: 0 40px 70px -36px rgba(29, 20, 54, .55);
+  --focus: var(--accent);
+  --spk-1: #8B6BFF; --spk-2: #2E9BFF; --spk-3: #FF7AB6;   /* one colour per voice */
+  --on-interim: #1D1436;
+  --sheet-shadow: 0 1px 0 rgba(29, 20, 54, .03), 0 40px 80px -48px rgba(29, 20, 54, .38);
+  --bar-bg: rgba(251, 250, 254, .82);
+
+  --font: "Host Grotesk", ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --w-display: 760;
+  --w-interim: 330;
+
+  /* Bringhurst's scale: 14 16 18 21 24 36 48 60 */
+  --t-14: .875rem; --t-16: 1rem; --t-18: 1.125rem; --t-21: 1.3125rem;
+  --t-24: 1.5rem;  --t-36: 2.25rem; --t-48: 3rem; --t-60: 3.75rem;
+
+  --gutter: clamp(20px, 4vw, 48px);
+  --max: 1240px;
+  --section: clamp(88px, 11vw, 168px);
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --stage: #4B2BB0; --on-stage-2: #E2DCF6;
+    --paper: #130E25; --surface: #1C1535; --ink: #EEEAF9; --ink-2: #A9A1C6; --rule: #2D2550;
+    --accent: #B7A2FF; --mark: rgba(183, 162, 255, .2); --seg-bg: #231B40;
+    --seg-shadow: 0 1px 3px rgba(0, 0, 0, .5); --phone-shadow: 0 40px 70px -36px rgba(0, 0, 0, .9);
+    --sheet-shadow: 0 40px 80px -48px rgba(0, 0, 0, .75); --bar-bg: rgba(19, 14, 37, .8);
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --stage: #4B2BB0; --on-stage-2: #E2DCF6;
+  --paper: #130E25; --surface: #1C1535; --ink: #EEEAF9; --ink-2: #A9A1C6; --rule: #2D2550;
+  --accent: #B7A2FF; --mark: rgba(183, 162, 255, .2); --seg-bg: #231B40;
+  --seg-shadow: 0 1px 3px rgba(0, 0, 0, .5); --phone-shadow: 0 40px 70px -36px rgba(0, 0, 0, .9);
+    --sheet-shadow: 0 40px 80px -48px rgba(0, 0, 0, .75); --bar-bg: rgba(19, 14, 37, .8);
+  color-scheme: dark;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+@media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
+::selection { background: var(--interim); color: var(--on-interim); }
+#get, section[aria-labelledby] { scroll-margin-top: 72px; }
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font: 400 var(--t-18)/1.55 var(--font);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+img { max-width: 100%; display: block; }
+h1, h2, h3, h4 { text-wrap: balance; }
+p, li, dd { text-wrap: pretty; }
+a { color: var(--accent); text-underline-offset: .18em; text-decoration-thickness: 1px; }
+:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; border-radius: 6px; }
+.vh {
+  position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0;
+  overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+}
+.wrap { max-width: var(--max); margin-inline: auto; padding-inline: var(--gutter); }
+
+/* ---------- Stage (hero and closing call) ---------- */
+.stage { position: relative; isolation: isolate; background: var(--stage); color: var(--on-stage); --focus: var(--on-stage); overflow-x: clip; }
+/* A fine grain gives the flat violet the feel of a printed surface. */
+.stage::before {
+  content: ""; position: absolute; inset: 0; z-index: -1; pointer-events: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size: 200px 200px; opacity: .3; mix-blend-mode: overlay;
+}
+.nav {
+  display: flex; align-items: center; justify-content: space-between; gap: 16px;
+  padding-block: 18px;
+}
+.wordmark {
+  font-size: var(--t-24); font-weight: var(--w-display); letter-spacing: -.035em;
+  color: inherit; text-decoration: none;
+}
+.lang { display: flex; gap: 4px; }
+.lang button {
+  font: 600 var(--t-14)/1 var(--font); color: var(--on-stage-2);
+  background: transparent; border: 1px solid transparent; border-radius: 999px;
+  min-width: 44px; min-height: 44px; padding: 0 14px; cursor: pointer;
+  transition: border-color .2s, color .2s;
+}
+.lang button:hover { color: var(--on-stage); }
+.lang button[aria-pressed="true"] { color: var(--on-stage); border-color: var(--stage-rule); }
+
+.hero { padding-block: clamp(20px, 5vh, 64px) clamp(40px, 7vh, 88px); position: relative; }
+.rec {
+  display: flex; align-items: center; gap: 10px; margin: 0 0 clamp(14px, 2.4vh, 28px);
+  font-size: var(--t-16); font-weight: 500; color: var(--on-stage-2);
+  font-variant-numeric: tabular-nums;
+}
+.rec-mark { width: 14px; height: 14px; display: grid; place-items: center; }
+.rec-dot { width: 10px; height: 10px; border-radius: 50%; background: var(--rec); }
+.rec-check { display: none; width: 14px; height: 14px; }
+.rec.is-live .rec-dot { animation: rec-blink 1.1s steps(1, end) infinite; }
+.rec.is-done .rec-dot { display: none; }
+.rec.is-done .rec-check { display: block; }
+.rec-time { color: var(--on-stage); }
+@keyframes rec-blink { 50% { opacity: .3; } }
+
+.headline {
+  margin: 0;
+  font-size: clamp(3rem, 12vw, 10rem);
+  font-weight: var(--w-display);
+  line-height: .92;
+  letter-spacing: -.036em;
+  color: var(--on-stage);
+}
+.headline .line { display: block; white-space: nowrap; }
+/* The padding gives each word's repaint box room for ink that tight tracking
+   pushes past its edges; the negative margin keeps the spacing unchanged. */
+.w {
+  display: inline-block;
+  padding-inline: .08em; margin-inline: -.08em;
+  transition: font-weight .45s cubic-bezier(.2, .7, .2, 1), color .45s ease, opacity .12s linear;
+}
+/* Words wait unheard at the interim weight, so they arrive light and only
+   gain weight when the phrase settles. */
+.js .headline-vis .w { opacity: 0; color: var(--interim); font-weight: var(--w-interim); }
+.js .headline-vis .w.is-interim { opacity: 1; color: var(--interim); font-weight: var(--w-interim); }
+.js .headline-vis .w.is-final { opacity: 1; color: var(--on-stage); font-weight: var(--w-display); }
+/* The writing cursor: zero net width, so it never moves the words. */
+.caret {
+  display: inline-block; width: .05em; height: .72em; margin-left: .05em; margin-right: -.1em;
+  border-radius: .02em; background: var(--interim);
+  animation: caret-blink 1.05s steps(1, end) infinite;
+}
+.caret.is-resting { animation: caret-blink 1.05s steps(1, end) 2, caret-out .3s ease 2.1s forwards; }
+@keyframes caret-blink { 50% { opacity: 0; } }
+@keyframes caret-out { to { opacity: 0; } }
+.headline-measure {
+  position: absolute; left: 0; top: 0; width: 0; height: 0; overflow: hidden; visibility: hidden; pointer-events: none;
+  font-size: 100px; font-weight: var(--w-display); letter-spacing: -.036em; line-height: .92;
+}
+.headline-measure .line { display: block; white-space: nowrap; width: max-content; }
+
+.wave { display: block; width: 100%; height: clamp(40px, 7vh, 64px); margin-block: clamp(18px, 3.4vh, 36px); }
+
+.hero-foot { display: grid; gap: 28px; align-items: end; }
+.lede { margin: 0; max-width: 38ch; font-size: var(--t-21); line-height: 1.45; color: var(--on-stage-2); }
+.get { display: grid; gap: 12px; justify-items: start; }
+.stores { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+.store { display: block; border-radius: 9px; }
+.store img { height: clamp(42px, 11vw, 48px); width: auto; }   /* two badges share one row at 390px, in Turkish too */
+.free-note { margin: 0; font-size: var(--t-14); color: var(--on-stage-2); }
+@media (min-width: 900px) {
+  .hero-foot { grid-template-columns: minmax(0, 1fr) auto; gap: 48px; }
+  .get { justify-items: end; }
+}
+
+/* ---------- Paper sections ---------- */
+.section { padding-block: var(--section) 0; }
+.section-head { display: grid; gap: 18px; margin-bottom: clamp(40px, 6vw, 80px); max-width: 780px; }
+.section-head h2, .privacy h2 {
+  margin: 0; font-size: clamp(var(--t-36), 4.6vw, var(--t-60)); font-weight: 700;
+  line-height: 1.04; letter-spacing: -.032em;
+}
+.section-head p { margin: 0; max-width: 54ch; font-size: var(--t-21); line-height: 1.5; color: var(--ink-2); }
+@media (min-width: 1080px) {
+  .section-head { max-width: none; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); column-gap: 72px; align-items: end; }
+  .section-head p { padding-bottom: .3em; }
+}
+
+/* demo: transcript beside what it becomes */
+.demo-grid { display: grid; gap: 40px; align-items: start; }
+@media (min-width: 940px) { .demo-grid { grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr); gap: clamp(40px, 5vw, 80px); } }
+.sheet {
+  min-width: 0; background: var(--surface); border: 1px solid var(--rule); border-radius: 24px;
+  padding: clamp(20px, 3vw, 36px); box-shadow: var(--sheet-shadow);
+}
+.sheet-head {
+  display: flex; justify-content: space-between; align-items: center; gap: 16px;
+  padding-bottom: 18px; border-bottom: 1px solid var(--rule);
+}
+.faces { display: flex; flex: none; }
+.face {
+  width: 32px; height: 32px; border-radius: 50%; display: grid; place-items: center;
+  background: var(--c); color: var(--bezel); font-size: var(--t-14); font-weight: 700;
+  box-shadow: 0 0 0 2px var(--surface);
+}
+.face + .face { margin-left: -8px; }
+.spk::before, .who::before {
+  content: ""; display: inline-block; width: 8px; height: 8px; margin-right: 8px;
+  border-radius: 50%; background: var(--c); vertical-align: .08em;
+}
+.sheet-title { margin: 0; font-size: var(--t-21); font-weight: 700; letter-spacing: -.01em; }
+.sheet-meta { margin: 2px 0 0; font-size: var(--t-14); color: var(--ink-2); }
+.transcript { list-style: none; margin: 0; padding: 18px 0 0; display: grid; gap: 18px; }
+.utt-head { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; }
+.spk { font-size: var(--t-16); font-weight: 700; }
+.ts { font-size: var(--t-14); color: var(--ink-2); font-variant-numeric: tabular-nums; }
+.utt p { margin: 4px 0 0; font-size: var(--t-16); line-height: 1.6; }
+.src { border-radius: 4px; transition: background-color .25s ease, box-shadow .25s ease; }
+.src.is-lit { background: var(--mark); box-shadow: 0 0 0 3px var(--mark); }
+
+.output { min-width: 0; }
+@media (min-width: 940px) { .output { position: sticky; top: 96px; } }
+.seg {
+  display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 4px; padding: 4px;
+  background: var(--seg-bg); border-radius: 14px;
+}
+.seg [role="tab"] {
+  font: 600 var(--t-16)/1.2 var(--font); color: var(--ink-2); background: transparent;
+  border: 0; border-radius: 10px; min-height: 44px; padding: 10px 8px; cursor: pointer;
+  transition: background-color .2s, color .2s;
+}
+.seg [role="tab"]:hover { color: var(--ink); }
+.seg [role="tab"][aria-selected="true"] { background: var(--surface); color: var(--ink); box-shadow: var(--seg-shadow); }
+.panel { padding-top: 28px; }
+.panel.is-entering { animation: panel-in .24s ease both; }
+@keyframes panel-in { from { opacity: 0; transform: translateY(6px); } }
+.panel h4 { margin: 0 0 8px; font-size: var(--t-14); font-weight: 600; color: var(--ink-2); }
+.sum { display: grid; gap: 26px; }
+.sum p, .bullets { margin: 0; font-size: var(--t-16); }
+.bullets { padding-left: 1.1em; display: grid; gap: 6px; }
+.tasks { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--rule); }
+.tasks > li { border-bottom: 1px solid var(--rule); }
+.task {
+  display: grid; grid-template-columns: 5.4em minmax(0, 1fr) auto 16px; gap: 12px; align-items: baseline;
+  width: 100%; padding: 14px 0; margin: 0; background: none; border: 0; text-align: left;
+  font: 400 var(--t-16)/1.4 var(--font); color: var(--ink); cursor: pointer;
+}
+.task:hover .what { text-decoration: underline; text-decoration-color: var(--rule); text-underline-offset: .2em; }
+.who { font-weight: 700; }
+.when { color: var(--ink-2); white-space: nowrap; font-variant-numeric: tabular-nums; }
+.chev { width: 16px; height: 16px; align-self: center; color: var(--ink-2); transition: transform .25s ease; }
+.task[aria-expanded="true"] .chev { transform: rotate(180deg); }
+.quote {
+  display: grid; grid-template-rows: 0fr; visibility: hidden;
+  transition: grid-template-rows .28s ease, visibility 0s linear .28s;
+}
+.task[aria-expanded="true"] + .quote { grid-template-rows: 1fr; visibility: visible; transition-delay: 0s; }
+.quote > div { overflow: hidden; }
+.quote blockquote { margin: 0 0 14px; padding: 12px 16px; background: var(--mark); border-radius: 12px; font-size: var(--t-16); }
+.quote cite { display: block; margin-top: 4px; font-style: normal; font-size: var(--t-14); color: var(--ink-2); }
+.hint { margin: 14px 0 0; font-size: var(--t-14); color: var(--ink-2); }
+
+.mail { font-size: var(--t-16); }
+.mail-subj { margin: 0 0 18px; padding-bottom: 14px; border-bottom: 1px solid var(--rule); font-weight: 600; }
+.mail-subj span { margin-right: 10px; font-weight: 400; color: var(--ink-2); }
+.mail-body p { margin: 0 0 14px; }
+
+.chat { display: grid; gap: 12px; }
+.bubble { max-width: 86%; margin: 0; padding: 12px 16px; border-radius: 20px; font-size: var(--t-16); line-height: 1.45; }
+.bubble.q { justify-self: end; background: var(--accent-fill); color: var(--on-accent); border-bottom-right-radius: 6px; }
+.bubble.a { justify-self: start; background: var(--surface); border: 1px solid var(--rule); border-bottom-left-radius: 6px; }
+.bubble.q + .bubble.q, .bubble.a + .bubble.q { margin-top: 10px; }
+
+/* the app: a phone that keeps up with the reader */
+.phone {
+  --pw: min(68vw, 280px);
+  position: relative; width: var(--pw);
+  padding: calc(var(--pw) * .035);
+  border-radius: calc(var(--pw) * .178);
+  background: var(--bezel);
+  box-shadow: 0 0 0 1px var(--rule), var(--phone-shadow);
+}
+.screen { display: grid; border-radius: calc(var(--pw) * .143); overflow: hidden; background: var(--bezel); }
+.screen img { grid-area: 1 / 1; width: 100%; height: auto; }
+.island {
+  position: absolute; top: calc(var(--pw) * .06); left: 50%; transform: translateX(-50%);
+  width: calc(var(--pw) * .29); height: calc(var(--pw) * .085); border-radius: 999px; background: var(--bezel);
+}
+.app-grid { display: grid; gap: 72px; }
+.app-phone { display: none; }
+.groups { display: grid; gap: 96px; }
+.inline-phone { margin: 0 0 32px; }
+.group { display: grid; gap: 18px; align-content: center; }
+.group h3 { margin: 0; font-size: clamp(var(--t-24), 3vw, var(--t-36)); font-weight: 700; line-height: 1.1; letter-spacing: -.025em; }
+.group > p { margin: 0; max-width: 52ch; color: var(--ink-2); }
+.facts { display: grid; gap: 0 32px; margin: 10px 0 0; }
+.facts > div { position: relative; padding: 14px 0 14px 36px; border-top: 1px solid var(--rule); }
+.ic { position: absolute; left: 0; top: 16px; width: 22px; height: 22px; color: var(--accent); fill: none; stroke: currentColor; stroke-width: 1.75; stroke-linecap: round; stroke-linejoin: round; }
+.facts dt { font-weight: 600; font-size: var(--t-18); }
+.facts dd { margin: 2px 0 0; font-size: var(--t-16); color: var(--ink-2); }
+@media (min-width: 640px) { .facts { grid-template-columns: 1fr 1fr; } }
+@media (min-width: 960px) {
+  .app-grid { grid-template-columns: auto minmax(0, 1fr); gap: clamp(56px, 8vw, 128px); }
+  .app-phone { display: block; position: sticky; top: max(9vh, 40px); align-self: start; }
+  .app-phone .phone { --pw: clamp(236px, 35vh, 316px); }
+  .app-phone .screen img { opacity: 0; transition: opacity .4s ease; }
+  .app-phone .screen img.is-active { opacity: 1; }
+  .inline-phone { display: none; }
+  .groups { gap: 0; }
+  .group { min-height: 74vh; }
+}
+
+/* privacy */
+.privacy-grid { display: grid; gap: 24px; }
+.privacy-grid p { margin: 0 0 14px; max-width: 52ch; color: var(--ink-2); }
+@media (min-width: 900px) { .privacy-grid { grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: 72px; align-items: end; } }
+
+/* plans */
+.plan-grid { display: grid; gap: 24px; }
+@media (min-width: 760px) { .plan-grid { grid-template-columns: 1fr 1fr; gap: 32px; } }
+.plan { display: grid; align-content: start; gap: 22px; padding: clamp(24px, 3vw, 36px); border: 1px solid var(--rule); border-radius: 28px; }
+.plan-pro { border: 2px solid var(--accent); background: var(--surface); box-shadow: var(--sheet-shadow); }
+.plan-head { display: grid; gap: 4px; }
+.plan h3 { margin: 0; font-size: var(--t-24); font-weight: 700; letter-spacing: -.015em; }
+.plan-sub { margin: 0; font-size: var(--t-16); color: var(--ink-2); }
+.plan ul { list-style: none; margin: 0; padding: 0; }
+.plan li { position: relative; padding: 11px 0 11px 30px; border-top: 1px solid var(--rule); font-size: var(--t-16); }
+.plan li::before {
+  content: ""; position: absolute; left: 3px; top: 17px; width: 11px; height: 6px;
+  border-left: 2px solid var(--ink-2); border-bottom: 2px solid var(--ink-2); transform: rotate(-45deg);
+}
+.plan-pro li::before { border-color: var(--accent); }
+.fine { margin: 24px 0 0; max-width: 60ch; font-size: var(--t-14); color: var(--ink-2); }
+
+/* closing stage */
+.cta { padding-block: clamp(88px, 12vw, 176px); margin-top: var(--section); }
+.cta-inner { display: grid; gap: 40px; align-items: center; }
+.cta-copy { display: grid; gap: 36px; justify-items: start; }
+.cta-icon {
+  order: -1; width: clamp(88px, 22vw, 260px); height: auto; aspect-ratio: 1; border-radius: 22.5%;
+  box-shadow: 0 0 0 1px var(--stage-rule), 0 24px 40px -18px rgba(8, 4, 24, .55);
+}
+@media (min-width: 900px) {
+  .cta-inner { grid-template-columns: minmax(0, 1fr) auto; }
+  .cta-icon { order: 0; box-shadow: 0 0 0 1px var(--stage-rule), 0 60px 90px -40px rgba(8, 4, 24, .7); }
+}
+.cta h2 {
+  margin: 0; max-width: 13ch; font-size: clamp(2.75rem, 7.4vw, 6.25rem); font-weight: var(--w-display);
+  line-height: .96; letter-spacing: -.042em;
+}
+
+/* the download bar that appears once the hero's badges have scrolled away */
+.bar {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 50;
+  padding-top: env(safe-area-inset-top, 0px);
+  background: var(--paper); background: var(--bar-bg);
+  -webkit-backdrop-filter: saturate(1.6) blur(16px); backdrop-filter: saturate(1.6) blur(16px);
+  border-bottom: 1px solid var(--rule);
+  transform: translateY(-100%); visibility: hidden;
+  transition: transform .4s cubic-bezier(.2, .7, .2, 1), visibility 0s linear .4s;
+}
+.bar.is-on { transform: none; visibility: visible; transition-delay: 0s; }
+.bar-inner { display: flex; align-items: center; justify-content: space-between; gap: 16px; min-height: 60px; }
+.bar .wordmark { color: var(--ink); font-size: var(--t-21); }
+.bar-cta {
+  display: inline-flex; align-items: center; min-height: 40px; padding: 0 20px; border-radius: 999px;
+  background: var(--accent-fill); color: var(--on-accent); font-size: var(--t-16); font-weight: 600; text-decoration: none;
+  transition: transform .15s ease;
+}
+.bar-cta:active { transform: scale(.97); }
+
+.foot { padding-block: 28px 36px; }
+.foot-inner {
+  display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px 28px;
+  font-size: var(--t-14); color: var(--ink-2);
+}
+.foot nav { display: flex; flex-wrap: wrap; gap: 8px 24px; }
+.foot a { color: inherit; }
+.foot a:hover { color: var(--ink); }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-infinity" viewBox="0 0 24 24"><path d="M12 12c-2-2.67-4-4-6-4a4 4 0 1 0 0 8c2 0 4-1.33 6-4Zm0 0c2 2.67 4 4 6 4a4 4 0 0 0 0-8c-2 0-4 1.33-6 4Z"/></symbol>
+  <symbol id="i-wave" viewBox="0 0 24 24"><path d="M2 10v3"/><path d="M6 6v11"/><path d="M10 3v18"/><path d="M14 8v7"/><path d="M18 5v13"/><path d="M22 10v3"/></symbol>
+  <symbol id="i-share" viewBox="0 0 24 24"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><path d="m16 6-4-4-4 4"/><path d="M12 2v13"/></symbol>
+  <symbol id="i-calendar" viewBox="0 0 24 24"><path d="M8 2v4"/><path d="M16 2v4"/><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M3 10h18"/></symbol>
+  <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></symbol>
+  <symbol id="i-users" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></symbol>
+  <symbol id="i-book" viewBox="0 0 24 24"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></symbol>
+  <symbol id="i-translate" viewBox="0 0 24 24"><path d="m5 8 6 6"/><path d="m4 14 6-6 2-3"/><path d="M2 5h12"/><path d="M7 2h1"/><path d="m22 22-5-10-5 10"/><path d="M14 18h6"/></symbol>
+  <symbol id="i-layout" viewBox="0 0 24 24"><rect width="18" height="7" x="3" y="3" rx="1"/><rect width="9" height="7" x="3" y="14" rx="1"/><rect width="5" height="7" x="16" y="14" rx="1"/></symbol>
+  <symbol id="i-chat" viewBox="0 0 24 24"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></symbol>
+  <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></symbol>
+  <symbol id="i-export" viewBox="0 0 24 24"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v4a2 2 0 0 0 2 2h4"/><path d="M12 18v-6"/><path d="m9 15 3 3 3-3"/></symbol>
+</svg>
+
+<div class="bar" id="bar">
+  <div class="wrap bar-inner">
+    <a class="wordmark" href="#top">Verbi</a>
+    <a class="bar-cta" id="bar-cta" href="#get" data-i18n="bar.cta">Download</a>
+  </div>
+</div>
+
+<header class="stage">
+  <div class="wrap">
+    <div class="nav">
+      <a class="wordmark" href="#top" id="top">Verbi</a>
+      <div class="lang" role="group" data-i18n-aria="lang.label" aria-label="Language">
+        <button type="button" data-lang="en" aria-pressed="true" aria-label="English">EN</button>
+        <button type="button" data-lang="tr" aria-pressed="false" aria-label="Türkçe">TR</button>
+      </div>
+    </div>
+
+    <div class="hero">
+      <p class="rec is-done" aria-hidden="true">
+        <span class="rec-mark">
+          <span class="rec-dot"></span>
+          <svg class="rec-check" viewBox="0 0 14 14" fill="none"><path d="M2.5 7.4 5.6 10.4 11.5 3.8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </span>
+        <span class="rec-label">Notes ready</span>
+        <span class="rec-time">00:00:02:56</span>
+      </p>
+
+      <h1 class="headline">
+        <span class="vh" data-i18n="hero.title">You talk. Verbi takes the notes.</span>
+        <span class="headline-vis" aria-hidden="true"><span class="line"><span class="w">You</span> <span class="w">talk.</span></span><span class="line"><span class="w">Verbi</span> <span class="w">takes</span></span><span class="line"><span class="w">the</span> <span class="w">notes.</span></span></span>
+      </h1>
+      <div class="headline-measure" aria-hidden="true"></div>
+
+      <canvas class="wave" aria-hidden="true"></canvas>
+
+      <div class="hero-foot">
+        <p class="lede" data-i18n="hero.lede">Record a meeting, a lecture or an interview of any length. Verbi writes it down in 39 languages, tells the speakers apart and hands you a summary with a to-do list.</p>
+        <div class="get">
+          <div class="stores">
+            <a class="store" href="https://apps.apple.com/app/verbi/id6752242891" rel="noopener">
+              <img class="badge-apple" src="assets/app-store-badge-en.svg" width="144" height="48" data-i18n-alt="badge.apple" alt="Download on the App Store">
+            </a>
+            <a class="store" href="https://play.google.com/store/apps/details?id=com.monurilgaz.verbi" rel="noopener">
+              <img class="badge-play" src="assets/google-play-badge-en.png" width="161" height="48" data-i18n-alt="badge.play" alt="Get it on Google Play">
+            </a>
+          </div>
+          <p class="free-note" data-i18n="hero.free">Free to download, with 30 minutes of transcription every month.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="section" aria-labelledby="demo-title">
+    <div class="wrap">
+      <header class="section-head">
+        <h2 id="demo-title" data-i18n="demo.title">Read an hour-long meeting in a minute.</h2>
+        <p data-i18n="demo.body">Verbi writes down every word and tells the speakers apart. Then it pulls out the decisions and a to-do list with owners and due dates.</p>
+      </header>
+
+      <div class="demo-grid">
+        <article class="sheet" aria-labelledby="sheet-title">
+          <header class="sheet-head">
+            <div>
+              <h3 class="sheet-title" id="sheet-title"></h3>
+              <p class="sheet-meta" id="sheet-meta"></p>
+            </div>
+            <span class="faces" id="faces" aria-hidden="true"></span>
+          </header>
+          <ol class="transcript" id="transcript"></ol>
+        </article>
+
+        <div class="output">
+          <div class="seg" role="tablist" data-i18n-aria="demo.tabs" aria-label="What Verbi made from the recording">
+            <button type="button" role="tab" id="tab-review" aria-controls="panel-review" aria-selected="true" data-i18n="tab.review">Weekly meeting</button>
+            <button type="button" role="tab" id="tab-email" aria-controls="panel-email" aria-selected="false" tabindex="-1" data-i18n="tab.email">Email draft</button>
+            <button type="button" role="tab" id="tab-ask" aria-controls="panel-ask" aria-selected="false" tabindex="-1" data-i18n="tab.ask">AI chat</button>
+          </div>
+          <div class="panel" id="panel-review" role="tabpanel" aria-labelledby="tab-review" tabindex="0"></div>
+          <div class="panel" id="panel-email" role="tabpanel" aria-labelledby="tab-email" tabindex="0" hidden></div>
+          <div class="panel" id="panel-ask" role="tabpanel" aria-labelledby="tab-ask" tabindex="0" hidden></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="app-title">
+    <div class="wrap">
+      <header class="section-head">
+        <h2 id="app-title" data-i18n="app.title">What Verbi does with a recording</h2>
+        <p data-i18n="app.body">From the moment you press record to the moment you hand out the tasks.</p>
+      </header>
+
+      <div class="app-grid">
+        <div class="app-phone">
+          <div class="phone">
+            <div class="screen">
+              <img class="is-active" data-shot="0" src="assets/screen-live-transcription-recording-lecture.webp" width="599" height="1304" data-i18n-alt="shot.0" alt="Verbi recording a lecture, with the words appearing live">
+              <img data-shot="1" src="assets/screen-meeting-transcript-three-speakers.webp" width="599" height="1304" data-i18n-alt="shot.1" alt="A meeting transcript with three named speakers and timestamps">
+              <img data-shot="2" src="assets/screen-ask-transcript-chat-meeting-decisions.webp" width="599" height="1304" data-i18n-alt="shot.2" alt="Asking Verbi which decisions were made in a meeting">
+            </div>
+            <span class="island"></span>
+          </div>
+        </div>
+
+        <div class="groups">
+          <article class="group" data-shot="0">
+            <figure class="inline-phone">
+              <div class="phone"><div class="screen"><img loading="lazy" src="assets/screen-live-transcription-recording-lecture.webp" width="599" height="1304" data-i18n-alt="shot.0" alt="Verbi recording a lecture, with the words appearing live"></div><span class="island"></span></div>
+            </figure>
+            <h3 data-i18n="g1.h">Record for as long as you need</h3>
+            <p data-i18n="g1.p">Hit record, import a file, or share audio in from another app. Leave Verbi while a long recording transcribes and it will tell you when your notes are ready.</p>
+            <dl class="facts">
+              <div><dt><svg class="ic" aria-hidden="true"><use href="#i-infinity"/></svg><span data-i18n="g1.f1">Any length</span></dt><dd data-i18n="g1.d1">An hour-long meeting or a whole lecture, transcribed start to finish.</dd></div>
+              <div><dt><svg class="ic" aria-hidden="true"><use href="#i-wave"/></svg><span data-i18n="g1.f2">Live transcription</span></dt><dd data-i18n="g1.d2">Watch the words appear while you speak.</dd></div>
+              <div><dt><svg class="ic" aria-hidden="true"><use href="#i-share"/></svg><span data-i18n="g1.f3">Import and share</span></dt><dd data-i18n="g1.d3">Bring audio from Files, or share it in from any app.</dd></div>
+              <div><dt><svg class="ic" aria-hidden="true"><use href="#i-calendar"/></svg><span data-i18n="g1.f4">Meeting reminders</span></dt><dd data-i18n="g1.d4">Verbi reads your calendar and reminds you to record when a meeting starts.</dd></div>
+            </dl>
+          </article>
+
+          <article class="group" data-shot="1">
+            <figure class="inline-phone">
+              <div class="phone"><div class="screen"><img loading="lazy" src="assets/screen-meeting-transcript-three-speakers.webp" width="599" height="1304" data-i18n-alt="shot.1" alt="A meeting transcript with three named speakers and timestamps"></div><span class="island"></span></div>
+            </figure>
+            <h3 data-i18n="g2.h">Know who said what</h3>
+            <p data-i18n="g2.p">Verbi writes in 39 languages and can detect the language on its own. It separates the voices in the room so you can put a name to each one.</p>
+            <dl class="facts">
+              <div><dt><svg class="ic" aria-hidden="true"><use href="#i-globe"/></svg><span data-i18n="g2.f1">39 languages</span></dt><dd data-i18n="g2.d1">English, Spanish, French, German, Turkish, Japanese and more.</dd></div>
+              <div><dt><svg class="ic" aria-hidden="true"><use href="#i-users"/></svg><span data-i18n="g2.f2">Speaker detection</span></dt><dd data-i18n="g2.d2">See who said what and give each voice a name.</dd></div>
+              <div><dt><svg class="ic" aria-hidden="true"><use href="#i-book"/></svg><span data-i18n="g2.f3">Custom vocabulary</span></dt><dd data-i18n="g2.d3">Teach Verbi the names, companies and acronyms it keeps getting wrong.</dd></div>
+              <div><dt><svg class="ic" aria-hidden="true"><use href="#i-translate"/></svg><span data-i18n="g2.f4">Translation</span></dt><dd data-i18n="g2.d4">Read any transcript in your own language.</dd></div>
+            </dl>
+          </article>
+
+          <article class="group" data-shot="2">
+            <figure class="inline-phone">
+              <div class="phone"><div class="screen"><img loading="lazy" src="assets/screen-ask-transcript-chat-meeting-decisions.webp" width="599" height="1304" data-i18n-alt="shot.2" alt="Asking Verbi which decisions were made in a meeting"></div><span class="island"></span></div>
+            </figure>
+            <h3 data-i18n="g3.h">Get the summary you need</h3>
+            <p data-i18n="g3.p">Pick a template and the summary comes back in that shape, ending with a to-do list of owners and due dates. With Pro, every transcript gets its summary on its own. Your first one is free.</p>
+            <dl class="facts">
+              <div><dt><svg class="ic" aria-hidden="true"><use href="#i-layout"/></svg><span data-i18n="g3.f1">Nine templates</span></dt><dd data-i18n="g3.d1">General meeting, 1:1 meeting, daily meeting, weekly meeting, lesson notes, idea capture, email draft, action items, blog post.</dd></div>
+              <div><dt><svg class="ic" aria-hidden="true"><use href="#i-chat"/></svg><span data-i18n="g3.f2">Ask the transcript</span></dt><dd data-i18n="g3.d2">Ask a question and get an answer drawn from what was actually said.</dd></div>
+              <div><dt><svg class="ic" aria-hidden="true"><use href="#i-search"/></svg><span data-i18n="g3.f3">Search</span></dt><dd data-i18n="g3.d3">Find a recording by anything that was said in it.</dd></div>
+              <div><dt><svg class="ic" aria-hidden="true"><use href="#i-export"/></svg><span data-i18n="g3.f4">Export</span></dt><dd data-i18n="g3.d4">Copy, share, or save as TXT or PDF.</dd></div>
+            </dl>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section privacy" aria-labelledby="privacy-title">
+    <div class="wrap privacy-grid">
+      <h2 id="privacy-title" data-i18n="privacy.title">Your recordings stay on your phone.</h2>
+      <div>
+        <p data-i18n="privacy.body">Audio goes to the transcription service only to be turned into text. There is no tracking. Usage analytics are anonymous and never include your recordings, transcripts or searches.</p>
+        <a href="https://theverbiapp.github.io/privacy-policy/" rel="noopener" data-i18n="privacy.link">Read the privacy policy</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="plans-title">
+    <div class="wrap">
+      <header class="section-head">
+        <h2 id="plans-title" data-i18n="plans.title">Start free</h2>
+        <p data-i18n="plans.body">Download Verbi and transcribe 30 minutes every month at no cost. Move to Pro when you need more.</p>
+      </header>
+      <div class="plan-grid">
+        <div class="plan">
+          <div class="plan-head">
+            <h3 data-i18n="free.name">Free</h3>
+            <p class="plan-sub" data-i18n="free.sub">Try Verbi on your own recordings.</p>
+          </div>
+          <ul>
+            <li data-i18n="free.1">30 minutes of transcription a month</li>
+            <li data-i18n="free.2">Recordings kept for 15 days</li>
+            <li data-i18n="free.3">Basic live transcription</li>
+            <li data-i18n="free.4">Your first AI summary</li>
+          </ul>
+        </div>
+        <div class="plan plan-pro">
+          <div class="plan-head">
+            <h3>Verbi Pro</h3>
+            <p class="plan-sub" data-i18n="pro.sub">Everything in Free, without the limits.</p>
+          </div>
+          <ul>
+            <li data-i18n="pro.1">Unlimited transcription</li>
+            <li data-i18n="pro.2">Unlimited AI summaries</li>
+            <li data-i18n="pro.3">Speaker detection</li>
+            <li data-i18n="pro.4">Translation</li>
+            <li data-i18n="pro.5">High-quality live transcription</li>
+            <li data-i18n="pro.6">Unlimited history</li>
+          </ul>
+        </div>
+      </div>
+      <p class="fine" data-i18n="plans.fine">Verbi Pro is a subscription. The app shows the price in your currency before you subscribe.</p>
+    </div>
+  </section>
+
+  <section class="stage cta" id="get" aria-labelledby="cta-title">
+    <div class="wrap cta-inner">
+      <div class="cta-copy">
+      <h2 id="cta-title" data-i18n="cta.title">Record your next meeting with Verbi.</h2>
+      <div class="stores">
+        <a class="store" href="https://apps.apple.com/app/verbi/id6752242891" rel="noopener">
+          <img class="badge-apple" src="assets/app-store-badge-en.svg" width="144" height="48" data-i18n-alt="badge.apple" alt="Download on the App Store">
+        </a>
+        <a class="store" href="https://play.google.com/store/apps/details?id=com.monurilgaz.verbi" rel="noopener">
+          <img class="badge-play" src="assets/google-play-badge-en.png" width="161" height="48" data-i18n-alt="badge.play" alt="Get it on Google Play">
+        </a>
+      </div>
+      </div>
+      <img class="cta-icon" src="assets/icon-512.webp" width="260" height="260" alt="">
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-inner">
+    <span>© 2026 Verbi</span>
+    <nav data-i18n-aria="foot.label" aria-label="Legal and contact">
+      <a href="https://theverbiapp.github.io/privacy-policy/" rel="noopener" data-i18n="foot.privacy">Privacy Policy</a>
+      <a href="https://theverbiapp.github.io/terms-of-service/" rel="noopener" data-i18n="foot.terms">Terms of Service</a>
+      <span><span data-i18n="foot.contact">Contact</span>: <a href="mailto:theverbiapp@gmail.com">theverbiapp@gmail.com</a></span>
+    </nav>
+  </div>
+</footer>
+
+<script>
+(() => {
+  'use strict';
+  const $ = (s, r = document) => r.querySelector(s);
+  const $$ = (s, r = document) => [...r.querySelectorAll(s)];
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+
+  /* ---------------- copy ---------------- */
+  const I18N = {
+    en: {
+      'meta.title': 'Verbi: AI note taker and voice recorder',
+      'meta.desc': 'Verbi records meetings, lectures and interviews of any length, writes them down in 39 languages and gives you a summary with a to-do list.',
+      'lang.label': 'Language',
+      'rec.live': 'Recording',
+      'rec.done': 'Notes ready',
+      'hero.title': 'You talk. Verbi takes the notes.',
+      'hero.lede': 'Record a meeting, a lecture or an interview of any length. Verbi writes it down in 39 languages, tells the speakers apart and hands you a summary with a to-do list.',
+      'hero.free': 'Free to download, with 30 minutes of transcription every month.',
+      'badge.apple': 'Download on the App Store',
+      'badge.play': 'Get it on Google Play',
+      'demo.title': 'Read an hour-long meeting in a minute.',
+      'demo.body': 'Verbi writes down every word and tells the speakers apart. Then it pulls out the decisions and a to-do list with owners and due dates.',
+      'demo.tabs': 'What Verbi made from the recording',
+      'tab.review': 'Weekly meeting',
+      'tab.email': 'Email draft',
+      'tab.ask': 'AI chat',
+      'app.title': 'What Verbi does with a recording',
+      'app.body': 'From the moment you press record to the moment you hand out the tasks.',
+      'shot.0': 'Verbi recording a lecture, with the words appearing live',
+      'shot.1': 'A meeting transcript with three named speakers and timestamps',
+      'shot.2': 'Asking Verbi which decisions were made in a meeting',
+      'g1.h': 'Record for as long as you need',
+      'g1.p': 'Hit record, import a file, or share audio in from another app. Leave Verbi while a long recording transcribes and it will tell you when your notes are ready.',
+      'g1.f1': 'Any length', 'g1.d1': 'An hour-long meeting or a whole lecture, transcribed start to finish.',
+      'g1.f2': 'Live transcription', 'g1.d2': 'Watch the words appear while you speak.',
+      'g1.f3': 'Import and share', 'g1.d3': 'Bring audio from Files, or share it in from any app.',
+      'g1.f4': 'Meeting reminders', 'g1.d4': 'Verbi reads your calendar and reminds you to record when a meeting starts.',
+      'g2.h': 'Know who said what',
+      'g2.p': 'Verbi writes in 39 languages and can detect the language on its own. It separates the voices in the room so you can put a name to each one.',
+      'g2.f1': '39 languages', 'g2.d1': 'English, Spanish, French, German, Turkish, Japanese and more.',
+      'g2.f2': 'Speaker detection', 'g2.d2': 'See who said what and give each voice a name.',
+      'g2.f3': 'Custom vocabulary', 'g2.d3': 'Teach Verbi the names, companies and acronyms it keeps getting wrong.',
+      'g2.f4': 'Translation', 'g2.d4': 'Read any transcript in your own language.',
+      'g3.h': 'Get the summary you need',
+      'g3.p': 'Pick a template and the summary comes back in that shape, ending with a to-do list of owners and due dates. With Pro, every transcript gets its summary on its own. Your first one is free.',
+      'g3.f1': 'Nine templates', 'g3.d1': 'General meeting, 1:1 meeting, daily meeting, weekly meeting, lesson notes, idea capture, email draft, action items, blog post.',
+      'g3.f2': 'Ask the transcript', 'g3.d2': 'Ask a question and get an answer drawn from what was actually said.',
+      'g3.f3': 'Search', 'g3.d3': 'Find a recording by anything that was said in it.',
+      'g3.f4': 'Export', 'g3.d4': 'Copy, share, or save as TXT or PDF.',
+      'privacy.title': 'Your recordings stay on your phone.',
+      'privacy.body': 'Audio goes to the transcription service only to be turned into text. There is no tracking. Usage analytics are anonymous and never include your recordings, transcripts or searches.',
+      'privacy.link': 'Read the privacy policy',
+      'plans.title': 'Start free',
+      'plans.body': 'Download Verbi and transcribe 30 minutes every month at no cost. Move to Pro when you need more.',
+      'free.name': 'Free',
+      'free.sub': 'Try Verbi on your own recordings.',
+      'pro.sub': 'Everything in Free, without the limits.',
+      'bar.cta': 'Download',
+      'free.1': '30 minutes of transcription a month',
+      'free.2': 'Recordings kept for 15 days',
+      'free.3': 'Basic live transcription',
+      'free.4': 'Your first AI summary',
+      'pro.1': 'Unlimited transcription',
+      'pro.2': 'Unlimited AI summaries',
+      'pro.3': 'Speaker detection',
+      'pro.4': 'Translation',
+      'pro.5': 'High-quality live transcription',
+      'pro.6': 'Unlimited history',
+      'plans.fine': 'Verbi Pro is a subscription. The app shows the price in your currency before you subscribe.',
+      'cta.title': 'Record your next meeting with Verbi.',
+      'foot.label': 'Legal and contact',
+      'foot.privacy': 'Privacy Policy',
+      'foot.terms': 'Terms of Service',
+      'foot.contact': 'Contact'
+    },
+    tr: {
+      'meta.title': 'Verbi: Ses kaydedici ve not alma',
+      'meta.desc': 'Verbi her uzunlukta toplantıyı, dersi ve röportajı kaydeder, 39 dilde yazıya döker ve görev listesiyle birlikte bir özet çıkarır.',
+      'lang.label': 'Dil',
+      'rec.live': 'Kaydediliyor',
+      'rec.done': 'Notlarınız hazır',
+      'hero.title': 'Siz konuşun. Notları Verbi tutsun.',
+      'hero.lede': 'Toplantıyı, dersi ya da röportajı kaydedin; uzunluğu fark etmez. Verbi 39 dilde yazıya döker, konuşanları birbirinden ayırır ve size görev listesiyle birlikte bir özet verir.',
+      'hero.free': 'Ücretsiz indirin; her ay 30 dakika transkripsiyon dahil.',
+      'badge.apple': "App Store’dan İndirin",
+      'badge.play': "Google Play’den Alın",
+      'demo.title': 'Bir saatlik toplantıyı bir dakikada okuyun.',
+      'demo.body': 'Verbi her kelimeyi yazıya döker ve konuşanları birbirinden ayırır. Ardından kararları ve sorumlusu, tarihi belli bir görev listesini çıkarır.',
+      'demo.tabs': 'Verbi’nin kayıttan çıkardıkları',
+      'tab.review': 'Haftalık toplantı',
+      'tab.email': 'E-posta taslağı',
+      'tab.ask': 'AI sohbet',
+      'app.title': 'Verbi bir kayıtla neler yapar',
+      'app.body': 'Kayıt tuşuna bastığınız andan görevleri dağıttığınız ana kadar.',
+      'shot.0': 'Verbi bir dersi kaydediyor, kelimeler canlı olarak ekrana düşüyor',
+      'shot.1': 'Üç konuşmacının adı ve zaman damgalarıyla bir toplantı transkripti',
+      'shot.2': 'Verbi’ye toplantıda hangi kararların alındığını sormak',
+      'g1.h': 'İstediğiniz kadar kaydedin',
+      'g1.p': 'Kaydı başlatın, dosya içe aktarın ya da başka bir uygulamadan ses paylaşın. Uzun bir kayıt yazıya dökülürken uygulamadan çıkabilirsiniz; notlarınız hazır olunca Verbi haber verir.',
+      'g1.f1': 'Her uzunlukta', 'g1.d1': 'Bir saatlik toplantı ya da bütün bir ders, baştan sona yazıya dökülür.',
+      'g1.f2': 'Canlı transkripsiyon', 'g1.d2': 'Siz konuşurken kelimeler ekrana düşer.',
+      'g1.f3': 'İçe aktarma ve paylaşım', 'g1.d3': 'Dosyalar’dan ses getirin ya da herhangi bir uygulamadan paylaşın.',
+      'g1.f4': 'Toplantı hatırlatıcıları', 'g1.d4': 'Verbi takviminizi okur, toplantı başlarken kaydı açmanızı hatırlatır.',
+      'g2.h': 'Kimin ne dediğini bilin',
+      'g2.p': 'Verbi 39 dilde yazar, dili kendisi de algılayabilir. Odadaki sesleri birbirinden ayırır; her birine bir isim verebilirsiniz.',
+      'g2.f1': '39 dil', 'g2.d1': 'Türkçe, İngilizce, İspanyolca, Almanca, Fransızca, Japonca ve daha fazlası.',
+      'g2.f2': 'Konuşmacı ayrımı', 'g2.d2': 'Kimin ne dediğini görün, her sese bir isim verin.',
+      'g2.f3': 'Özel sözlük', 'g2.d3': 'Verbi’ye sürekli yanlış duyduğu isimleri, şirketleri ve kısaltmaları öğretin.',
+      'g2.f4': 'Çeviri', 'g2.d4': 'Herhangi bir transkripti kendi dilinizde okuyun.',
+      'g3.h': 'İhtiyacınız olan özeti alın',
+      'g3.p': 'Bir şablon seçin; özet o biçimde gelsin ve sorumlusu, tarihi belli bir görev listesiyle bitsin. Pro’da her transkriptin özeti kendiliğinden hazırlanır. İlk özetiniz ücretsiz.',
+      'g3.f1': 'Dokuz şablon', 'g3.d1': 'Genel toplantı, 1’e 1 toplantı, günlük toplantı, haftalık toplantı, ders notu, fikir, e-posta taslağı, aksiyon maddeleri, blog yazısı.',
+      'g3.f2': 'Transkriptle sohbet', 'g3.d2': 'Bir soru sorun; yanıt gerçekten söylenenlerden gelir.',
+      'g3.f3': 'Arama', 'g3.d3': 'Bir kaydı, içinde geçen herhangi bir sözle bulun.',
+      'g3.f4': 'Dışa aktarma', 'g3.d4': 'Kopyalayın, paylaşın ya da TXT veya PDF olarak kaydedin.',
+      'privacy.title': 'Kayıtlarınız telefonunuzda kalır.',
+      'privacy.body': 'Ses yalnızca metne dönüştürülmek için transkripsiyon servisine gider. Takip yok. Kullanım istatistikleri anonimdir; kayıtlarınız, transkriptleriniz ve aramalarınız bunlara hiçbir zaman girmez.',
+      'privacy.link': 'Gizlilik politikasını okuyun',
+      'plans.title': 'Ücretsiz başlayın',
+      'plans.body': 'Verbi’yi indirin, her ay 30 dakikayı ücretsiz yazıya dökün. Daha fazlasına ihtiyacınız olduğunda Pro’ya geçin.',
+      'free.name': 'Ücretsiz',
+      'free.sub': 'Verbi’yi kendi kayıtlarınızda deneyin.',
+      'pro.sub': 'Ücretsiz plandaki her şey, sınırsız.',
+      'bar.cta': 'İndir',
+      'free.1': 'Ayda 30 dakika transkripsiyon',
+      'free.2': 'Kayıtlar 15 gün saklanır',
+      'free.3': 'Temel canlı transkripsiyon',
+      'free.4': 'İlk yapay zeka özetiniz',
+      'pro.1': 'Sınırsız transkripsiyon',
+      'pro.2': 'Sınırsız yapay zeka özeti',
+      'pro.3': 'Konuşmacı ayrımı',
+      'pro.4': 'Çeviri',
+      'pro.5': 'Yüksek kaliteli canlı transkripsiyon',
+      'pro.6': 'Sınırsız geçmiş',
+      'plans.fine': 'Verbi Pro bir aboneliktir. Uygulama, abone olmadan önce fiyatı kendi para biriminizde gösterir.',
+      'cta.title': 'Bir sonraki toplantınızı Verbi ile kaydedin.',
+      'foot.label': 'Yasal bilgiler ve iletişim',
+      'foot.privacy': 'Gizlilik Politikası',
+      'foot.terms': 'Kullanım Koşulları',
+      'foot.contact': 'İletişim'
+    }
+  };
+
+  const BADGES = {
+    en: { apple: ['assets/app-store-badge-en.svg', 144, 48], play: ['assets/google-play-badge-en.png', 161, 48] },
+    tr: { apple: ['assets/app-store-badge-tr.svg', 182, 48], play: ['assets/google-play-badge-tr.png', 162, 48] }
+  };
+
+  /* Each phrase is heard word by word (interim: lower case, no punctuation),
+     then settles at once into its final, punctuated form, the way live
+     transcription does. */
+  const HEADLINE = {
+    en: {
+      lines: [[0, 1], [2, 3], [4, 5]],
+      phrases: [
+        [['you', 'You'], ['talk', 'talk.']],
+        [['verbi', 'Verbi'], ['takes', 'takes'], ['the', 'the'], ['notes', 'notes.']]
+      ]
+    },
+    tr: {
+      lines: [[0, 1], [2], [3, 4]],
+      phrases: [
+        [['siz', 'Siz'], ['konuşun', 'konuşun.']],
+        [['notları', 'Notları'], ['verbi', 'Verbi'], ['tutsun', 'tutsun.']]
+      ]
+    }
+  };
+
+  /* {key|text} marks the sentence a task came from. */
+  const DEMO = {
+    en: {
+      title: 'Weekly product sync',
+      meta: 'Example recording, 52 min',
+      transcript: [
+        ['Maya', '00:00', "Okay, everyone, let’s get started. Three things on the agenda today: the launch date, the beta, and the marketing budget. Leo, where are we with the release build?"],
+        ['Leo', '00:12', "We’re in good shape. The new search feature is done, and the sync crash on older phones was fixed yesterday. {rc|I’ll have the release candidate ready by October 10}, so I’m proposing we launch on Tuesday, October 14."],
+        ['Maya', '00:27', 'October 14 works for me. Claire, does that fit the campaign?'],
+        ['Claire', '00:33', "It does. {shots|I need the final screenshots by October 6} to prepare the App Store page. For the budget, I’m asking for twelve thousand dollars: eight for paid social and four for creator partnerships."],
+        ['Maya', '00:48', "Let’s approve ten thousand for now and review the creator budget after the first week of the launch."],
+        ['Claire', '01:02', "Works for me. {survey|I’ll send the beta survey on Friday.}"],
+        ['Maya', '01:09', "Great. {finance|I’ll share the budget decision with finance on Monday.}"]
+      ],
+      review: {
+        topicsH: 'Topics', topics: 'Launch date, beta, marketing budget',
+        decisionsH: 'Decisions',
+        decisions: ['Launch on Tuesday, October 14.', '$10,000 approved for now. The creator budget will be reviewed after the first week of the launch.'],
+        tasksH: 'To-do list',
+        tasks: [
+          ['Leo', 'Ship the release candidate', 'Oct 10', 'rc'],
+          ['Claire', 'Deliver the final screenshots', 'Oct 6', 'shots'],
+          ['Claire', 'Send the beta survey', 'Friday', 'survey'],
+          ['Maya', 'Share the budget decision with finance', 'Monday', 'finance']
+        ],
+        hint: 'Select a task to see where it was said.',
+        at: (who, ts) => `${who} at ${ts}`
+      },
+      email: {
+        subjectLabel: 'Subject',
+        subject: 'Weekly product sync: launch date and budget',
+        body: [
+          'Hi team,',
+          "We’re launching on Tuesday, October 14. Leo will have the release candidate ready by October 10, and Claire needs the final screenshots by October 6 for the App Store page.",
+          "We approved $10,000 for marketing for now. We’ll review the creator budget after the first week of the launch.",
+          "Claire is sending the beta survey on Friday, and I’ll share the budget decision with finance on Monday.",
+          'Thanks,\nMaya'
+        ]
+      },
+      ask: [
+        ['q', 'What did we decide about the budget?'],
+        ['a', 'Maya approved $10,000 for now. Claire had asked for $12,000, and the creator partnership budget will be reviewed after the first week of the launch.'],
+        ['q', 'When do we launch?'],
+        ['a', 'On Tuesday, October 14. Leo will have the release candidate ready by October 10.']
+      ]
+    },
+    tr: {
+      title: 'Haftalık ürün toplantısı',
+      meta: 'Örnek kayıt, 52 dk',
+      transcript: [
+        ['Elif', '00:00', 'Herkes hazırsa başlayalım. Bugün gündemde üç konu var: çıkış tarihi, beta ve pazarlama bütçesi. Can, sürüm derlemesi ne durumda?'],
+        ['Can', '00:12', 'İyi durumdayız. Yeni arama özelliği bitti, eski telefonlardaki senkronizasyon çökmesi de dün düzeldi. {rc|Sürüm adayını 10 Ekim’e kadar hazırlarım}, o yüzden 14 Ekim Salı günü çıkalım diyorum.'],
+        ['Elif', '00:27', '14 Ekim bana uyar. Deniz, kampanyaya uyuyor mu?'],
+        ['Deniz', '00:33', 'Uyuyor. App Store sayfasını hazırlamak için {shots|son ekran görüntülerine 6 Ekim’e kadar ihtiyacım var}. Bütçe için on iki bin dolar istiyorum: sekizi ücretli sosyal medyaya, dördü içerik üreticisi iş birliklerine.'],
+        ['Elif', '00:48', 'Şimdilik on bini onaylayalım, içerik üreticisi bütçesine çıkışın ilk haftasından sonra yeniden bakarız.'],
+        ['Deniz', '01:02', 'Bana uyar. {survey|Beta anketini cuma günü gönderirim.}'],
+        ['Elif', '01:09', 'Harika. {finance|Bütçe kararını pazartesi finansla paylaşırım.}']
+      ],
+      review: {
+        topicsH: 'Konular', topics: 'Çıkış tarihi, beta, pazarlama bütçesi',
+        decisionsH: 'Kararlar',
+        decisions: ['14 Ekim Salı günü çıkılıyor.', 'Şimdilik 10.000 dolar onaylandı. İçerik üreticisi bütçesine çıkışın ilk haftasından sonra yeniden bakılacak.'],
+        tasksH: 'Yapılacaklar',
+        tasks: [
+          ['Can', 'Sürüm adayını hazırla', '10 Ekim', 'rc'],
+          ['Deniz', 'Son ekran görüntülerini teslim et', '6 Ekim', 'shots'],
+          ['Deniz', 'Beta anketini gönder', 'Cuma', 'survey'],
+          ['Elif', 'Bütçe kararını finansla paylaş', 'Pazartesi', 'finance']
+        ],
+        hint: 'Bir göreve dokunun, nerede söylendiğini görün.',
+        at: (who, ts) => `${who}, ${ts}`
+      },
+      email: {
+        subjectLabel: 'Konu',
+        subject: 'Haftalık ürün toplantısı: çıkış tarihi ve bütçe',
+        body: [
+          'Merhaba ekip,',
+          '14 Ekim Salı günü çıkıyoruz. Can sürüm adayını 10 Ekim’e kadar hazırlayacak; Deniz’in App Store sayfası için son ekran görüntülerine 6 Ekim’e kadar ihtiyacı var.',
+          'Pazarlama için şimdilik 10.000 doları onayladık. İçerik üreticisi bütçesine çıkışın ilk haftasından sonra yeniden bakacağız.',
+          'Deniz beta anketini cuma günü gönderecek, ben de bütçe kararını pazartesi finansla paylaşacağım.',
+          'Teşekkürler,\nElif'
+        ]
+      },
+      ask: [
+        ['q', 'Bütçe konusunda ne karar verdik?'],
+        ['a', 'Elif şimdilik 10.000 doları onayladı. Deniz 12.000 dolar istemişti; içerik üreticisi bütçesine çıkışın ilk haftasından sonra yeniden bakılacak.'],
+        ['q', 'Ne zaman çıkıyoruz?'],
+        ['a', '14 Ekim Salı günü. Can sürüm adayını 10 Ekim’e kadar hazırlayacak.']
+      ]
+    }
+  };
+
+  const el = (tag, props = {}, kids = []) => {
+    const n = document.createElement(tag);
+    for (const [k, v] of Object.entries(props)) {
+      if (k === 'class') n.className = v;
+      else if (k === 'text') n.textContent = v;
+      else n.setAttribute(k, v);
+    }
+    for (const c of [].concat(kids)) if (c != null) n.append(c);
+    return n;
+  };
+
+  /* ---------------- language ---------------- */
+  function pickLang() {
+    try {
+      const saved = localStorage.getItem('verbi-lang');
+      if (saved === 'en' || saved === 'tr') return saved;
+    } catch (e) {}
+    const first = (navigator.languages && navigator.languages[0]) || navigator.language || 'en';
+    return /^tr\b/i.test(first) ? 'tr' : 'en';
+  }
+  let lang = pickLang();
+
+  function applyCopy() {
+    const t = I18N[lang];
+    document.documentElement.lang = lang;
+    document.title = t['meta.title'];
+    const md = $('meta[name="description"]');
+    if (md) md.setAttribute('content', t['meta.desc']);
+    $$('[data-i18n]').forEach(n => { const v = t[n.dataset.i18n]; if (v != null) n.textContent = v; });
+    $$('[data-i18n-alt]').forEach(n => { n.alt = t[n.dataset.i18nAlt]; });
+    $$('[data-i18n-aria]').forEach(n => n.setAttribute('aria-label', t[n.dataset.i18nAria]));
+    const b = BADGES[lang];
+    $$('img.badge-apple').forEach(img => { [img.src, img.width, img.height] = b.apple; });
+    $$('img.badge-play').forEach(img => { [img.src, img.width, img.height] = b.play; });
+    $$('.lang button').forEach(btn => btn.setAttribute('aria-pressed', String(btn.dataset.lang === lang)));
+  }
+
+  /* ---------------- demo ---------------- */
+  function richText(str, speaker, ts) {
+    const out = [];
+    const re = /\{(\w+)\|([^}]+)\}/g;
+    let last = 0, m;
+    while ((m = re.exec(str))) {
+      if (m.index > last) out.push(str.slice(last, m.index));
+      out.push(el('span', { class: 'src', id: 'src-' + m[1], 'data-speaker': speaker, 'data-ts': ts, text: m[2] }));
+      last = re.lastIndex;
+    }
+    if (last < str.length) out.push(str.slice(last));
+    return out;
+  }
+
+  const chevron = () => {
+    const ns = 'http://www.w3.org/2000/svg';
+    const svg = document.createElementNS(ns, 'svg');
+    svg.setAttribute('viewBox', '0 0 16 16'); svg.setAttribute('class', 'chev'); svg.setAttribute('aria-hidden', 'true');
+    const p = document.createElementNS(ns, 'path');
+    p.setAttribute('d', 'M4 6l4 4 4-4'); p.setAttribute('fill', 'none'); p.setAttribute('stroke', 'currentColor');
+    p.setAttribute('stroke-width', '1.6'); p.setAttribute('stroke-linecap', 'round'); p.setAttribute('stroke-linejoin', 'round');
+    svg.append(p);
+    return svg;
+  };
+
+  function renderDemo() {
+    const d = DEMO[lang];
+    const tint = {};
+    d.transcript.forEach(([who]) => { if (!(who in tint)) tint[who] = `--c: var(--spk-${Object.keys(tint).length + 1})`; });
+    $('#faces').replaceChildren(...Object.entries(tint).map(([who, c]) => el('span', { class: 'face', style: c, text: who[0] })));
+    $('#sheet-title').textContent = d.title;
+    $('#sheet-meta').textContent = d.meta;
+    $('#transcript').replaceChildren(...d.transcript.map(([who, ts, said]) =>
+      el('li', { class: 'utt' }, [
+        el('div', { class: 'utt-head' }, [el('span', { class: 'spk', style: tint[who], text: who }), el('time', { class: 'ts', text: ts })]),
+        el('p', {}, richText(said, who, ts))
+      ])
+    ));
+
+    const r = d.review;
+    const tasks = el('ul', { class: 'tasks' }, r.tasks.map(([who, what, when, src], i) => {
+      const quoteId = 'quote-' + src;
+      const source = $('#src-' + src);
+      return el('li', {}, [
+        el('button', { type: 'button', class: 'task', 'aria-expanded': 'false', 'aria-controls': quoteId, 'data-src': src }, [
+          el('span', { class: 'who', style: tint[who], text: who }),
+          el('span', { class: 'what', text: what }),
+          el('span', { class: 'when', text: when }),
+          chevron()
+        ]),
+        el('div', { class: 'quote', id: quoteId }, el('div', {}, el('blockquote', {}, [
+          '“' + source.textContent.replace(/[.]$/, '') + '”',
+          el('cite', { text: r.at(source.dataset.speaker, source.dataset.ts) })
+        ])))
+      ]);
+    }));
+    $('#panel-review').replaceChildren(el('div', { class: 'sum' }, [
+      el('section', {}, [el('h4', { text: r.topicsH }), el('p', { text: r.topics })]),
+      el('section', {}, [el('h4', { text: r.decisionsH }), el('ul', { class: 'bullets' }, r.decisions.map(x => el('li', { text: x })))]),
+      el('section', {}, [el('h4', { text: r.tasksH }), tasks, el('p', { class: 'hint', text: r.hint })])
+    ]));
+    openTask($('.task'));
+
+    const e = d.email;
+    $('#panel-email').replaceChildren(el('div', { class: 'mail' }, [
+      el('p', { class: 'mail-subj' }, [el('span', { text: e.subjectLabel }), e.subject]),
+      el('div', { class: 'mail-body' }, e.body.map(par => {
+        const p = el('p');
+        par.split('\n').forEach((line, i) => { if (i) p.append(el('br')); p.append(line); });
+        return p;
+      }))
+    ]));
+
+    $('#panel-ask').replaceChildren(el('div', { class: 'chat' }, d.ask.map(([who, text]) => el('p', { class: 'bubble ' + who, text }))));
+  }
+
+  function openTask(btn) {
+    $$('.task').forEach(b => b.setAttribute('aria-expanded', 'false'));
+    $$('.src.is-lit').forEach(s => s.classList.remove('is-lit'));
+    if (!btn) return;
+    btn.setAttribute('aria-expanded', 'true');
+    const s = $('#src-' + btn.dataset.src);
+    if (s) s.classList.add('is-lit');
+  }
+
+  $('#panel-review').addEventListener('click', ev => {
+    const btn = ev.target.closest('.task');
+    if (!btn) return;
+    openTask(btn.getAttribute('aria-expanded') === 'true' ? null : btn);
+  });
+
+  const tabs = $$('.seg [role="tab"]');
+  function selectTab(tab, focus) {
+    tabs.forEach(t => {
+      const on = t === tab;
+      t.setAttribute('aria-selected', String(on));
+      t.tabIndex = on ? 0 : -1;
+      const panel = document.getElementById(t.getAttribute('aria-controls'));
+      if (on && panel.hidden) {
+        panel.hidden = false;
+        panel.classList.remove('is-entering'); void panel.offsetWidth; panel.classList.add('is-entering');
+      } else if (!on) panel.hidden = true;
+    });
+    if (focus) tab.focus();
+  }
+  tabs.forEach((t, i) => {
+    t.addEventListener('click', () => selectTab(t));
+    t.addEventListener('keydown', ev => {
+      const k = ev.key;
+      let j = null;
+      if (k === 'ArrowRight') j = (i + 1) % tabs.length;
+      else if (k === 'ArrowLeft') j = (i - 1 + tabs.length) % tabs.length;
+      else if (k === 'Home') j = 0;
+      else if (k === 'End') j = tabs.length - 1;
+      if (j !== null) { ev.preventDefault(); selectTab(tabs[j], true); }
+    });
+  });
+
+  /* ---------------- hero: the headline transcribes itself ---------------- */
+  const hero = (() => {
+    const vis = $('.headline-vis');
+    const measure = $('.headline-measure');
+    const h1 = $('.headline');
+    const rec = $('.rec');
+    const recLabel = $('.rec-label');
+    const recTime = $('.rec-time');
+    const canvas = $('.wave');
+    const ctx = canvas.getContext && canvas.getContext('2d');
+
+    let words = [], plan = [], windows = [], doneAt = 0;
+    let timers = [], raf = 0, t0 = 0, lastPush = 0;
+    let buf = [], dpr = 1;
+    const caret = el('span', { class: 'caret' });
+    const BAR = 6;           // css px per bar slot
+    const TICK = 45;         // ms between new bars
+
+    function build() {
+      const h = HEADLINE[lang];
+      const flat = h.phrases.flat();
+      words = flat.map(([interim, fin], idx) => ({ interim, fin, idx, node: el('span', { class: 'w', text: fin }) }));
+      const lines = h.lines.map(ids => {
+        const line = el('span', { class: 'line' });
+        ids.forEach((id, k) => { if (k) line.append(' '); line.append(words[id].node); });
+        return line;
+      });
+      vis.replaceChildren(...lines);
+      measure.replaceChildren(...h.lines.map(ids => el('span', { class: 'line', text: ids.map(id => words[id].fin).join(' ') })));
+
+      // timeline
+      plan = []; windows = [];
+      let t = 250, idx = 0;
+      h.phrases.forEach(ph => {
+        const start = t;
+        const ids = [];
+        ph.forEach(([interim]) => { plan.push({ at: t, id: idx, state: 'interim' }); ids.push(idx++); t += 110 + interim.length * 24; });
+        windows.push([start, t + 60]);
+        const fin = t + 200;
+        ids.forEach((id, k) => plan.push({ at: fin + k * 45, id, state: 'final' }));
+        t = fin + 300;
+      });
+      doneAt = Math.max(...plan.map(p => p.at)) + 260;
+    }
+
+    function fit() {
+      const avail = h1.clientWidth;
+      if (!avail) return;
+      const widest = Math.max(...$$('.line', measure).map(l => l.getBoundingClientRect().width));
+      const lines = HEADLINE[lang].lines.length;
+      const byWidth = avail / widest * 100 * 0.985;
+      const byHeight = (window.innerHeight * 0.5) / (lines * 0.92);
+      h1.style.fontSize = Math.max(40, Math.min(byWidth, byHeight, 224)) + 'px';
+    }
+
+    function setWord(id, state) {
+      const w = words[id];
+      w.node.classList.toggle('is-interim', state === 'interim');
+      w.node.classList.toggle('is-final', state === 'final');
+      w.node.textContent = state === 'interim' ? w.interim : w.fin;
+      if (state === 'interim') w.node.after(caret);
+    }
+
+    const fmt = ms => {
+      const cs = Math.floor(ms / 10) % 100, s = Math.floor(ms / 1000) % 60, m = Math.floor(ms / 60000);
+      const p = n => String(n).padStart(2, '0');
+      return `00:${p(m)}:${p(s)}:${p(cs)}`;
+    };
+
+    // wave
+    function sizeCanvas() {
+      if (!ctx) return;
+      const r = canvas.getBoundingClientRect();
+      dpr = Math.min(2, window.devicePixelRatio || 1);
+      canvas.width = Math.round(r.width * dpr);
+      canvas.height = Math.round(r.height * dpr);
+      const n = Math.max(12, Math.floor(r.width / BAR));
+      if (buf.length < n) buf = Array.from({ length: n - buf.length }, idle).concat(buf);
+      else if (buf.length > n) buf = buf.slice(buf.length - n);
+      draw();
+    }
+    function idle(rand = Math.random) { return 0.05 + rand() * 0.04; }
+    function voiced(t, rand = Math.random) {
+      const syll = Math.abs(Math.sin(t / 92)) * 0.7 + Math.abs(Math.sin(t / 37)) * 0.3;
+      return Math.min(1, 0.22 + syll * (0.45 + rand() * 0.5));
+    }
+    const speakingAt = t => windows.some(([a, b]) => t >= a && t <= b);
+    function draw() {
+      if (!ctx) return;
+      const W = canvas.width, H = canvas.height, n = buf.length;
+      const step = W / n, bw = Math.max(2 * dpr, step * 0.5), r = bw / 2;
+      ctx.clearRect(0, 0, W, H);
+      for (let i = 0; i < n; i++) {
+        const h = Math.max(bw, buf[i] * H);
+        const x = i * step + (step - bw) / 2, y = (H - h) / 2;
+        ctx.fillStyle = `rgba(255,255,255,${(0.22 + 0.78 * (i / (n - 1))).toFixed(3)})`;
+        ctx.beginPath();
+        if (ctx.roundRect) ctx.roundRect(x, y, bw, h, r); else ctx.rect(x, y, bw, h);
+        ctx.fill();
+      }
+    }
+
+    function frame(now) {
+      const t = now - t0;
+      while (lastPush + TICK <= t) {
+        lastPush += TICK;
+        buf.push(speakingAt(lastPush) ? voiced(lastPush) : idle());
+        buf.shift();
+      }
+      draw();
+      recTime.textContent = fmt(Math.min(t, doneAt));
+      if (t < doneAt) raf = requestAnimationFrame(frame);
+      else finishRecState();
+    }
+
+    function finishRecState() {
+      if (caret.isConnected) {
+        caret.classList.add('is-resting');
+        timers.push(setTimeout(() => caret.remove(), 2500));
+      }
+      rec.classList.remove('is-live');
+      rec.classList.add('is-done');
+      recLabel.textContent = I18N[lang]['rec.done'];
+      recTime.textContent = fmt(doneAt);
+    }
+
+    function stop() {
+      timers.forEach(clearTimeout); timers = [];
+      cancelAnimationFrame(raf);
+    }
+
+    function play() {
+      stop();
+      words.forEach(w => { w.node.classList.remove('is-interim', 'is-final'); w.node.textContent = w.fin; });
+      buf = buf.map(() => idle());
+      rec.classList.remove('is-done'); rec.classList.add('is-live');
+      recLabel.textContent = I18N[lang]['rec.live'];
+      recTime.textContent = fmt(0);
+      caret.classList.remove('is-resting');
+      $('.line', vis).prepend(caret);
+      plan.forEach(p => timers.push(setTimeout(() => setWord(p.id, p.state), p.at)));
+      t0 = performance.now(); lastPush = 0;
+      raf = requestAnimationFrame(frame);
+    }
+
+    // The final frame without the performance: every word settled, and the
+    // wave as it would look after the phrase was spoken.
+    function finish() {
+      stop();
+      caret.remove();
+      words.forEach(w => setWord(w.idx, 'final'));
+      let seed = 7;
+      const rand = () => ((seed = (seed * 16807) % 2147483647) - 1) / 2147483646;
+      const n = buf.length || 120;
+      const series = [];
+      for (let t = 0; t <= doneAt; t += TICK) series.push(speakingAt(t) ? voiced(t, rand) : idle(rand));
+      buf = Array.from({ length: Math.max(0, n - series.length) }, () => idle(rand)).concat(series).slice(-n);
+      draw();
+      finishRecState();
+    }
+
+    // Before the face arrives: recording has started, nothing heard yet.
+    function prime() {
+      rec.classList.remove('is-done'); rec.classList.add('is-live');
+      recLabel.textContent = I18N[lang]['rec.live'];
+      recTime.textContent = fmt(0);
+    }
+
+    return { build, fit, play, finish, prime, sizeCanvas };
+  })();
+
+  /* ---------------- phone that follows the reading ---------------- */
+  const shots = $$('.app-phone .screen img');
+  if ('IntersectionObserver' in window && shots.length) {
+    const io = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (!entry.isIntersecting) return;
+        const k = entry.target.dataset.shot;
+        shots.forEach(s => s.classList.toggle('is-active', s.dataset.shot === k));
+      });
+    }, { rootMargin: '-45% 0px -45% 0px' });
+    $$('.group').forEach(g => io.observe(g));
+  }
+
+  /* ---------------- download bar ---------------- */
+  const bar = $('#bar'), barCta = $('#bar-cta');
+  const ua = navigator.userAgent;
+  if (/iPhone|iPad|iPod/.test(ua) || (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1)) barCta.href = 'https://apps.apple.com/app/verbi/id6752242891';
+  else if (/Android/.test(ua)) barCta.href = 'https://play.google.com/store/apps/details?id=com.monurilgaz.verbi';
+  if ('IntersectionObserver' in window) {
+    let badgesGone = false, ctaShown = false;
+    const sync = () => bar.classList.toggle('is-on', badgesGone && !ctaShown);
+    new IntersectionObserver(([e]) => { badgesGone = !e.isIntersecting && e.boundingClientRect.top < 0; sync(); }).observe($('.hero-foot'));
+    new IntersectionObserver(([e]) => { ctaShown = e.isIntersecting; sync(); }).observe($('#get'));
+  }
+
+  /* ---------------- boot ---------------- */
+  const fontsReady = Promise.race([
+    document.fonts && document.fonts.load ? document.fonts.load(`760 100px "Host Grotesk"`).then(() => document.fonts.ready) : Promise.resolve(),
+    new Promise(r => setTimeout(r, 1200))
+  ]).catch(() => {});
+
+  const whenVisible = fn => {
+    if (!document.hidden) return fn();
+    const on = () => { if (!document.hidden) { document.removeEventListener('visibilitychange', on); fn(); } };
+    document.addEventListener('visibilitychange', on);
+  };
+
+  function render(perform) {
+    applyCopy();
+    renderDemo();
+    hero.build();
+    hero.sizeCanvas();
+    hero.fit();
+    if (perform && !reduceMotion.matches) hero.play(); else hero.finish();
+  }
+
+  $$('.lang button').forEach(btn => btn.addEventListener('click', () => {
+    if (btn.dataset.lang === lang) return;
+    lang = btn.dataset.lang;
+    try { localStorage.setItem('verbi-lang', lang); } catch (e) {}
+    const tab = $('.seg [aria-selected="true"]');
+    render(true);
+    if (tab) selectTab(tab);
+  }));
+
+  let resizeRaf = 0;
+  window.addEventListener('resize', () => {
+    cancelAnimationFrame(resizeRaf);
+    resizeRaf = requestAnimationFrame(() => { hero.fit(); hero.sizeCanvas(); });
+  });
+
+  // Copy and the demo are in place before the first paint; the headline
+  // waits for its face so the words settle at their real widths.
+  applyCopy();
+  renderDemo();
+  hero.build();
+  if (!reduceMotion.matches) hero.prime();
+  fontsReady.then(() => {
+    hero.sizeCanvas();
+    hero.fit();
+    if (reduceMotion.matches) hero.finish(); else whenVisible(() => hero.play());
+  });
+})();
+</script>
+</body>
+</html>
