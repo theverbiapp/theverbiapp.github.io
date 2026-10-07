@@ -471,11 +471,11 @@ a { color: var(--accent); text-underline-offset: .18em; text-decoration-thicknes
             <a class="store" href="https://apps.apple.com/app/verbi/id6752242891" rel="noopener">
               <img class="badge-apple" src="assets/app-store-badge-en.svg" width="144" height="48" data-i18n-alt="badge.apple" alt="Download on the App Store">
             </a>
-            <a class="store" href="https://play.google.com/store/apps/details?id=com.monurilgaz.verbi" rel="noopener">
+            <a class="store" href="https://play.google.com/store/apps/details?id=com.monurilgaz.verbi&referrer=utm_source%3Dsite" rel="noopener">
               <img class="badge-play" src="assets/google-play-badge-en.png" width="161" height="48" data-i18n-alt="badge.play" alt="Get it on Google Play">
             </a>
           </div>
-          <p class="free-note" data-i18n="hero.free">Free to download, with 30 minutes of transcription every month.</p>
+          <p class="free-note" data-i18n="hero.free">Free to download, with 60 minutes of transcription every month.</p>
         </div>
       </div>
     </div>
@@ -596,7 +596,7 @@ a { color: var(--accent); text-underline-offset: .18em; text-decoration-thicknes
     <div class="wrap">
       <header class="section-head">
         <h2 id="plans-title" data-i18n="plans.title">Start free</h2>
-        <p data-i18n="plans.body">Download Verbi and transcribe 30 minutes every month at no cost. Move to Pro when you need more.</p>
+        <p data-i18n="plans.body">Download Verbi and transcribe 60 minutes every month at no cost. Move to Pro when you need more.</p>
       </header>
       <div class="plan-grid">
         <div class="plan">
@@ -605,7 +605,7 @@ a { color: var(--accent); text-underline-offset: .18em; text-decoration-thicknes
             <p class="plan-sub" data-i18n="free.sub">Try Verbi on your own recordings.</p>
           </div>
           <ul>
-            <li data-i18n="free.1">30 minutes of transcription a month</li>
+            <li data-i18n="free.1">60 minutes of transcription a month</li>
             <li data-i18n="free.2">Recordings kept for 15 days</li>
             <li data-i18n="free.3">Basic live transcription</li>
             <li data-i18n="free.4">Your first AI summary</li>
@@ -638,7 +638,7 @@ a { color: var(--accent); text-underline-offset: .18em; text-decoration-thicknes
         <a class="store" href="https://apps.apple.com/app/verbi/id6752242891" rel="noopener">
           <img class="badge-apple" src="assets/app-store-badge-en.svg" width="144" height="48" data-i18n-alt="badge.apple" alt="Download on the App Store">
         </a>
-        <a class="store" href="https://play.google.com/store/apps/details?id=com.monurilgaz.verbi" rel="noopener">
+        <a class="store" href="https://play.google.com/store/apps/details?id=com.monurilgaz.verbi&referrer=utm_source%3Dsite" rel="noopener">
           <img class="badge-play" src="assets/google-play-badge-en.png" width="161" height="48" data-i18n-alt="badge.play" alt="Get it on Google Play">
         </a>
       </div>
@@ -666,6 +666,18 @@ a { color: var(--accent); text-underline-offset: .18em; text-decoration-thicknes
   const $$ = (s, r = document) => [...r.querySelectorAll(s)];
   const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
 
+  /* ---------------- store links (D-81, #0) ---------------- */
+  // App Store Connect's campaign provider token. Empty until the founder
+  // creates one: the badges then keep the plain address and nothing is
+  // measured. The same constant lives in the app (AppStoreLink.swift) and
+  // on the invite page (APP_STORE_PROVIDER_TOKEN).
+  const PT = '';
+  const APP_STORE_PLAIN = 'https://apps.apple.com/app/verbi/id6752242891';
+  const APP_STORE_HREF = PT
+    ? `https://apps.apple.com/app/apple-store/id6752242891?pt=${encodeURIComponent(PT)}&ct=site&mt=8`
+    : APP_STORE_PLAIN;
+  if (PT) $$('a[href="' + APP_STORE_PLAIN + '"]').forEach(a => { a.href = APP_STORE_HREF; });
+
   /* ---------------- copy ---------------- */
   const I18N = {
     en: {
@@ -676,7 +688,7 @@ a { color: var(--accent); text-underline-offset: .18em; text-decoration-thicknes
       'rec.done': 'Notes ready',
       'hero.title': 'You talk. Verbi takes the notes.',
       'hero.lede': 'Record a meeting, a lecture or an interview of any length. Verbi writes it down in 39 languages, tells the speakers apart and hands you a summary with a to-do list.',
-      'hero.free': 'Free to download, with 30 minutes of transcription every month.',
+      'hero.free': 'Free to download, with 60 minutes of transcription every month.',
       'badge.apple': 'Download on the App Store',
       'badge.play': 'Get it on Google Play',
       'demo.title': 'Read an hour-long meeting in a minute.',
@@ -712,12 +724,12 @@ a { color: var(--accent); text-underline-offset: .18em; text-decoration-thicknes
       'privacy.body': 'Audio goes to the transcription service only to be turned into text. There is no tracking. Usage analytics are anonymous and never include your recordings, transcripts or searches.',
       'privacy.link': 'Read the privacy policy',
       'plans.title': 'Start free',
-      'plans.body': 'Download Verbi and transcribe 30 minutes every month at no cost. Move to Pro when you need more.',
+      'plans.body': 'Download Verbi and transcribe 60 minutes every month at no cost. Move to Pro when you need more.',
       'free.name': 'Free',
       'free.sub': 'Try Verbi on your own recordings.',
       'pro.sub': 'Everything in Free, without the limits.',
       'bar.cta': 'Download',
-      'free.1': '30 minutes of transcription a month',
+      'free.1': '60 minutes of transcription a month',
       'free.2': 'Recordings kept for 15 days',
       'free.3': 'Basic live transcription',
       'free.4': 'Your first AI summary',
@@ -742,7 +754,7 @@ a { color: var(--accent); text-underline-offset: .18em; text-decoration-thicknes
       'rec.done': 'Notlarınız hazır',
       'hero.title': 'Siz konuşun. Notları Verbi tutsun.',
       'hero.lede': 'Toplantıyı, dersi ya da röportajı kaydedin; uzunluğu fark etmez. Verbi 39 dilde yazıya döker, konuşanları birbirinden ayırır ve size görev listesiyle birlikte bir özet verir.',
-      'hero.free': 'Ücretsiz indirin; her ay 30 dakika transkripsiyon dahil.',
+      'hero.free': 'Ücretsiz indirin; her ay 60 dakika transkripsiyon dahil.',
       'badge.apple': "App Store’dan İndirin",
       'badge.play': "Google Play’den Alın",
       'demo.title': 'Bir saatlik toplantıyı bir dakikada okuyun.',
@@ -778,12 +790,12 @@ a { color: var(--accent); text-underline-offset: .18em; text-decoration-thicknes
       'privacy.body': 'Ses yalnızca metne dönüştürülmek için transkripsiyon servisine gider. Takip yok. Kullanım istatistikleri anonimdir; kayıtlarınız, transkriptleriniz ve aramalarınız bunlara hiçbir zaman girmez.',
       'privacy.link': 'Gizlilik politikasını okuyun',
       'plans.title': 'Ücretsiz başlayın',
-      'plans.body': 'Verbi’yi indirin, her ay 30 dakikayı ücretsiz yazıya dökün. Daha fazlasına ihtiyacınız olduğunda Pro’ya geçin.',
+      'plans.body': 'Verbi’yi indirin, her ay 60 dakikayı ücretsiz yazıya dökün. Daha fazlasına ihtiyacınız olduğunda Pro’ya geçin.',
       'free.name': 'Ücretsiz',
       'free.sub': 'Verbi’yi kendi kayıtlarınızda deneyin.',
       'pro.sub': 'Ücretsiz plandaki her şey, sınırsız.',
       'bar.cta': 'İndir',
-      'free.1': 'Ayda 30 dakika transkripsiyon',
+      'free.1': 'Ayda 60 dakika transkripsiyon',
       'free.2': 'Kayıtlar 15 gün saklanır',
       'free.3': 'Temel canlı transkripsiyon',
       'free.4': 'İlk yapay zeka özetiniz',
@@ -1261,8 +1273,8 @@ a { color: var(--accent); text-underline-offset: .18em; text-decoration-thicknes
   /* ---------------- download bar ---------------- */
   const bar = $('#bar'), barCta = $('#bar-cta');
   const ua = navigator.userAgent;
-  if (/iPhone|iPad|iPod/.test(ua) || (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1)) barCta.href = 'https://apps.apple.com/app/verbi/id6752242891';
-  else if (/Android/.test(ua)) barCta.href = 'https://play.google.com/store/apps/details?id=com.monurilgaz.verbi';
+  if (/iPhone|iPad|iPod/.test(ua) || (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1)) barCta.href = APP_STORE_HREF;
+  else if (/Android/.test(ua)) barCta.href = 'https://play.google.com/store/apps/details?id=com.monurilgaz.verbi&referrer=utm_source%3Dsite';
   if ('IntersectionObserver' in window) {
     let badgesGone = false, ctaShown = false;
     const sync = () => bar.classList.toggle('is-on', badgesGone && !ctaShown);
