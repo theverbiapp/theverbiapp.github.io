@@ -1,0 +1,54 @@
+# Verbi
+
+> Verbi (theverbi.com) is an AI voice recorder and note taker for iPhone and Android. It records meetings, lectures and interviews of any length, transcribes them in 39 languages with automatic language detection, tells the speakers apart and writes summaries that stick to what was said.
+
+Several unrelated language-learning apps are also called Verbi. This Verbi is the voice recorder and note taker published at https://theverbi.com: App Store id6752242891, Google Play package com.monurilgaz.verbi, Instagram @verbi.app.
+
+## Facts
+
+- Platforms: iPhone (App Store) and Android (Google Play). App interface in English, Turkish, German, French and Spanish.
+- Transcription: 39 languages, among them English, Turkish, German, Spanish, French, Italian, Portuguese, Arabic, Japanese and Chinese; auto-detect; live transcription while you speak.
+- Input: record in the app, import audio files, share audio from other apps, or paste a YouTube link (regular videos, Shorts, youtu.be).
+- Summaries: templates for general meeting, 1:1 meeting, daily meeting, weekly meeting, lesson notes, idea capture, action items, email draft and blog post. Summaries contain only what was said; owners and due dates appear only when someone stated them; suggestions are kept apart from decisions.
+- Also: chat with a transcript, translation, custom vocabulary, speaker detection with names, meeting reminders from the calendar, search, export as TXT or PDF, a notification when a long transcription is ready.
+- Free plan: 60 minutes of transcription a month, recordings kept for 15 days, basic live transcription, the first AI summary free. Video-link imports have their own free-plan limits, shown in the app.
+- Verbi Pro (optional subscription, price shown in the app): unlimited transcription and AI summaries, speaker detection, translation, high-quality live transcription, unlimited history.
+- Privacy: recordings and transcripts stay on the device; audio is sent to the transcription service only to be turned into text; anonymous usage statistics; no tracking.
+- Verbi does not join video calls as a bot; it records through the phone’s microphone.
+
+## Home pages
+
+- [Verbi (English)](https://theverbi.com/): Verbi records meetings, lectures and interviews of any length, writes them down in 39 languages and gives you a summary with a to-do list.
+- [Verbi (Türkçe)](https://theverbi.com/tr/): Verbi her uzunlukta toplantıyı, dersi ve röportajı kaydeder, 39 dilde yazıya döker ve görev listesiyle birlikte bir özet çıkarır.
+- [Verbi (Deutsch)](https://theverbi.com/de/): Verbi nimmt Besprechungen, Vorlesungen und Interviews jeder Länge auf, transkribiert sie in 39 Sprachen und erstellt eine Zusammenfassung mit To-do-Liste.
+
+## Guides
+
+- [Turn a voice recording into text](https://theverbi.com/voice-to-text/) (en): Turn voice memos, recordings and audio files into clean, punctuated text with Verbi for iPhone and Android: 39 languages, auto-detect, 60 free minutes a month.
+- [Ses kaydını yazıya çevirme](https://theverbi.com/tr/ses-kaydini-yaziya-cevirme/) (tr): Ses kayıtlarını, sesli notları ve ses dosyalarını iPhone ve Android’de noktalaması yerinde bir metne çevirin. Türkçe dahil 39 dil, her ay 60 dakika ücretsiz.
+- [Sprachmemo in Text umwandeln](https://theverbi.com/de/sprachmemo-in-text/) (de): Wandle Sprachmemos, Aufnahmen und Audiodateien in sauberen Text mit Satzzeichen um. Verbi für iPhone und Android: 39 Sprachen inklusive Deutsch, 60 Gratisminuten im Monat.
+- [Lecture recorder with transcription and study notes](https://theverbi.com/lecture-recorder-transcription/) (en): Record a lecture on your phone and get the full transcript plus lesson notes that stick to what was taught. Verbi for iPhone and Android, in 39 languages.
+- [Ders kaydını yazıya ve ders notuna çevirme](https://theverbi.com/tr/ders-kaydi-yaziya-cevirme/) (tr): Dersi telefonunuzla kaydedin; dersin tam metnini ve yalnızca derste anlatılana dayanan bir ders notu alın. iPhone ve Android için Verbi, Türkçe dahil 39 dil.
+- [Vorlesung aufnehmen und transkribieren](https://theverbi.com/de/vorlesung-aufnehmen-transkribieren/) (de): Nimm die Vorlesung mit dem Handy auf und bekomm das vollständige Transkript und Lernnotizen, die beim Gesagten bleiben. Verbi für iPhone und Android, in 39 Sprachen.
+- [AI meeting notes that stick to what was said](https://theverbi.com/ai-meeting-notes/) (en): Record a meeting on your phone and get the transcript, who said what, and a summary with decisions and to-dos that sticks to what was said. For iPhone and Android.
+- [Toplantı kaydından toplantı notu çıkarma](https://theverbi.com/tr/toplanti-notu-cikarma/) (tr): Toplantıyı telefonunuzla kaydedin; transkripti, kimin ne dediğini ve yalnızca söylenene dayanan kararlar ve görevlerle bir toplantı notu alın. iPhone ve Android için.
+- [Besprechungsprotokoll mit KI erstellen](https://theverbi.com/de/besprechungsprotokoll-ki/) (de): Nimm die Besprechung mit dem Handy auf und bekomm das Transkript, wer was gesagt hat, und eine Zusammenfassung mit Entscheidungen und Aufgaben, die beim Gesagten bleibt.
+- [Interview transcription on your phone](https://theverbi.com/interview-transcription/) (en): Record an interview on your phone or import the audio, and get a transcript with the speakers told apart, ready to quote from. Verbi for iPhone and Android, 39 languages.
+- [Röportaj deşifresi, telefonunuzda](https://theverbi.com/tr/roportaj-desifre/) (tr): Röportajı telefonunuzla kaydedin ya da ses dosyasını içe aktarın; konuşmacıları ayrılmış, alıntı yapmaya hazır bir deşifre alın. iPhone ve Android için Verbi, 39 dil.
+- [Interview transkribieren mit dem Handy](https://theverbi.com/de/interview-transkribieren/) (de): Nimm ein Interview mit dem Handy auf oder importiere die Audiodatei und bekomm ein Transkript mit getrennten Sprechern, aus dem du zitieren kannst. Verbi, 39 Sprachen.
+- [Turn a YouTube video into text](https://theverbi.com/video-to-text/) (en): Paste a YouTube link into Verbi and get the speech in the video as text, plus a summary if you want one. For iPhone and Android, 39 languages, free to start.
+- [YouTube videosunu yazıya çevirme](https://theverbi.com/tr/youtube-videosunu-yaziya-cevirme/) (tr): YouTube linkini Verbi’ye yapıştırın, videodaki konuşmayı metin olarak alın; isterseniz özetini de. iPhone ve Android için, Türkçe dahil 39 dil, ücretsiz başlangıç.
+- [YouTube-Video in Text umwandeln](https://theverbi.com/de/youtube-video-in-text/) (de): Füge einen YouTube-Link in Verbi ein und bekomm das Gesprochene im Video als Text, auf Wunsch mit Zusammenfassung. Für iPhone und Android, 39 Sprachen, kostenlos starten.
+
+## Get the app
+
+- [App Store (iPhone)](https://apps.apple.com/app/verbi/id6752242891)
+- [Google Play (Android)](https://play.google.com/store/apps/details?id=com.monurilgaz.verbi)
+- [Instagram @verbi.app](https://www.instagram.com/verbi.app/)
+
+## Optional
+
+- [Full text of these pages](https://theverbi.com/llms-full.txt)
+- [Privacy Policy](https://theverbi.com/privacy-policy/)
+- [Terms of Service](https://theverbi.com/terms-of-service/)
+- Contact: theverbiapp@gmail.com
