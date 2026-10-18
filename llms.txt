@@ -13,7 +13,7 @@ Several unrelated language-learning apps are also called Verbi. This Verbi is th
 - Also: chat with a transcript, translation, custom vocabulary, speaker detection with names, meeting reminders from the calendar, search, export as TXT or PDF, a notification when a long transcription is ready.
 - Free plan: 60 minutes of transcription a month, recordings kept for 15 days, basic live transcription, the first AI summary free. Video-link imports have their own free-plan limits, shown in the app.
 - Verbi Pro (optional subscription, price shown in the app): unlimited transcription and AI summaries, speaker detection, translation, high-quality live transcription, unlimited history.
-- Privacy: recordings and transcripts stay on the device; audio is sent to the transcription service only to be turned into text; anonymous usage statistics; no tracking.
+- Privacy: no account and no cloud sync; recordings and transcripts are stored on the phone. For transcription, audio is sent to ElevenLabs and OpenAI, usually through Verbi’s server; summaries, chat and translation send the transcript text to OpenAI. Usage analytics (Firebase) never include recordings or transcripts and can be turned off in Settings. Details: https://theverbi.com/privacy-policy/
 - Verbi does not join video calls as a bot; it records through the phone’s microphone.
 
 ## Home pages

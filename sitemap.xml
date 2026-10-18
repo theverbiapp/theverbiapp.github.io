@@ -3,7 +3,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://theverbi.com/</loc>
-    <lastmod>2026-10-18</lastmod>
+    <lastmod>2026-10-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/"/>
@@ -11,7 +11,7 @@
   </url>
   <url>
     <loc>https://theverbi.com/tr/</loc>
-    <lastmod>2026-10-18</lastmod>
+    <lastmod>2026-10-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/"/>
@@ -19,7 +19,7 @@
   </url>
   <url>
     <loc>https://theverbi.com/de/</loc>
-    <lastmod>2026-10-18</lastmod>
+    <lastmod>2026-10-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/"/>
@@ -27,7 +27,7 @@
   </url>
   <url>
     <loc>https://theverbi.com/voice-to-text/</loc>
-    <lastmod>2026-10-18</lastmod>
+    <lastmod>2026-10-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/voice-to-text/"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/ses-kaydini-yaziya-cevirme/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/sprachmemo-in-text/"/>
@@ -35,7 +35,7 @@
   </url>
   <url>
     <loc>https://theverbi.com/tr/ses-kaydini-yaziya-cevirme/</loc>
-    <lastmod>2026-10-18</lastmod>
+    <lastmod>2026-10-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/voice-to-text/"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/ses-kaydini-yaziya-cevirme/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/sprachmemo-in-text/"/>
@@ -43,7 +43,7 @@
   </url>
   <url>
     <loc>https://theverbi.com/de/sprachmemo-in-text/</loc>
-    <lastmod>2026-10-18</lastmod>
+    <lastmod>2026-10-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/voice-to-text/"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/ses-kaydini-yaziya-cevirme/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/sprachmemo-in-text/"/>
@@ -51,7 +51,7 @@
   </url>
   <url>
     <loc>https://theverbi.com/lecture-recorder-transcription/</loc>
-    <lastmod>2026-10-18</lastmod>
+    <lastmod>2026-10-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/lecture-recorder-transcription/"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/ders-kaydi-yaziya-cevirme/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/vorlesung-aufnehmen-transkribieren/"/>
@@ -59,7 +59,7 @@
   </url>
   <url>
     <loc>https://theverbi.com/tr/ders-kaydi-yaziya-cevirme/</loc>
-    <lastmod>2026-10-18</lastmod>
+    <lastmod>2026-10-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/lecture-recorder-transcription/"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/ders-kaydi-yaziya-cevirme/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/vorlesung-aufnehmen-transkribieren/"/>
@@ -67,7 +67,7 @@
   </url>
   <url>
     <loc>https://theverbi.com/de/vorlesung-aufnehmen-transkribieren/</loc>
-    <lastmod>2026-10-18</lastmod>
+    <lastmod>2026-10-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/lecture-recorder-transcription/"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/ders-kaydi-yaziya-cevirme/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/vorlesung-aufnehmen-transkribieren/"/>
@@ -75,7 +75,7 @@
   </url>
   <url>
     <loc>https://theverbi.com/ai-meeting-notes/</loc>
-    <lastmod>2026-10-18</lastmod>
+    <lastmod>2026-10-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/ai-meeting-notes/"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/toplanti-notu-cikarma/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/besprechungsprotokoll-ki/"/>
@@ -83,7 +83,7 @@
   </url>
   <url>
     <loc>https://theverbi.com/tr/toplanti-notu-cikarma/</loc>
-    <lastmod>2026-10-18</lastmod>
+    <lastmod>2026-10-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/ai-meeting-notes/"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/toplanti-notu-cikarma/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/besprechungsprotokoll-ki/"/>
@@ -91,7 +91,7 @@
   </url>
   <url>
     <loc>https://theverbi.com/de/besprechungsprotokoll-ki/</loc>
-    <lastmod>2026-10-18</lastmod>
+    <lastmod>2026-10-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/ai-meeting-notes/"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/toplanti-notu-cikarma/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/besprechungsprotokoll-ki/"/>
@@ -99,7 +99,7 @@
   </url>
   <url>
     <loc>https://theverbi.com/interview-transcription/</loc>
-    <lastmod>2026-10-18</lastmod>
+    <lastmod>2026-10-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/interview-transcription/"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/roportaj-desifre/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/interview-transkribieren/"/>
@@ -107,7 +107,7 @@
   </url>
   <url>
     <loc>https://theverbi.com/tr/roportaj-desifre/</loc>
-    <lastmod>2026-10-18</lastmod>
+    <lastmod>2026-10-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/interview-transcription/"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/roportaj-desifre/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/interview-transkribieren/"/>
@@ -115,7 +115,7 @@
   </url>
   <url>
     <loc>https://theverbi.com/de/interview-transkribieren/</loc>
-    <lastmod>2026-10-18</lastmod>
+    <lastmod>2026-10-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/interview-transcription/"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/roportaj-desifre/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/interview-transkribieren/"/>
@@ -123,7 +123,7 @@
   </url>
   <url>
     <loc>https://theverbi.com/video-to-text/</loc>
-    <lastmod>2026-10-18</lastmod>
+    <lastmod>2026-10-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/video-to-text/"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/youtube-videosunu-yaziya-cevirme/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/youtube-video-in-text/"/>
@@ -131,7 +131,7 @@
   </url>
   <url>
     <loc>https://theverbi.com/tr/youtube-videosunu-yaziya-cevirme/</loc>
-    <lastmod>2026-10-18</lastmod>
+    <lastmod>2026-10-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/video-to-text/"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/youtube-videosunu-yaziya-cevirme/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/youtube-video-in-text/"/>
@@ -139,7 +139,7 @@
   </url>
   <url>
     <loc>https://theverbi.com/de/youtube-video-in-text/</loc>
-    <lastmod>2026-10-18</lastmod>
+    <lastmod>2026-10-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/video-to-text/"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/youtube-videosunu-yaziya-cevirme/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/youtube-video-in-text/"/>
@@ -147,27 +147,27 @@
   </url>
   <url>
     <loc>https://theverbi.com/tr/sesli-notlar-turkce-yaziya-dokme/</loc>
-    <lastmod>2026-10-18</lastmod>
+    <lastmod>2026-10-19</lastmod>
   </url>
   <url>
     <loc>https://theverbi.com/tr/otter-alternatifi/</loc>
-    <lastmod>2026-10-18</lastmod>
+    <lastmod>2026-10-19</lastmod>
   </url>
   <url>
     <loc>https://theverbi.com/tr/ses-kaydini-yaziya-ceviren-uygulamalar/</loc>
-    <lastmod>2026-10-18</lastmod>
+    <lastmod>2026-10-19</lastmod>
     <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/ses-kaydini-yaziya-ceviren-uygulamalar/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/sprachmemos-in-text-apps-vergleich/"/>
   </url>
   <url>
     <loc>https://theverbi.com/de/sprachmemos-in-text-apps-vergleich/</loc>
-    <lastmod>2026-10-18</lastmod>
+    <lastmod>2026-10-19</lastmod>
     <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/ses-kaydini-yaziya-ceviren-uygulamalar/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/sprachmemos-in-text-apps-vergleich/"/>
   </url>
   <url>
     <loc>https://theverbi.com/otter-alternative/</loc>
-    <lastmod>2026-10-18</lastmod>
+    <lastmod>2026-10-19</lastmod>
   </url>
   <url>
     <loc>https://theverbi.com/privacy-policy/</loc>
