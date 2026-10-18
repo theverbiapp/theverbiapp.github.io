@@ -40,6 +40,16 @@ Several unrelated language-learning apps are also called Verbi. This Verbi is th
 - [YouTube videosunu yazıya çevirme](https://theverbi.com/tr/youtube-videosunu-yaziya-cevirme/) (tr): YouTube linkini Verbi’ye yapıştırın, videodaki konuşmayı metin olarak alın; isterseniz özetini de. iPhone ve Android için, Türkçe dahil 39 dil, ücretsiz başlangıç.
 - [YouTube-Video in Text umwandeln](https://theverbi.com/de/youtube-video-in-text/) (de): Füge einen YouTube-Link in Verbi ein und bekomm das Gesprochene im Video als Text, auf Wunsch mit Zusammenfassung. Für iPhone und Android, 39 Sprachen, kostenlos starten.
 
+## Comparisons
+
+Facts about other apps come only from their own official pages, each linked on the page.
+
+- [iPhone Sesli Notlar Türkçe kaydı yazıya döker mi?](https://theverbi.com/tr/sesli-notlar-turkce-yaziya-dokme/) (tr): Apple’ın kılavuzuna göre Sesli Notlar’ın yazıya dökme dilleri arasında Türkçe yok. Türkçe bir Sesli Notlar kaydını Verbi’ye paylaşıp metne çevirmenin adımları.
+- [Türkçe için Otter alternatifi](https://theverbi.com/tr/otter-alternatifi/) (tr): Otter’ın desteklenen diller listesinde Türkçe yer almıyor (Ekim 2026). Türkçe toplantı, ders ve röportaj kayıtları için Verbi neler sunuyor, Otter kimlere uygun?
+- [Ses kaydını yazıya çeviren uygulamalar: Türkçe destekli seçenekler (2026)](https://theverbi.com/tr/ses-kaydini-yaziya-ceviren-uygulamalar/) (tr): Apple Sesli Notlar, Google Recorder, Otter, Notta, Transkriptor, TurboScribe, Plaud, Transcribe ve Verbi: Türkçe desteği, platformlar ve özellikler, resmî kaynaklarla.
+- [Sprachmemos in Text umwandeln: Apps im Vergleich (2026)](https://theverbi.com/de/sprachmemos-in-text-apps-vergleich/) (de): Apple Sprachmemos, Google Recorder, Otter, Notta, Transkriptor, TurboScribe, Plaud, Transcribe und Verbi: Deutsch, Plattformen, Import und KI-Zusammenfassung, mit Quellen.
+- [An Otter alternative for Turkish and 38 other languages](https://theverbi.com/otter-alternative/) (en): Turkish isn’t in Otter’s supported-languages list (October 2026). Verbi records and transcribes meetings, lectures and interviews in 39 languages on iPhone and Android.
+
 ## Get the app
 
 - [App Store (iPhone)](https://apps.apple.com/app/verbi/id6752242891)

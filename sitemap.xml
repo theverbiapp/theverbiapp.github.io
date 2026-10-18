@@ -146,6 +146,30 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/video-to-text/"/>
   </url>
   <url>
+    <loc>https://theverbi.com/tr/sesli-notlar-turkce-yaziya-dokme/</loc>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://theverbi.com/tr/otter-alternatifi/</loc>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://theverbi.com/tr/ses-kaydini-yaziya-ceviren-uygulamalar/</loc>
+    <lastmod>2026-10-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/ses-kaydini-yaziya-ceviren-uygulamalar/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/sprachmemos-in-text-apps-vergleich/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/de/sprachmemos-in-text-apps-vergleich/</loc>
+    <lastmod>2026-10-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/ses-kaydini-yaziya-ceviren-uygulamalar/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/sprachmemos-in-text-apps-vergleich/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/otter-alternative/</loc>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
     <loc>https://theverbi.com/privacy-policy/</loc>
   </url>
   <url>

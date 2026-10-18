@@ -1011,3 +1011,366 @@ Ja. Verbi transkribiert 39 Sprachen und erkennt die Sprache auch selbst. Mit Pro
 ### Gibt es eine Grenze für die Videolänge?
 
 Im kostenlosen Plan ja: Die Länge der Videos und die Zahl der Importe pro Monat sind begrenzt, und die App sagt dir Bescheid, wenn du eine Grenze erreichst. Verbi Pro erlaubt längere Videos und unbegrenzte Importe.
+
+---
+
+URL: https://theverbi.com/tr/sesli-notlar-turkce-yaziya-dokme/
+Language: tr
+Last updated: 2026-10-18
+
+# iPhone Sesli Notlar Türkçe kaydı yazıya döker mi?
+
+Apple’ın iPhone Kullanma Kılavuzu’na göre hayır: Sesli Notlar’ın yazıya dökme dilleri arasında Türkçe yer almıyor (iOS 27, 18 Ekim 2026 itibarıyla). Türkçe bir Sesli Notlar kaydını metne çevirmek için kaydı paylaşma menüsünden Verbi’ye gönderebilir ya da kaydı baştan Verbi’de alabilirsiniz. Verbi, iPhone ve Android’de Türkçe dahil 39 dilde yazıya döker; her ay 60 dakika transkripsiyonla ücretsiz başlarsınız.
+
+## Sesli Notlar hangi dilleri yazıya döküyor?
+
+Apple’ın [iPhone Kullanma Kılavuzu](https://support.apple.com/tr-tr/guide/iphone/iph00953a982/ios)’na göre Sesli Notlar’da döküm, iPhone 12 ve sonraki modellerde şu dillerde kullanılabiliyor: İngilizce (tüm varyantları), İspanyolca, Portekizce, İtalyanca, Fransızca, Almanca, Japonca, Korece, Basitleştirilmiş Çince ve Geleneksel Çince. Apple, özelliğin her ülkede veya bölgede kullanılamayabileceğini de belirtiyor.
+
+Türkçe bu listede yok; kılavuzun [İngilizce sürümü](https://support.apple.com/en-us/guide/iphone/iph00953a982/ios) de aynı dilleri sayıyor. Apple’ın [iOS özellik uygunluğu sayfasında](https://www.apple.com/ios/feature-availability/) Notlar uygulamasının ses dökümü listesinde de Türkçe yer almıyor. Bu listeler iOS güncellemeleriyle değişebilir; güncel durumu telefonunuzdaki iOS sürümünün kılavuz sayfasından kontrol edin.
+
+## Türkçe bir Sesli Notlar kaydı nasıl yazıya dökülür?
+
+1. Verbi’yi App Store’dan indirip açın. Ayarlar’da Transkripsiyon Dili’ni Türkçe yapın ya da Otomatik Algıla’da bırakın.
+2. Sesli Notlar’da kayda dokunun ve paylaşma menüsünü açın.
+3. Uygulamalar arasından Verbi’yi seçin. “Verbi’ye eklendi. Yazıya dökmek için uygulamayı açın.” yazısını görünce kayıt aktarılmış demektir.
+4. Verbi’yi açın. Kayıt ana ekranda içe aktarılır ve yazıya dökülmeye başlar; Pro kullanıyorsanız önce Konuşmacı Sayısı’nı seçersiniz. Uzun bir kayıt bitince Verbi bildirim gönderir.
+5. Metni okuyun, içinde arayın, kopyalayın ya da TXT veya PDF olarak dışa aktarın.
+
+## Sesli Notlar kaydını paylaşırken nelere dikkat etmeli?
+
+- Sesli Notlar kaydı standart bir ses dosyası olarak paylaşır; Verbi bu M4A dosyalarını okur.
+- Paylaşırken Seçenekler’de Düzenlenebilir’i seçmeyin: Apple’ın [dışa aktarma sayfasına](https://support.apple.com/tr-tr/guide/iphone/iph831c37815/ios) göre bu seçenek kaydı QuickTime Ses biçiminde dışa aktarır, Verbi ise bu biçimi okumaz.
+- Kayıt Dosyalar’da duruyorsa Verbi’de Dosya Yükle’ye dokunup dosyayı oradan da seçebilirsiniz.
+- İçe aktarılan kayıtlar da ücretsiz plandaki aylık 60 dakikadan düşer.
+
+## Türkçe kaydı doğrudan Verbi’de alabilir miyim?
+
+Evet. Verbi’de Kaydet ve Transkript Et’e dokunun; konuşurken kelimeleri ekranda görmek isterseniz Canlı Transkript’i seçin. Kayıt ne kadar uzun olursa olsun baştan sona yazıya dökülür.
+
+Metin hazır olunca dokuz şablondan biriyle yalnızca söyleneni içeren bir özet çıkarabilir, transkripte soru sorabilir, Pro’da konuşmacıları ayırabilir ve metni başka bir dile çevirebilirsiniz. Ayrıntılar [ders kaydı](/tr/ders-kaydi-yaziya-cevirme/), [toplantı notu](/tr/toplanti-notu-cikarma/) ve [röportaj deşifresi](/tr/roportaj-desifre/) rehberlerinde; diğer uygulamalarla karşılaştırma için [Türkçe destekli uygulamalar](/tr/ses-kaydini-yaziya-ceviren-uygulamalar/) sayfasına bakın.
+
+## Verbi’yi ücretsiz kullanabilir miyim?
+
+Evet. Verbi’yi indirmek ücretsiz; ücretsiz plan ayda 60 dakika transkripsiyon, 15 gün saklanan kayıtlar ve ilk yapay zekâ özetini içerir. Verbi Pro sınırları kaldırır; uygulama, abone olmadan önce fiyatı kendi para biriminizde gösterir. Kayıtlarınız ve transkriptleriniz telefonunuzda kalır; ses yalnızca metne dönüştürülmek için transkripsiyon servisine gönderilir.
+
+## Sık sorulan sorular
+
+### iPhone Sesli Notlar Türkçe konuşmayı yazıya döker mi?
+
+Apple’ın iPhone Kullanma Kılavuzu’nda (iOS 27) Sesli Notlar’ın yazıya dökme dilleri arasında Türkçe yer almıyor (18 Ekim 2026 itibarıyla). Listede İngilizce, İspanyolca, Portekizce, İtalyanca, Fransızca, Almanca, Japonca, Korece ve Çince var. Liste iOS güncellemeleriyle değişebilir.
+
+### Paylaştığım kayıt ne zaman yazıya dökülür?
+
+Verbi’yi açtığınızda. Paylaşma menüsü kaydı yalnızca Verbi’ye ekler; içe aktarma ve yazıya dökme, uygulama açılınca başlar.
+
+### Verbi hangi dosya biçimlerini okuyor?
+
+Sesli Notlar’ın paylaştığı M4A’nın yanında MP3, WAV, AAC, AIFF, CAF ve FLAC ses dosyalarını; MP4, MOV ve M4V videolarını. Videolarda Verbi yalnızca sesi yazıya döker.
+
+### Verbi Android’de de var mı?
+
+Evet. Verbi iPhone için App Store’da, Android için Google Play’de.
+
+## Kaynaklar
+
+Bu sayfadaki diğer uygulamalara ait bilgiler 18 Ekim 2026 tarihinde resmî sayfalarından, yardım merkezlerinden ve mağaza kayıtlarından kontrol edildi. Uygulamalar güncellendikçe değişebilir.
+
+- Apple Destek: [iPhone’da bir Sesli Notlar dökümünü görüntüleme](https://support.apple.com/tr-tr/guide/iphone/iph00953a982/ios)
+- Apple Support: [View a Voice Memos transcription on iPhone](https://support.apple.com/en-us/guide/iphone/iph00953a982/ios) (İngilizce)
+- Apple Destek: [iPhone’da Sesli Notlar kaydını Dosyalar’a aktarma](https://support.apple.com/tr-tr/guide/iphone/iph831c37815/ios)
+- Apple: [iOS and iPadOS 27 – Feature Availability](https://www.apple.com/ios/feature-availability/)
+
+---
+
+URL: https://theverbi.com/tr/otter-alternatifi/
+Language: tr
+Last updated: 2026-10-18
+
+# Türkçe için Otter alternatifi
+
+Türkçe kayıtlarla çalışıyorsanız önce dil listesine bakın: Otter’ın yardım merkezindeki desteklenen diller listesinde Türkçe yer almıyor (18 Ekim 2026 itibarıyla). Verbi, iPhone ve Android için bir yapay zekâ ses kaydedici ve not alma uygulaması: toplantıyı, dersi ya da röportajı telefonla kaydeder, Türkçe dahil 39 dilde yazıya döker ve yalnızca söyleneni içeren özetler çıkarır. Her ay 60 dakika transkripsiyonla ücretsiz başlarsınız.
+
+## Otter Türkçe destekliyor mu?
+
+Otter’ın yardım merkezindeki [Supported languages](https://help.otter.ai/hc/en-us/articles/360047247414-Supported-languages) makalesi İngilizce, İspanyolca, Fransızca, Almanca, Japonca ve Basitleştirilmiş Çinceyi sayıyor; Türkçe bu listede yer almıyor. Makale 15 Ekim 2026’da güncellenmiş, biz 18 Ekim 2026’da kontrol ettik. Dil listeleri zamanla değişebilir; karar vermeden önce güncel durumu Otter’ın sayfasından kontrol edin.
+
+## Türkçe kayıtlar için Verbi neler sunuyor?
+
+- Türkçe dahil 39 dilde transkripsiyon ve otomatik dil algılama; uygulamanın arayüzü de Türkçe.
+- Her uzunlukta kayıt, baştan sona yazıya dökülür; konuşurken metni görmek için Canlı Transkript.
+- Konuşmacı ayrımı ve isimlendirme (Pro): kimin ne dediğini görürsünüz.
+- Dokuz şablonla özet: Genel Toplantı, 1’e 1 Toplantı, Aksiyon Maddeleri ya da Ders Notu gibi. Özet yalnızca söyleneni içerir; sorumlu ve tarih yalnızca biri söylediyse yer alır.
+- Transkriptle sohbet, Pro’da çeviri ve isimler, kısaltmalar için Özel Sözlük.
+- Ses dosyası içe aktarma, başka uygulamalardan paylaşma ya da video linki yapıştırma; TXT veya PDF olarak dışa aktarma.
+
+## Otter ile Verbi arasında ne fark var?
+
+| Özellik | Otter | Verbi |
+| --- | --- | --- |
+| Platformlar | iOS, Android, web, masaüstü (Mac, Windows) | iPhone, Android |
+| Türkçe yazıya dökme | Desteklenen diller listesinde yok | Var |
+| Telefonda kayıt | Var, uygulamada canlı kayıt | Var: Kaydet ve Transkript Et ya da Canlı Transkript |
+| Ses ve video dosyası içe aktarma | Var (web, iOS, Android) | Var; başka uygulamalardan paylaşma ve video linki de |
+| Yapay zekâ özeti | Var | Var, dokuz şablonla |
+
+Otter bilgileri Otter’ın yardım merkezinden ve mağaza sayfalarından alındı (18 Ekim 2026). Verbi görüntülü görüşmelere bot olarak katılmaz, telefonun mikrofonuyla kaydeder; kayıtlar ve transkriptler telefonda kalır.
+
+## Kimler yine de Otter’ı tercih edebilir?
+
+Toplantılarınız İngilizce ya da Otter’ın listesindeki dillerden birinde geçiyorsa ve kayıtlarla tarayıcıda ya da bilgisayarda (Mac, Windows) çalışmak istiyorsanız Otter iş akışınıza uygun olabilir. Verbi yalnızca iPhone ve Android uygulaması olarak var; web ya da masaüstü sürümü yok.
+
+Türkçe ya da başka dillerde geçen toplantıları, dersleri ve röportajları telefonla kaydediyorsanız Verbi’yi ücretsiz planla gerçek bir kayıtta deneyebilirsiniz. Adımlar için [toplantı notu](/tr/toplanti-notu-cikarma/) ve [röportaj deşifresi](/tr/roportaj-desifre/) rehberlerine, diğer seçenekler için [Türkçe destekli uygulamaların karşılaştırmasına](/tr/ses-kaydini-yaziya-ceviren-uygulamalar/) bakın.
+
+## Sık sorulan sorular
+
+### Otter Türkçe toplantıları yazıya döker mi?
+
+Otter’ın yardım merkezindeki desteklenen diller listesinde Türkçe yer almıyor (18 Ekim 2026 itibarıyla). Listede İngilizce, İspanyolca, Fransızca, Almanca, Japonca ve Basitleştirilmiş Çince var.
+
+### Verbi görüntülü görüşmeye bot olarak mı katılıyor?
+
+Hayır. Verbi telefonunuzun mikrofonuyla kaydeder; görüşmenize hiçbir şey katılmaz. Çevrim içi toplantılarda telefonu hoparlöre yakın tutun.
+
+### Elimdeki bir toplantı kaydını Verbi’de yazıya dökebilir miyim?
+
+Evet. Verbi’de Dosya Yükle’ye dokunup dosyayı seçin ya da kaydı bulunduğu uygulamadan Verbi’ye paylaşın. İçe aktarılan dosyalar da aylık dakikalarınızdan düşer.
+
+### Verbi ücretsiz mi?
+
+Verbi’yi indirmek ücretsiz. Ücretsiz plan ayda 60 dakika transkripsiyon, 15 gün saklanan kayıtlar ve ilk yapay zekâ özetini içerir. Verbi Pro isteğe bağlı bir abonelik; fiyatını abone olmadan önce uygulamada görürsünüz.
+
+## Kaynaklar
+
+Bu sayfadaki diğer uygulamalara ait bilgiler 18 Ekim 2026 tarihinde resmî sayfalarından, yardım merkezlerinden ve mağaza kayıtlarından kontrol edildi. Uygulamalar güncellendikçe değişebilir.
+
+- Otter Help Center: [Supported languages](https://help.otter.ai/hc/en-us/articles/360047247414-Supported-languages)
+- Otter Help Center: [Otter Desktop App (Mac, Windows)](https://help.otter.ai/hc/en-us/articles/35973988280215-Otter-Desktop-App-Mac-Windows)
+- Otter Help Center: [Import an audio or video file](https://help.otter.ai/hc/en-us/articles/360047733574-Import-an-audio-or-video-file)
+- Otter Help Center: [Meeting Summary Overview](https://help.otter.ai/hc/en-us/articles/9156381229079-Meeting-Summary-Overview)
+- Otter: [App Store kaydı](https://apps.apple.com/us/app/otter-transcribe-voice-notes/id1276437113) ve [Google Play kaydı](https://play.google.com/store/apps/details?id=com.aisense.otter)
+
+---
+
+URL: https://theverbi.com/tr/ses-kaydini-yaziya-ceviren-uygulamalar/
+Language: tr
+Last updated: 2026-10-18
+
+# Ses kaydını yazıya çeviren uygulamalar: Türkçe destekli seçenekler (2026)
+
+Satıcıların kendi dil listelerine göre Türkçe ses kaydını yazıya döken uygulamalar arasında Notta, Transkriptor, TurboScribe, Plaud, DENIVIP’in Transcribe – Speech to Text uygulaması ve Verbi var. Apple Sesli Notlar’ın ve Otter’ın listelerinde Türkçe yer almıyor; Google Recorder ise Türkçeyi yalnızca yeniden yazıya dökme için listeliyor. Aşağıdaki tablo, 18 Ekim 2026’da resmî sayfalardan kontrol edilen bilgileri özetliyor.
+
+## Hangi uygulamalar Türkçe ses kaydını yazıya döküyor?
+
+| Uygulama | Platformlar | Türkçe yazıya dökme | Telefonda yüz yüze kayıt | Dosya içe aktarma | Yapay zekâ özeti |
+| --- | --- | --- | --- | --- | --- |
+| Apple Sesli Notlar | iPhone, iPad, Mac | Listede yok¹ | Var | — | Kısmen: Apple Intelligence Yazma Araçları ile² |
+| Google Recorder | Pixel telefonlar, Pixel Tablet, Pixel Watch; yedeklenen kayıtlar web’de | Yalnızca yeniden yazıya dökmede (“Transcribe again”)³ | Var | — | Var (Pixel 8 ve sonrası); Türkçe özet dilleri listesinde yok |
+| Otter | iOS, Android, web, masaüstü (Mac, Windows) | Listede yok | Var | Var | Var |
+| Notta | iOS, Android, web, masaüstü (Windows, macOS) | Var | Var | Var | Var |
+| Transkriptor | iOS, Android, web, Chrome eklentisi, masaüstü (Windows, macOS) | Var | Var | Var | Var |
+| TurboScribe | Web tabanlı | Var | Kısmen: tarayıcıda mikrofonla kayıt | Var | Kısmen: ChatGPT entegrasyonu (TurboScribe GPT) üzerinden |
+| Plaud | Plaud kayıt cihazları; iOS ve Android uygulaması, web, masaüstü | Var | Kayıt Plaud cihazıyla yapılır | Var | Var |
+| Transcribe – Speech to Text (DENIVIP · App Store id1241342461) | iPhone, iPad, macOS, web | Var | Var | Var | Var |
+| Verbi | iPhone, Android | Var | Var, canlı transkript dahil | Var; başka uygulamalardan paylaşma ve video linki de | Var: dokuz şablon, yalnızca söylenene dayanır |
+
+— Kaynakta belirtilmiyor.
+
+¹ Apple’ın iPhone Kullanma Kılavuzu’ndaki (iOS 27) Sesli Notlar döküm dilleri listesinde Türkçe yok. ² iOS 27’de iPhone 15 Pro, iPhone 15 Pro Max ya da iPhone 16 ve sonrası gerekir. ³ Google’ın anlık yazıya dökme listesinde Türkçe yok.
+
+## iPhone’da Sesli Notlar Türkçe kaydı yazıya döker mi?
+
+Apple’ın [iPhone Kullanma Kılavuzu](https://support.apple.com/tr-tr/guide/iphone/iph00953a982/ios)’na göre Sesli Notlar iPhone 12 ve sonraki modellerde İngilizce, İspanyolca, Portekizce, İtalyanca, Fransızca, Almanca, Japonca, Korece ve Çince kayıtların dökümünü çıkarıyor; Türkçe bu listede yok. Türkçe bir Sesli Notlar kaydını paylaşma menüsüyle başka bir uygulamaya göndererek yazıya dökebilirsiniz. Verbi’yle nasıl yapılacağını [Sesli Notlar rehberinde](/tr/sesli-notlar-turkce-yaziya-dokme/) adım adım anlattık.
+
+## Türkçe kayıt için hangi uygulamayı seçmeli?
+
+Cevap, ne kaydettiğinize ve hangi cihazda çalıştığınıza bağlı. Tablodaki bilgilere göre:
+
+- Telefonla yüz yüze kayıt alıp Türkçe metin istiyorsanız: Notta, Transkriptor, DENIVIP’in Transcribe’ı ve Verbi uygulama içinde kaydediyor.
+- Android kullanıyorsanız: Notta, Transkriptor, Plaud ve Verbi’nin Android uygulaması var. Pixel’de Google Recorder Türkçeyi yeniden yazıya dökme için listeliyor.
+- Ayrı bir kayıt cihazı istiyorsanız: Plaud kendi cihazlarıyla kaydedip uygulamasında yazıya döküyor.
+- Dosyaları bilgisayardan yüklemek istiyorsanız: TurboScribe web tabanlı; Notta, Transkriptor, Plaud ve Transcribe’ın da web sürümü var.
+- Yalnızca Apple’ın listesindeki dillerde, örneğin İngilizce kayıt alıyorsanız: Apple’ın Sesli Notlar uygulaması iPhone 12 ve sonrasında döküm çıkarıyor.
+- Toplantılarınız İngilizce ya da Otter’ın listesindeki bir dilde geçiyorsa: Otter da seçenekler arasında; ayrıntılar [Otter alternatifi](/tr/otter-alternatifi/) sayfasında.
+
+## Verbi Türkçe kayıtlarda neler sunuyor?
+
+Verbi, iPhone ve Android için bir yapay zekâ ses kaydedici ve not alma uygulaması. Türkçe dahil 39 dilde yazıya döker ve dili kendisi algılayabilir; her uzunluktaki kaydı baştan sona metne çevirir, konuşurken Canlı Transkript gösterir. Pro’da konuşmacıları ayırır ve metni başka dillere çevirir. Özetler dokuz şablondan biriyle, yalnızca söylenene dayanarak çıkarılır; transkriptle sohbet edebilir, metni TXT veya PDF olarak dışa aktarabilirsiniz.
+
+Ücretsiz plan ayda 60 dakika transkripsiyon, 15 gün saklanan kayıtlar ve ilk yapay zekâ özetini içerir. Kayıtlarınız ve transkriptleriniz telefonunuzda kalır. Kullanım örnekleri için [ses kaydı](/tr/ses-kaydini-yaziya-cevirme/), [ders kaydı](/tr/ders-kaydi-yaziya-cevirme/) ve [toplantı notu](/tr/toplanti-notu-cikarma/) rehberlerine bakın.
+
+## Sık sorulan sorular
+
+### Ücretsiz ses kaydını yazıya çeviren uygulama var mı?
+
+Planlar ve fiyatlar sık değiştiği için bu sayfada başka uygulamaların planlarına yer vermiyoruz; güncel bilgi için her uygulamanın kendi sayfasına bakın. Verbi’nin ücretsiz planı ayda 60 dakika transkripsiyon, 15 gün saklanan kayıtlar ve ilk yapay zekâ özetini içerir.
+
+### Bu tablo ne kadar güncel?
+
+Bilgiler 18 Ekim 2026’da her uygulamanın resmî sayfasından, yardım merkezinden ya da mağaza kaydından kontrol edildi. Uygulamalar güncellendikçe değişebilir; kaynaklar sayfanın sonunda.
+
+### Bu karşılaştırmayı kim hazırladı?
+
+Verbi’nin ekibi. Diğer uygulamalar için tabloda yalnızca kendi resmî sayfalarında yazan bilgileri kullandık; kaynakta bulamadığımız hücreleri “—” olarak bıraktık.
+
+## Kaynaklar
+
+Bu sayfadaki diğer uygulamalara ait bilgiler 18 Ekim 2026 tarihinde resmî sayfalarından, yardım merkezlerinden ve mağaza kayıtlarından kontrol edildi. Uygulamalar güncellendikçe değişebilir.
+
+- Apple Sesli Notlar: [döküm dilleri](https://support.apple.com/tr-tr/guide/iphone/iph00953a982/ios), [kayıt ve aygıtlar](https://support.apple.com/en-us/guide/iphone/iph4d2a39a3b/ios)
+- Google Recorder: [diller ve özet](https://support.google.com/pixelphone/answer/16267698?hl=en), [aygıtlar ve web](https://support.google.com/pixelphone/answer/16267668?hl=en), [kayıt](https://support.google.com/pixelphone/answer/16267367?hl=en), [Google Play](https://play.google.com/store/apps/details?id=com.google.android.apps.recorder)
+- Otter: [desteklenen diller](https://help.otter.ai/hc/en-us/articles/360047247414-Supported-languages), [masaüstü uygulaması](https://help.otter.ai/hc/en-us/articles/35973988280215-Otter-Desktop-App-Mac-Windows), [dosya içe aktarma](https://help.otter.ai/hc/en-us/articles/360047733574-Import-an-audio-or-video-file), [toplantı özeti](https://help.otter.ai/hc/en-us/articles/9156381229079-Meeting-Summary-Overview), [App Store](https://apps.apple.com/us/app/otter-transcribe-voice-notes/id1276437113), [Google Play](https://play.google.com/store/apps/details?id=com.aisense.otter)
+- Notta: [desteklenen ortamlar](https://support.notta.ai/hc/en-us/articles/18119588493467-Supported-environments), [diller](https://support.notta.ai/hc/en-us/articles/4403155631131-What-languages-does-Notta-support), [uygulamada kayıt](https://support.notta.ai/hc/en-us/articles/17604467003803-Introduction-about-Notta-App), [dosya içe aktarma](https://support.notta.ai/hc/en-us/articles/15358519267611-Import-files-from-local-storage), [App Store](https://apps.apple.com/us/app/notta-transcribe-voice-to-text/id1480649572), [Google Play](https://play.google.com/store/apps/details?id=com.langogo.transcribe)
+- Transkriptor: [diller ve özet](https://transkriptor.com/), [masaüstü uygulaması](https://transkriptor.com/desktop-app/), [App Store](https://apps.apple.com/us/app/transkriptor-speech-to-text/id1610386353), [Google Play](https://play.google.com/store/apps/details?id=com.transkriptor.app)
+- TurboScribe: [diller](https://turboscribe.ai/), [mobil kullanım](https://turboscribe.ai/help/does-turboscribe-have-a-mobile-app), [tarayıcıda kayıt](https://turboscribe.ai/u/transcribe-voice-memos), [dosya yükleme](https://turboscribe.ai/blog/getting-started-with-turboscribe), [TurboScribe GPT](https://turboscribe.ai/blog/turboscribe-gpt-transcribe-and-chat)
+- Plaud: [uygulama](https://support.plaud.ai/hc/en-us/articles/50825458604569-Download-the-Plaud-App), [masaüstü](https://support.plaud.ai/hc/en-us/articles/53792807283225-Download-the-Plaud-Desktop), [diller](https://support.plaud.ai/hc/en-us/articles/53422487420953-How-many-languages-does-Plaud-support-for-transcription), [uygulamadan kayıt](https://support.plaud.ai/hc/en-us/articles/50594418855321-Record-through-the-Plaud-App), [ses içe aktarma](https://support.plaud.ai/hc/en-us/articles/50609466994713-Audio-import), [özetler](https://support.plaud.ai/hc/en-us/articles/50636073405081-Multidimensional-summaries), [App Store](https://apps.apple.com/us/app/plaud-ai-note-taker/id6450364080)
+- Transcribe – Speech to Text (DENIVIP): [App Store id1241342461](https://apps.apple.com/us/app/transcribe-speech-to-text/id1241342461), [transcribe.com](https://transcribe.com/), [yardım merkezi](https://transcribe.com/help-center)
+
+---
+
+URL: https://theverbi.com/de/sprachmemos-in-text-apps-vergleich/
+Language: de
+Last updated: 2026-10-18
+
+# Sprachmemos in Text umwandeln: Apps im Vergleich (2026)
+
+Auf dem iPhone transkribiert schon die Sprachmemos-App Deutsch: Laut Apples iPhone-Benutzerhandbuch geht das ab dem iPhone 12. Ob du zusätzlich eine andere App brauchst, hängt davon ab, was du aufnimmst und was du danach mit dem Text vorhast, etwa bei einer Vorlesung, einer Besprechung oder einem Interview. Die Tabelle zeigt, was die Anbieter auf ihren eigenen Seiten angeben, Stand 18. Oktober 2026.
+
+## Kann die Sprachmemos-App auf dem iPhone Deutsch transkribieren?
+
+Ja. Laut Apples [iPhone-Benutzerhandbuch](https://support.apple.com/de-de/guide/iphone/iph00953a982/ios) gibt es die Transkription in Sprachmemos ab dem iPhone 12 auf Englisch, Spanisch, Portugiesisch, Italienisch, Französisch, Deutsch, Japanisch, Koreanisch und Chinesisch (vereinfacht und traditionell). Apple weist darauf hin, dass die Funktion nicht in allen Ländern oder Regionen verfügbar ist.
+
+## Welche Apps wandeln Sprachaufnahmen in Text um?
+
+| App | Plattformen | Deutsch transkribieren | Aufnahme mit dem Handy | Datei-Import | KI-Zusammenfassung |
+| --- | --- | --- | --- | --- | --- |
+| Apple Sprachmemos | iPhone, iPad, Mac | Ja (ab iPhone 12) | Ja | — | Teilweise: mit den Schreibtools von Apple Intelligence¹ |
+| Google Recorder | Pixel-Smartphones, Pixel Tablet, Pixel Watch; gesicherte Aufnahmen im Browser | Ja, live und mit „Transcribe again“ | Ja | — | Ja (ab Pixel 8), auch auf Deutsch |
+| Otter | iOS, Android, Web, Desktop (Mac, Windows) | Ja, als Beta gekennzeichnet | Ja | Ja | Ja |
+| Notta | iOS, Android, Web, Desktop (Windows, macOS) | Ja | Ja | Ja | Ja |
+| Transkriptor | iOS, Android, Web, Chrome-Erweiterung, Desktop (Windows, macOS) | Ja | Ja | Ja | Ja |
+| TurboScribe | Webbasiert | Ja | Teilweise: Aufnahme im Browser per Mikrofon | Ja | Teilweise: über die ChatGPT-Integration (TurboScribe GPT) |
+| Plaud | Plaud-Aufnahmegeräte; App für iOS und Android, Web, Desktop | Ja | Aufnahme mit dem Plaud-Gerät | Ja | Ja |
+| Transcribe – Speech to Text (DENIVIP · App-Store-ID 1241342461) | iPhone, iPad, macOS, Web | Ja | Ja | Ja | Ja |
+| Verbi | iPhone, Android | Ja | Ja, auch mit Live-Transkription | Ja, auch Teilen aus anderen Apps und Videolinks | Ja: neun Vorlagen, nur das Gesagte |
+
+— In der Quelle nicht angegeben.
+
+¹ Unter iOS 27 mit iPhone 15 Pro, iPhone 15 Pro Max oder iPhone 16 und neuer.
+
+## Welche App passt zu Vorlesung, Besprechung oder Interview?
+
+Das hängt vor allem von deiner Situation ab. Nach den Angaben in der Tabelle:
+
+- Vorlesung: Infrage kommen alle Apps mit „Ja“ in der Spalte „Aufnahme mit dem Handy“; Plaud nimmt mit einem eigenen Gerät auf. Verbi hat dafür die Vorlage „Lernnotizen“, die nur enthält, was in der Vorlesung gesagt wurde.
+- Besprechung: Arbeitest du viel im Browser oder am Rechner, bieten Otter, Notta, Transkriptor und Plaud Web- und Desktop-Versionen. Verbi nimmt über das Handy-Mikrofon auf und tritt keinem Videocall bei.
+- Interview, etwa für die Bachelorarbeit: Hast du mit einem anderen Gerät aufgenommen, brauchst du den Datei-Import. Mit Pro trennt Verbi die Sprecher, und du gibst jeder Stimme einen Namen.
+- Pixel-Handy: Google Recorder transkribiert Deutsch live und fasst ab dem Pixel 8 auch zusammen.
+- Lieber am Computer: TurboScribe ist webbasiert; Transcribe von DENIVIP gibt es auch für macOS und im Web.
+- Datenschutz: Wo Aufnahmen gespeichert werden, steht auf den Datenschutzseiten der Anbieter. Bei Verbi bleiben Aufnahmen und Transkripte auf dem Handy.
+
+## Was bietet Verbi für Aufnahmen auf Deutsch?
+
+Verbi ist ein KI-Diktiergerät und eine Notiz-App für iPhone und Android. Die App transkribiert Aufnahmen jeder Länge vollständig, in 39 Sprachen inklusive Deutsch; mit „Live-Transkription“ siehst du den Text schon beim Sprechen.
+
+Zusammenfassungen aus neun Vorlagen enthalten nur, was gesagt wurde. Dazu kommen ein Chat mit dem Transkript, Übersetzung (Pro) und Export als TXT oder PDF. Der kostenlose Plan enthält 60 Minuten Transkription pro Monat, 15 Tage Speicherung und die erste KI-Zusammenfassung. Mehr dazu in den Anleitungen zu [Sprachmemos](/de/sprachmemo-in-text/), [Vorlesungen](/de/vorlesung-aufnehmen-transkribieren/), [Besprechungen](/de/besprechungsprotokoll-ki/) und [Interviews](/de/interview-transkribieren/).
+
+## Häufige Fragen
+
+### Welche App wandelt Sprachmemos auf Deutsch in Text um?
+
+Laut den Anbieterseiten transkribieren alle Apps in der Tabelle Deutsch, bei Otter als Beta gekennzeichnet. Auf dem iPhone kann das ab dem iPhone 12 auch die Sprachmemos-App (Stand 18. Oktober 2026).
+
+### Kann ich Sprachmemos kostenlos in Text umwandeln?
+
+Preise und Gratis-Kontingente anderer Anbieter nennen wir nicht, weil sie sich oft ändern. Verbi kannst du kostenlos herunterladen; der kostenlose Plan enthält 60 Minuten Transkription pro Monat.
+
+### Wie bekomme ich eine Aufnahme aus Sprachmemos in Verbi?
+
+Tippe in Sprachmemos auf die Aufnahme, öffne das Teilen-Menü und wähle Verbi. Sobald du Verbi öffnest, wird die Aufnahme importiert und transkribiert.
+
+### Wer hat diesen Vergleich erstellt?
+
+Das Team hinter Verbi. Für die anderen Apps stehen in der Tabelle nur Angaben von deren offiziellen Seiten; was dort fehlt, ist mit „—“ markiert.
+
+## Quellen
+
+Die Angaben zu anderen Apps auf dieser Seite stammen von deren offiziellen Seiten, Hilfecentern und Store-Einträgen und wurden am 18. Oktober 2026 geprüft. Sie können sich mit Updates ändern.
+
+- Apple Sprachmemos: [Transkriptionssprachen](https://support.apple.com/de-de/guide/iphone/iph00953a982/ios), [Aufnahme und Geräte](https://support.apple.com/en-us/guide/iphone/iph4d2a39a3b/ios)
+- Google Recorder: [Sprachen und Zusammenfassungen](https://support.google.com/pixelphone/answer/16267698?hl=en), [Geräte und Web](https://support.google.com/pixelphone/answer/16267668?hl=en), [Aufnahme](https://support.google.com/pixelphone/answer/16267367?hl=en), [Google Play](https://play.google.com/store/apps/details?id=com.google.android.apps.recorder)
+- Otter: [unterstützte Sprachen](https://help.otter.ai/hc/en-us/articles/360047247414-Supported-languages), [Deutsch (Beta)](https://help.otter.ai/hc/en-us/articles/26660468516631-Transcribe-conversations-in-English-Spanish-French-German-Japanese-or-Chinese-Simplified), [Desktop-App](https://help.otter.ai/hc/en-us/articles/35973988280215-Otter-Desktop-App-Mac-Windows), [Datei-Import](https://help.otter.ai/hc/en-us/articles/360047733574-Import-an-audio-or-video-file), [Zusammenfassung](https://help.otter.ai/hc/en-us/articles/9156381229079-Meeting-Summary-Overview), [App Store](https://apps.apple.com/us/app/otter-transcribe-voice-notes/id1276437113), [Google Play](https://play.google.com/store/apps/details?id=com.aisense.otter)
+- Notta: [unterstützte Umgebungen](https://support.notta.ai/hc/en-us/articles/18119588493467-Supported-environments), [Sprachen](https://support.notta.ai/hc/en-us/articles/4403155631131-What-languages-does-Notta-support), [Aufnahme in der App](https://support.notta.ai/hc/en-us/articles/17604467003803-Introduction-about-Notta-App), [Datei-Import](https://support.notta.ai/hc/en-us/articles/15358519267611-Import-files-from-local-storage), [App Store](https://apps.apple.com/us/app/notta-transcribe-voice-to-text/id1480649572), [Google Play](https://play.google.com/store/apps/details?id=com.langogo.transcribe)
+- Transkriptor: [Sprachen und Zusammenfassung](https://transkriptor.com/), [Desktop-App](https://transkriptor.com/desktop-app/), [App Store](https://apps.apple.com/us/app/transkriptor-speech-to-text/id1610386353), [Google Play](https://play.google.com/store/apps/details?id=com.transkriptor.app)
+- TurboScribe: [Sprachen](https://turboscribe.ai/), [Nutzung auf dem Handy](https://turboscribe.ai/help/does-turboscribe-have-a-mobile-app), [Aufnahme im Browser](https://turboscribe.ai/u/transcribe-voice-memos), [Datei-Upload](https://turboscribe.ai/blog/getting-started-with-turboscribe), [TurboScribe GPT](https://turboscribe.ai/blog/turboscribe-gpt-transcribe-and-chat)
+- Plaud: [App](https://support.plaud.ai/hc/en-us/articles/50825458604569-Download-the-Plaud-App), [Desktop](https://support.plaud.ai/hc/en-us/articles/53792807283225-Download-the-Plaud-Desktop), [Sprachen](https://support.plaud.ai/hc/en-us/articles/53422487420953-How-many-languages-does-Plaud-support-for-transcription), [Aufnahme über die App](https://support.plaud.ai/hc/en-us/articles/50594418855321-Record-through-the-Plaud-App), [Audio-Import](https://support.plaud.ai/hc/en-us/articles/50609466994713-Audio-import), [Zusammenfassungen](https://support.plaud.ai/hc/en-us/articles/50636073405081-Multidimensional-summaries), [App Store](https://apps.apple.com/us/app/plaud-ai-note-taker/id6450364080)
+- Transcribe – Speech to Text (DENIVIP): [App Store, ID 1241342461](https://apps.apple.com/us/app/transcribe-speech-to-text/id1241342461), [transcribe.com](https://transcribe.com/), [Hilfecenter](https://transcribe.com/help-center)
+
+---
+
+URL: https://theverbi.com/otter-alternative/
+Language: en
+Last updated: 2026-10-18
+
+# An Otter alternative for Turkish and 38 other languages
+
+Check the language list first: Otter’s help center names English, Spanish, French, German, Japanese and Simplified Chinese as its supported languages, and Turkish isn’t among them (as of October 18, 2026). Verbi is an AI voice recorder and note taker for iPhone and Android that transcribes 39 languages, among them Turkish, Arabic, Italian and Portuguese, and writes summaries that contain only what was said. It’s free to start, with 60 minutes of transcription a month.
+
+## Which languages does Otter support?
+
+Otter’s help center article [Supported languages](https://help.otter.ai/hc/en-us/articles/360047247414-Supported-languages) names English, Spanish, French, German, Japanese and Simplified Chinese; [a second article](https://help.otter.ai/hc/en-us/articles/26660468516631-Transcribe-conversations-in-English-Spanish-French-German-Japanese-or-Chinese-Simplified) marks German as beta. Otter last updated the list on October 15, 2026, and we checked it on October 18, 2026. Language lists change, so look at Otter’s page for the current state before you decide.
+
+## What does Verbi offer for meetings in other languages?
+
+- Transcription in 39 languages with automatic language detection, among them English, Turkish, Arabic, German, Spanish, French, Italian, Portuguese, Japanese and Chinese.
+- Recordings of any length, transcribed from start to finish, and Live Transcription while people speak.
+- Speaker detection with names (Pro), so you can see who said what.
+- Summaries from nine templates, such as General Meeting, 1:1 Meeting and Action Items. They contain only what was said; owners and due dates appear only when someone stated them.
+- Chat with the transcript, translation (Pro) and Custom Vocabulary for names and acronyms.
+- Import audio files, share audio from other apps or paste a video link; export as TXT or PDF.
+
+## How do Otter and Verbi compare?
+
+| Feature | Otter | Verbi |
+| --- | --- | --- |
+| Platforms | iOS, Android, web, desktop (Mac, Windows) | iPhone, Android |
+| Turkish transcription | Not in the supported-languages list | Yes |
+| Recording on the phone | Yes, live recording in the app | Yes: Record & Transcribe or Live Transcription |
+| Audio or video file import | Yes (web, iOS, Android) | Yes, plus sharing from other apps and video links |
+| AI summary | Yes | Yes, from nine templates |
+
+Otter details come from its help center and store listings, checked on October 18, 2026. Verbi records through the phone’s microphone and doesn’t join video calls as a bot; recordings and transcripts stay on the phone.
+
+## When might Otter be the right fit?
+
+If your meetings are in English or another language on Otter’s list, and you want to work with recordings in a browser or on a Mac or Windows computer, Otter may suit your workflow. Verbi is a phone app for iPhone and Android only; it has no web or desktop version.
+
+If your meetings, lectures or interviews are in Turkish, Arabic or another language outside Otter’s list, try Verbi on a real recording with the free plan. The guides to [AI meeting notes](/ai-meeting-notes/) and [interview transcription](/interview-transcription/) walk through the steps.
+
+## Frequently asked questions
+
+### Does Otter support Turkish?
+
+Turkish isn’t in the supported-languages list in Otter’s help center (as of October 18, 2026). The list names English, Spanish, French, German (marked beta), Japanese and Simplified Chinese.
+
+### Does Verbi join video calls as a bot?
+
+No. Verbi records through your phone’s microphone, so nothing joins your call. For an online meeting, keep the phone near your speaker.
+
+### Can Verbi transcribe a recording I already have?
+
+Yes. Tap Upload File in Verbi and pick the file, or share it to Verbi from the app it’s in. Imported files count toward the same monthly minutes.
+
+### Is Verbi free?
+
+Verbi is free to download. The free plan includes 60 minutes of transcription a month, recordings kept for 15 days and your first AI summary. Verbi Pro is an optional subscription; the app shows the price before you subscribe.
+
+## Sources
+
+Details about other apps on this page come from their official pages, help centers and store listings, checked on October 18, 2026. They can change as the apps are updated.
+
+- Otter Help Center: [Supported languages](https://help.otter.ai/hc/en-us/articles/360047247414-Supported-languages)
+- Otter Help Center: [Transcribe conversations in English, Spanish, French, German, Japanese, or Chinese (Simplified)](https://help.otter.ai/hc/en-us/articles/26660468516631-Transcribe-conversations-in-English-Spanish-French-German-Japanese-or-Chinese-Simplified)
+- Otter Help Center: [Otter Desktop App (Mac, Windows)](https://help.otter.ai/hc/en-us/articles/35973988280215-Otter-Desktop-App-Mac-Windows)
+- Otter Help Center: [Import an audio or video file](https://help.otter.ai/hc/en-us/articles/360047733574-Import-an-audio-or-video-file)
+- Otter Help Center: [Meeting Summary Overview](https://help.otter.ai/hc/en-us/articles/9156381229079-Meeting-Summary-Overview)
+- Otter on the [App Store](https://apps.apple.com/us/app/otter-transcribe-voice-notes/id1276437113) and [Google Play](https://play.google.com/store/apps/details?id=com.aisense.otter)
