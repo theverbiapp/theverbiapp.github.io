@@ -7,6 +7,10 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/"/>
   </url>
   <url>
@@ -15,6 +19,10 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/"/>
   </url>
   <url>
@@ -23,6 +31,58 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/pt/</loc>
+    <lastmod>2026-10-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/es/</loc>
+    <lastmod>2026-10-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/fr/</loc>
+    <lastmod>2026-10-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/it/</loc>
+    <lastmod>2026-10-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/"/>
   </url>
   <url>
@@ -31,6 +91,10 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/voice-to-text/"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/ses-kaydini-yaziya-cevirme/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/sprachmemo-in-text/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/transcrever-audio-em-texto/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/pasar-audio-a-texto/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/transcrire-audio-en-texte/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/trascrivere-audio-in-testo/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/voice-to-text/"/>
   </url>
   <url>
@@ -39,6 +103,10 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/voice-to-text/"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/ses-kaydini-yaziya-cevirme/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/sprachmemo-in-text/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/transcrever-audio-em-texto/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/pasar-audio-a-texto/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/transcrire-audio-en-texte/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/trascrivere-audio-in-testo/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/voice-to-text/"/>
   </url>
   <url>
@@ -47,6 +115,58 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/voice-to-text/"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/ses-kaydini-yaziya-cevirme/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/sprachmemo-in-text/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/transcrever-audio-em-texto/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/pasar-audio-a-texto/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/transcrire-audio-en-texte/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/trascrivere-audio-in-testo/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/voice-to-text/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/pt/transcrever-audio-em-texto/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/voice-to-text/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/ses-kaydini-yaziya-cevirme/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/sprachmemo-in-text/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/transcrever-audio-em-texto/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/pasar-audio-a-texto/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/transcrire-audio-en-texte/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/trascrivere-audio-in-testo/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/voice-to-text/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/es/pasar-audio-a-texto/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/voice-to-text/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/ses-kaydini-yaziya-cevirme/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/sprachmemo-in-text/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/transcrever-audio-em-texto/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/pasar-audio-a-texto/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/transcrire-audio-en-texte/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/trascrivere-audio-in-testo/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/voice-to-text/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/fr/transcrire-audio-en-texte/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/voice-to-text/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/ses-kaydini-yaziya-cevirme/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/sprachmemo-in-text/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/transcrever-audio-em-texto/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/pasar-audio-a-texto/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/transcrire-audio-en-texte/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/trascrivere-audio-in-testo/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/voice-to-text/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/it/trascrivere-audio-in-testo/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/voice-to-text/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/ses-kaydini-yaziya-cevirme/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/sprachmemo-in-text/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/transcrever-audio-em-texto/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/pasar-audio-a-texto/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/transcrire-audio-en-texte/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/trascrivere-audio-in-testo/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/voice-to-text/"/>
   </url>
   <url>
@@ -55,6 +175,10 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/lecture-recorder-transcription/"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/ders-kaydi-yaziya-cevirme/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/vorlesung-aufnehmen-transkribieren/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/gravar-aula-e-transcrever/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/grabar-clases-y-transcribir/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/enregistrer-un-cours/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/registrare-lezioni-universitarie/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/lecture-recorder-transcription/"/>
   </url>
   <url>
@@ -63,6 +187,10 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/lecture-recorder-transcription/"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/ders-kaydi-yaziya-cevirme/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/vorlesung-aufnehmen-transkribieren/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/gravar-aula-e-transcrever/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/grabar-clases-y-transcribir/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/enregistrer-un-cours/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/registrare-lezioni-universitarie/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/lecture-recorder-transcription/"/>
   </url>
   <url>
@@ -71,6 +199,58 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/lecture-recorder-transcription/"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/ders-kaydi-yaziya-cevirme/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/vorlesung-aufnehmen-transkribieren/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/gravar-aula-e-transcrever/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/grabar-clases-y-transcribir/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/enregistrer-un-cours/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/registrare-lezioni-universitarie/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/lecture-recorder-transcription/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/pt/gravar-aula-e-transcrever/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/lecture-recorder-transcription/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/ders-kaydi-yaziya-cevirme/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/vorlesung-aufnehmen-transkribieren/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/gravar-aula-e-transcrever/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/grabar-clases-y-transcribir/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/enregistrer-un-cours/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/registrare-lezioni-universitarie/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/lecture-recorder-transcription/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/es/grabar-clases-y-transcribir/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/lecture-recorder-transcription/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/ders-kaydi-yaziya-cevirme/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/vorlesung-aufnehmen-transkribieren/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/gravar-aula-e-transcrever/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/grabar-clases-y-transcribir/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/enregistrer-un-cours/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/registrare-lezioni-universitarie/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/lecture-recorder-transcription/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/fr/enregistrer-un-cours/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/lecture-recorder-transcription/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/ders-kaydi-yaziya-cevirme/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/vorlesung-aufnehmen-transkribieren/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/gravar-aula-e-transcrever/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/grabar-clases-y-transcribir/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/enregistrer-un-cours/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/registrare-lezioni-universitarie/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/lecture-recorder-transcription/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/it/registrare-lezioni-universitarie/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/lecture-recorder-transcription/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/ders-kaydi-yaziya-cevirme/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/vorlesung-aufnehmen-transkribieren/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/gravar-aula-e-transcrever/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/grabar-clases-y-transcribir/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/enregistrer-un-cours/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/registrare-lezioni-universitarie/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/lecture-recorder-transcription/"/>
   </url>
   <url>
@@ -79,6 +259,10 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/ai-meeting-notes/"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/toplanti-notu-cikarma/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/besprechungsprotokoll-ki/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ata-de-reuniao-com-ia/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/acta-de-reunion-con-ia/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/compte-rendu-reunion-ia/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/verbale-riunione-ai/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/ai-meeting-notes/"/>
   </url>
   <url>
@@ -87,6 +271,10 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/ai-meeting-notes/"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/toplanti-notu-cikarma/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/besprechungsprotokoll-ki/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ata-de-reuniao-com-ia/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/acta-de-reunion-con-ia/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/compte-rendu-reunion-ia/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/verbale-riunione-ai/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/ai-meeting-notes/"/>
   </url>
   <url>
@@ -95,6 +283,58 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/ai-meeting-notes/"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/toplanti-notu-cikarma/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/besprechungsprotokoll-ki/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ata-de-reuniao-com-ia/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/acta-de-reunion-con-ia/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/compte-rendu-reunion-ia/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/verbale-riunione-ai/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/ai-meeting-notes/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/pt/ata-de-reuniao-com-ia/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/ai-meeting-notes/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/toplanti-notu-cikarma/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/besprechungsprotokoll-ki/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ata-de-reuniao-com-ia/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/acta-de-reunion-con-ia/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/compte-rendu-reunion-ia/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/verbale-riunione-ai/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/ai-meeting-notes/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/es/acta-de-reunion-con-ia/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/ai-meeting-notes/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/toplanti-notu-cikarma/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/besprechungsprotokoll-ki/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ata-de-reuniao-com-ia/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/acta-de-reunion-con-ia/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/compte-rendu-reunion-ia/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/verbale-riunione-ai/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/ai-meeting-notes/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/fr/compte-rendu-reunion-ia/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/ai-meeting-notes/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/toplanti-notu-cikarma/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/besprechungsprotokoll-ki/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ata-de-reuniao-com-ia/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/acta-de-reunion-con-ia/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/compte-rendu-reunion-ia/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/verbale-riunione-ai/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/ai-meeting-notes/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/it/verbale-riunione-ai/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/ai-meeting-notes/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/toplanti-notu-cikarma/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/besprechungsprotokoll-ki/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ata-de-reuniao-com-ia/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/acta-de-reunion-con-ia/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/compte-rendu-reunion-ia/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/verbale-riunione-ai/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/ai-meeting-notes/"/>
   </url>
   <url>
@@ -103,6 +343,10 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/interview-transcription/"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/roportaj-desifre/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/interview-transkribieren/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/transcrever-entrevista/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/transcribir-entrevistas/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/retranscrire-un-entretien/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/trascrivere-interviste/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/interview-transcription/"/>
   </url>
   <url>
@@ -111,6 +355,10 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/interview-transcription/"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/roportaj-desifre/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/interview-transkribieren/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/transcrever-entrevista/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/transcribir-entrevistas/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/retranscrire-un-entretien/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/trascrivere-interviste/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/interview-transcription/"/>
   </url>
   <url>
@@ -119,6 +367,58 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/interview-transcription/"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/roportaj-desifre/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/interview-transkribieren/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/transcrever-entrevista/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/transcribir-entrevistas/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/retranscrire-un-entretien/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/trascrivere-interviste/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/interview-transcription/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/pt/transcrever-entrevista/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/interview-transcription/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/roportaj-desifre/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/interview-transkribieren/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/transcrever-entrevista/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/transcribir-entrevistas/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/retranscrire-un-entretien/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/trascrivere-interviste/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/interview-transcription/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/es/transcribir-entrevistas/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/interview-transcription/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/roportaj-desifre/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/interview-transkribieren/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/transcrever-entrevista/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/transcribir-entrevistas/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/retranscrire-un-entretien/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/trascrivere-interviste/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/interview-transcription/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/fr/retranscrire-un-entretien/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/interview-transcription/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/roportaj-desifre/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/interview-transkribieren/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/transcrever-entrevista/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/transcribir-entrevistas/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/retranscrire-un-entretien/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/trascrivere-interviste/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/interview-transcription/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/it/trascrivere-interviste/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/interview-transcription/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/roportaj-desifre/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/interview-transkribieren/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/transcrever-entrevista/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/transcribir-entrevistas/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/retranscrire-un-entretien/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/trascrivere-interviste/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/interview-transcription/"/>
   </url>
   <url>
@@ -127,6 +427,10 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/video-to-text/"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/youtube-videosunu-yaziya-cevirme/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/youtube-video-in-text/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/video-do-youtube-em-texto/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/pasar-video-de-youtube-a-texto/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/transcrire-video-youtube/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/video-youtube-in-testo/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/video-to-text/"/>
   </url>
   <url>
@@ -135,6 +439,10 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/video-to-text/"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/youtube-videosunu-yaziya-cevirme/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/youtube-video-in-text/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/video-do-youtube-em-texto/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/pasar-video-de-youtube-a-texto/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/transcrire-video-youtube/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/video-youtube-in-testo/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/video-to-text/"/>
   </url>
   <url>
@@ -143,7 +451,1403 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/video-to-text/"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/youtube-videosunu-yaziya-cevirme/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/youtube-video-in-text/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/video-do-youtube-em-texto/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/pasar-video-de-youtube-a-texto/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/transcrire-video-youtube/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/video-youtube-in-testo/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/video-to-text/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/pt/video-do-youtube-em-texto/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/video-to-text/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/youtube-videosunu-yaziya-cevirme/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/youtube-video-in-text/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/video-do-youtube-em-texto/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/pasar-video-de-youtube-a-texto/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/transcrire-video-youtube/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/video-youtube-in-testo/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/video-to-text/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/es/pasar-video-de-youtube-a-texto/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/video-to-text/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/youtube-videosunu-yaziya-cevirme/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/youtube-video-in-text/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/video-do-youtube-em-texto/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/pasar-video-de-youtube-a-texto/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/transcrire-video-youtube/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/video-youtube-in-testo/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/video-to-text/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/fr/transcrire-video-youtube/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/video-to-text/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/youtube-videosunu-yaziya-cevirme/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/youtube-video-in-text/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/video-do-youtube-em-texto/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/pasar-video-de-youtube-a-texto/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/transcrire-video-youtube/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/video-youtube-in-testo/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/video-to-text/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/it/video-youtube-in-testo/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/video-to-text/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/youtube-videosunu-yaziya-cevirme/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/youtube-video-in-text/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/video-do-youtube-em-texto/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/pasar-video-de-youtube-a-texto/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/transcrire-video-youtube/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/video-youtube-in-testo/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/video-to-text/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/help/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/tr/yardim/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/de/hilfe/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/pt/ajuda/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/es/ayuda/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/fr/aide/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/it/assistenza/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/help/transcribe-audio-file/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/transcribe-audio-file/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/ses-dosyasini-yaziya-cevirme/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/audiodatei-transkribieren/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/transcrever-arquivo-de-audio/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/transcribir-archivo-de-audio/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/transcrire-un-fichier-audio/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/trascrivere-file-audio/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/transcribe-audio-file/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/tr/yardim/ses-dosyasini-yaziya-cevirme/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/transcribe-audio-file/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/ses-dosyasini-yaziya-cevirme/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/audiodatei-transkribieren/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/transcrever-arquivo-de-audio/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/transcribir-archivo-de-audio/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/transcrire-un-fichier-audio/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/trascrivere-file-audio/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/transcribe-audio-file/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/de/hilfe/audiodatei-transkribieren/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/transcribe-audio-file/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/ses-dosyasini-yaziya-cevirme/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/audiodatei-transkribieren/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/transcrever-arquivo-de-audio/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/transcribir-archivo-de-audio/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/transcrire-un-fichier-audio/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/trascrivere-file-audio/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/transcribe-audio-file/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/pt/ajuda/transcrever-arquivo-de-audio/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/transcribe-audio-file/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/ses-dosyasini-yaziya-cevirme/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/audiodatei-transkribieren/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/transcrever-arquivo-de-audio/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/transcribir-archivo-de-audio/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/transcrire-un-fichier-audio/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/trascrivere-file-audio/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/transcribe-audio-file/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/es/ayuda/transcribir-archivo-de-audio/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/transcribe-audio-file/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/ses-dosyasini-yaziya-cevirme/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/audiodatei-transkribieren/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/transcrever-arquivo-de-audio/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/transcribir-archivo-de-audio/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/transcrire-un-fichier-audio/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/trascrivere-file-audio/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/transcribe-audio-file/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/fr/aide/transcrire-un-fichier-audio/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/transcribe-audio-file/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/ses-dosyasini-yaziya-cevirme/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/audiodatei-transkribieren/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/transcrever-arquivo-de-audio/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/transcribir-archivo-de-audio/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/transcrire-un-fichier-audio/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/trascrivere-file-audio/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/transcribe-audio-file/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/it/assistenza/trascrivere-file-audio/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/transcribe-audio-file/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/ses-dosyasini-yaziya-cevirme/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/audiodatei-transkribieren/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/transcrever-arquivo-de-audio/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/transcribir-archivo-de-audio/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/transcrire-un-fichier-audio/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/trascrivere-file-audio/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/transcribe-audio-file/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/help/transcribe-whatsapp-voice-messages/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/transcribe-whatsapp-voice-messages/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/whatsapp-sesli-mesaji-yaziya-cevirme/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/whatsapp-sprachnachricht-transkribieren/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/transcrever-audio-do-whatsapp/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/transcribir-audios-de-whatsapp/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/message-vocal-whatsapp/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/trascrivere-vocali-whatsapp/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/transcribe-whatsapp-voice-messages/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/tr/yardim/whatsapp-sesli-mesaji-yaziya-cevirme/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/transcribe-whatsapp-voice-messages/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/whatsapp-sesli-mesaji-yaziya-cevirme/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/whatsapp-sprachnachricht-transkribieren/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/transcrever-audio-do-whatsapp/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/transcribir-audios-de-whatsapp/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/message-vocal-whatsapp/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/trascrivere-vocali-whatsapp/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/transcribe-whatsapp-voice-messages/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/de/hilfe/whatsapp-sprachnachricht-transkribieren/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/transcribe-whatsapp-voice-messages/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/whatsapp-sesli-mesaji-yaziya-cevirme/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/whatsapp-sprachnachricht-transkribieren/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/transcrever-audio-do-whatsapp/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/transcribir-audios-de-whatsapp/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/message-vocal-whatsapp/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/trascrivere-vocali-whatsapp/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/transcribe-whatsapp-voice-messages/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/pt/ajuda/transcrever-audio-do-whatsapp/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/transcribe-whatsapp-voice-messages/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/whatsapp-sesli-mesaji-yaziya-cevirme/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/whatsapp-sprachnachricht-transkribieren/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/transcrever-audio-do-whatsapp/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/transcribir-audios-de-whatsapp/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/message-vocal-whatsapp/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/trascrivere-vocali-whatsapp/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/transcribe-whatsapp-voice-messages/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/es/ayuda/transcribir-audios-de-whatsapp/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/transcribe-whatsapp-voice-messages/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/whatsapp-sesli-mesaji-yaziya-cevirme/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/whatsapp-sprachnachricht-transkribieren/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/transcrever-audio-do-whatsapp/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/transcribir-audios-de-whatsapp/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/message-vocal-whatsapp/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/trascrivere-vocali-whatsapp/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/transcribe-whatsapp-voice-messages/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/fr/aide/message-vocal-whatsapp/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/transcribe-whatsapp-voice-messages/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/whatsapp-sesli-mesaji-yaziya-cevirme/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/whatsapp-sprachnachricht-transkribieren/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/transcrever-audio-do-whatsapp/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/transcribir-audios-de-whatsapp/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/message-vocal-whatsapp/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/trascrivere-vocali-whatsapp/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/transcribe-whatsapp-voice-messages/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/it/assistenza/trascrivere-vocali-whatsapp/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/transcribe-whatsapp-voice-messages/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/whatsapp-sesli-mesaji-yaziya-cevirme/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/whatsapp-sprachnachricht-transkribieren/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/transcrever-audio-do-whatsapp/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/transcribir-audios-de-whatsapp/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/message-vocal-whatsapp/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/trascrivere-vocali-whatsapp/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/transcribe-whatsapp-voice-messages/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/help/youtube-video-to-text/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/youtube-video-to-text/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/youtube-videosunu-metne-cevirme/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/youtube-video-transkribieren/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/link-do-youtube/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/enlace-de-youtube/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/video-youtube-en-texte/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/trascrivere-video-youtube/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/youtube-video-to-text/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/tr/yardim/youtube-videosunu-metne-cevirme/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/youtube-video-to-text/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/youtube-videosunu-metne-cevirme/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/youtube-video-transkribieren/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/link-do-youtube/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/enlace-de-youtube/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/video-youtube-en-texte/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/trascrivere-video-youtube/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/youtube-video-to-text/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/de/hilfe/youtube-video-transkribieren/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/youtube-video-to-text/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/youtube-videosunu-metne-cevirme/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/youtube-video-transkribieren/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/link-do-youtube/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/enlace-de-youtube/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/video-youtube-en-texte/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/trascrivere-video-youtube/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/youtube-video-to-text/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/pt/ajuda/link-do-youtube/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/youtube-video-to-text/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/youtube-videosunu-metne-cevirme/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/youtube-video-transkribieren/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/link-do-youtube/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/enlace-de-youtube/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/video-youtube-en-texte/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/trascrivere-video-youtube/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/youtube-video-to-text/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/es/ayuda/enlace-de-youtube/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/youtube-video-to-text/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/youtube-videosunu-metne-cevirme/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/youtube-video-transkribieren/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/link-do-youtube/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/enlace-de-youtube/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/video-youtube-en-texte/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/trascrivere-video-youtube/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/youtube-video-to-text/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/fr/aide/video-youtube-en-texte/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/youtube-video-to-text/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/youtube-videosunu-metne-cevirme/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/youtube-video-transkribieren/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/link-do-youtube/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/enlace-de-youtube/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/video-youtube-en-texte/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/trascrivere-video-youtube/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/youtube-video-to-text/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/it/assistenza/trascrivere-video-youtube/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/youtube-video-to-text/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/youtube-videosunu-metne-cevirme/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/youtube-video-transkribieren/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/link-do-youtube/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/enlace-de-youtube/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/video-youtube-en-texte/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/trascrivere-video-youtube/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/youtube-video-to-text/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/help/recording-length/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/recording-length/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/kayit-suresi-ve-ekran-kilidi/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/aufnahmedauer/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/duracao-da-gravacao/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/duracion-de-la-grabacion/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/duree-enregistrement/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/durata-registrazione/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/recording-length/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/tr/yardim/kayit-suresi-ve-ekran-kilidi/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/recording-length/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/kayit-suresi-ve-ekran-kilidi/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/aufnahmedauer/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/duracao-da-gravacao/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/duracion-de-la-grabacion/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/duree-enregistrement/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/durata-registrazione/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/recording-length/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/de/hilfe/aufnahmedauer/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/recording-length/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/kayit-suresi-ve-ekran-kilidi/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/aufnahmedauer/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/duracao-da-gravacao/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/duracion-de-la-grabacion/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/duree-enregistrement/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/durata-registrazione/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/recording-length/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/pt/ajuda/duracao-da-gravacao/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/recording-length/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/kayit-suresi-ve-ekran-kilidi/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/aufnahmedauer/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/duracao-da-gravacao/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/duracion-de-la-grabacion/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/duree-enregistrement/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/durata-registrazione/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/recording-length/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/es/ayuda/duracion-de-la-grabacion/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/recording-length/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/kayit-suresi-ve-ekran-kilidi/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/aufnahmedauer/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/duracao-da-gravacao/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/duracion-de-la-grabacion/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/duree-enregistrement/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/durata-registrazione/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/recording-length/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/fr/aide/duree-enregistrement/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/recording-length/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/kayit-suresi-ve-ekran-kilidi/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/aufnahmedauer/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/duracao-da-gravacao/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/duracion-de-la-grabacion/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/duree-enregistrement/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/durata-registrazione/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/recording-length/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/it/assistenza/durata-registrazione/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/recording-length/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/kayit-suresi-ve-ekran-kilidi/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/aufnahmedauer/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/duracao-da-gravacao/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/duracion-de-la-grabacion/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/duree-enregistrement/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/durata-registrazione/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/recording-length/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/help/languages/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/languages/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/desteklenen-diller/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/sprachen/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/idiomas/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/idiomas/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/langues/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/lingue/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/languages/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/tr/yardim/desteklenen-diller/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/languages/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/desteklenen-diller/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/sprachen/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/idiomas/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/idiomas/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/langues/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/lingue/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/languages/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/de/hilfe/sprachen/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/languages/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/desteklenen-diller/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/sprachen/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/idiomas/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/idiomas/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/langues/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/lingue/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/languages/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/pt/ajuda/idiomas/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/languages/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/desteklenen-diller/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/sprachen/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/idiomas/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/idiomas/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/langues/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/lingue/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/languages/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/es/ayuda/idiomas/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/languages/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/desteklenen-diller/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/sprachen/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/idiomas/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/idiomas/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/langues/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/lingue/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/languages/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/fr/aide/langues/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/languages/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/desteklenen-diller/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/sprachen/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/idiomas/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/idiomas/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/langues/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/lingue/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/languages/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/it/assistenza/lingue/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/languages/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/desteklenen-diller/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/sprachen/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/idiomas/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/idiomas/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/langues/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/lingue/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/languages/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/help/live-transcription/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/live-transcription/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/canli-transkript/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/live-transkription/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/transcricao-ao-vivo/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/transcripcion-en-vivo/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/transcription-en-direct/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/trascrizione-dal-vivo/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/live-transcription/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/tr/yardim/canli-transkript/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/live-transcription/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/canli-transkript/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/live-transkription/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/transcricao-ao-vivo/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/transcripcion-en-vivo/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/transcription-en-direct/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/trascrizione-dal-vivo/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/live-transcription/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/de/hilfe/live-transkription/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/live-transcription/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/canli-transkript/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/live-transkription/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/transcricao-ao-vivo/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/transcripcion-en-vivo/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/transcription-en-direct/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/trascrizione-dal-vivo/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/live-transcription/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/pt/ajuda/transcricao-ao-vivo/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/live-transcription/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/canli-transkript/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/live-transkription/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/transcricao-ao-vivo/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/transcripcion-en-vivo/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/transcription-en-direct/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/trascrizione-dal-vivo/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/live-transcription/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/es/ayuda/transcripcion-en-vivo/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/live-transcription/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/canli-transkript/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/live-transkription/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/transcricao-ao-vivo/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/transcripcion-en-vivo/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/transcription-en-direct/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/trascrizione-dal-vivo/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/live-transcription/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/fr/aide/transcription-en-direct/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/live-transcription/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/canli-transkript/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/live-transkription/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/transcricao-ao-vivo/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/transcripcion-en-vivo/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/transcription-en-direct/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/trascrizione-dal-vivo/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/live-transcription/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/it/assistenza/trascrizione-dal-vivo/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/live-transcription/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/canli-transkript/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/live-transkription/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/transcricao-ao-vivo/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/transcripcion-en-vivo/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/transcription-en-direct/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/trascrizione-dal-vivo/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/live-transcription/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/help/speaker-detection/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/speaker-detection/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/konusmaci-ayrimi/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/sprecher-erkennen/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/identificar-quem-fala/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/hablantes/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/intervenants/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/riconoscimento-interlocutori/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/speaker-detection/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/tr/yardim/konusmaci-ayrimi/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/speaker-detection/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/konusmaci-ayrimi/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/sprecher-erkennen/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/identificar-quem-fala/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/hablantes/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/intervenants/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/riconoscimento-interlocutori/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/speaker-detection/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/de/hilfe/sprecher-erkennen/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/speaker-detection/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/konusmaci-ayrimi/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/sprecher-erkennen/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/identificar-quem-fala/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/hablantes/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/intervenants/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/riconoscimento-interlocutori/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/speaker-detection/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/pt/ajuda/identificar-quem-fala/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/speaker-detection/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/konusmaci-ayrimi/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/sprecher-erkennen/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/identificar-quem-fala/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/hablantes/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/intervenants/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/riconoscimento-interlocutori/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/speaker-detection/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/es/ayuda/hablantes/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/speaker-detection/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/konusmaci-ayrimi/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/sprecher-erkennen/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/identificar-quem-fala/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/hablantes/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/intervenants/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/riconoscimento-interlocutori/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/speaker-detection/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/fr/aide/intervenants/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/speaker-detection/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/konusmaci-ayrimi/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/sprecher-erkennen/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/identificar-quem-fala/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/hablantes/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/intervenants/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/riconoscimento-interlocutori/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/speaker-detection/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/it/assistenza/riconoscimento-interlocutori/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/speaker-detection/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/konusmaci-ayrimi/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/sprecher-erkennen/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/identificar-quem-fala/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/hablantes/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/intervenants/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/riconoscimento-interlocutori/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/speaker-detection/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/help/custom-vocabulary/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/custom-vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/ozel-sozluk/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/eigenes-woerterbuch/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/vocabulario-personalizado/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/vocabulario-personalizado/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/vocabulaire-personnalise/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/vocabolario-personalizzato/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/custom-vocabulary/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/tr/yardim/ozel-sozluk/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/custom-vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/ozel-sozluk/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/eigenes-woerterbuch/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/vocabulario-personalizado/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/vocabulario-personalizado/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/vocabulaire-personnalise/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/vocabolario-personalizzato/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/custom-vocabulary/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/de/hilfe/eigenes-woerterbuch/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/custom-vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/ozel-sozluk/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/eigenes-woerterbuch/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/vocabulario-personalizado/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/vocabulario-personalizado/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/vocabulaire-personnalise/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/vocabolario-personalizzato/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/custom-vocabulary/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/pt/ajuda/vocabulario-personalizado/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/custom-vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/ozel-sozluk/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/eigenes-woerterbuch/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/vocabulario-personalizado/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/vocabulario-personalizado/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/vocabulaire-personnalise/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/vocabolario-personalizzato/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/custom-vocabulary/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/es/ayuda/vocabulario-personalizado/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/custom-vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/ozel-sozluk/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/eigenes-woerterbuch/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/vocabulario-personalizado/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/vocabulario-personalizado/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/vocabulaire-personnalise/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/vocabolario-personalizzato/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/custom-vocabulary/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/fr/aide/vocabulaire-personnalise/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/custom-vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/ozel-sozluk/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/eigenes-woerterbuch/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/vocabulario-personalizado/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/vocabulario-personalizado/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/vocabulaire-personnalise/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/vocabolario-personalizzato/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/custom-vocabulary/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/it/assistenza/vocabolario-personalizzato/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/custom-vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/ozel-sozluk/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/eigenes-woerterbuch/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/vocabulario-personalizado/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/vocabulario-personalizado/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/vocabulaire-personnalise/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/vocabolario-personalizzato/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/custom-vocabulary/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/help/summary-templates/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/summary-templates/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/ozet-sablonlari/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/zusammenfassungsvorlagen/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/modelos-de-resumo/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/plantillas-de-resumen/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/modeles-de-resume/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/modelli-di-riassunto/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/summary-templates/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/tr/yardim/ozet-sablonlari/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/summary-templates/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/ozet-sablonlari/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/zusammenfassungsvorlagen/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/modelos-de-resumo/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/plantillas-de-resumen/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/modeles-de-resume/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/modelli-di-riassunto/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/summary-templates/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/de/hilfe/zusammenfassungsvorlagen/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/summary-templates/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/ozet-sablonlari/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/zusammenfassungsvorlagen/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/modelos-de-resumo/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/plantillas-de-resumen/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/modeles-de-resume/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/modelli-di-riassunto/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/summary-templates/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/pt/ajuda/modelos-de-resumo/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/summary-templates/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/ozet-sablonlari/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/zusammenfassungsvorlagen/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/modelos-de-resumo/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/plantillas-de-resumen/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/modeles-de-resume/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/modelli-di-riassunto/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/summary-templates/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/es/ayuda/plantillas-de-resumen/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/summary-templates/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/ozet-sablonlari/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/zusammenfassungsvorlagen/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/modelos-de-resumo/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/plantillas-de-resumen/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/modeles-de-resume/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/modelli-di-riassunto/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/summary-templates/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/fr/aide/modeles-de-resume/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/summary-templates/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/ozet-sablonlari/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/zusammenfassungsvorlagen/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/modelos-de-resumo/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/plantillas-de-resumen/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/modeles-de-resume/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/modelli-di-riassunto/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/summary-templates/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/it/assistenza/modelli-di-riassunto/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/summary-templates/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/ozet-sablonlari/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/zusammenfassungsvorlagen/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/modelos-de-resumo/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/plantillas-de-resumen/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/modeles-de-resume/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/modelli-di-riassunto/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/summary-templates/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/help/ask-questions-about-a-recording/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/ask-questions-about-a-recording/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/transkriptle-sohbet/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/fragen-zum-transkript/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/perguntar-a-gravacao/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/preguntar-a-la-transcripcion/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/questions-sur-un-enregistrement/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/domande-alla-trascrizione/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/ask-questions-about-a-recording/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/tr/yardim/transkriptle-sohbet/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/ask-questions-about-a-recording/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/transkriptle-sohbet/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/fragen-zum-transkript/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/perguntar-a-gravacao/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/preguntar-a-la-transcripcion/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/questions-sur-un-enregistrement/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/domande-alla-trascrizione/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/ask-questions-about-a-recording/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/de/hilfe/fragen-zum-transkript/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/ask-questions-about-a-recording/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/transkriptle-sohbet/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/fragen-zum-transkript/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/perguntar-a-gravacao/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/preguntar-a-la-transcripcion/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/questions-sur-un-enregistrement/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/domande-alla-trascrizione/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/ask-questions-about-a-recording/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/pt/ajuda/perguntar-a-gravacao/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/ask-questions-about-a-recording/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/transkriptle-sohbet/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/fragen-zum-transkript/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/perguntar-a-gravacao/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/preguntar-a-la-transcripcion/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/questions-sur-un-enregistrement/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/domande-alla-trascrizione/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/ask-questions-about-a-recording/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/es/ayuda/preguntar-a-la-transcripcion/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/ask-questions-about-a-recording/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/transkriptle-sohbet/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/fragen-zum-transkript/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/perguntar-a-gravacao/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/preguntar-a-la-transcripcion/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/questions-sur-un-enregistrement/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/domande-alla-trascrizione/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/ask-questions-about-a-recording/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/fr/aide/questions-sur-un-enregistrement/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/ask-questions-about-a-recording/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/transkriptle-sohbet/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/fragen-zum-transkript/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/perguntar-a-gravacao/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/preguntar-a-la-transcripcion/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/questions-sur-un-enregistrement/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/domande-alla-trascrizione/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/ask-questions-about-a-recording/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/it/assistenza/domande-alla-trascrizione/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/ask-questions-about-a-recording/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/transkriptle-sohbet/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/fragen-zum-transkript/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/perguntar-a-gravacao/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/preguntar-a-la-transcripcion/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/questions-sur-un-enregistrement/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/domande-alla-trascrizione/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/ask-questions-about-a-recording/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/help/translate-transcript/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/translate-transcript/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/transkript-cevirisi/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/transkript-uebersetzen/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/traduzir-transcricao/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/traducir-transcripcion/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/traduire-une-transcription/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/tradurre-trascrizione/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/translate-transcript/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/tr/yardim/transkript-cevirisi/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/translate-transcript/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/transkript-cevirisi/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/transkript-uebersetzen/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/traduzir-transcricao/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/traducir-transcripcion/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/traduire-une-transcription/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/tradurre-trascrizione/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/translate-transcript/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/de/hilfe/transkript-uebersetzen/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/translate-transcript/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/transkript-cevirisi/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/transkript-uebersetzen/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/traduzir-transcricao/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/traducir-transcripcion/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/traduire-une-transcription/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/tradurre-trascrizione/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/translate-transcript/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/pt/ajuda/traduzir-transcricao/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/translate-transcript/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/transkript-cevirisi/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/transkript-uebersetzen/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/traduzir-transcricao/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/traducir-transcripcion/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/traduire-une-transcription/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/tradurre-trascrizione/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/translate-transcript/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/es/ayuda/traducir-transcripcion/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/translate-transcript/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/transkript-cevirisi/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/transkript-uebersetzen/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/traduzir-transcricao/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/traducir-transcripcion/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/traduire-une-transcription/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/tradurre-trascrizione/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/translate-transcript/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/fr/aide/traduire-une-transcription/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/translate-transcript/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/transkript-cevirisi/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/transkript-uebersetzen/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/traduzir-transcricao/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/traducir-transcripcion/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/traduire-une-transcription/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/tradurre-trascrizione/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/translate-transcript/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/it/assistenza/tradurre-trascrizione/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/translate-transcript/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/transkript-cevirisi/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/transkript-uebersetzen/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/traduzir-transcricao/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/traducir-transcripcion/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/traduire-une-transcription/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/tradurre-trascrizione/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/translate-transcript/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/help/export-transcript/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/export-transcript/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/disa-aktarma/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/transkript-exportieren/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/exportar-transcricao/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/exportar-transcripcion/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/exporter-une-transcription/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/esportare-trascrizione/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/export-transcript/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/tr/yardim/disa-aktarma/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/export-transcript/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/disa-aktarma/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/transkript-exportieren/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/exportar-transcricao/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/exportar-transcripcion/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/exporter-une-transcription/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/esportare-trascrizione/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/export-transcript/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/de/hilfe/transkript-exportieren/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/export-transcript/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/disa-aktarma/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/transkript-exportieren/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/exportar-transcricao/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/exportar-transcripcion/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/exporter-une-transcription/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/esportare-trascrizione/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/export-transcript/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/pt/ajuda/exportar-transcricao/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/export-transcript/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/disa-aktarma/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/transkript-exportieren/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/exportar-transcricao/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/exportar-transcripcion/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/exporter-une-transcription/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/esportare-trascrizione/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/export-transcript/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/es/ayuda/exportar-transcripcion/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/export-transcript/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/disa-aktarma/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/transkript-exportieren/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/exportar-transcricao/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/exportar-transcripcion/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/exporter-une-transcription/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/esportare-trascrizione/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/export-transcript/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/fr/aide/exporter-une-transcription/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/export-transcript/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/disa-aktarma/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/transkript-exportieren/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/exportar-transcricao/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/exportar-transcripcion/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/exporter-une-transcription/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/esportare-trascrizione/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/export-transcript/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/it/assistenza/esportare-trascrizione/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/export-transcript/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/disa-aktarma/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/transkript-exportieren/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/exportar-transcricao/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/exportar-transcripcion/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/exporter-une-transcription/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/esportare-trascrizione/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/export-transcript/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/help/free-plan-vs-pro/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/free-plan-vs-pro/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/ucretsiz-plan-ve-pro/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/kostenlos-oder-pro/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/plano-gratis-e-pro/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/plan-gratuito-y-pro/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/offre-gratuite-et-pro/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/piano-gratuito-e-pro/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/free-plan-vs-pro/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/tr/yardim/ucretsiz-plan-ve-pro/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/free-plan-vs-pro/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/ucretsiz-plan-ve-pro/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/kostenlos-oder-pro/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/plano-gratis-e-pro/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/plan-gratuito-y-pro/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/offre-gratuite-et-pro/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/piano-gratuito-e-pro/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/free-plan-vs-pro/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/de/hilfe/kostenlos-oder-pro/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/free-plan-vs-pro/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/ucretsiz-plan-ve-pro/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/kostenlos-oder-pro/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/plano-gratis-e-pro/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/plan-gratuito-y-pro/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/offre-gratuite-et-pro/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/piano-gratuito-e-pro/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/free-plan-vs-pro/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/pt/ajuda/plano-gratis-e-pro/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/free-plan-vs-pro/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/ucretsiz-plan-ve-pro/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/kostenlos-oder-pro/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/plano-gratis-e-pro/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/plan-gratuito-y-pro/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/offre-gratuite-et-pro/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/piano-gratuito-e-pro/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/free-plan-vs-pro/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/es/ayuda/plan-gratuito-y-pro/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/free-plan-vs-pro/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/ucretsiz-plan-ve-pro/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/kostenlos-oder-pro/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/plano-gratis-e-pro/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/plan-gratuito-y-pro/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/offre-gratuite-et-pro/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/piano-gratuito-e-pro/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/free-plan-vs-pro/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/fr/aide/offre-gratuite-et-pro/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/free-plan-vs-pro/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/ucretsiz-plan-ve-pro/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/kostenlos-oder-pro/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/plano-gratis-e-pro/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/plan-gratuito-y-pro/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/offre-gratuite-et-pro/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/piano-gratuito-e-pro/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/free-plan-vs-pro/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/it/assistenza/piano-gratuito-e-pro/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/free-plan-vs-pro/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/ucretsiz-plan-ve-pro/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/kostenlos-oder-pro/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/plano-gratis-e-pro/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/plan-gratuito-y-pro/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/offre-gratuite-et-pro/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/piano-gratuito-e-pro/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/free-plan-vs-pro/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/help/privacy-and-storage/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/privacy-and-storage/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/kayitlar-nerede-saklanir/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/datenschutz-speicherort/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/privacidade-e-armazenamento/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/privacidad-y-almacenamiento/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/confidentialite-et-stockage/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/privacy-e-archiviazione/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/privacy-and-storage/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/tr/yardim/kayitlar-nerede-saklanir/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/privacy-and-storage/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/kayitlar-nerede-saklanir/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/datenschutz-speicherort/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/privacidade-e-armazenamento/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/privacidad-y-almacenamiento/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/confidentialite-et-stockage/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/privacy-e-archiviazione/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/privacy-and-storage/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/de/hilfe/datenschutz-speicherort/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/privacy-and-storage/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/kayitlar-nerede-saklanir/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/datenschutz-speicherort/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/privacidade-e-armazenamento/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/privacidad-y-almacenamiento/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/confidentialite-et-stockage/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/privacy-e-archiviazione/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/privacy-and-storage/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/pt/ajuda/privacidade-e-armazenamento/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/privacy-and-storage/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/kayitlar-nerede-saklanir/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/datenschutz-speicherort/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/privacidade-e-armazenamento/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/privacidad-y-almacenamiento/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/confidentialite-et-stockage/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/privacy-e-archiviazione/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/privacy-and-storage/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/es/ayuda/privacidad-y-almacenamiento/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/privacy-and-storage/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/kayitlar-nerede-saklanir/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/datenschutz-speicherort/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/privacidade-e-armazenamento/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/privacidad-y-almacenamiento/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/confidentialite-et-stockage/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/privacy-e-archiviazione/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/privacy-and-storage/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/fr/aide/confidentialite-et-stockage/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/privacy-and-storage/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/kayitlar-nerede-saklanir/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/datenschutz-speicherort/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/privacidade-e-armazenamento/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/privacidad-y-almacenamiento/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/confidentialite-et-stockage/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/privacy-e-archiviazione/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/privacy-and-storage/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/it/assistenza/privacy-e-archiviazione/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/privacy-and-storage/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/kayitlar-nerede-saklanir/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/datenschutz-speicherort/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/privacidade-e-armazenamento/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/privacidad-y-almacenamiento/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/confidentialite-et-stockage/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/privacy-e-archiviazione/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/privacy-and-storage/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/help/cancel-or-restore-subscription/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/cancel-or-restore-subscription/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/abonelik-iptali-ve-geri-yukleme/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/abo-kuendigen-wiederherstellen/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/cancelar-ou-restaurar-assinatura/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/cancelar-o-restaurar-suscripcion/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/resilier-ou-restaurer-pro/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/gestire-abbonamento/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/cancel-or-restore-subscription/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/tr/yardim/abonelik-iptali-ve-geri-yukleme/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/cancel-or-restore-subscription/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/abonelik-iptali-ve-geri-yukleme/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/abo-kuendigen-wiederherstellen/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/cancelar-ou-restaurar-assinatura/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/cancelar-o-restaurar-suscripcion/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/resilier-ou-restaurer-pro/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/gestire-abbonamento/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/cancel-or-restore-subscription/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/de/hilfe/abo-kuendigen-wiederherstellen/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/cancel-or-restore-subscription/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/abonelik-iptali-ve-geri-yukleme/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/abo-kuendigen-wiederherstellen/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/cancelar-ou-restaurar-assinatura/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/cancelar-o-restaurar-suscripcion/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/resilier-ou-restaurer-pro/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/gestire-abbonamento/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/cancel-or-restore-subscription/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/pt/ajuda/cancelar-ou-restaurar-assinatura/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/cancel-or-restore-subscription/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/abonelik-iptali-ve-geri-yukleme/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/abo-kuendigen-wiederherstellen/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/cancelar-ou-restaurar-assinatura/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/cancelar-o-restaurar-suscripcion/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/resilier-ou-restaurer-pro/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/gestire-abbonamento/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/cancel-or-restore-subscription/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/es/ayuda/cancelar-o-restaurar-suscripcion/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/cancel-or-restore-subscription/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/abonelik-iptali-ve-geri-yukleme/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/abo-kuendigen-wiederherstellen/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/cancelar-ou-restaurar-assinatura/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/cancelar-o-restaurar-suscripcion/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/resilier-ou-restaurer-pro/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/gestire-abbonamento/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/cancel-or-restore-subscription/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/fr/aide/resilier-ou-restaurer-pro/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/cancel-or-restore-subscription/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/abonelik-iptali-ve-geri-yukleme/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/abo-kuendigen-wiederherstellen/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/cancelar-ou-restaurar-assinatura/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/cancelar-o-restaurar-suscripcion/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/resilier-ou-restaurer-pro/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/gestire-abbonamento/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/cancel-or-restore-subscription/"/>
+  </url>
+  <url>
+    <loc>https://theverbi.com/it/assistenza/gestire-abbonamento/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theverbi.com/help/cancel-or-restore-subscription/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://theverbi.com/tr/yardim/abonelik-iptali-ve-geri-yukleme/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theverbi.com/de/hilfe/abo-kuendigen-wiederherstellen/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theverbi.com/pt/ajuda/cancelar-ou-restaurar-assinatura/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theverbi.com/es/ayuda/cancelar-o-restaurar-suscripcion/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/aide/resilier-ou-restaurer-pro/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://theverbi.com/it/assistenza/gestire-abbonamento/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theverbi.com/help/cancel-or-restore-subscription/"/>
   </url>
   <url>
     <loc>https://theverbi.com/tr/sesli-notlar-turkce-yaziya-dokme/</loc>
