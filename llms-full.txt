@@ -6,11 +6,11 @@ Verbi (theverbi.com) is an AI voice recorder and note taker for iPhone and Andro
 
 Several unrelated language-learning apps are also called Verbi. This Verbi is the voice recorder and note taker published at https://theverbi.com: App Store id6752242891, Google Play package com.monurilgaz.verbi, Instagram @verbi.app.
 
-- Platforms: iPhone (App Store) and Android (Google Play). App interface in English, Turkish, German, French and Spanish; summaries, titles and chat answers come in the interface language. On iPhone, if the phone’s first language is none of these five, the app opens in Turkish until you change Settings → Language (Turkish label: Ayarlar → Dil); on Android it shows English.
+- Platforms: iPhone (App Store) and Android (Google Play). App interface in English, Turkish, German, French, Spanish, Brazilian Portuguese and Italian (Portuguese and Italian from iOS version 1.4.0 and Android version 1.2.0); summaries, titles and chat answers come in the interface language. If the phone’s language is none of these seven, the app shows English; change it under Settings → Language.
 - Transcription: 39 languages, among them English, Turkish, German, Spanish, French, Italian, Portuguese, Arabic, Japanese and Chinese; auto-detect; live transcription while you speak.
 - Input: record in the app, import audio files, share audio from other apps, or paste a YouTube link (regular videos, Shorts, youtu.be).
 - Summaries: templates for general meeting, 1:1 meeting, daily meeting, weekly meeting, lesson notes, idea capture, action items, email draft and blog post. Summaries contain only what was said; owners and due dates appear only when someone stated them; suggestions are kept apart from decisions.
-- Also: chat with a transcript (Pro), translation into English, Turkish, German, French or Spanish (Pro), custom vocabulary, speaker detection with names (Pro), meeting reminders from the calendar, search, copying the text, sharing and export as TXT or PDF (Pro), and a notification when a transcription finishes in the background (Android, and iPhone with iOS 26 or later; on older iOS versions it continues when the app is reopened).
+- Also: chat with a transcript (Pro), translation into the seven interface languages (Pro), custom vocabulary, speaker detection with names (Pro), meeting reminders from the calendar, search, copying the text, sharing and export as TXT or PDF (Pro), and a notification when a transcription finishes in the background (Android, and iPhone with iOS 26 or later; on older iOS versions it continues when the app is reopened).
 - Free plan: 60 minutes a month for recordings and imports, recordings kept for 15 days and then deleted, live transcription (basic on iPhone), one automatic AI summary on the first transcript, and copying the text. On iPhone, a recording stops when the free minutes run out. The app shows any free-plan limit on video-link imports.
 - Verbi Pro (optional subscription, price shown in the app): unlimited transcription, an AI summary for every transcript with a choice of nine templates, speaker detection, translation, chat with the transcript, sharing and export (TXT, PDF, audio), high-quality live transcription on iPhone, unlimited history.
 - Privacy: no account and no cloud sync; recordings and transcripts are stored on the phone. For transcription, audio is sent to ElevenLabs and OpenAI, usually through Verbi’s server; summaries, chat and translation send the transcript text to OpenAI. Usage analytics (Firebase) never include recordings or transcripts and can be turned off in Settings. Details: https://theverbi.com/privacy-policy/
@@ -49,7 +49,7 @@ Verbi transcribes 39 languages, including English, Spanish, French, German, Turk
 
 ### Can Verbi transcribe Turkish and German?
 
-Yes. Both are among the 39 languages Verbi transcribes, and the app itself is available in Turkish and German too, as well as English, French and Spanish.
+Yes. Both are among the 39 languages Verbi transcribes, and the app itself is available in Turkish and German too, as well as English, French, Spanish, Portuguese and Italian (Portuguese and Italian from version 1.4.0 on iPhone and 1.2.0 on Android).
 
 ### How long can a recording be?
 
@@ -214,7 +214,7 @@ O Verbi transcreve 39 idiomas, entre eles português, inglês, espanhol, francê
 
 ### O Verbi funciona em português?
 
-Na transcrição, sim: a fala em português vira texto em português, com pontuação e detecção automática do idioma. A interface do app não tem versão em português: ela existe em inglês, espanhol, francês, alemão e turco. No Android, um celular em português mostra o app em inglês. No iPhone, o app abre em turco, e os resumos, os títulos e as respostas do chat também saem em turco até você trocar: em Ayarlar → Dil (Settings → Language), escolha English ou Español, e em Settings → Transcription Language, escolha Português ou Auto-detect. Os resumos, as listas de tarefas e as respostas do chat saem sempre no idioma da interface, e a tradução não tem o português como destino. A página do Verbi na App Store está em português.
+Sim. A fala em português vira texto em português, com pontuação e detecção automática do idioma. A partir da versão 1.4.0 no iPhone e 1.2.0 no Android, o app também está em português do Brasil, e os resumos, as listas de tarefas e as respostas do chat saem em português quando o app está em português. No Pro, a tradução também tem o português como destino. A página do Verbi na App Store está em português.
 
 ### Quanto tempo pode durar uma gravação?
 
@@ -226,7 +226,7 @@ No seu celular. O Verbi não tem conta nem sincronização na nuvem, então grav
 
 ### O Verbi resume as gravações?
 
-Sim. O primeiro resumo é grátis e sai automaticamente com o modelo padrão. No Pro, cada gravação ganha um resumo, e você pode escolher o modelo (reunião geral, reunião 1:1, daily ou reunião semanal, notas de aula, registro de ideias, lista de tarefas, rascunho de e-mail ou post de blog) e fazer perguntas à transcrição. O resumo se atém ao que foi dito: responsável e prazo só aparecem quando alguém os mencionou. O resumo e as respostas saem no idioma da interface do app, por exemplo em inglês com o app em inglês.
+Sim. O primeiro resumo é grátis e sai automaticamente com o modelo padrão. No Pro, cada gravação ganha um resumo, e você pode escolher o modelo (reunião geral, reunião 1:1, daily ou reunião semanal, notas de aula, registro de ideias, lista de tarefas, rascunho de e-mail ou post de blog) e fazer perguntas à transcrição. O resumo se atém ao que foi dito: responsável e prazo só aparecem quando alguém os mencionou. O resumo e as respostas saem no idioma do app, por exemplo em português com o app em português.
 
 ### O Verbi está disponível para Android?
 
@@ -379,7 +379,7 @@ Verbi trascrive 39 lingue, tra cui italiano, inglese, spagnolo, francese, tedesc
 
 ### Verbi funziona in italiano?
 
-Per la trascrizione sì: l’italiano è una delle 39 lingue che Verbi trascrive, e nomi e sigle ricorrenti puoi aggiungerli al vocabolario personalizzato. L’app invece non è in italiano: l’interfaccia è in inglese, turco, tedesco, francese e spagnolo, e anche la pagina dell’App Store è in inglese. Su Android un telefono in italiano mostra l’app in inglese. Su iPhone Verbi si apre in turco, e in turco arrivano anche riassunti e risposte della chat: in «Ayarlar» (impostazioni) → «Dil» (lingua) scegli «English», poi in «Transkripsiyon Dili» (lingua di trascrizione) scegli «Italiano» o «Otomatik Algıla» (rilevamento automatico). Riassunti e risposte della chat arrivano sempre nella lingua dell’app, e anche la traduzione (Pro) è possibile solo verso queste cinque lingue.
+Sì. L’italiano è una delle 39 lingue che Verbi trascrive, e nomi e sigle ricorrenti puoi aggiungerli al vocabolario personalizzato. Dalla versione 1.4.0 su iPhone e 1.2.0 su Android anche l’app è in italiano, e con l’app in italiano riassunti e risposte della chat arrivano in italiano. Con Pro la traduzione è possibile anche verso l’italiano.
 
 ### Quanto può durare una registrazione?
 
@@ -391,7 +391,7 @@ Sul tuo telefono. Verbi non ha account né sincronizzazione cloud, quindi regist
 
 ### Verbi riassume le registrazioni?
 
-Sì. Il riassunto arriva nella forma di un modello (riunione generica, colloquio 1:1, riunione quotidiana o settimanale, appunti della lezione, raccolta di idee, cose da fare, bozza di email o articolo per blog) e resta fedele a quello che è stato detto: responsabili e scadenze compaiono solo se qualcuno li ha indicati. Il primo riassunto è gratis e arriva da solo, con il modello predefinito; con Pro i riassunti sono illimitati, scegli tu il modello e puoi anche fare domande alla trascrizione. Il riassunto è scritto nella lingua dell’app (inglese, spagnolo, francese, tedesco o turco), non in italiano.
+Sì. Il riassunto arriva nella forma di un modello (riunione generica, colloquio 1:1, riunione quotidiana o settimanale, appunti della lezione, raccolta di idee, cose da fare, bozza di email o articolo per blog) e resta fedele a quello che è stato detto: responsabili e scadenze compaiono solo se qualcuno li ha indicati. Il primo riassunto è gratis e arriva da solo, con il modello predefinito; con Pro i riassunti sono illimitati, scegli tu il modello e puoi anche fare domande alla trascrizione. Il riassunto è scritto nella lingua dell’app, in italiano con l’app in italiano.
 
 ### Verbi è disponibile per Android?
 
@@ -405,7 +405,7 @@ Sì. Importa un file audio, condividi un audio con Verbi da un’altra app o inc
 
 URL: https://theverbi.com/voice-to-text/
 Language: en
-Last updated: 2026-10-19
+Last updated: 2026-10-26
 
 # Turn a voice recording into text
 
@@ -425,7 +425,7 @@ Verbi is a voice to text app for iPhone and Android: record in the app or import
 - Transcription in 39 languages, including English, Spanish, French, Turkish and German, with automatic language detection.
 - Search across all your recordings by anything that was said in them.
 - Copy the text, or with Pro share it or save it as a TXT or PDF file.
-- With Pro: a summary in the shape you need, answers to questions about the recording, and translation into English, Turkish, German, French or Spanish. The free plan includes one automatic summary.
+- With Pro: a summary in the shape you need, answers to questions about the recording, and translation into English, Turkish, German, French, Spanish, Portuguese or Italian. The free plan includes one automatic summary.
 
 ## How do I get a cleaner transcript?
 
@@ -446,7 +446,7 @@ Recordings and transcripts are stored on your phone. To transcribe, the audio is
 
 ### Can Verbi transcribe voice memos I already recorded?
 
-Yes. Import the audio file into Verbi, or share it to Verbi from the app it’s in. It’s transcribed the same way as a recording made in Verbi.
+Yes. Import the audio file into Verbi, or share it to Verbi from the app it’s in. It’s transcribed the same way as a recording made in Verbi. To see how the transcription built into iPhone and other apps compare, read [the best apps to transcribe voice memos on iPhone](/best-apps-transcribe-voice-memos-iphone/).
 
 ### Which languages does it support?
 
@@ -582,7 +582,7 @@ Auf deinem Handy; Verbi hat kein Konto und keine Cloud-Synchronisierung. Zum Tra
 
 URL: https://theverbi.com/pt/transcrever-audio-em-texto/
 Language: pt
-Last updated: 2026-10-24
+Last updated: 2026-10-26
 
 # Transcrever áudio em texto no celular
 
@@ -590,11 +590,11 @@ O Verbi é um app para iPhone e Android que transforma gravações de áudio em 
 
 ## Qual app transforma áudio em texto no iPhone?
 
-O Verbi transcreve gravações em português e coloca a pontuação no lugar. Ele funciona no iPhone e no Android, com áudios gravados no próprio app, arquivos importados e mensagens de voz compartilhadas de outros apps, como o WhatsApp e o Telegram. O app não tem versão em português: a interface existe em inglês, espanhol, francês, alemão e turco. No Android, um celular em português mostra o app em inglês; no iPhone, o app abre em turco, e você troca para inglês em Ayarlar → Dil (Settings → Language) ([veja como](/pt/ajuda/idiomas/)). A transcrição sai no idioma em que se falou, então fala em português vira texto em português; os resumos, os títulos e as respostas do chat saem no idioma da interface do app.
+O Verbi transcreve gravações em português e coloca a pontuação no lugar. Ele funciona no iPhone e no Android, com áudios gravados no próprio app, arquivos importados e mensagens de voz compartilhadas de outros apps, como o WhatsApp e o Telegram. A partir da versão 1.4.0 no iPhone e 1.2.0 no Android, o app também está em português ([veja os idiomas do app](/pt/ajuda/idiomas/)). A transcrição sai no idioma em que se falou, então fala em português vira texto em português; os resumos, os títulos e as respostas do chat saem no idioma do app, em português com o app em português. Para comparar a transcrição que já vem no iPhone com outros apps, veja [apps para transcrever áudio em português](/pt/apps-para-transcrever-audio-em-portugues/).
 
 ## Como transformar uma gravação de áudio em texto?
 
-1. Baixe o Verbi na App Store ou no Google Play e abra o app. Para começar, você não precisa de assinatura. No iPhone, se o app abrir em turco, toque em Ayarlar → Dil e escolha English.
+1. Baixe o Verbi na App Store ou no Google Play e abra o app. Para começar, você não precisa de assinatura. Com o celular em português, o app abre em português a partir da versão 1.4.0 no iPhone e 1.2.0 no Android; se não abrir, escolha Português (Brasil) em Ajustes → Idioma.
 2. Para gravar algo novo, toque em Record & Transcribe (gravar e transcrever). Se quiser ver as palavras aparecendo enquanto fala, escolha Live Transcription (transcrição ao vivo).
 3. Para um áudio que você já tem, toque em Upload File (enviar arquivo) ou compartilhe o áudio com o Verbi a partir do app onde ele está.
 4. Escolha Português como idioma da transcrição ou deixe em Auto-detect (detecção automática) para o Verbi descobrir sozinho.
@@ -604,7 +604,7 @@ O Verbi transcreve gravações em português e coloca a pontuação no lugar. El
 
 Sim. Compartilhe a mensagem de voz do WhatsApp ou do Telegram com o Verbi pelo menu de compartilhamento do celular, e ela é transcrita como qualquer outra gravação, do começo ao fim, mesmo que seja longa (no plano grátis, dentro dos 60 minutos do mês). Arquivos .opus e .ogg salvos no celular também podem ser importados. [Veja o passo a passo no iPhone e no Android](/pt/ajuda/transcrever-audio-do-whatsapp/).
 
-Com o texto pronto, o Verbi pode resumir o áudio: o primeiro resumo é grátis e automático, e no Pro você escolhe o modelo e também pode fazer perguntas sobre o áudio. O resumo e as respostas saem no idioma da interface do app (em inglês, se o app estiver em inglês), enquanto a transcrição fica em português.
+Com o texto pronto, o Verbi pode resumir o áudio: o primeiro resumo é grátis e automático, e no Pro você escolhe o modelo e também pode fazer perguntas sobre o áudio. O resumo e as respostas saem no idioma do app, em português com o app em português, e a transcrição fica no idioma em que se falou.
 
 ## O que você recebe quando o Verbi transcreve um áudio?
 
@@ -612,7 +612,7 @@ Com o texto pronto, o Verbi pode resumir o áudio: o primeiro resumo é grátis 
 - Transcrição em 39 idiomas, incluindo português, inglês, espanhol, francês e alemão, com detecção automática do idioma.
 - Busca em todas as suas gravações por qualquer coisa que foi dita nelas.
 - Copiar o texto e, no Pro, compartilhar ou salvar como arquivo TXT ou PDF.
-- Se quiser mais: um resumo no formato de que você precisa e respostas a perguntas sobre a gravação, no idioma da interface do app, e tradução para inglês, espanhol, francês, alemão ou turco (o primeiro resumo é grátis; escolher o modelo, o chat e a tradução fazem parte do Pro).
+- Se quiser mais: um resumo no formato de que você precisa e respostas a perguntas sobre a gravação, no idioma do app, e tradução para português, inglês, espanhol, francês, alemão, italiano ou turco (o primeiro resumo é grátis; escolher o modelo, o chat e a tradução fazem parte do Pro).
 
 ## Como conseguir uma transcrição mais limpa?
 
@@ -637,7 +637,7 @@ Sim. Importe o arquivo de áudio no Verbi ou compartilhe com o Verbi a partir do
 
 ### O app está em português?
 
-Não. A interface do Verbi existe em inglês, espanhol, francês, alemão e turco. No Android, um celular em português mostra o app em inglês. No iPhone, o app abre em turco, e os resumos, os títulos e as respostas do chat também saem em turco até você trocar: em Ayarlar → Dil (Settings → Language), escolha English ou Español, e em Settings → Transcription Language, escolha Português ou Auto-detect ([veja o passo a passo](/pt/ajuda/idiomas/)). A transcrição funciona em português: fala em português vira texto em português. Os resumos e as respostas do chat saem sempre no idioma da interface, por exemplo em inglês com o app em inglês.
+Sim. A partir da versão 1.4.0 no iPhone e 1.2.0 no Android, o Verbi está em português do Brasil. Se o app estiver em outro idioma, escolha Português (Brasil) em Ajustes → Idioma ([veja o passo a passo](/pt/ajuda/idiomas/)). A transcrição fica no idioma falado: fala em português vira texto em português. Os resumos e as respostas do chat saem sempre no idioma do app, ou seja, em português com o app em português.
 
 ### Existe limite de duração?
 
@@ -651,7 +651,7 @@ No seu celular: o Verbi não tem conta nem sincronização na nuvem. Para transc
 
 URL: https://theverbi.com/es/pasar-audio-a-texto/
 Language: es
-Last updated: 2026-10-24
+Last updated: 2026-10-26
 
 # Pasar un audio o una nota de voz a texto
 
@@ -671,7 +671,7 @@ Verbi es una grabadora de voz para iPhone y Android que pasa el audio a texto: g
 - Transcripción en 39 idiomas, entre ellos español, inglés, portugués, francés y alemán, con detección automática del idioma.
 - Búsqueda en todas tus grabaciones por cualquier cosa que se haya dicho en ellas.
 - Copiar el texto y, con Pro, compartirlo o guardarlo como archivo TXT o PDF.
-- Si quieres más: un resumen con la forma que necesites, respuestas a tus preguntas sobre la grabación y la traducción al español, inglés, francés, alemán o turco (el primer resumen es gratis; elegir la plantilla, el chat y la traducción son parte de Pro).
+- Si quieres más: un resumen con la forma que necesites, respuestas a tus preguntas sobre la grabación y la traducción al español, inglés, francés, alemán, italiano, portugués o turco (el primer resumen es gratis; elegir la plantilla, el chat y la traducción son parte de Pro).
 
 ## ¿Cómo consigo una transcripción más limpia?
 
@@ -710,7 +710,7 @@ En tu teléfono: Verbi no usa cuentas ni sincronización en la nube. Para transc
 
 URL: https://theverbi.com/fr/transcrire-audio-en-texte/
 Language: fr
-Last updated: 2026-10-24
+Last updated: 2026-10-26
 
 # Transcrire un mémo vocal ou un fichier audio en texte
 
@@ -730,7 +730,7 @@ Verbi est une app pour iPhone et Android qui convertit l’audio en texte : enr
 - Une transcription en 39 langues, dont le français, l’anglais, l’espagnol, l’allemand et le turc, avec détection automatique de la langue.
 - Une recherche dans tous vos enregistrements, sur n’importe quel mot prononcé.
 - Copier le texte ; avec Pro, le partager ou l’enregistrer en fichier TXT ou PDF.
-- Si vous voulez aller plus loin, avec Pro : un résumé dans la forme dont vous avez besoin, des réponses à vos questions sur l’enregistrement et une traduction en français, anglais, allemand, espagnol ou turc. Votre premier résumé est offert.
+- Si vous voulez aller plus loin, avec Pro : un résumé dans la forme dont vous avez besoin, des réponses à vos questions sur l’enregistrement et une traduction en français, anglais, allemand, espagnol, italien, portugais ou turc. Votre premier résumé est offert.
 
 ## Comment obtenir une transcription plus fidèle ?
 
@@ -769,7 +769,7 @@ Sur votre téléphone : Verbi fonctionne sans compte ni synchronisation cloud. 
 
 URL: https://theverbi.com/it/trascrivere-audio-in-testo/
 Language: it
-Last updated: 2026-10-24
+Last updated: 2026-10-26
 
 # Trascrivere audio e memo vocali in testo
 
@@ -783,7 +783,7 @@ Verbi è un’app per iPhone e Android che trasforma l’audio in testo: registr
 4. Imposta l’italiano come lingua della trascrizione in «Settings» → «Transcription Language» (impostazioni → lingua di trascrizione), oppure lascia «Auto-detect» (rilevamento automatico) e Verbi la riconosce da solo.
 5. Quando il testo è pronto puoi leggerlo, cercarci dentro e copiarlo; con Pro anche esportarlo in TXT o PDF. Su Android e su iPhone con iOS 26 o successivi puoi uscire dall’app mentre una registrazione lunga viene trascritta: Verbi ti avvisa con una notifica quando ha finito. Con versioni di iOS precedenti la trascrizione riprende quando riapri l’app.
 
-Il testo trascritto resta nella lingua in cui si parla. Le voci dell’app sono citate in inglese, con il significato tra parentesi. Su iPhone l’app può aprirsi in turco: [ecco come passare all’inglese](/it/assistenza/lingue/).
+Il testo trascritto resta nella lingua in cui si parla. Le voci dell’app sono citate in inglese, con il significato tra parentesi. Dalla versione 1.4.0 su iPhone e 1.2.0 su Android l’app mostra queste voci in italiano: [ecco le lingue dell’app](/it/assistenza/lingue/).
 
 ## Cosa ottieni quando Verbi trascrive una registrazione?
 
@@ -791,7 +791,7 @@ Il testo trascritto resta nella lingua in cui si parla. Le voci dell’app sono 
 - Trascrizione in 39 lingue, tra cui italiano, inglese, spagnolo, francese e tedesco, con rilevamento automatico della lingua.
 - La ricerca in tutte le tue registrazioni, per qualsiasi cosa sia stata detta.
 - La copia del testo; con Pro anche la condivisione e il salvataggio come file TXT o PDF.
-- Se ti serve di più: un riassunto nella forma che preferisci e le risposte alle tue domande sulla registrazione (la chat e la scelta del modello sono Pro). Questi testi sono scritti nella lingua dell’app, cioè in inglese, spagnolo, francese, tedesco o turco, mai in italiano.
+- Se ti serve di più: un riassunto nella forma che preferisci e le risposte alle tue domande sulla registrazione (la chat e la scelta del modello sono Pro). Questi testi sono scritti nella lingua dell’app: in italiano, con l’app in italiano.
 
 ## Come ottengo una trascrizione più pulita?
 
@@ -816,7 +816,7 @@ Sì. Importa il file audio in Verbi oppure condividilo con Verbi dall’app in c
 
 ### Verbi è in italiano?
 
-La trascrizione sì: l’italiano è una delle 39 lingue che Verbi trascrive. L’app invece no: l’interfaccia è in inglese, turco, tedesco, francese e spagnolo, e anche la pagina dell’App Store è in inglese. Su Android un telefono in italiano mostra l’app in inglese; su iPhone Verbi si apre in turco, e la cambi in «Ayarlar» → «Dil» (impostazioni → lingua) scegliendo «English», poi controlli «Transkripsiyon Dili» (lingua di trascrizione). Riassunti, titoli e risposte della chat arrivano sempre nella lingua dell’app. I passaggi sono in [Lingue di Verbi](/it/assistenza/lingue/).
+Sì, dalla versione 1.4.0 su iPhone e 1.2.0 su Android: con il telefono in italiano l’app si apre in italiano, e riassunti, titoli e risposte della chat arrivano in italiano. L’italiano è anche una delle 39 lingue che Verbi trascrive. Se l’app è in un’altra lingua, scegli «Italiano» in «Impostazioni» → «Lingua»; i passaggi sono in [Lingue di Verbi](/it/assistenza/lingue/).
 
 ### C’è un limite di durata?
 
@@ -852,7 +852,7 @@ Verbi is a lecture recorder for iPhone and Android that writes the transcript fo
 - Homework, readings and exam dates, listed only when the lecturer mentioned them. Verbi doesn’t add textbook material that wasn’t part of the class.
 - Unclear terms marked as unclear instead of guessed.
 - Search across all your recordings, and with Pro a chat with any lecture.
-- Lectures in 39 languages, with translation into English, Turkish, German, French or Spanish on Pro.
+- Lectures in 39 languages, with translation into English, Turkish, German, French, Spanish, Portuguese or Italian on Pro.
 
 ## How do I record a lecture clearly?
 
@@ -878,7 +878,7 @@ No. Lesson notes stick to the recording: Verbi doesn’t add textbook knowledge,
 
 ### Can I record lectures in another language?
 
-Yes. Verbi transcribes 39 languages, and with Pro you can translate the transcript into English, Turkish, German, French or Spanish.
+Yes. Verbi transcribes 39 languages, and with Pro you can translate the transcript into English, Turkish, German, French, Spanish, Portuguese or Italian.
 
 ---
 
@@ -992,7 +992,7 @@ Ja. Verbi transkribiert 39 Sprachen, und mit Pro kannst du das Transkript ins De
 
 URL: https://theverbi.com/pt/gravar-aula-e-transcrever/
 Language: pt
-Last updated: 2026-10-24
+Last updated: 2026-10-26
 
 # Gravar aula e transcrever no celular
 
@@ -1009,7 +1009,7 @@ O Verbi é um app para iPhone e Android que grava a aula e escreve a transcriç�
 
 ## Em que idioma saem a transcrição e as notas de aula?
 
-A transcrição sai no idioma da aula: uma aula em português vira texto em português, palavra por palavra. As notas de aula e as respostas do chat saem no idioma da interface do app, que não tem versão em português: em inglês se o app estiver em inglês, ou em espanhol se estiver em espanhol. No iPhone, o app abre em turco num celular em português; troque em Ayarlar → Dil (Settings → Language) e escolha Português em Settings → Transcription Language ([veja como](/pt/ajuda/idiomas/)). A tradução também não tem o português como destino.
+A transcrição sai no idioma da aula: uma aula em português vira texto em português, palavra por palavra. As notas de aula e as respostas do chat saem no idioma do app: em português, com o app em português (a partir da versão 1.4.0 no iPhone e 1.2.0 no Android). Se o app estiver em outro idioma, troque em Ajustes → Idioma ([veja como](/pt/ajuda/idiomas/)). No Pro, a tradução também tem o português como destino, para aulas dadas em outro idioma.
 
 ## O que a transcrição e as notas de aula trazem?
 
@@ -1018,7 +1018,7 @@ A transcrição sai no idioma da aula: uma aula em português vira texto em port
 - Trabalhos, leituras e datas de prova, só quando o professor falou deles. O Verbi não acrescenta conteúdo de livro que não fez parte da aula.
 - Termos que não ficaram claros aparecem marcados como incertos, em vez de adivinhados.
 - Busca em todas as gravações do semestre e, no Pro, chat com qualquer aula.
-- Aulas em 39 idiomas; no Pro, tradução para inglês, espanhol, francês, alemão ou turco.
+- Aulas em 39 idiomas; no Pro, tradução para português, inglês, espanhol, francês, alemão, italiano ou turco.
 
 ## Como gravar uma aula com som claro?
 
@@ -1044,7 +1044,7 @@ Não. As notas de aula se atêm à gravação: o Verbi não acrescenta conteúdo
 
 ### O app e as notas de aula ficam em português?
 
-A transcrição, sim: a aula em português vira texto em português. A interface do app não tem versão em português (ela existe em inglês, espanhol, francês, alemão e turco), e as notas de aula saem no idioma da interface, por exemplo em inglês com o app em inglês. No Android, um celular em português mostra o app em inglês. No iPhone, o app abre em turco, e os resumos, os títulos e as respostas do chat também saem em turco até você trocar: em Ayarlar → Dil (Settings → Language), escolha English ou Español, e em Settings → Transcription Language, escolha Português ou Auto-detect ([veja o passo a passo](/pt/ajuda/idiomas/)).
+Sim. A aula em português vira texto em português, e as notas de aula saem no idioma do app: em português, com o app em português. A partir da versão 1.4.0 no iPhone e 1.2.0 no Android, o Verbi está em português do Brasil. Se o app estiver em outro idioma, escolha Português (Brasil) em Ajustes → Idioma ([veja o passo a passo](/pt/ajuda/idiomas/)).
 
 ### Funciona com aulas em inglês ou espanhol?
 
@@ -1054,7 +1054,7 @@ Sim. O Verbi transcreve 39 idiomas e detecta o idioma sozinho, então uma aula e
 
 URL: https://theverbi.com/es/grabar-clases-y-transcribir/
 Language: es
-Last updated: 2026-10-24
+Last updated: 2026-10-26
 
 # Grabar clases y convertirlas en apuntes
 
@@ -1076,7 +1076,7 @@ Verbi es una app para grabar clases en iPhone y Android que escribe la transcrip
 - Tareas, lecturas y fechas de examen, solo si el docente las mencionó. Verbi no añade contenido de manual que no se explicó en clase.
 - Los términos poco claros se marcan como dudosos en lugar de adivinarlos.
 - Búsqueda en todas las grabaciones del curso y, con Pro, un chat con cada clase.
-- Clases en 39 idiomas, con traducción al español, inglés, francés, alemán o turco en Pro.
+- Clases en 39 idiomas, con traducción al español, inglés, francés, alemán, italiano, portugués o turco en Pro.
 
 ## ¿Cómo grabo una clase con buen sonido?
 
@@ -1108,7 +1108,7 @@ Sí. Verbi transcribe 39 idiomas, y con Pro puedes traducir la transcripción al
 
 URL: https://theverbi.com/fr/enregistrer-un-cours/
 Language: fr
-Last updated: 2026-10-24
+Last updated: 2026-10-26
 
 # Enregistrer un cours et le transformer en notes de révision
 
@@ -1130,7 +1130,7 @@ Verbi est une app d’enregistrement de cours pour iPhone et Android qui rédige
 - Devoirs, lectures et dates d’examen, seulement si l’enseignant les a mentionnés. Verbi n’ajoute pas de connaissances de manuel qui ne faisaient pas partie du cours.
 - Les termes peu clairs signalés comme incertains au lieu d’être devinés.
 - Une recherche dans tous les enregistrements du semestre et, avec Pro, un chat avec chaque cours.
-- Des cours dans 39 langues ; avec Pro, la traduction en français, anglais, allemand, espagnol ou turc.
+- Des cours dans 39 langues ; avec Pro, la traduction en français, anglais, allemand, espagnol, italien, portugais ou turc.
 
 ## Comment bien enregistrer un cours ?
 
@@ -1162,11 +1162,11 @@ Oui. Verbi transcrit 39 langues, et avec Pro vous pouvez traduire la transcripti
 
 URL: https://theverbi.com/it/registrare-lezioni-universitarie/
 Language: it
-Last updated: 2026-10-24
+Last updated: 2026-10-26
 
 # Registrare le lezioni universitarie e sbobinarle con l’AI
 
-Verbi è un’app per iPhone e Android che registra le lezioni e le sbobina al posto tuo: registri la lezione con il telefono e Verbi la trascrive tutta, in italiano o in una delle altre 38 lingue, con i minutaggi. Dalla trascrizione può ricavare anche gli appunti della lezione, fedeli a quello che ha detto il docente e scritti nella lingua dell’app (inglese, spagnolo, francese, tedesco o turco), non in italiano. Si parte gratis, con 60 minuti di trascrizione al mese.
+Verbi è un’app per iPhone e Android che registra le lezioni e le sbobina al posto tuo: registri la lezione con il telefono e Verbi la trascrive tutta, in italiano o in una delle altre 38 lingue, con i minutaggi. Dalla trascrizione può ricavare anche gli appunti della lezione, fedeli a quello che ha detto il docente e scritti nella lingua dell’app, in italiano con l’app in italiano. Si parte gratis, con 60 minuti di trascrizione al mese.
 
 ## Come trasformo la registrazione di una lezione in appunti?
 
@@ -1177,7 +1177,7 @@ Verbi è un’app per iPhone e Android che registra le lezioni e le sbobina al p
 5. Apri la registrazione: la sbobinatura completa è lì. Per gli appunti, con Pro scegli il modello «Lesson Notes» (appunti della lezione) e tocca «Generate Summary» (genera riassunto). Nel piano gratuito il tuo primo riassunto arriva da solo, con il modello predefinito.
 6. Con Pro chiedi alla trascrizione quello che ti sei perso, per esempio «Cosa ha detto sull’esame?», ed esporta gli appunti in PDF o TXT. Nel piano gratuito puoi copiare il testo.
 
-Appunti e risposte della chat arrivano nella lingua dell’app, mai in italiano; la sbobinatura resta nella lingua della lezione. Le voci dell’app sono citate in inglese, con il significato tra parentesi. Su iPhone l’app può aprirsi in turco: [ecco come passare all’inglese](/it/assistenza/lingue/).
+Appunti e risposte della chat arrivano nella lingua dell’app, quindi in italiano con l’app in italiano; la sbobinatura resta nella lingua della lezione. Le voci dell’app sono citate in inglese, con il significato tra parentesi. Dalla versione 1.4.0 su iPhone e 1.2.0 su Android l’app mostra queste voci in italiano: [ecco le lingue dell’app](/it/assistenza/lingue/).
 
 ## Cosa contengono la sbobinatura e gli appunti?
 
@@ -1186,7 +1186,7 @@ Appunti e risposte della chat arrivano nella lingua dell’app, mai in italiano;
 - Compiti, letture e date d’esame, elencati solo se il docente li ha nominati. Verbi non aggiunge nozioni da manuale che a lezione non sono state dette.
 - I termini poco chiari vengono segnalati come poco chiari, non indovinati.
 - La ricerca su tutte le registrazioni del semestre e, con Pro, una chat con ogni lezione.
-- Lezioni in 39 lingue, anche un corso tenuto in inglese. Con Pro puoi tradurre la trascrizione in inglese, spagnolo, francese, tedesco o turco, ma non in italiano.
+- Lezioni in 39 lingue, anche un corso tenuto in inglese. Con Pro puoi tradurre la trascrizione in italiano, inglese, spagnolo, francese, tedesco, portoghese o turco.
 
 ## Come registro bene una lezione?
 
@@ -1212,7 +1212,7 @@ No. Gli appunti restano fedeli alla registrazione: Verbi non aggiunge nozioni da
 
 ### Gli appunti sono in italiano?
 
-La sbobinatura sì: una lezione in italiano viene trascritta in italiano. Gli appunti AI e le risposte della chat sono invece scritti nella lingua dell’app, che non esiste in italiano: è inglese, turco, tedesco, francese o spagnolo. Su Android un telefono in italiano mostra l’app in inglese; su iPhone Verbi si apre in turco, e in «Ayarlar» → «Dil» (impostazioni → lingua) puoi scegliere «English». Anche la pagina dell’App Store è in inglese. I passaggi sono in [Lingue di Verbi](/it/assistenza/lingue/).
+Sì, con l’app in italiano, dalla versione 1.4.0 su iPhone e 1.2.0 su Android. Gli appunti AI e le risposte della chat sono scritti nella lingua dell’app, e la sbobinatura di una lezione in italiano è in italiano. Se l’app è in un’altra lingua, scegli «Italiano» in «Impostazioni» → «Lingua»; i passaggi sono in [Lingue di Verbi](/it/assistenza/lingue/).
 
 ---
 
@@ -1386,7 +1386,7 @@ Für ein Wortprotokoll hast du das vollständige Transkript. Die Zusammenfassung
 
 URL: https://theverbi.com/pt/ata-de-reuniao-com-ia/
 Language: pt
-Last updated: 2026-10-24
+Last updated: 2026-10-26
 
 # Ata de reunião com IA, fiel ao que foi dito
 
@@ -1403,7 +1403,7 @@ O Verbi é um app para iPhone e Android que ajuda a fazer a ata da reunião: gra
 
 ## A ata sai em português?
 
-A transcrição, sim: o Verbi escreve em português tudo o que foi dito, palavra por palavra, e ela é o registro completo da reunião. O resumo com decisões e tarefas sai no idioma da interface do app, que não tem versão em português: em inglês se o app estiver em inglês, ou em espanhol se estiver em espanhol. No iPhone, um celular em português abre o app em turco, e aí o resumo sai em turco até você trocar o idioma em Ayarlar → Dil (Settings → Language) ([veja como](/pt/ajuda/idiomas/)).
+Sim. A transcrição registra em português tudo o que foi dito, palavra por palavra, e ela é o registro completo da reunião. O resumo com decisões e tarefas sai no idioma do app: em português, com o app em português (a partir da versão 1.4.0 no iPhone e 1.2.0 no Android). Se o app estiver em outro idioma, troque em Ajustes → Idioma ([veja como](/pt/ajuda/idiomas/)).
 
 Se a ata precisa ser em português, use a transcrição como base e o resumo como roteiro das decisões e tarefas, e revise o texto antes de enviar, como faria com qualquer ata.
 
@@ -1446,7 +1446,7 @@ Sim, no Pro. O Verbi separa as vozes e você pode dar um nome a cada uma.
 
 ### O app está em português?
 
-Não: a interface existe em inglês, espanhol, francês, alemão e turco. A reunião em português é transcrita em português; o resumo e as respostas do chat saem no idioma da interface. No Android, um celular em português mostra o app em inglês. No iPhone, o app abre em turco, e os resumos, os títulos e as respostas do chat também saem em turco até você trocar: em Ayarlar → Dil (Settings → Language), escolha English ou Español, e em Settings → Transcription Language, escolha Português ou Auto-detect ([veja o passo a passo](/pt/ajuda/idiomas/)).
+Sim. A partir da versão 1.4.0 no iPhone e 1.2.0 no Android, o Verbi está em português do Brasil. Se o app estiver em outro idioma, escolha Português (Brasil) em Ajustes → Idioma ([veja o passo a passo](/pt/ajuda/idiomas/)). A reunião em português é transcrita em português, e com o app em português o resumo e as respostas do chat também saem em português.
 
 ### Isso substitui uma ata formal?
 
@@ -1576,11 +1576,11 @@ Pour le mot à mot, vous avez la transcription intégrale. Le résumé avec déc
 
 URL: https://theverbi.com/it/verbale-riunione-ai/
 Language: it
-Last updated: 2026-10-24
+Last updated: 2026-10-26
 
 # Dalla registrazione al verbale di riunione, con l’AI
 
-Verbi è un’app per iPhone e Android che ti aiuta a scrivere il verbale di una riunione: registri l’incontro con il telefono e Verbi ti dà la trascrizione completa, in italiano se si parla italiano, e un riassunto con decisioni e cose da fare, dove responsabili e scadenze compaiono solo se qualcuno li ha detti. Il riassunto è scritto nella lingua dell’app (inglese, spagnolo, francese, tedesco o turco), non in italiano. Si parte gratis, con 60 minuti di trascrizione al mese, e alla tua call non si collega nessun bot.
+Verbi è un’app per iPhone e Android che ti aiuta a scrivere il verbale di una riunione: registri l’incontro con il telefono e Verbi ti dà la trascrizione completa, in italiano se si parla italiano, e un riassunto con decisioni e cose da fare, dove responsabili e scadenze compaiono solo se qualcuno li ha detti. Il riassunto è scritto nella lingua dell’app, in italiano con l’app in italiano. Si parte gratis, con 60 minuti di trascrizione al mese, e alla tua call non si collega nessun bot.
 
 ## Come si fa il verbale di una riunione da una registrazione?
 
@@ -1591,7 +1591,7 @@ Verbi è un’app per iPhone e Android che ti aiuta a scrivere il verbale di una
 5. Con Pro scegli il modello adatto e genera il riassunto: «General Meeting» (riunione generica), «1:1 Meeting» (colloquio individuale), «Daily Meeting» (riunione quotidiana), «Weekly Meeting» (riunione settimanale), «Action Items» (cose da fare) o «Email Draft» (bozza di email). Nel piano gratuito il tuo primo riassunto arriva da solo, con il modello predefinito.
 6. Con Pro dai un nome a chi parla, fai altre domande alla trascrizione e condividi gli appunti o esportali in PDF. Nel piano gratuito puoi copiare il testo.
 
-La trascrizione resta nella lingua della riunione, mentre riassunto, bozza di email e risposte della chat arrivano nella lingua dell’app, mai in italiano. Le voci dell’app sono citate in inglese, con il significato tra parentesi. Su iPhone l’app può aprirsi in turco: [ecco come passare all’inglese](/it/assistenza/lingue/).
+La trascrizione resta nella lingua della riunione, mentre riassunto, bozza di email e risposte della chat arrivano nella lingua dell’app, quindi in italiano con l’app in italiano. Le voci dell’app sono citate in inglese, con il significato tra parentesi. Dalla versione 1.4.0 su iPhone e 1.2.0 su Android l’app mostra queste voci in italiano: [ecco le lingue dell’app](/it/assistenza/lingue/).
 
 ## Cosa c’è nel verbale?
 
@@ -1628,7 +1628,7 @@ No. Responsabili e scadenze compaiono solo se qualcuno li ha detti nella registr
 
 ### Il verbale è in italiano?
 
-La trascrizione sì: una riunione in italiano viene trascritta in italiano, con le voci separate se hai Pro. Riassunto, bozza di email e risposte della chat sono invece scritti nella lingua dell’app, che non esiste in italiano: inglese, turco, tedesco, francese o spagnolo. Su Android un telefono in italiano mostra l’app in inglese; su iPhone Verbi si apre in turco, e in «Ayarlar» → «Dil» (impostazioni → lingua) puoi passare all’inglese. Anche la pagina dell’App Store è in inglese.
+Sì, con l’app in italiano, dalla versione 1.4.0 su iPhone e 1.2.0 su Android. Una riunione in italiano viene trascritta in italiano, con le voci separate se hai Pro, e riassunto, bozza di email e risposte della chat sono scritti nella lingua dell’app. Se l’app è in un’altra lingua, scegli «Italiano» in «Impostazioni» → «Lingua»; i passaggi sono in [Lingue di Verbi](/it/assistenza/lingue/).
 
 ### Verbi riconosce chi parla?
 
@@ -1659,7 +1659,7 @@ Verbi is an interview transcription app for iPhone and Android: record the inter
 - Each speaker’s words kept apart and named (speaker detection is part of Pro).
 - Search across all your interviews for any word that was said.
 - With Pro, answers to questions like “What did she say about funding?”, drawn from the interview itself.
-- Interviews in 39 languages, with translation into English, Turkish, German, French or Spanish on Pro.
+- Interviews in 39 languages, with translation into English, Turkish, German, French, Spanish, Portuguese or Italian on Pro.
 - Summaries from templates such as Blog Post or Idea Capture that keep to what was actually said (choosing a template is part of Pro).
 
 ## How do I get a transcript I can quote from?
@@ -1687,7 +1687,7 @@ Yes, with Pro. Verbi separates the voices, and you can give each one a name.
 
 ### Can I transcribe interviews in another language?
 
-Yes. Verbi transcribes 39 languages and detects the language on its own. With Pro, you can translate the transcript into English, Turkish, German, French or Spanish.
+Yes. Verbi transcribes 39 languages and detects the language on its own. With Pro, you can translate the transcript into English, Turkish, German, French, Spanish, Portuguese or Italian.
 
 ---
 
@@ -1803,7 +1803,7 @@ Ja. Verbi transkribiert 39 Sprachen und erkennt die Sprache selbst. Mit Pro kann
 
 URL: https://theverbi.com/pt/transcrever-entrevista/
 Language: pt
-Last updated: 2026-10-24
+Last updated: 2026-10-26
 
 # Transcrever entrevistas pelo celular
 
@@ -1824,7 +1824,7 @@ O Verbi é um app para iPhone e Android que transcreve entrevistas: grave a conv
 - As falas de cada pessoa separadas e com nome (a identificação de quem fala faz parte do Pro).
 - Busca em todas as suas entrevistas por qualquer palavra que foi dita.
 - No Pro, respostas a perguntas como “O que ela disse sobre o financiamento?”, tiradas da própria entrevista.
-- Entrevistas em 39 idiomas, com tradução para inglês, espanhol, francês, alemão ou turco no Pro.
+- Entrevistas em 39 idiomas, com tradução para português, inglês, espanhol, francês, alemão, italiano ou turco no Pro.
 - Resumos com modelos como Blog Post ou Idea Capture que se atêm ao que foi realmente dito (escolher o modelo é um recurso do Pro).
 
 ## Como ter uma transcrição boa para citar?
@@ -1852,17 +1852,17 @@ Sim, no Pro. O Verbi separa as vozes e você pode dar um nome a cada uma.
 
 ### O app está em português?
 
-Não. A interface do Verbi existe em inglês, espanhol, francês, alemão e turco. A entrevista em português é transcrita em português; os resumos e as respostas do chat saem no idioma da interface. No Android, um celular em português mostra o app em inglês. No iPhone, o app abre em turco, e os resumos, os títulos e as respostas do chat também saem em turco até você trocar: em Ayarlar → Dil (Settings → Language), escolha English ou Español, e em Settings → Transcription Language, escolha Português ou Auto-detect ([veja o passo a passo](/pt/ajuda/idiomas/)).
+Sim. A partir da versão 1.4.0 no iPhone e 1.2.0 no Android, o Verbi está em português do Brasil. Se o app estiver em outro idioma, escolha Português (Brasil) em Ajustes → Idioma ([veja o passo a passo](/pt/ajuda/idiomas/)). A entrevista em português é transcrita em português, e com o app em português os resumos e as respostas do chat também saem em português.
 
 ### Dá para transcrever entrevistas em outros idiomas?
 
-Sim. O Verbi transcreve 39 idiomas e detecta o idioma sozinho. No Pro, você pode traduzir a transcrição para inglês, espanhol, francês, alemão ou turco.
+Sim. O Verbi transcreve 39 idiomas e detecta o idioma sozinho. No Pro, você pode traduzir a transcrição para português, inglês, espanhol, francês, alemão, italiano ou turco.
 
 ---
 
 URL: https://theverbi.com/es/transcribir-entrevistas/
 Language: es
-Last updated: 2026-10-24
+Last updated: 2026-10-26
 
 # Transcribir una entrevista con el teléfono
 
@@ -1883,7 +1883,7 @@ Verbi es una app para transcribir entrevistas en iPhone y Android: graba la entr
 - Las palabras de cada hablante por separado y con nombre (la detección de hablantes es parte de Pro).
 - Búsqueda en todas tus entrevistas por cualquier palabra que se haya dicho.
 - Con Pro, respuestas a preguntas como «¿Qué contó sobre sus comienzos?», sacadas de la propia entrevista.
-- Entrevistas en 39 idiomas, con traducción al español, inglés, francés, alemán o turco en Pro.
+- Entrevistas en 39 idiomas, con traducción al español, inglés, francés, alemán, italiano, portugués o turco en Pro.
 - Resúmenes con plantillas como «Artículo de blog» o «Idea», fieles a lo que realmente se dijo (elegir la plantilla es parte de Pro).
 
 ## ¿Cómo consigo una transcripción de la que pueda citar?
@@ -1917,7 +1917,7 @@ Sí. Verbi transcribe 39 idiomas y detecta el idioma por sí solo. Con Pro puede
 
 URL: https://theverbi.com/fr/retranscrire-un-entretien/
 Language: fr
-Last updated: 2026-10-24
+Last updated: 2026-10-26
 
 # Retranscrire un entretien avec votre téléphone
 
@@ -1938,7 +1938,7 @@ Verbi est une app pour iPhone et Android qui retranscrit vos entretiens et vos i
 - Les propos de chaque intervenant séparés et nommés (la détection des intervenants fait partie de Pro).
 - Une recherche dans tous vos entretiens, sur n’importe quel mot prononcé.
 - Avec Pro, des réponses à des questions comme « Qu’a-t-elle dit sur le financement ? », tirées de l’entretien lui-même.
-- Des entretiens dans 39 langues ; avec Pro, la traduction en français, anglais, allemand, espagnol ou turc.
+- Des entretiens dans 39 langues ; avec Pro, la traduction en français, anglais, allemand, espagnol, italien, portugais ou turc.
 - Des résumés selon des modèles comme « Article de blog » ou « Idée », qui s’en tiennent à ce qui a réellement été dit (le premier est offert, les suivants font partie de Pro).
 
 ## Comment obtenir une retranscription que l’on peut citer ?
@@ -1976,7 +1976,7 @@ Oui. Verbi transcrit 39 langues et détecte la langue tout seul. Avec Pro, vous 
 
 URL: https://theverbi.com/it/trascrivere-interviste/
 Language: it
-Last updated: 2026-10-24
+Last updated: 2026-10-26
 
 # Trascrivere un’intervista con il telefono
 
@@ -1991,7 +1991,7 @@ Verbi è un’app per iPhone e Android che trascrive le interviste: registri l�
 5. Quando la trascrizione è pronta, dai un nome a ogni voce (Pro) e cerca le citazioni che ti servono.
 6. Con Pro esporta la trascrizione in TXT o PDF, oppure ricavane una prima bozza con il modello «Blog Post» (articolo per blog). Nel piano gratuito puoi copiare il testo.
 
-La bozza «Blog Post» e gli altri riassunti sono scritti nella lingua dell’app, mai in italiano; la trascrizione resta nella lingua dell’intervista. Le voci dell’app sono citate in inglese, con il significato tra parentesi. Su iPhone l’app può aprirsi in turco: [ecco come passare all’inglese](/it/assistenza/lingue/).
+La bozza «Blog Post» e gli altri riassunti sono scritti nella lingua dell’app, quindi in italiano con l’app in italiano; la trascrizione resta nella lingua dell’intervista. Le voci dell’app sono citate in inglese, con il significato tra parentesi. Dalla versione 1.4.0 su iPhone e 1.2.0 su Android l’app mostra queste voci in italiano: [ecco le lingue dell’app](/it/assistenza/lingue/).
 
 ## Cosa include la trascrizione dell’intervista?
 
@@ -1999,7 +1999,7 @@ La bozza «Blog Post» e gli altri riassunti sono scritti nella lingua dell’ap
 - Le parole di ogni persona tenute separate e con un nome (il riconoscimento di chi parla fa parte di Pro).
 - La ricerca in tutte le tue interviste, per qualsiasi parola sia stata detta.
 - Risposte a domande come «Cosa ha detto sui finanziamenti?», ricavate dall’intervista stessa (Pro).
-- Interviste in 39 lingue. Con Pro puoi tradurre la trascrizione in inglese, spagnolo, francese, tedesco o turco.
+- Interviste in 39 lingue. Con Pro puoi tradurre la trascrizione in italiano, inglese, spagnolo, francese, tedesco, portoghese o turco.
 - Riassunti con modelli come «Blog Post» o «Idea Capture» (raccolta di idee), fedeli a quello che è stato detto davvero (la scelta del modello è Pro).
 
 ## Come ottengo una trascrizione da cui citare?
@@ -2027,7 +2027,7 @@ Sì, con Pro. Verbi separa le voci e puoi dare un nome a ognuna.
 
 ### Funziona con interviste in italiano?
 
-Sì: l’italiano è una delle 39 lingue che Verbi trascrive, e la lingua viene riconosciuta da sola. L’app però non è in italiano ma in inglese, turco, tedesco, francese o spagnolo, e anche la pagina dell’App Store è in inglese: su Android un telefono in italiano la mostra in inglese, su iPhone si apre in turco finché non scegli «English» in «Ayarlar» → «Dil» (impostazioni → lingua). Riassunti e risposte della chat sono scritti nella lingua dell’app; la trascrizione resta in italiano.
+Sì: l’italiano è una delle 39 lingue che Verbi trascrive, e la lingua viene riconosciuta da sola. Dalla versione 1.4.0 su iPhone e 1.2.0 su Android anche l’app è in italiano, e con l’app in italiano riassunti e risposte della chat arrivano in italiano; la trascrizione resta nella lingua dell’intervista.
 
 ---
 
@@ -2052,7 +2052,7 @@ Verbi turns the speech in a YouTube video into text: paste the video’s link in
 - Read a talk or a tutorial instead of watching it, and find it again later by searching for anything that was said.
 - With Pro, turn a recorded class into lesson notes that stick to what was said in the video.
 - With Pro, ask questions like “What were the three steps she recommended?” and get answers drawn from the video’s words.
-- Translate the transcript into English, Turkish, German, French or Spanish (Pro).
+- Translate the transcript into English, Turkish, German, French, Spanish, Portuguese or Italian (Pro).
 - Copy a quote or the whole text, or with Pro export it as TXT or PDF.
 
 ## Which videos can I transcribe?
@@ -2076,7 +2076,7 @@ No. Paste the link and Verbi fetches the audio itself. Nothing needs to be saved
 
 ### Does it work with videos in other languages?
 
-Yes. Verbi transcribes 39 languages and can detect the language on its own. With Pro, you can translate the transcript into English, Turkish, German, French or Spanish.
+Yes. Verbi transcribes 39 languages and can detect the language on its own. With Pro, you can translate the transcript into English, Turkish, German, French, Spanish, Portuguese or Italian.
 
 ### Is there a limit on video length?
 
@@ -2192,7 +2192,7 @@ Im kostenlosen Plan muss ein Video in die restlichen Minuten des Monats passen, 
 
 URL: https://theverbi.com/pt/video-do-youtube-em-texto/
 Language: pt
-Last updated: 2026-10-24
+Last updated: 2026-10-26
 
 # Transformar vídeo do YouTube em texto
 
@@ -2211,7 +2211,7 @@ O Verbi transforma a fala de um vídeo do YouTube em texto: cole o link do víde
 - Ler uma palestra ou um tutorial em vez de assistir, e encontrá-lo de novo depois, buscando qualquer coisa que foi dita.
 - Transformar uma aula gravada em notas de aula fiéis ao que foi dito no vídeo (no Pro, com o modelo Lesson Notes).
 - Fazer perguntas como “Quais foram os três passos que ela recomendou?” e receber respostas tiradas da fala do vídeo (Pro).
-- Traduzir a transcrição para inglês, espanhol, francês, alemão ou turco (Pro).
+- Traduzir a transcrição para português, inglês, espanhol, francês, alemão, italiano ou turco (Pro).
 - Copiar uma citação ou, no Pro, exportar o texto inteiro em TXT ou PDF.
 
 ## Quais vídeos dá para transcrever?
@@ -2235,11 +2235,11 @@ Não. Cole o link e o Verbi busca o áudio sozinho. Nada precisa ser salvo no se
 
 ### Funciona com vídeos em português e em outros idiomas?
 
-Sim. O Verbi transcreve 39 idiomas, incluindo o português, e detecta o idioma sozinho. No Pro, você pode traduzir a transcrição para inglês, espanhol, francês, alemão ou turco.
+Sim. O Verbi transcreve 39 idiomas, incluindo o português, e detecta o idioma sozinho. No Pro, você pode traduzir a transcrição para português, inglês, espanhol, francês, alemão, italiano ou turco.
 
 ### O app está em português?
 
-Não: a interface do Verbi existe em inglês, espanhol, francês, alemão e turco. Um vídeo em português vira texto em português; o resumo e as respostas do chat saem no idioma da interface. No Android, um celular em português mostra o app em inglês. No iPhone, o app abre em turco, e os resumos, os títulos e as respostas do chat também saem em turco até você trocar: em Ayarlar → Dil (Settings → Language), escolha English ou Español, e em Settings → Transcription Language, escolha Português ou Auto-detect ([veja o passo a passo](/pt/ajuda/idiomas/)).
+Sim. A partir da versão 1.4.0 no iPhone e 1.2.0 no Android, o Verbi está em português do Brasil. Se o app estiver em outro idioma, escolha Português (Brasil) em Ajustes → Idioma ([veja o passo a passo](/pt/ajuda/idiomas/)). Um vídeo em português vira texto em português, e com o app em português o resumo e as respostas do chat também saem em português.
 
 ### Existe limite de duração do vídeo?
 
@@ -2249,7 +2249,7 @@ Cada vídeo pode ter até 4 horas. No plano grátis, o vídeo também precisa ca
 
 URL: https://theverbi.com/es/pasar-video-de-youtube-a-texto/
 Language: es
-Last updated: 2026-10-24
+Last updated: 2026-10-26
 
 # Pasar un video de YouTube a texto
 
@@ -2268,7 +2268,7 @@ Verbi convierte en texto lo que se dice en un video de YouTube: pega el enlace d
 - Leer una charla o un tutorial en vez de verlo, y volver a encontrarlo después buscando cualquier cosa que se dijo.
 - Convertir una clase grabada en apuntes fieles a lo que se dijo en el video (con Pro, con la plantilla «Notas de clase»).
 - Hacer preguntas como «¿Cuáles eran los tres pasos que recomendaba?» y obtener respuestas sacadas de lo que se dice en el video (Pro).
-- Traducir la transcripción al español, inglés, francés, alemán o turco (Pro).
+- Traducir la transcripción al español, inglés, francés, alemán, italiano, portugués o turco (Pro).
 - Copiar una cita o, con Pro, exportar todo el texto en TXT o PDF.
 
 ## ¿Qué videos puedo transcribir?
@@ -2302,7 +2302,7 @@ Cada video puede durar hasta 4 horas. En el plan gratuito, el video también tie
 
 URL: https://theverbi.com/fr/transcrire-video-youtube/
 Language: fr
-Last updated: 2026-10-24
+Last updated: 2026-10-26
 
 # Transcrire une vidéo YouTube en texte
 
@@ -2321,7 +2321,7 @@ Verbi transforme ce qui est dit dans une vidéo YouTube en texte : collez le li
 - Lire une conférence ou un tutoriel au lieu de le regarder, et le retrouver plus tard en cherchant n’importe quel mot prononcé.
 - Transformer un cours filmé en notes de cours fidèles à ce qui a été dit dans la vidéo.
 - Poser des questions comme « Quelles sont les trois étapes qu’elle recommande ? » et obtenir des réponses tirées de ce qui est dit dans la vidéo (Pro).
-- Traduire la transcription en français, anglais, allemand, espagnol ou turc (Pro).
+- Traduire la transcription en français, anglais, allemand, espagnol, italien, portugais ou turc (Pro).
 - Copier une citation ou tout le texte ; avec Pro, l’exporter en TXT ou PDF.
 
 ## Quelles vidéos peut-on transcrire ?
@@ -2355,7 +2355,7 @@ Une vidéo peut durer jusqu’à 4 heures. Avec l’offre gratuite, sa durée es
 
 URL: https://theverbi.com/it/video-youtube-in-testo/
 Language: it
-Last updated: 2026-10-24
+Last updated: 2026-10-26
 
 # Trascrivere un video YouTube in testo
 
@@ -2369,14 +2369,14 @@ Verbi trasforma in testo il parlato di un video YouTube: incolli il link del vid
 4. Leggi la trascrizione, cercaci dentro o copiala; con Pro puoi anche esportarla in TXT o PDF.
 5. Se ti basta il succo, con Pro genera un riassunto con un modello come «Lesson Notes» (appunti della lezione) o «Blog Post» (articolo per blog), oppure fai una domanda alla trascrizione. Nel piano gratuito il tuo primo riassunto arriva da solo, con il modello predefinito.
 
-La trascrizione resta nella lingua del video, mentre riassunti e risposte della chat arrivano nella lingua dell’app, mai in italiano. Le voci dell’app sono citate in inglese, con il significato tra parentesi. Su iPhone l’app può aprirsi in turco: [ecco come passare all’inglese](/it/assistenza/lingue/).
+La trascrizione resta nella lingua del video, mentre riassunti e risposte della chat arrivano nella lingua dell’app, quindi in italiano con l’app in italiano. Le voci dell’app sono citate in inglese, con il significato tra parentesi. Dalla versione 1.4.0 su iPhone e 1.2.0 su Android l’app mostra queste voci in italiano: [ecco le lingue dell’app](/it/assistenza/lingue/).
 
 ## Cosa posso fare con la trascrizione di un video?
 
 - Leggere un intervento o un tutorial invece di guardarlo, e ritrovarlo poi cercando qualsiasi cosa sia stata detta.
 - Trasformare una lezione registrata in appunti fedeli a quello che è stato detto nel video.
 - Fare domande come «Quali erano i tre passaggi che consigliava?» e ricevere risposte ricavate dalle parole del video (Pro).
-- Tradurre la trascrizione in inglese, spagnolo, francese, tedesco o turco (Pro).
+- Tradurre la trascrizione in italiano, inglese, spagnolo, francese, tedesco, portoghese o turco (Pro).
 - Copiare una citazione o, con Pro, esportare tutto il testo in TXT o PDF.
 
 ## Quali video posso trascrivere?
@@ -2400,11 +2400,11 @@ No. Incolla il link e Verbi prende l’audio da solo. Non devi salvare niente su
 
 ### Funziona con video in italiano o in altre lingue?
 
-Sì. Verbi trascrive 39 lingue, italiano compreso, e sa riconoscere la lingua da solo. Con Pro puoi tradurre la trascrizione in inglese, spagnolo, francese, tedesco o turco.
+Sì. Verbi trascrive 39 lingue, italiano compreso, e sa riconoscere la lingua da solo. Con Pro puoi tradurre la trascrizione in italiano, inglese, spagnolo, francese, tedesco, portoghese o turco.
 
 ### L’app è in italiano?
 
-No. L’interfaccia è in inglese, turco, tedesco, francese e spagnolo, e anche la pagina dell’App Store è in inglese. Su Android un telefono in italiano mostra l’app in inglese; su iPhone Verbi si apre in turco, e la cambi in «Ayarlar» → «Dil» (impostazioni → lingua). La trascrizione di un video in italiano resta in italiano; riassunti e risposte della chat sono scritti nella lingua dell’app. I passaggi sono in [Lingue di Verbi](/it/assistenza/lingue/).
+Sì, dalla versione 1.4.0 su iPhone e 1.2.0 su Android: con il telefono in italiano l’app si apre in italiano, e riassunti e risposte della chat arrivano in italiano. La trascrizione di un video resta nella lingua in cui si parla. Se l’app è in un’altra lingua, scegli «Italiano» in «Impostazioni» → «Lingua»; i passaggi sono in [Lingue di Verbi](/it/assistenza/lingue/).
 
 ### C’è un limite alla durata dei video?
 
@@ -2775,9 +2775,292 @@ Details about other apps on this page come from their official pages, help cente
 
 ---
 
+URL: https://theverbi.com/best-apps-transcribe-voice-memos-iphone/
+Language: en
+Last updated: 2026-10-26
+
+# Best apps to transcribe voice memos on iPhone (2026)
+
+Start with the app you already have: on iPhone 12 or later, Apple’s Voice Memos transcribes recordings in English, Spanish, Portuguese, French, German and a few other languages, and Apple Intelligence can summarize the transcript on newer models. Another app helps when you want imported or very long recordings handled the same way, a summary shaped for a lecture or a meeting, more languages, or the same app on Android. This page compares nine options using only what each vendor states on its own pages, checked on October 26, 2026.
+
+## Which apps transcribe voice memos on iPhone?
+
+| App | Platforms | Record on the phone | Import a voice memo or file | AI summary | Languages |
+| --- | --- | --- | --- | --- | --- |
+| Apple Voice Memos | iPhone, iPad, Mac | Yes, with a live transcript | — | Partly: with Apple Intelligence Writing Tools¹ | English, Spanish, Portuguese, Italian, French, German, Japanese, Korean, Chinese (iPhone 12 or later) |
+| Apple Notes (Record Audio in a note) | iPhone | Yes, with a live transcript | — | Yes, with Apple Intelligence¹ | The same list, when it’s also the device language |
+| Otter | iOS, Android, web, desktop (Mac, Windows) | Yes, live | Yes | Yes | English, Spanish, French, German², Japanese, Chinese (Simplified)² |
+| Notta | iOS, Android, web, desktop (Windows, macOS) | Yes (Record Now) | Yes | Yes | A long list, including English, Spanish and Portuguese |
+| Transkriptor | iOS, Android, web, Chrome extension, desktop (Windows, Mac) | Yes | Yes | Yes | A long list, including English, Spanish and Portuguese |
+| Transcribe – Speech to Text (DENIVIP · App Store id1241342461) | iPhone, iPad, Mac, web | Yes, with live transcription | Yes | Yes | A long list, including English, Spanish and Portuguese |
+| Aiko (Sindre Sorhus) | iPhone, iPad, Mac, Apple Vision Pro | Yes | Yes: files and voice memos | — | A long list, including English, Spanish and Portuguese; transcribes on the device |
+| TurboScribe | Web, also in the phone’s browser | Partly: in the browser, with the microphone | Yes, by upload | Partly: through TurboScribe GPT (ChatGPT) | A long list, including English, Spanish and Portuguese |
+| Verbi | iPhone, Android | Yes, with live transcription | Yes: Upload File, sharing from Voice Memos, WhatsApp or Telegram, and video links | Yes: nine templates that keep to what was said | 39 languages with auto-detect |
+
+— Not stated in the source.
+
+¹ On iOS 27, Apple Intelligence needs an iPhone 15 Pro, iPhone 15 Pro Max or an iPhone 16 or later. ² Otter’s help center marks German and Chinese (Simplified) as beta.
+
+## Can iPhone transcribe voice memos without another app?
+
+Yes, on iPhone 12 or later. Apple’s [iPhone User Guide](https://support.apple.com/en-us/guide/iphone/iph00953a982/ios) (iOS 27) says Voice Memos transcribes speech in English (all variants), Spanish, Portuguese, Italian, French, German, Japanese, Korean and Chinese (Simplified and Traditional), and that the feature isn’t available in every country or region. You can watch the transcript while you record, copy it afterwards with Copy Transcript, and search across titles and transcripts. With Apple Intelligence, Writing Tools can summarize a transcript; on iOS 27 that needs an iPhone 15 Pro, iPhone 15 Pro Max or an iPhone 16 or later.
+
+The Notes app does the same inside a note: tap Record Audio, and according to Apple’s [Notes guide](https://support.apple.com/en-us/guide/iphone/iphbe11247b5/ios) the spoken words are transcribed when the device language is one of those languages, with an Apple Intelligence summary on supported models. If your recordings are in one of these languages and you mainly want to read or copy what was said, the built-in apps may be all you need.
+
+## Otter
+
+Otter (Otter.ai, Inc.) has apps for iPhone and Android, a web app and a [desktop app for Mac and Windows](https://help.otter.ai/hc/en-us/articles/35973988280215-Otter-Desktop-App-Mac-Windows). It records and transcribes live, [imports audio and video files](https://help.otter.ai/hc/en-us/articles/360047733574-Import-an-audio-or-video-file) and writes [automatic meeting summaries](https://help.otter.ai/hc/en-us/articles/9156381229079-Meeting-Summary-Overview). Its help center lists [English, Spanish, French, German, Japanese and Chinese (Simplified)](https://help.otter.ai/hc/en-us/articles/360047247414-Supported-languages) as supported languages and marks German and Chinese as beta.
+
+A good fit if you work in English or another language on its list and want the same notes on your phone, in the browser and on your computer.
+
+## Notta
+
+Notta runs on iPhone and Android, on the web and as a desktop app for Windows and macOS ([supported environments](https://support.notta.ai/hc/en-us/articles/18119588493467-Supported-environments)). The app’s home screen offers [Import Files, Record Now and Live Transcribe Meetings](https://support.notta.ai/hc/en-us/articles/17604467003803-Introduction-about-Notta-App), its [language list](https://support.notta.ai/hc/en-us/articles/4403155631131-What-languages-does-Notta-support) is long and includes English, Spanish and Portuguese, and its [App Store listing](https://apps.apple.com/us/app/notta-transcribe-voice-to-text/id1480649572) describes AI summaries.
+
+A good fit if you switch between phone and computer and record in several languages.
+
+## Transkriptor
+
+Transkriptor is available for iOS and Android, on the web, as a Chrome extension and as a [desktop app for Windows and Mac](https://transkriptor.com/desktop-app/). Its [App Store listing](https://apps.apple.com/us/app/transkriptor-speech-to-text/id1610386353) describes an integrated audio recorder, voice memo and file transcription (MP3, WAV, M4A), AI summaries and a chat with the transcript, and its [website](https://transkriptor.com/) names English, Spanish and Portuguese among many languages.
+
+A good fit if you also want a browser extension or a desktop recorder for online meetings.
+
+## Transcribe – Speech to Text (DENIVIP)
+
+Transcribe – Speech to Text (DENIVIP Group OOO, App Store id1241342461) works on iPhone, iPad and Mac and in a web editor at [transcribe.com](https://transcribe.com/). Its [App Store listing](https://apps.apple.com/us/app/transcribe-speech-to-text/id1241342461) describes a built-in voice recorder with live transcription, audio and video uploads, speaker separation, and AI summaries and key points, and its [help center](https://transcribe.com/help-center) names English, Spanish and Portuguese among many languages. Other apps have similar names, so check the developer before you download.
+
+A good fit if you work on an iPhone and a Mac and also want to edit transcripts in a browser.
+
+## Aiko
+
+[Aiko](https://sindresorhus.com/aiko), from the independent developer Sindre Sorhus, turns recordings of meetings, lectures and voice memos into text with OpenAI’s Whisper model running on the device; the developer says the audio is never uploaded. It runs on iPhone, iPad, Mac and Apple Vision Pro, and its [App Store listing](https://apps.apple.com/us/app/aiko/id1672085276) requires iOS 26 or later and an A12 Bionic chip or newer.
+
+A good fit if you want the transcription to stay on your device.
+
+## TurboScribe
+
+TurboScribe is a web app. Its [help page](https://turboscribe.ai/help/does-turboscribe-have-a-mobile-app) says there is no TurboScribe app in the App Store or on Google Play and that the website works fully in a phone’s browser, including uploads, transcription, translation and export. You can [upload a voice memo or record with the microphone](https://turboscribe.ai/u/transcribe-voice-memos) in the browser, its audio languages include English, Spanish and Portuguese, and [TurboScribe GPT](https://turboscribe.ai/blog/turboscribe-gpt-transcribe-and-chat) summarizes transcripts through ChatGPT.
+
+A good fit if you mostly upload files, often from a computer, and don’t need an app.
+
+## Verbi
+
+Verbi is an AI voice recorder and note taker for iPhone and Android. It records in the app (Pro has no length limit, and on iPhone the recording keeps going with the screen locked), imports files, and takes voice memos, WhatsApp and Telegram voice messages and other audio shared from any app, as well as video links. It transcribes 39 languages and can detect the language for you.
+
+Summaries come from nine templates, such as Lesson Notes, General Meeting and Action Items, and contain only what was said: owners and due dates appear only when someone stated them. With Pro, every transcript gets a summary, and you can tell the speakers apart, chat with the transcript, translate it and export it as TXT or PDF; on the free plan, your first summary is on us and you can copy the text. Verbi needs no account, and recordings and transcripts are stored on your phone. To transcribe, the audio is sent to our speech-to-text providers (ElevenLabs and OpenAI), as the [privacy policy](https://theverbi.com/privacy-policy/) explains. The free plan includes 60 minutes of transcription a month.
+
+A good fit if you record long lectures, meetings or interviews, work in more than one language or on both iPhone and Android, and want a summary shaped for the recording. Verbi has no web or desktop version.
+
+## How do I choose a voice memo transcription app?
+
+It depends on what you record and what you want from the text. Going by the table:
+
+- Lectures you want as study notes: you need recording and a summary. Voice Memos and Notes summarize with Apple Intelligence on supported iPhones; Otter, Notta, Transkriptor, Transcribe and Verbi write AI summaries, and Verbi’s Lesson Notes template keeps to what the lecturer said. See [how to record a lecture and get study notes](/lecture-recorder-transcription/).
+- A recorder that transcribes and summarizes: Apple (with Apple Intelligence), Otter, Notta, Transkriptor, Transcribe, TurboScribe (through ChatGPT) and Verbi all list AI summaries. Compare where you record (phone, browser or computer) and which languages you need.
+- Free transcription on iPhone: Voice Memos and Notes are already on your iPhone 12 or later. Other apps’ plans change often, so we don’t list them here; Verbi’s free plan includes 60 minutes of transcription a month.
+- Audio that shouldn’t leave the phone: Aiko transcribes on the device. For any other app, read its privacy page; Verbi sends the audio to its speech-to-text providers to transcribe it.
+- Android as well: Otter, Notta, Transkriptor and Verbi have Android apps, and TurboScribe works in any browser.
+- Working at a computer: Otter, Notta and Transkriptor have desktop apps, Transcribe has a Mac app and a web editor, and TurboScribe is web-based.
+- A language that isn’t on Apple’s or Otter’s list: check the vendor’s own list. Verbi transcribes 39 languages, among them Turkish, Arabic, Hindi and Indonesian.
+
+## How do I transcribe a voice memo with Verbi?
+
+1. Download Verbi from the App Store and open it. In Settings → Transcription Language, pick the language of the recording, or leave it on Auto-detect.
+2. In Voice Memos, tap the recording and open the share sheet.
+3. Choose Verbi. “Added to Verbi. Open the app to transcribe it.” means the recording was handed over. Share it in the default format: Apple’s [export page](https://support.apple.com/en-us/guide/iphone/iph831c37815/ios) says Options → Editable exports QuickTime Audio, a format Verbi doesn’t read.
+4. Open Verbi. The recording is imported and transcribed; with Pro, you first choose the Number of Speakers. On iOS 26 or later, a long transcription keeps going if you leave the app, and Verbi sends a notification when it’s done; on older iOS versions, it continues when you reopen Verbi.
+5. Read, search or copy the text; with Pro, export it as TXT or PDF. A memo saved in Files can also be picked with Upload File. More in [how to transcribe an audio file or voice memo](/help/transcribe-audio-file/).
+
+## Frequently asked questions
+
+### Can iPhone transcribe voice memos without an app?
+
+Yes, on iPhone 12 or later. Apple’s iPhone User Guide (iOS 27) says Voice Memos transcribes English, Spanish, Portuguese, Italian, French, German, Japanese, Korean and Chinese, and that the feature isn’t available in every country or region (checked October 26, 2026). Open the recording, tap the More button and choose Copy Transcript.
+
+### What’s a free app to transcribe voice memos on iPhone?
+
+If your recordings are in one of Apple’s transcription languages, Voice Memos itself is free and already installed. Other apps’ plans change often, so this page doesn’t list them; check each app’s own page. Verbi is free to download, and its free plan includes 60 minutes of transcription a month, recordings kept for 15 days and your first AI summary.
+
+### Which app transcribes and summarizes voice recordings?
+
+According to their own pages, Otter, Notta, Transkriptor, Transcribe (DENIVIP) and Verbi write AI summaries; Apple’s Voice Memos and Notes summarize with Apple Intelligence on supported iPhones, and TurboScribe through ChatGPT. Verbi’s summaries come from nine templates and keep to what was said.
+
+### Is Whisper an app?
+
+No. Whisper is OpenAI’s [open-source speech recognition model](https://github.com/openai/whisper), not an iPhone app on its own. Apps build on it: Aiko, for example, runs Whisper on the device.
+
+### Can I transcribe voice memos on Android?
+
+Voice Memos is an Apple app, but Verbi, Otter, Notta and Transkriptor also have Android apps. On Pixel phones, Google’s Recorder app [transcribes English and several other languages](https://support.google.com/pixelphone/answer/16267698?hl=en) as you record.
+
+### Who made this comparison?
+
+The team behind Verbi. For the other apps, the table uses only what their own pages, help centers and store listings say; anything they don’t state is marked “—”.
+
+## Sources
+
+Details about other apps on this page come from their official pages, help centers and store listings, checked on October 26, 2026. They can change as the apps are updated.
+
+- Apple: [Voice Memos transcription](https://support.apple.com/en-us/guide/iphone/iph00953a982/ios), [making a recording](https://support.apple.com/en-us/guide/iphone/iph4d2a39a3b/ios), [exporting a recording](https://support.apple.com/en-us/guide/iphone/iph831c37815/ios), [recording audio in Notes](https://support.apple.com/en-us/guide/iphone/iphbe11247b5/ios)
+- Otter: [supported languages](https://help.otter.ai/hc/en-us/articles/360047247414-Supported-languages), [German and Chinese (beta)](https://help.otter.ai/hc/en-us/articles/26660468516631-Transcribe-conversations-in-English-Spanish-French-German-Japanese-or-Chinese-Simplified), [desktop app](https://help.otter.ai/hc/en-us/articles/35973988280215-Otter-Desktop-App-Mac-Windows), [file import](https://help.otter.ai/hc/en-us/articles/360047733574-Import-an-audio-or-video-file), [meeting summary](https://help.otter.ai/hc/en-us/articles/9156381229079-Meeting-Summary-Overview), [App Store](https://apps.apple.com/us/app/otter-transcribe-voice-notes/id1276437113), [Google Play](https://play.google.com/store/apps/details?id=com.aisense.otter)
+- Notta: [supported environments](https://support.notta.ai/hc/en-us/articles/18119588493467-Supported-environments), [languages](https://support.notta.ai/hc/en-us/articles/4403155631131-What-languages-does-Notta-support), [the Notta app](https://support.notta.ai/hc/en-us/articles/17604467003803-Introduction-about-Notta-App), [App Store](https://apps.apple.com/us/app/notta-transcribe-voice-to-text/id1480649572), [Google Play](https://play.google.com/store/apps/details?id=com.langogo.transcribe)
+- Transkriptor: [languages and features](https://transkriptor.com/), [desktop app](https://transkriptor.com/desktop-app/), [App Store](https://apps.apple.com/us/app/transkriptor-speech-to-text/id1610386353), [Google Play](https://play.google.com/store/apps/details?id=com.transkriptor.app)
+- Transcribe – Speech to Text (DENIVIP): [App Store id1241342461](https://apps.apple.com/us/app/transcribe-speech-to-text/id1241342461), [transcribe.com](https://transcribe.com/), [help center](https://transcribe.com/help-center)
+- Aiko: [sindresorhus.com/aiko](https://sindresorhus.com/aiko), [App Store](https://apps.apple.com/us/app/aiko/id1672085276)
+- TurboScribe: [audio languages](https://turboscribe.ai/), [using it on a phone](https://turboscribe.ai/help/does-turboscribe-have-a-mobile-app), [voice memos and recording](https://turboscribe.ai/u/transcribe-voice-memos), [TurboScribe GPT](https://turboscribe.ai/blog/turboscribe-gpt-transcribe-and-chat)
+- Google Recorder: [languages](https://support.google.com/pixelphone/answer/16267698?hl=en), [devices](https://support.google.com/pixelphone/answer/16267668?hl=en)
+- OpenAI: [Whisper on GitHub](https://github.com/openai/whisper)
+
+---
+
+URL: https://theverbi.com/pt/apps-para-transcrever-audio-em-portugues/
+Language: pt
+Last updated: 2026-10-26
+
+# Apps para transcrever áudio em português (2026)
+
+Se você tem iPhone, talvez nem precise baixar nada: segundo o manual da Apple, o Gravador e o app Notas transcrevem áudio em português no iPhone 12 ou posterior. Outro app faz diferença quando você quer transcrever áudios do WhatsApp ou arquivos longos, receber um resumo pronto da aula ou da reunião, ou usar o mesmo app no Android. A tabela reúne o que cada fabricante informa nas próprias páginas, conferido em 26 de outubro de 2026.
+
+## Quais apps transcrevem áudio em português?
+
+| App | Plataformas | Transcreve português | App em português | Gravar no celular | Importar arquivo | Resumo com IA |
+| --- | --- | --- | --- | --- | --- | --- |
+| Gravador do iPhone (Apple (Voice Memos)) | iPhone, iPad, Mac | Sim, no iPhone 12 ou posterior¹ | Sim | Sim, com transcrição ao vivo | — | Em parte: com as Ferramentas de Escrita da Apple Intelligence² |
+| Notas do iPhone (Gravar Áudio numa nota) | iPhone | Sim, no iPhone 12 ou posterior¹ | Sim | Sim, com transcrição ao vivo | — | Sim, com a Apple Intelligence² |
+| Gravador do Google (Recorder, celulares Pixel) | Pixel 3 ou posterior, Pixel Tablet | Só ao transcrever de novo (“Transcribe again”)³ | — | Sim | — | Sim (Pixel 8 ou posterior); o português não está na lista de idiomas do resumo |
+| Otter | iOS, Android, web, computador (Mac, Windows) | Fora da lista de idiomas compatíveis | Interface em inglês⁴ | Sim, ao vivo | Sim | Sim |
+| Notta | iOS, Android, web, computador (Windows, macOS) | Sim | Sim⁴ | Sim | Sim | Sim |
+| Transkriptor | iOS, Android, web, extensão do Chrome, computador (Windows, Mac) | Sim, com português do Brasil na lista | Sim⁴ | Sim | Sim | Sim |
+| TurboScribe | Web, também no navegador do celular | Sim | Sim, no site | Em parte: no navegador, pelo microfone | Sim | Em parte: pelo TurboScribe GPT (ChatGPT) |
+| Transcribe – Voz para texto (DENIVIP · App Store id1241342461) | iPhone, iPad, Mac, web | Sim | Sim⁴ | Sim, com transcrição ao vivo | Sim | Sim |
+| Verbi | iPhone, Android | Sim, com detecção automática do idioma | Sim, a partir da versão 1.4.0 (iPhone) e 1.2.0 (Android) | Sim, com transcrição ao vivo | Sim; também áudios do WhatsApp e do Telegram e links de vídeo | Sim: nove modelos, em português com o app em português |
+
+— A fonte não informa.
+
+¹ O manual da Apple em português diz que a transcrição funciona quando o idioma do aparelho é um dos idiomas da lista, e que ela não está disponível em todos os países ou regiões. ² No iOS 27, a Apple Intelligence exige iPhone 15 Pro, iPhone 15 Pro Max ou iPhone 16 ou posterior. ³ O português (Brasil) está na lista do recurso “Transcribe again”, que pode processar o áudio nos servidores do Google, mas não na lista de transcrição em tempo real. ⁴ Idiomas do app segundo a ficha da App Store no Brasil; a central de ajuda do Otter diz que a interface continua em inglês.
+
+## O iPhone transcreve áudio em português sem outro app?
+
+Sim, a partir do iPhone 12. O [Manual de Uso do iPhone](https://support.apple.com/pt-br/guide/iphone/iph00953a982/ios) (iOS 27) diz que o Gravador transcreve a fala em inglês, espanhol, português, italiano, francês, alemão, japonês, coreano e chinês quando esse também é o idioma do aparelho, e que o recurso não está disponível em todos os países ou regiões. Dá para ver a transcrição enquanto grava, copiar tudo com Copiar Transcrição e buscar palavras nos títulos e nas transcrições. Com a Apple Intelligence, as Ferramentas de Escrita resumem a transcrição, o que no iOS 27 exige iPhone 15 Pro, iPhone 15 Pro Max ou iPhone 16 ou posterior.
+
+O app Notas faz o mesmo dentro de uma nota: toque em Gravar Áudio, e, segundo o [manual do Notas](https://support.apple.com/pt-br/guide/iphone/iphbe11247b5/ios), a fala é transcrita nas mesmas condições, com resumo da Apple Intelligence nos modelos compatíveis. Se você só quer ler ou copiar o que foi dito, os apps da Apple podem bastar. Eles não recebem áudios do WhatsApp; para esses, veja a próxima seção.
+
+## E os áudios do WhatsApp?
+
+O próprio WhatsApp mostra a transcrição das mensagens de voz que você recebe, depois que você ativa o recurso. Segundo a Central de Ajuda, no [Android](https://faq.whatsapp.com/241617298315321/?cms_platform=android&locale=pt_BR) ela está disponível em inglês, português, espanhol e russo, no [iPhone](https://faq.whatsapp.com/241617298315321/?cms_platform=iphone&locale=pt_BR) os idiomas dependem do iOS (o português aparece a partir do iOS 16), e a transcrição é gerada no próprio aparelho.
+
+Para guardar o texto de um áudio longo, buscar nele depois ou receber um resumo, compartilhe o áudio do WhatsApp com um app de transcrição. O Verbi recebe áudios do WhatsApp e do Telegram pelo menu de compartilhar, transcreve do começo ao fim e resume ([veja o passo a passo](/pt/ajuda/transcrever-audio-do-whatsapp/)); a ficha do Transcribe na App Store também cita mensagens de voz do WhatsApp.
+
+## Gravador do Google (Pixel)
+
+O Gravador do Google funciona em celulares Pixel 3 ou posterior e no Pixel Tablet ([ajuda do Google](https://support.google.com/pixelphone/answer/16267668?hl=en)). Na [lista de idiomas](https://support.google.com/pixelphone/answer/16267698?hl=en), o português (Brasil) aparece só no recurso “Transcribe again”, que transcreve de novo uma gravação e pode processar o áudio nos servidores do Google; ele não está na lista de transcrição em tempo real nem na dos resumos (Pixel 8 ou posterior).
+
+Para quem faz sentido: quem tem um Pixel e quer transcrever uma gravação já feita, sem instalar outro app.
+
+## Otter
+
+O Otter tem app para iPhone e Android, versão web e [app para Mac e Windows](https://help.otter.ai/hc/en-us/articles/35973988280215-Otter-Desktop-App-Mac-Windows), grava e transcreve ao vivo, [importa arquivos](https://help.otter.ai/hc/en-us/articles/360047733574-Import-an-audio-or-video-file) e faz [resumos automáticos de reuniões](https://help.otter.ai/hc/en-us/articles/9156381229079-Meeting-Summary-Overview). A [lista de idiomas](https://help.otter.ai/hc/en-us/articles/360047247414-Supported-languages) da central de ajuda cita inglês, espanhol, francês, alemão, japonês e chinês simplificado; o português não está nela. A [ficha da App Store no Brasil](https://apps.apple.com/br/app/otter-transcribe-voice-notes/id1276437113) mostra o app em inglês.
+
+Para quem faz sentido: quem grava reuniões em inglês ou em outro idioma da lista e quer as notas no celular, no navegador e no computador.
+
+## Notta
+
+O Notta funciona no iPhone e no Android, na web e no computador, com Windows e macOS ([ambientes compatíveis](https://support.notta.ai/hc/en-us/articles/18119588493467-Supported-environments)). No app, a tela inicial oferece [importar arquivos, gravar e transcrever reuniões ao vivo](https://support.notta.ai/hc/en-us/articles/17604467003803-Introduction-about-Notta-App); o português está na [lista de idiomas](https://support.notta.ai/hc/en-us/articles/4403155631131-What-languages-does-Notta-support), a [ficha da App Store](https://apps.apple.com/br/app/notta-transcribe-voice-to-text/id1480649572) mostra o app em português e descreve resumos com IA.
+
+Para quem faz sentido: quem alterna entre celular e computador e grava em mais de um idioma.
+
+## Transkriptor
+
+O Transkriptor tem app para iOS e Android, versão web, extensão do Chrome e [app para Windows e Mac](https://transkriptor.com/desktop-app/). O [site](https://transkriptor.com/) lista o português, incluindo o português do Brasil, entre os idiomas de transcrição, e a [ficha da App Store](https://apps.apple.com/br/app/transkriptor-fala-para-texto/id1610386353) mostra o app em português e descreve gravador integrado, transcrição de arquivos, resumos e chat com a transcrição.
+
+Para quem faz sentido: quem também quer gravar reuniões online pelo computador ou usar uma extensão no navegador.
+
+## TurboScribe
+
+O TurboScribe é um app web. A [central de ajuda](https://turboscribe.ai/help/does-turboscribe-have-a-mobile-app) diz que ele não tem app na App Store nem no Google Play e que o site funciona por completo no navegador do celular, com envio de arquivos, transcrição, tradução e exportação. O português está entre os idiomas de áudio, o [site em português](https://turboscribe.ai/pt/) tem interface em português, dá para [enviar um áudio ou gravar pelo microfone](https://turboscribe.ai/u/transcribe-voice-memos) e o [TurboScribe GPT](https://turboscribe.ai/blog/turboscribe-gpt-transcribe-and-chat) resume as transcrições pelo ChatGPT.
+
+Para quem faz sentido: quem quer enviar arquivos, muitas vezes pelo computador, sem instalar app.
+
+## Transcribe – Voz para texto (DENIVIP)
+
+O Transcribe (DENIVIP Group OOO, App Store id1241342461) funciona no iPhone, no iPad, no Mac e num editor web em [transcribe.com](https://transcribe.com/). A [ficha da App Store](https://apps.apple.com/br/app/transcribe-speech-to-text/id1241342461) mostra o app em português e descreve gravador com transcrição ao vivo, envio de áudio e vídeo, identificação de falantes e resumos com IA; a [central de ajuda](https://transcribe.com/help-center) cita o português entre os idiomas. Há outros apps com nomes parecidos, então confira o desenvolvedor antes de baixar.
+
+Para quem faz sentido: quem usa iPhone e Mac e quer editar a transcrição também no navegador.
+
+## Verbi
+
+O Verbi é um gravador de voz com IA para iPhone e Android. A partir da versão 1.4.0 no iPhone e 1.2.0 no Android, o app está em português, e os resumos e as respostas do chat saem em português quando o app está em português; a transcrição sai no idioma em que se falou, com detecção automática entre 39 idiomas.
+
+Você grava no app (no Pro, sem limite de duração; no iPhone, e no Android a partir da versão 1.2.0, a gravação continua com a tela bloqueada), importa um arquivo de áudio ou vídeo, compartilha um áudio do WhatsApp ou do Telegram ou cola um link de vídeo. Os resumos seguem nove modelos, como Notas de aula, Reunião geral e Lista de tarefas, e se atêm ao que foi dito: responsável e prazo só aparecem quando alguém os mencionou. No Pro, cada transcrição ganha um resumo, e você também identifica quem fala, conversa com a transcrição, traduz e exporta em TXT ou PDF; no plano grátis, o primeiro resumo é por nossa conta e você pode copiar o texto.
+
+O Verbi não pede conta, e as gravações e transcrições ficam no seu celular. Para transcrever, o áudio é enviado aos nossos provedores de reconhecimento de fala (ElevenLabs e OpenAI), como explica a [política de privacidade](https://theverbi.com/privacy-policy/) (em inglês). O plano grátis inclui 60 minutos de transcrição por mês.
+
+Para quem faz sentido: quem grava aulas, reuniões e entrevistas longas, recebe áudios compridos no WhatsApp ou usa iPhone e Android. O Verbi não tem versão web nem para computador.
+
+## Como escolher um app para transcrever áudio em português?
+
+Depende do que você grava e do que quer fazer com o texto. Pelo que mostra a tabela:
+
+- Aulas da faculdade: você precisa gravar e de um resumo. O Gravador e o Notas resumem com a Apple Intelligence nos iPhones compatíveis; Notta, Transkriptor, Transcribe e Verbi fazem resumos com IA, e o modelo Notas de aula do Verbi se atém ao que o professor disse. Veja [como gravar a aula e transcrever](/pt/gravar-aula-e-transcrever/).
+- Reuniões: para quem trabalha no computador, Otter, Notta e Transkriptor têm app para Windows e Mac. O Verbi grava pelo microfone do celular e não entra na chamada como bot; veja [como fazer a ata de reunião](/pt/ata-de-reuniao-com-ia/).
+- Sem gastar: o Gravador e o Notas já vêm no iPhone 12 ou posterior, e o WhatsApp transcreve as mensagens de voz recebidas. Os planos dos outros apps mudam com frequência, por isso não os listamos; o plano grátis do Verbi inclui 60 minutos de transcrição por mês.
+- Áudios do WhatsApp longos que você quer guardar ou resumir: compartilhe com um app que importe o arquivo, como o Verbi.
+- Android: Notta, Transkriptor, Otter e Verbi têm app para Android; no Pixel, o Gravador do Google transcreve português ao transcrever de novo uma gravação. O TurboScribe funciona em qualquer navegador.
+- App em português: segundo as fichas da App Store no Brasil, Notta, Transkriptor e Transcribe estão em português; o Verbi também, a partir da versão 1.4.0 no iPhone e 1.2.0 no Android. O Otter mostra o app em inglês.
+- Privacidade: veja onde cada app processa e guarda o áudio na página de privacidade dele. O Gravador do Google avisa que transcrever de novo pode usar os servidores do Google; o Verbi guarda as gravações no celular e envia o áudio aos provedores de transcrição.
+
+## Como transcrever um áudio em português no Verbi?
+
+1. Baixe o Verbi na App Store ou no Google Play. Em Ajustes → Idioma de transcrição, escolha Português ou deixe em Detecção automática.
+2. Para gravar, toque em Gravar e transcrever. Se quiser ver o texto aparecendo enquanto alguém fala, escolha Transcrição ao vivo.
+3. Para um áudio que você já tem, toque em Importar arquivo, ou compartilhe o áudio com o Verbi a partir do Gravador, do WhatsApp ou de outro app. No iPhone, espere a mensagem “Adicionado ao Verbi. Abra o app para transcrever.” e abra o Verbi.
+4. Do Gravador do iPhone, compartilhe no formato padrão (.m4a). Segundo a Apple, a opção de exportar para editar camadas depois gera um arquivo QuickTime Audio, e esse formato o Verbi não lê.
+5. Quando o texto ficar pronto, leia, busque ou copie. O primeiro resumo é grátis; no Pro, cada transcrição ganha um resumo no modelo que você escolher, e você pode exportar em TXT ou PDF. Mais detalhes em [como transcrever áudio em texto](/pt/transcrever-audio-em-texto/).
+
+## Perguntas frequentes
+
+### Qual aplicativo transforma gravação de áudio em texto no iPhone?
+
+O próprio iPhone faz isso: segundo o manual da Apple (iOS 27, conferido em 26 de outubro de 2026), o Gravador e o app Notas transcrevem português no iPhone 12 ou posterior. Entre os apps da App Store, Notta, Transkriptor, Transcribe e Verbi transcrevem português e têm app para iPhone; o TurboScribe funciona no navegador.
+
+### Existe app gratuito para transcrever áudio em texto?
+
+O Gravador e o Notas já vêm no iPhone, e o WhatsApp transcreve as mensagens de voz recebidas. Os planos dos outros apps mudam com frequência, por isso não os listamos aqui; confira a página de cada um. O Verbi é grátis para baixar, e o plano grátis inclui 60 minutos de transcrição por mês, gravações guardadas por 15 dias e o primeiro resumo de IA, sem criar conta.
+
+### O Otter transcreve português?
+
+O português não está na lista de idiomas compatíveis da central de ajuda do Otter, que cita inglês, espanhol, francês, alemão, japonês e chinês simplificado (conferido em 26 de outubro de 2026). A lista pode mudar; confira a página do Otter.
+
+### O Gravador do Google transcreve português?
+
+Segundo a ajuda do Google, o português (Brasil) aparece só na lista do recurso “Transcribe again”, que transcreve de novo uma gravação e pode processar o áudio nos servidores do Google. Ele não está na lista de transcrição em tempo real nem na dos resumos.
+
+### O resumo sai em português?
+
+No Verbi, sim, com o app em português (a partir da versão 1.4.0 no iPhone e 1.2.0 no Android): os resumos e as respostas do chat saem no idioma do app, e a transcrição fica no idioma em que se falou.
+
+### Quem fez este comparativo?
+
+A equipe do Verbi. Para os outros apps, usamos só o que está nas páginas oficiais, nas centrais de ajuda e nas fichas das lojas; o que a fonte não informa aparece como “—”.
+
+## Fontes
+
+As informações sobre os outros apps desta página vêm das páginas oficiais, centrais de ajuda e fichas nas lojas de cada um, conferidas em 26 de outubro de 2026. Elas podem mudar conforme os apps são atualizados.
+
+- Apple: [transcrição no Gravador](https://support.apple.com/pt-br/guide/iphone/iph00953a982/ios), [gravar áudio no Notas](https://support.apple.com/pt-br/guide/iphone/iphbe11247b5/ios), [exportar uma gravação](https://support.apple.com/en-us/guide/iphone/iph831c37815/ios) (em inglês)
+- Gravador do Google: [idiomas e resumos](https://support.google.com/pixelphone/answer/16267698?hl=en), [aparelhos](https://support.google.com/pixelphone/answer/16267668?hl=en), [Google Play](https://play.google.com/store/apps/details?id=com.google.android.apps.recorder) (em inglês)
+- WhatsApp: [transcrição de mensagens de voz no Android](https://faq.whatsapp.com/241617298315321/?cms_platform=android&locale=pt_BR) e [no iPhone](https://faq.whatsapp.com/241617298315321/?cms_platform=iphone&locale=pt_BR)
+- Otter: [idiomas compatíveis](https://help.otter.ai/hc/en-us/articles/360047247414-Supported-languages), [idioma da interface](https://help.otter.ai/hc/en-us/articles/26660468516631-Transcribe-conversations-in-English-Spanish-French-German-Japanese-or-Chinese-Simplified), [app para computador](https://help.otter.ai/hc/en-us/articles/35973988280215-Otter-Desktop-App-Mac-Windows), [importar arquivos](https://help.otter.ai/hc/en-us/articles/360047733574-Import-an-audio-or-video-file), [resumo de reunião](https://help.otter.ai/hc/en-us/articles/9156381229079-Meeting-Summary-Overview), [App Store](https://apps.apple.com/br/app/otter-transcribe-voice-notes/id1276437113), [Google Play](https://play.google.com/store/apps/details?id=com.aisense.otter)
+- Notta: [ambientes compatíveis](https://support.notta.ai/hc/en-us/articles/18119588493467-Supported-environments), [idiomas](https://support.notta.ai/hc/en-us/articles/4403155631131-What-languages-does-Notta-support), [o app](https://support.notta.ai/hc/en-us/articles/17604467003803-Introduction-about-Notta-App), [App Store](https://apps.apple.com/br/app/notta-transcribe-voice-to-text/id1480649572), [Google Play](https://play.google.com/store/apps/details?id=com.langogo.transcribe)
+- Transkriptor: [idiomas e recursos](https://transkriptor.com/), [app para computador](https://transkriptor.com/desktop-app/), [App Store](https://apps.apple.com/br/app/transkriptor-fala-para-texto/id1610386353), [Google Play](https://play.google.com/store/apps/details?id=com.transkriptor.app)
+- TurboScribe: [idiomas de áudio](https://turboscribe.ai/), [site em português](https://turboscribe.ai/pt/), [uso no celular](https://turboscribe.ai/help/does-turboscribe-have-a-mobile-app), [gravar e enviar áudio](https://turboscribe.ai/u/transcribe-voice-memos), [TurboScribe GPT](https://turboscribe.ai/blog/turboscribe-gpt-transcribe-and-chat)
+- Transcribe – Voz para texto (DENIVIP): [App Store id1241342461](https://apps.apple.com/br/app/transcribe-speech-to-text/id1241342461), [transcribe.com](https://transcribe.com/), [central de ajuda](https://transcribe.com/help-center)
+
+---
+
 URL: https://theverbi.com/help/transcribe-audio-file/
 Language: en
-Last updated: 2026-10-24
+Last updated: 2026-10-26
 
 # How do I transcribe an audio file or a voice memo I already have?
 
@@ -2828,6 +3111,10 @@ Upload File takes one file at a time. On iPhone, you can share up to 10 files to
 ### Does an imported file use my free minutes?
 
 Yes. On the free plan, imported files count toward the same 60 minutes a month as recordings made in Verbi. See [what the free plan includes](/help/free-plan-vs-pro/).
+
+### Which other apps transcribe voice memos on iPhone?
+
+We compared the options, including the transcription built into iPhone, using each vendor’s own pages: see [the best apps to transcribe voice memos on iPhone](/best-apps-transcribe-voice-memos-iphone/).
 
 ---
 
@@ -2939,7 +3226,7 @@ Ja. Im kostenlosen Plan zählt ihre Länge beim Import zu deinen 60 Minuten pro 
 
 URL: https://theverbi.com/pt/ajuda/transcrever-arquivo-de-audio/
 Language: pt
-Last updated: 2026-10-24
+Last updated: 2026-10-26
 
 # Como transcrever um arquivo de áudio ou uma gravação que já tenho?
 
@@ -2952,7 +3239,7 @@ Abra o Verbi e toque em Upload File (enviar arquivo) para escolher o áudio, ou 
 3. A transcrição começa sozinha. No Pro, antes aparece Number of Speakers (número de participantes): deixe em Automatic (automático) ou escolha o número e toque em Convert to Text (converter em texto).
 4. Quando o texto ficar pronto, abra a gravação para ler, buscar ou copiar.
 
-O app não tem versão em português, então os nomes dos botões aparecem aqui em inglês, com o sentido em português entre parênteses. No iPhone, se o Verbi abriu em turco, troque o idioma primeiro: [veja como](/pt/ajuda/idiomas/).
+Os nomes dos botões aparecem aqui em inglês, com o sentido em português entre parênteses. A partir da versão 1.4.0 no iPhone e 1.2.0 no Android, o app mostra esses nomes em português: [veja o idioma do app](/pt/ajuda/idiomas/).
 
 ## Como compartilhar um áudio de outro app com o Verbi?
 
@@ -2990,6 +3277,10 @@ Pelo Upload File, um por vez. No iPhone, o menu de compartilhar aceita até 10 a
 ### Um arquivo importado conta no limite grátis?
 
 Sim. Arquivos importados contam nos mesmos 60 minutos de transcrição por mês que as gravações feitas no app. Veja [o que o plano grátis inclui](/pt/ajuda/plano-gratis-e-pro/).
+
+### Que outros apps transcrevem áudio em português?
+
+Comparamos as opções, inclusive a transcrição que já vem no iPhone, com as fontes oficiais de cada uma: veja [apps para transcrever áudio em português](/pt/apps-para-transcrever-audio-em-portugues/).
 
 ---
 
@@ -3111,7 +3402,7 @@ Nella schermata principale di Verbi tocca «Upload File» (carica file) e scegli
 
 Un file scelto dall’app File mantiene il suo nome come titolo.
 
-Le voci dell’app sono citate in inglese, con il significato tra parentesi. Se su iPhone Verbi è in turco, [ecco come passare all’inglese](/it/assistenza/lingue/).
+Le voci dell’app sono citate in inglese, con il significato tra parentesi. Dalla versione 1.4.0 su iPhone e 1.2.0 su Android l’app mostra queste voci in italiano: [ecco le lingue dell’app](/it/assistenza/lingue/).
 
 ## Come condivido un audio con Verbi da un’altra app?
 
@@ -3288,7 +3579,7 @@ Es gibt keine Längengrenze. Im kostenlosen Plan muss sie auf dem iPhone in die 
 
 URL: https://theverbi.com/pt/ajuda/transcrever-audio-do-whatsapp/
 Language: pt
-Last updated: 2026-10-24
+Last updated: 2026-10-26
 
 # Como transcrever um áudio do WhatsApp (ou do Telegram)?
 
@@ -3302,7 +3593,7 @@ Compartilhe a mensagem de voz do WhatsApp ou do Telegram com o Verbi: no iPhone,
 4. No Pro, o Verbi pergunta antes Number of Speakers (número de participantes): deixe em Automatic (automático) ou escolha o número e toque em Convert to Text (converter em texto).
 5. Pronto: a gravação aparece com um título criado pela IA, porque o WhatsApp dá nomes automáticos aos arquivos.
 
-O app não tem versão em português, então os nomes dos botões aparecem aqui em inglês, com o sentido em português entre parênteses. No iPhone, se o Verbi abriu em turco, troque o idioma primeiro: [veja como](/pt/ajuda/idiomas/).
+Os nomes dos botões aparecem aqui em inglês, com o sentido em português entre parênteses. A partir da versão 1.4.0 no iPhone e 1.2.0 no Android, o app mostra esses nomes em português: [veja o idioma do app](/pt/ajuda/idiomas/).
 
 ## E no Android?
 
@@ -3324,7 +3615,7 @@ Se o Verbi não aparecer na lista de compartilhar, atualize o app: as mensagens 
 
 Sim. No Pro, toda transcrição com pelo menos 200 caracteres ganha um resumo automático. No plano grátis, o primeiro resumo é automático e grátis, feito com o modelo padrão. Veja [os modelos de resumo](/pt/ajuda/modelos-de-resumo/).
 
-A transcrição fica no idioma do áudio, em português se a conversa foi em português. O resumo, o título e as respostas do chat saem no idioma da interface do app, por exemplo em inglês se o app estiver em inglês. [Por que meu app está em turco?](/pt/ajuda/idiomas/)
+A transcrição fica no idioma do áudio, em português se a conversa foi em português. O resumo, o título e as respostas do chat saem no idioma do app: em português, com o app em português (a partir da versão 1.4.0 no iPhone e 1.2.0 no Android). [Veja os idiomas do app](/pt/ajuda/idiomas/)
 
 ## Perguntas frequentes
 
@@ -3444,7 +3735,7 @@ Avec Pro, oui, automatiquement, si la transcription fait au moins 200 caractère
 
 URL: https://theverbi.com/it/assistenza/trascrivere-vocali-whatsapp/
 Language: it
-Last updated: 2026-10-24
+Last updated: 2026-10-26
 
 # Come trascrivo un messaggio vocale di WhatsApp o Telegram?
 
@@ -3458,7 +3749,7 @@ Condividi il vocale da WhatsApp o Telegram con Verbi: Verbi lo converte e lo tra
 
 Se Verbi non compare nel menu di condivisione, controlla di avere la versione più recente. Puoi anche salvare il vocale nell’app File e importarlo con «Upload File» (carica file).
 
-Le voci dell’app sono citate in inglese, con il significato tra parentesi. Se su iPhone Verbi è in turco, [ecco come passare all’inglese](/it/assistenza/lingue/).
+Le voci dell’app sono citate in inglese, con il significato tra parentesi. Dalla versione 1.4.0 su iPhone e 1.2.0 su Android l’app mostra queste voci in italiano: [ecco le lingue dell’app](/it/assistenza/lingue/).
 
 ## Come si fa su Android?
 
@@ -3468,7 +3759,7 @@ Condividi il vocale da WhatsApp o Telegram e scegli «Verbi». Verbi si apre sub
 
 - WhatsApp invia i vocali come file .opus, Telegram come .ogg o .oga. L’iPhone legge Ogg Opus e all’importazione converte il file in M4A; i file Ogg Vorbis li rifiuta come non supportati. Android accetta sia Opus sia Vorbis.
 - I vocali lunghi non sono un problema: valgono le stesse regole di qualsiasi [importazione](/it/assistenza/trascrivere-file-audio/), senza un limite di dimensione a parte. Con il piano gratuito la durata conta nei tuoi 60 minuti al mese.
-- Con Pro, Verbi scrive in automatico un riassunto dopo ogni trascrizione di almeno 200 caratteri. Con il piano gratuito ricevi un riassunto automatico per la tua prima trascrizione di questa lunghezza; un vocale breve può restare sotto la soglia. Il riassunto è scritto nella lingua dell’app, non in italiano.
+- Con Pro, Verbi scrive in automatico un riassunto dopo ogni trascrizione di almeno 200 caratteri. Con il piano gratuito ricevi un riassunto automatico per la tua prima trascrizione di questa lunghezza; un vocale breve può restare sotto la soglia. Il riassunto è scritto nella lingua dell’app: in italiano, con l’app in italiano (dalla versione 1.4.0 su iPhone e 1.2.0 su Android).
 - Verbi riceve solo il file che condividi, non la chat.
 
 ## Domande frequenti
@@ -3652,7 +3943,7 @@ Se a tela inicial do Verbi mostra Load from YouTube (carregar do YouTube), toque
 
 Se Load from YouTube não aparecer na tela inicial, a importação de vídeos não está disponível no seu app no momento. Você ainda pode importar um arquivo de áudio com Upload File (enviar arquivo).
 
-O app não tem versão em português, então os nomes dos botões aparecem aqui em inglês, com o sentido em português entre parênteses. No iPhone, se o Verbi abriu em turco, troque o idioma primeiro: [veja como](/pt/ajuda/idiomas/).
+Os nomes dos botões aparecem aqui em inglês, com o sentido em português entre parênteses. A partir da versão 1.4.0 no iPhone e 1.2.0 no Android, o app mostra esses nomes em português: [veja o idioma do app](/pt/ajuda/idiomas/).
 
 ## Quais links funcionam?
 
@@ -3801,7 +4092,7 @@ Nella schermata principale tocca «Load from YouTube» (carica da YouTube), inco
 
 Se non vedi «Load from YouTube», l’importazione da YouTube in questo momento non è disponibile. Un tuo file audio o video puoi sempre importarlo con «Upload File» (carica file).
 
-Le voci dell’app sono citate in inglese, con il significato tra parentesi. Se su iPhone Verbi è in turco, [ecco come passare all’inglese](/it/assistenza/lingue/).
+Le voci dell’app sono citate in inglese, con il significato tra parentesi. Dalla versione 1.4.0 su iPhone e 1.2.0 su Android l’app mostra queste voci in italiano: [ecco le lingue dell’app](/it/assistenza/lingue/).
 
 ## Quali link e video funzionano?
 
@@ -3996,7 +4287,7 @@ O Verbi não tem limite de duração por gravação: no Pro, você grava pelo te
 
 No iOS 26 ou posterior, a transcrição em segundo plano vale para gravações de 2 minutos ou mais, se o sistema permitir, e mostra o progresso na tela bloqueada (Preparing transcript, preparando a transcrição). O Verbi pede permissão para notificações na primeira vez que você transcreve um áudio de 2 minutos ou mais.
 
-O app não tem versão em português, então os nomes dos botões aparecem aqui em inglês, com o sentido em português entre parênteses. No iPhone, se o Verbi abriu em turco, troque o idioma primeiro: [veja como](/pt/ajuda/idiomas/).
+Os nomes dos botões aparecem aqui em inglês, com o sentido em português entre parênteses. A partir da versão 1.4.0 no iPhone e 1.2.0 no Android, o app mostra esses nomes em português: [veja o idioma do app](/pt/ajuda/idiomas/).
 
 ## Tela bloqueada, outros apps e ligações
 
@@ -4148,7 +4439,7 @@ Verbi non ha una durata massima per le registrazioni, né su iPhone né su Andro
 4. Con iOS 26 o successivi puoi uscire dall’app mentre trascrive: l’avanzamento compare sulla schermata di blocco e nella Dynamic Island («Preparing transcript», preparazione della trascrizione), per registrazioni di almeno 2 minuti e se iOS lo consente. Con versioni di iOS precedenti una trascrizione più lunga si sospende in background e riprende quando riapri Verbi.
 5. Se la trascrizione è pronta mentre Verbi non è in primo piano, ricevi la notifica «Your notes are ready» (i tuoi appunti sono pronti). Verbi chiede il permesso per le notifiche la prima volta che trascrivi una registrazione di almeno 2 minuti.
 
-Le voci dell’app sono citate in inglese, con il significato tra parentesi. Se su iPhone Verbi è in turco, [ecco come passare all’inglese](/it/assistenza/lingue/).
+Le voci dell’app sono citate in inglese, con il significato tra parentesi. Dalla versione 1.4.0 su iPhone e 1.2.0 su Android l’app mostra queste voci in italiano: [ecco le lingue dell’app](/it/assistenza/lingue/).
 
 ## E su Android?
 
@@ -4174,11 +4465,11 @@ Su Android e su iPhone con iOS 26 o successivi sì, e Verbi ti avvisa quando la 
 
 URL: https://theverbi.com/help/languages/
 Language: en
-Last updated: 2026-10-24
+Last updated: 2026-10-26
 
 # Which languages does Verbi transcribe?
 
-Verbi transcribes 39 languages and can detect the spoken language on its own; you choose under Settings → Transcription Language. The app itself is in English, Turkish, German, French and Spanish, and summaries, titles and chat answers come in the app’s language.
+Verbi transcribes 39 languages and can detect the spoken language on its own; you choose under Settings → Transcription Language. The app itself is in English, Turkish, German, French, Spanish, Portuguese (Brazil) and Italian, and summaries, titles and chat answers come in the app’s language.
 
 ## Which 39 languages can Verbi transcribe?
 
@@ -4192,22 +4483,22 @@ The list is the same on iPhone and Android. The transcript stays in the language
 2. Tap Transcription Language.
 3. Pick the language of your recordings, or Auto-detect to let Verbi work it out.
 
-Verbi also asks “What language do you speak?” when you first set it up. The setting applies to every new recording and import; there’s no separate language per recording. If you know the language, set it; Auto-detect is there for when you don’t. Until you choose, iPhone uses the app’s language and Android uses Auto-detect.
+Verbi also asks “What language do you speak?” when you first set it up. The setting applies to every new recording and import; there’s no separate language per recording. If you know the language, set it; Auto-detect is there for when you don’t. Until you choose, Verbi uses your phone’s language if it’s on the list, otherwise Auto-detect.
 
 ## Which languages is the app itself in?
 
-- The interface is in English, Türkçe (Turkish), Deutsch (German), Français (French) and Español (Spanish).
-- iPhone: change it in Verbi under Settings → Language. On first launch, Verbi uses your phone’s first preferred language if it’s one of the five; otherwise it opens in Turkish.
-- Android: change it in Verbi under Settings → Language, or in Android’s per-app language settings (Android 13 and later). On a phone set to another language, Verbi shows English.
+- The interface is in seven languages: English, Türkçe (Turkish), Deutsch (German), Français (French), Español (Spanish), Italiano (Italian) and Brazilian Portuguese, shown as Português (Brasil). Portuguese and Italian came with version 1.4.0 on iPhone and 1.2.0 on Android.
+- iPhone: change it in Verbi under Settings → Language. On first launch, Verbi uses your phone’s first preferred language if it’s one of the seven (a phone in Portuguese from Portugal gets Português (Brasil)); otherwise it opens in English.
+- Android: change it in Verbi under Settings → Language, or in Android’s per-app language settings (Android 13 and later). On a phone set to a language the app doesn’t have, Verbi shows English.
 - Summaries, titles and AI Chat answers always come in the app’s interface language, not in the language that was spoken.
 
-## My iPhone app opened in Turkish. How do I switch it?
+## My iPhone app is in Turkish. How do I switch it?
 
 1. Open the Ayarlar (Settings) tab.
-2. Tap Dil (Language) and choose English or Español.
+2. Tap Dil (Language) and choose your language.
 3. Then tap Transcription Language (Transkripsiyon Dili) and pick the language you speak, or Auto-detect (Otomatik Algıla).
 
-This happens when your iPhone’s first language isn’t English, Turkish, German, French or Spanish. Until you switch, summaries, titles and chat answers come out in Turkish, and the transcription language is Turkish.
+Versions before 1.4.0 opened in Turkish when the iPhone’s first language wasn’t English, Turkish, German, French or Spanish. Version 1.4.0 moves such an app once to your phone’s language, if Verbi has it, or to English. Summaries, titles and chat answers follow the app language from then on.
 
 ## Frequently asked questions
 
@@ -4221,17 +4512,17 @@ No. Transcription Language is one setting for all new recordings. Change it befo
 
 ### Is the app available in Italian or Portuguese?
 
-No. The interface is in English, Turkish, German, French and Spanish. Verbi still transcribes Italian, Portuguese and the other languages on the list.
+Yes, from version 1.4.0 on iPhone and 1.2.0 on Android: Settings → Language has Português (Brasil) and Italiano. With either one, summaries, titles and chat answers come in that language too.
 
 ---
 
 URL: https://theverbi.com/tr/yardim/desteklenen-diller/
 Language: tr
-Last updated: 2026-10-24
+Last updated: 2026-10-26
 
 # Verbi hangi dilleri yazıya döker?
 
-Verbi 39 dili yazıya döker ve konuşulan dili kendisi algılayabilir; dili Ayarlar → Transkripsiyon Dili’nden seçersiniz. Uygulamanın kendisi Türkçe, İngilizce, Almanca, Fransızca ve İspanyolcadır; özetler, başlıklar ve sohbet yanıtları uygulamanın dilinde gelir.
+Verbi 39 dili yazıya döker ve konuşulan dili kendisi algılayabilir; dili Ayarlar → Transkripsiyon Dili’nden seçersiniz. Uygulamanın kendisi Türkçe, İngilizce, Almanca, Fransızca, İspanyolca, Portekizce (Brezilya) ve İtalyancadır; özetler, başlıklar ve sohbet yanıtları uygulamanın dilinde gelir.
 
 ## Verbi hangi 39 dili yazıya döker?
 
@@ -4245,22 +4536,22 @@ Liste iPhone’da ve Android’de aynıdır. Transkript, konuşulan dilde kalır
 2. Transkripsiyon Dili’ne dokunun.
 3. Kayıtlarınızın dilini seçin ya da dili Verbi’nin bulması için Otomatik Algıla’yı seçin.
 
-Verbi ilk kurulumda da “Hangi dilde konuşuyorsun?” diye sorar. Ayar bütün yeni kayıtlara ve içe aktarmalara uygulanır; her kayıt için ayrı dil seçilmez. Dili biliyorsanız seçin; otomatik algılama bilmediğiniz durumlar için var. Siz seçene kadar iPhone uygulamanın dilini, Android ise Otomatik Algıla’yı kullanır.
+Verbi ilk kurulumda da “Hangi dilde konuşuyorsun?” diye sorar. Ayar bütün yeni kayıtlara ve içe aktarmalara uygulanır; her kayıt için ayrı dil seçilmez. Dili biliyorsanız seçin; otomatik algılama bilmediğiniz durumlar için var. Siz seçene kadar Verbi, listede varsa telefonun dilini, yoksa Otomatik Algıla’yı kullanır.
 
 ## Uygulamanın kendisi hangi dillerde?
 
-- Arayüz Türkçe, İngilizce (English), Almanca (Deutsch), Fransızca (Français) ve İspanyolca (Español) olarak kullanılabilir.
-- iPhone: Verbi’de Ayarlar → Dil’den değiştirin. Verbi ilk açılışta, telefonun ilk tercih edilen dili bu beşinden biriyse onu kullanır; değilse Türkçe açılır.
-- Android: Verbi’de Ayarlar → Dil’den ya da Android’in uygulamaya özel dil ayarlarından (Android 13 ve sonrası) değiştirin. Telefon başka bir dildeyse Verbi İngilizce görünür.
+- Arayüz yedi dilde kullanılabilir: Türkçe, İngilizce (English), Almanca (Deutsch), Fransızca (Français), İspanyolca (Español), İtalyanca (Italiano) ve Brezilya Portekizcesi (Português (Brasil)). Portekizce ve İtalyanca, iPhone’da 1.4.0, Android’de 1.2.0 sürümüyle geldi.
+- iPhone: Verbi’de Ayarlar → Dil’den değiştirin. Verbi ilk açılışta, telefonun ilk tercih edilen dili bu yedisinden biriyse onu kullanır (Portekiz Portekizcesine ayarlı bir telefon Português (Brasil) alır); değilse İngilizce açılır.
+- Android: Verbi’de Ayarlar → Dil’den ya da Android’in uygulamaya özel dil ayarlarından (Android 13 ve sonrası) değiştirin. Telefon, uygulamada olmayan bir dildeyse Verbi İngilizce görünür.
 - Özetler, başlıklar ve AI Sohbet yanıtları her zaman uygulamanın arayüz dilinde gelir; kayıtta konuşulan dilde değil.
 
 ## Uygulama Türkçe açıldı, başka bir dile nasıl geçerim?
 
 1. Ayarlar sekmesini açın.
-2. Dil satırına dokunun ve English ya da Español’u seçin.
+2. Dil satırına dokunun ve istediğiniz dili seçin.
 3. Ardından Transcription Language (Türkçe arayüzde Transkripsiyon Dili) satırına dokunun ve konuştuğunuz dili ya da Auto-detect (Otomatik Algıla) seçeneğini seçin.
 
-Bu, iPhone’un ilk dili Türkçe, İngilizce, Almanca, Fransızca ya da İspanyolca olmadığında olur. Siz değiştirene kadar özetler, başlıklar ve sohbet yanıtları Türkçe gelir ve transkripsiyon dili Türkçedir.
+1.4.0’dan önceki sürümler, iPhone’un ilk dili Türkçe, İngilizce, Almanca, Fransızca ya da İspanyolca değilse Türkçe açılıyordu. 1.4.0 böyle bir uygulamayı bir kez telefonun diline (Verbi’de varsa) ya da İngilizceye geçirir. Özetler, başlıklar ve sohbet yanıtları bundan sonra uygulamanın dilinde gelir.
 
 ## Sık sorulan sorular
 
@@ -4280,11 +4571,11 @@ Evet. Türkçe, Verbi’nin yazıya döktüğü 39 dilden biri ve uygulamanın a
 
 URL: https://theverbi.com/de/hilfe/sprachen/
 Language: de
-Last updated: 2026-10-24
+Last updated: 2026-10-26
 
 # Welche Sprachen transkribiert Verbi?
 
-Verbi transkribiert 39 Sprachen, darunter Deutsch, Englisch, Türkisch, Italienisch und Spanisch, und kann die Sprache automatisch erkennen; die gesprochene Sprache stellst du unter „Einstellungen“ → „Transkriptionssprache“ ein. Die App selbst gibt es auf Deutsch, Englisch, Türkisch, Französisch und Spanisch, und Zusammenfassungen, Titel und Chat-Antworten kommen immer in der Sprache der App.
+Verbi transkribiert 39 Sprachen, darunter Deutsch, Englisch, Türkisch, Italienisch und Spanisch, und kann die Sprache automatisch erkennen; die gesprochene Sprache stellst du unter „Einstellungen“ → „Transkriptionssprache“ ein. Die App selbst gibt es auf Deutsch, Englisch, Türkisch, Französisch, Spanisch, Portugiesisch (Brasilien) und Italienisch, und Zusammenfassungen, Titel und Chat-Antworten kommen immer in der Sprache der App.
 
 ## Welche 39 Sprachen sind es?
 
@@ -4296,19 +4587,20 @@ Deutsch, Englisch, Türkisch, Spanisch, Französisch, Italienisch, Portugiesisch
 2. Später änderst du sie unter „Einstellungen“ → „Transkriptionssprache“.
 3. Kennst du die Sprache, wähle sie. „Automatisch erkennen“ schickt keinen Sprachhinweis mit, und das Modell bestimmt die Sprache selbst.
 
-Die Transkriptionssprache gilt für alle Aufnahmen; eine eigene Sprache pro Aufnahme gibt es nicht. Hast du nichts gewählt, ist sie auf dem iPhone die Sprache der App und auf Android „Automatisch erkennen“.
+Die Transkriptionssprache gilt für alle Aufnahmen; eine eigene Sprache pro Aufnahme gibt es nicht. Hast du nichts gewählt, nimmt Verbi die Sprache des Handys, wenn sie in der Liste steht, sonst „Automatisch erkennen“.
 
 ## In welcher Sprache kommen App, Zusammenfassungen und Chat?
 
-- Die App gibt es auf Deutsch, Englisch, Türkisch, Französisch und Spanisch. Du wechselst sie unter „Einstellungen“ → „Sprache“; auf Android ab Version 13 auch in den Systemeinstellungen bei der Sprache der App.
+- Die App gibt es auf Deutsch, Englisch, Türkisch, Französisch, Spanisch, Italienisch und brasilianischem Portugiesisch („Português (Brasil)“); Portugiesisch und Italienisch kamen mit Version 1.4.0 auf dem iPhone und 1.2.0 auf Android. Du wechselst sie unter „Einstellungen“ → „Sprache“; auf Android ab Version 13 auch in den Systemeinstellungen bei der Sprache der App.
 - Zusammenfassungen, Titel und Chat-Antworten kommen in der Sprache der App, nicht in der gesprochenen Sprache. Ist die App auf Deutsch, bekommst du auch zu einer englischen Aufnahme eine deutsche Zusammenfassung.
 - Das Transkript selbst bleibt in der gesprochenen Sprache. In eine andere Sprache bringst du es nur mit der [Übersetzung](/de/hilfe/transkript-uebersetzen/) (Pro).
 
 ## Was ist, wenn mein Handy auf eine andere Sprache eingestellt ist?
 
-- Android: Ist die Systemsprache keine der fünf App-Sprachen, zeigt Verbi Englisch.
-- iPhone: Ist die erste Sprache des iPhones keine der fünf, öffnet sich Verbi auf Türkisch. Dann kommen auch Zusammenfassungen, Titel und Chat-Antworten auf Türkisch, und die Transkriptionssprache ist Türkisch, wenn du bei der Einrichtung keine andere gewählt hast.
-- So stellst du um: Öffne „Ayarlar“ (Einstellungen) und wähle unter „Dil“ (Sprache) „Deutsch“ oder eine andere App-Sprache. Prüfe danach „Transkripsiyon Dili“ (Transkriptionssprache) und wähle die gesprochene Sprache oder „Otomatik Algıla“ (Automatisch erkennen).
+- Android: Ist die Systemsprache keine der sieben App-Sprachen, zeigt Verbi Englisch.
+- iPhone: Beim ersten Start nimmt Verbi die erste Sprache des iPhones, wenn die App sie hat (ein iPhone auf Portugiesisch aus Portugal bekommt „Português (Brasil)“), sonst Englisch.
+- Versionen vor 1.4.0 öffneten sich auf dem iPhone auf Türkisch, wenn die erste Sprache keine der damals fünf App-Sprachen war. Version 1.4.0 stellt eine solche App einmal auf die Sprache des iPhones um, wenn Verbi sie hat, sonst auf Englisch.
+- Ist die App auf Türkisch, stellst du so um: Öffne „Ayarlar“ (Einstellungen) und wähle unter „Dil“ (Sprache) „Deutsch“ oder eine andere App-Sprache. Prüfe danach „Transkripsiyon Dili“ (Transkriptionssprache) und wähle die gesprochene Sprache oder „Otomatik Algıla“ (Automatisch erkennen).
 - Auf dem iPhone änderst du die Sprache der App in Verbi selbst, nicht in den Einstellungen des iPhones.
 
 ## Häufige Fragen
@@ -4323,72 +4615,76 @@ Zusammenfassungen kommen in der Sprache der App. Stell unter „Einstellungen“
 
 ### In welche Sprachen kann Verbi übersetzen?
 
-Mit Pro ins Englische, Türkische, Deutsche, Französische und Spanische. Mehr unter [Transkript übersetzen](/de/hilfe/transkript-uebersetzen/).
+Mit Pro ins Englische, Türkische, Deutsche, Französische, Spanische, Italienische und ins brasilianische Portugiesisch. Mehr unter [Transkript übersetzen](/de/hilfe/transkript-uebersetzen/).
 
 ---
 
 URL: https://theverbi.com/pt/ajuda/idiomas/
 Language: pt
-Last updated: 2026-10-24
+Last updated: 2026-10-26
 
 # Quais idiomas o Verbi transcreve, e o app tem versão em português?
 
-O Verbi transcreve 39 idiomas, incluindo o português, e também detecta o idioma sozinho (Auto-detect). A interface do app existe em inglês, turco, alemão, francês e espanhol, e os resumos, títulos e respostas do chat saem sempre no idioma da interface; no iPhone, um celular em português abre o app em turco, até você escolher English em Ayarlar → Dil (Settings → Language).
+O Verbi transcreve 39 idiomas, incluindo o português, e também detecta o idioma sozinho (Detecção automática). A partir da versão 1.4.0 no iPhone e 1.2.0 no Android, o app está em português do Brasil, e os resumos, os títulos e as respostas do chat também saem em português, porque seguem sempre o idioma do app.
 
 ## Quais são os 39 idiomas da transcrição?
 
 Inglês, turco, espanhol, francês, alemão, italiano, português, holandês, russo, polonês, ucraniano, árabe, persa, hebraico, hindi, urdu, bengali, tâmil, indonésio, malaio, vietnamita, tailandês, japonês, coreano, chinês, tcheco, eslovaco, romeno, húngaro, grego, sueco, dinamarquês, norueguês (bokmål), finlandês, búlgaro, croata, sérvio, catalão e filipino. A lista é a mesma no iPhone e no Android; no iPhone, cada idioma aparece com o próprio nome, como Português.
 
-Com Auto-detect (detecção automática), o Verbi não informa um idioma e o modelo descobre sozinho qual é. O idioma falado é um ajuste único para todas as gravações, em Settings → Transcription Language. A transcrição fica sempre no idioma em que se falou; para lê-la em outro idioma, use a [tradução](/pt/ajuda/traduzir-transcricao/) do Pro.
+Com Detecção automática, o Verbi não informa um idioma e o modelo descobre sozinho qual é. O idioma falado é um ajuste único para todas as gravações, em Ajustes → Idioma de transcrição. A transcrição fica sempre no idioma em que se falou; para lê-la em outro idioma, use a [tradução](/pt/ajuda/traduzir-transcricao/) do Pro.
 
 ## O app tem versão em português?
 
-Não. A interface do Verbi existe em inglês, turco, alemão, francês e espanhol.
+Sim, a partir da versão 1.4.0 no iPhone e 1.2.0 no Android. A interface do Verbi existe em sete idiomas: português do Brasil, inglês, espanhol, francês, alemão, italiano e turco.
 
-No Android, um celular em português mostra o app em inglês.
+No iPhone, o Verbi abre em português quando o primeiro idioma do celular é o português, do Brasil ou de Portugal; nos dois casos, o app usa o português do Brasil. No Android, o app segue o idioma do celular; se ele não abrir em português, escolha Português (Brasil) em Ajustes → Idioma.
 
-No iPhone, o app abre em turco quando o primeiro idioma do celular não é um desses cinco. Aí os resumos, os títulos e as respostas do chat também saem em turco, e o idioma da transcrição começa em turco, a não ser que você tenha escolhido Português na pergunta Hangi dilde konuşuyorsun? (que idioma você fala?) da primeira abertura. O Verbi guarda o idioma da primeira abertura; depois, só o seletor dentro do app muda.
+Se você tinha escolhido outro idioma dentro do app, por exemplo English, ele continua nesse idioma depois da atualização. Para trocar, veja os passos abaixo.
 
-## Como trocar o app de turco para inglês no iPhone?
+No iPhone, versões anteriores à 1.4.0 abriam em turco num celular em português. A atualização para a 1.4.0 passa esse app para o português uma única vez, e também o idioma da transcrição, se ele estava em turco.
 
-1. Abra o Verbi e toque em Ayarlar (Settings, os ajustes do app) na barra de abas.
-2. Toque em Dil (Language, o idioma do app) e escolha English. Se preferir espanhol, escolha Español.
-3. Ainda em Settings, toque em Transcription Language (no turco, Transkripsiyon Dili) e escolha Português, ou Auto-detect (no turco, Otomatik Algıla) para o Verbi descobrir o idioma de cada gravação.
-4. Pronto: as próximas transcrições saem em português, e os novos resumos, títulos e respostas do chat saem em inglês (ou em espanhol, se você escolheu Español). Resumos já feitos continuam como estão.
+## Como escolher o idioma do app?
 
-No Android, use Settings → Language (System ou um dos cinco idiomas) ou, no Android 13 ou posterior, o idioma por app nos ajustes do sistema. No Android, o idioma da transcrição começa em Auto-detect.
+1. Abra o Verbi e toque em Ajustes na barra de abas (no app em inglês, Settings; em turco, Ayarlar).
+2. Toque em Idioma (em inglês, Language; em turco, Dil) e escolha Português (Brasil).
+3. Ainda em Ajustes, confira Idioma de transcrição: escolha Português, ou Detecção automática para o Verbi descobrir o idioma de cada gravação.
+4. Pronto: os novos resumos, títulos e respostas do chat saem em português. Resumos já feitos continuam como estão.
 
-No iPhone grátis, o texto ao vivo durante a gravação usa o idioma do app quando a transcrição está em Auto-detect. Para ver o texto ao vivo em português, escolha Português em Transcription Language.
+No Android, Ajustes → Idioma tem Sistema (o idioma do celular) e os sete idiomas do app. No Android 13 ou posterior, dá para usar também o idioma por app nos ajustes do sistema.
+
+No iPhone grátis, o texto ao vivo durante a gravação usa o idioma do app quando a transcrição está em Detecção automática. Se você grava em outro idioma, escolha esse idioma em Idioma de transcrição.
 
 ## Em que idioma saem os resumos e o chat?
 
-Sempre no idioma da interface do app, não no idioma da gravação: com o app em inglês, uma reunião em português tem a transcrição em português e o resumo, o título e as respostas do chat em inglês. Como o app não tem versão em português, não há resumo em português.
+Sempre no idioma do app, não no idioma da gravação. Com o app em português, uma reunião em português tem a transcrição, o resumo, o título e as respostas do chat em português; uma reunião em inglês tem a transcrição em inglês e o resumo em português.
 
-A tradução do Pro tem como destino só inglês, turco, alemão, francês e espanhol; o português não está entre eles.
+Com o app em outro idioma, por exemplo em inglês, o resumo, o título e as respostas do chat saem nesse idioma. A transcrição fica sempre no idioma em que se falou.
+
+A tradução do Pro tem como destino os sete idiomas do app, incluindo o português do Brasil, a partir da versão 1.4.0 no iPhone e 1.2.0 no Android.
 
 ## Perguntas frequentes
 
 ### Por que o Verbi abriu em turco no meu iPhone?
 
-Porque o português não está entre os cinco idiomas da interface, e nesse caso o app para iPhone abre em turco. Toque em Ayarlar → Dil e escolha English (ou Español); depois, em Settings → Transcription Language, escolha Português ou Auto-detect.
+Porque as versões anteriores à 1.4.0 abriam em turco quando o primeiro idioma do iPhone não era inglês, turco, alemão, francês ou espanhol. A versão 1.4.0 passa o app para o português uma única vez. Se ele continuar em turco, toque em Ayarlar → Dil e escolha Português (Brasil); depois, em Ajustes → Idioma de transcrição, escolha Português ou Detecção automática.
 
 ### Dá para ter o resumo em português?
 
-Não. O resumo sai no idioma da interface do app (inglês, turco, alemão, francês ou espanhol), e a tradução também não tem o português como destino. A transcrição, sim, fica em português.
+Sim. O resumo sai no idioma do app: com o app em português (a partir da versão 1.4.0 no iPhone e 1.2.0 no Android), ele sai em português, mesmo que a gravação seja em outro idioma. A transcrição fica no idioma em que se falou.
 
 ### Posso escolher um idioma diferente para cada gravação?
 
-Não. Transcription Language é um ajuste único, que vale para todas as gravações novas. Para gravações em idiomas diferentes, deixe em Auto-detect.
+Não. Idioma de transcrição é um ajuste único, que vale para todas as gravações novas. Para gravações em idiomas diferentes, deixe em Detecção automática.
 
 ---
 
 URL: https://theverbi.com/es/ayuda/idiomas/
 Language: es
-Last updated: 2026-10-24
+Last updated: 2026-10-26
 
 # ¿Qué idiomas transcribe Verbi?
 
-Verbi transcribe 39 idiomas, español incluido, y también puede detectar el idioma por sí solo («Detección automática»). La interfaz de la app está en español, inglés, turco, alemán y francés, y los resúmenes, títulos y respuestas del chat salen siempre en el idioma de la interfaz, no en el de la grabación.
+Verbi transcribe 39 idiomas, español incluido, y también puede detectar el idioma por sí solo («Detección automática»). La interfaz de la app está en español, inglés, turco, alemán, francés, portugués (Brasil) e italiano, y los resúmenes, títulos y respuestas del chat salen siempre en el idioma de la interfaz, no en el de la grabación.
 
 ## ¿Cuáles son los 39 idiomas?
 
@@ -4402,17 +4698,17 @@ Con «Detección automática», Verbi no indica ningún idioma y el modelo averi
 2. Toca «Idioma de transcripción».
 3. Elige el idioma de tus grabaciones, o «Detección automática» para que Verbi lo identifique en cada grabación.
 
-Por defecto, en iPhone el idioma hablado es el de la interfaz de la app hasta que eliges otro (la app lo pregunta la primera vez con «¿Qué idioma hablas?»); en Android es «Detección automática».
+Por defecto, el idioma hablado es el del teléfono si está en la lista y, si no, «Detección automática»; la app lo pregunta la primera vez con «¿Qué idioma hablas?».
 
 En iPhone gratis, el texto en vivo durante la grabación usa el idioma de la app cuando la transcripción está en «Detección automática». Si grabas en otro idioma, elígelo en «Idioma de transcripción».
 
 ## ¿En qué idioma está la app?
 
-La interfaz existe en cinco idiomas: español, inglés, turco, alemán y francés. Con el teléfono en español, Verbi se abre en español. Para cambiarla, ve a Ajustes → «Idioma»; en Android también puedes usar el idioma por app de los ajustes del sistema (Android 13 o posterior).
+La interfaz existe en siete idiomas: español, inglés, turco, alemán, francés, portugués (Brasil) e italiano; el portugués y el italiano llegaron con la versión 1.4.0 en iPhone y 1.2.0 en Android. Con el teléfono en español, Verbi se abre en español. Para cambiarla, ve a Ajustes → «Idioma»; en Android también puedes usar el idioma por app de los ajustes del sistema (Android 13 o posterior).
 
-Si el idioma del teléfono no es uno de esos cinco (por ejemplo, catalán, gallego, euskera o portugués), en Android la app se muestra en inglés.
+Si el idioma del teléfono no es uno de esos siete (por ejemplo, catalán, gallego o euskera), la app se muestra en inglés.
 
-En iPhone, la app se abre en turco cuando el primer idioma del teléfono no es uno de los cinco. Entonces los resúmenes, los títulos y las respuestas del chat también salen en turco, y el idioma de transcripción empieza en turco. Verbi guarda el idioma de la primera apertura; después, solo lo cambia el selector de la propia app.
+Las versiones para iPhone anteriores a la 1.4.0 se abrían en turco en ese caso, y los resúmenes, los títulos y las respuestas del chat también salían en turco. La 1.4.0 pasa una app así, una sola vez, al idioma del teléfono si Verbi lo tiene o, si no, al inglés. Verbi guarda el idioma de la primera apertura; después, solo lo cambia el selector de la propia app.
 
 ## ¿Cómo paso la app del turco al español en iPhone?
 
@@ -4427,9 +4723,9 @@ En iPhone, la app se abre en turco cuando el primer idioma del teléfono no es u
 
 En el idioma de la interfaz de la app, no en el de la grabación. Con la app en español, una reunión en inglés tiene la transcripción en inglés y el resumen, el título y las respuestas del chat en español.
 
-### ¿Por qué Verbi se abrió en turco en mi iPhone?
+### ¿Por qué Verbi está en turco en mi iPhone?
 
-Porque el primer idioma de tu iPhone no es uno de los cinco idiomas de la interfaz, y en ese caso la app para iPhone se abre en turco. Toca Ayarlar → Dil y elige Español; luego, en «Idioma de transcripción», elige tu idioma o «Detección automática».
+Porque las versiones anteriores a la 1.4.0 se abrían en turco cuando el primer idioma del iPhone (por ejemplo, catalán) no era uno de los idiomas de la interfaz; la 1.4.0 pasa esa app al inglés una sola vez. Para tenerla en español, toca Ayarlar → Dil y elige Español; luego, en «Idioma de transcripción», elige tu idioma o «Detección automática».
 
 ### ¿Puedo elegir un idioma distinto para cada grabación?
 
@@ -4439,11 +4735,11 @@ No. «Idioma de transcripción» es un único ajuste que vale para todas las gra
 
 URL: https://theverbi.com/fr/aide/langues/
 Language: fr
-Last updated: 2026-10-24
+Last updated: 2026-10-26
 
 # Quelles langues Verbi transcrit-il ?
 
-Verbi transcrit 39 langues, dont le français, et peut reconnaître seul la langue parlée ; vous la choisissez dans « Paramètres » → « Langue de transcription ». L’app elle-même existe en français, anglais, allemand, espagnol et turc, et les résumés, les titres et les réponses du chat sont rédigés dans la langue de l’app.
+Verbi transcrit 39 langues, dont le français, et peut reconnaître seul la langue parlée ; vous la choisissez dans « Paramètres » → « Langue de transcription ». L’app elle-même existe en français, anglais, allemand, espagnol, turc, portugais (Brésil) et italien, et les résumés, les titres et les réponses du chat sont rédigés dans la langue de l’app.
 
 ## Quelles sont les 39 langues de transcription ?
 
@@ -4457,22 +4753,22 @@ La liste est la même sur iPhone et sur Android. La transcription reste dans la 
 2. Touchez « Langue de transcription ».
 3. Choisissez la langue de vos enregistrements, ou « Détection auto » pour que Verbi la reconnaisse lui-même.
 
-Verbi pose aussi la question « Quelle langue parlez-vous ? » au premier lancement. Le réglage s’applique à tous les nouveaux enregistrements et imports ; il n’y a pas de langue à choisir pour chaque enregistrement. Si vous connaissez la langue, choisissez-la ; « Détection auto » est là pour les autres cas. Tant que vous n’avez rien choisi, l’iPhone utilise la langue de l’app et Android « Détection auto ».
+Verbi pose aussi la question « Quelle langue parlez-vous ? » au premier lancement. Le réglage s’applique à tous les nouveaux enregistrements et imports ; il n’y a pas de langue à choisir pour chaque enregistrement. Si vous connaissez la langue, choisissez-la ; « Détection auto » est là pour les autres cas. Tant que vous n’avez rien choisi, Verbi prend la langue du téléphone si elle est dans la liste, sinon « Détection auto ».
 
 ## En quelles langues l’app est-elle disponible ?
 
-- L’interface existe en English (anglais), Türkçe (turc), Deutsch (allemand), Français et Español (espagnol).
-- Sur iPhone, changez-la dans Verbi, dans « Paramètres » → « Langue ». Au premier lancement, Verbi prend la première langue de votre téléphone si elle fait partie des cinq ; sinon, il s’ouvre en turc.
-- Sur Android, changez-la dans Verbi, dans « Paramètres » → « Langue », ou dans le réglage de langue par app d’Android (Android 13 et versions ultérieures). Sur un téléphone réglé dans une autre langue, Verbi s’affiche en anglais.
+- L’interface existe en sept langues : English (anglais), Türkçe (turc), Deutsch (allemand), Français, Español (espagnol), Italiano (italien) et portugais du Brésil, affiché « Português (Brasil) ». Le portugais et l’italien sont arrivés avec la version 1.4.0 sur iPhone et 1.2.0 sur Android.
+- Sur iPhone, changez-la dans Verbi, dans « Paramètres » → « Langue ». Au premier lancement, Verbi prend la première langue de votre téléphone si elle fait partie des sept (un téléphone en portugais du Portugal obtient « Português (Brasil) ») ; sinon, il s’ouvre en anglais.
+- Sur Android, changez-la dans Verbi, dans « Paramètres » → « Langue », ou dans le réglage de langue par app d’Android (Android 13 et versions ultérieures). Sur un téléphone réglé dans une langue que l’app n’a pas, Verbi s’affiche en anglais.
 - Les résumés, les titres et les réponses du « Chat IA » sont toujours rédigés dans la langue de l’app, pas dans la langue parlée.
 
-## Mon app iPhone s’est ouverte en turc. Comment la changer ?
+## Mon app iPhone est en turc. Comment la changer ?
 
 1. Ouvrez l’onglet « Ayarlar » (Paramètres).
 2. Touchez « Dil » (Langue) et choisissez « Français ». L’app passe en français.
 3. Touchez ensuite « Langue de transcription » (en turc « Transkripsiyon Dili ») et choisissez la langue que vous parlez, ou « Détection auto » (« Otomatik Algıla »).
 
-Cela arrive quand la première langue de votre iPhone n’est ni le français, ni l’anglais, ni l’allemand, ni l’espagnol, ni le turc. Tant que vous ne changez rien, les résumés, les titres et les réponses du chat sont en turc, et la langue de transcription est le turc.
+Avant la version 1.4.0, l’app s’ouvrait en turc quand la première langue de l’iPhone n’était ni le français, ni l’anglais, ni l’allemand, ni l’espagnol, ni le turc. La version 1.4.0 fait passer une telle app, une seule fois, à la langue du téléphone si Verbi la propose, sinon à l’anglais. Les résumés, les titres et les réponses du chat suivent ensuite la langue de l’app.
 
 ## Questions fréquentes
 
@@ -4492,51 +4788,51 @@ Non. « Langue de transcription » est un seul réglage pour tous les nouveaux
 
 URL: https://theverbi.com/it/assistenza/lingue/
 Language: it
-Last updated: 2026-10-24
+Last updated: 2026-10-26
 
 # Quali lingue trascrive Verbi, e in che lingua è l’app?
 
-Verbi trascrive 39 lingue, italiano compreso, e sa riconoscere la lingua da solo; la lingua parlata si imposta in «Settings» → «Transcription Language» (impostazioni → lingua di trascrizione). L’app invece non è in italiano ma in inglese, turco, tedesco, francese e spagnolo: su Android un telefono in italiano mostra l’inglese, mentre su iPhone Verbi si apre in turco finché non scegli un’altra lingua in «Ayarlar» → «Dil» (impostazioni → lingua).
+Verbi trascrive 39 lingue, italiano compreso, e sa riconoscere la lingua da solo; la lingua parlata si imposta in «Impostazioni» → «Lingua di trascrizione». Dalla versione 1.4.0 su iPhone e 1.2.0 su Android l’app è anche in italiano, e con l’app in italiano riassunti, titoli e risposte della chat arrivano in italiano.
 
 ## Quali sono le 39 lingue?
 
-Italiano, inglese, turco, spagnolo, francese, tedesco, portoghese, olandese, russo, polacco, ucraino, arabo, persiano, ebraico, hindi, urdu, bengalese, tamil, indonesiano, malese, vietnamita, thailandese, giapponese, coreano, cinese, ceco, slovacco, rumeno, ungherese, greco, svedese, danese, norvegese (bokmål), finlandese, bulgaro, croato, serbo, catalano e filippino. In più c’è «Auto-detect» (rilevamento automatico). L’elenco è lo stesso su iPhone e Android, e nell’app ogni lingua compare con il suo nome, per esempio «Italiano».
+Italiano, inglese, turco, spagnolo, francese, tedesco, portoghese, olandese, russo, polacco, ucraino, arabo, persiano, ebraico, hindi, urdu, bengalese, tamil, indonesiano, malese, vietnamita, thailandese, giapponese, coreano, cinese, ceco, slovacco, rumeno, ungherese, greco, svedese, danese, norvegese (bokmål), finlandese, bulgaro, croato, serbo, catalano e filippino. In più c’è «Rilevamento automatico». L’elenco è lo stesso su iPhone e Android, e nell’app ogni lingua compare con il suo nome, per esempio «Italiano».
 
-## Su iPhone Verbi è in turco: come passo all’inglese?
+## Come scelgo la lingua dell’app su iPhone?
 
-1. Al primo avvio Verbi usa la prima lingua dell’iPhone se è inglese, turco, tedesco, francese o spagnolo. Con l’iPhone in italiano si apre in turco, e anche riassunti, titoli e risposte della chat arrivano in turco.
-2. Tocca «Ayarlar» (impostazioni) nella barra in basso.
-3. Nella sezione «Dil» (lingua) scegli «English» oppure «Español». L’app cambia lingua subito.
-4. Poi apri «Transcription Language» (lingua di trascrizione; in turco «Transkripsiyon Dili») e scegli «Italiano», oppure «Auto-detect» (rilevamento automatico; in turco «Otomatik Algıla»).
+1. Dalla versione 1.4.0, al primo avvio Verbi usa la prima lingua dell’iPhone se è una delle sette lingue dell’app: con l’iPhone in italiano si apre in italiano.
+2. Per cambiarla, tocca «Impostazioni» nella barra in basso (con l’app in inglese «Settings», in turco «Ayarlar»).
+3. Nella sezione «Lingua» (in inglese «Language», in turco «Dil») scegli «Italiano». L’app cambia lingua subito.
+4. Poi controlla «Lingua di trascrizione»: scegli «Italiano», oppure «Rilevamento automatico».
 
-Se nella configurazione iniziale, alla domanda «Hangi dilde konuşuyorsun?» (che lingua parli?), non hai scelto un’altra lingua, la lingua di trascrizione è il turco: cambiala come al punto 4. Su iPhone la lingua dell’app si cambia in Verbi, non nelle impostazioni dell’iPhone.
+Le versioni precedenti alla 1.4.0 si aprivano in turco con l’iPhone in italiano. L’aggiornamento alla 1.4.0 passa quell’app all’italiano una volta sola, e con lei la lingua di trascrizione, se era il turco. Se avevi scelto tu un’altra lingua, per esempio «English», resta quella. Su iPhone la lingua dell’app si cambia in Verbi, non nelle impostazioni dell’iPhone.
 
 ## E su Android?
 
-- Con il telefono in italiano l’app è in inglese, e riassunti, titoli e risposte della chat arrivano in inglese.
-- La lingua di trascrizione predefinita è «Auto-detect» (rilevamento automatico); se vuoi, imposta «Italiano» in «Settings» → «Transcription Language».
-- Per cambiare la lingua dell’app usa «Settings» → «Language» (lingua), oppure, da Android 13, le impostazioni di sistema della lingua dell’app.
+- Dalla versione 1.2.0, con il telefono in italiano l’app è in italiano, e riassunti, titoli e risposte della chat arrivano in italiano.
+- Su una nuova installazione la lingua di trascrizione parte da quella del telefono, se è nell’elenco, altrimenti da «Rilevamento automatico»; si cambia in «Impostazioni» → «Lingua di trascrizione».
+- Per cambiare la lingua dell’app usa «Impostazioni» → «Lingua» («Sistema» o una delle sette lingue), oppure, da Android 13, le impostazioni di sistema della lingua dell’app.
 
 ## In che lingua arrivano riassunti e chat?
 
-- L’interfaccia esiste in inglese, turco, tedesco, francese e spagnolo. Non c’è una versione italiana, e anche la pagina dell’App Store è in inglese.
-- Riassunti, titoli e risposte della chat arrivano sempre nella lingua dell’app, quindi mai in italiano. La trascrizione invece resta nella lingua in cui si parla: un audio in italiano dà un testo in italiano.
-- La [traduzione](/it/assistenza/tradurre-trascrizione/) (Pro) porta la trascrizione solo in inglese, turco, tedesco, francese o spagnolo.
-- La lingua di trascrizione vale per tutte le registrazioni: non si sceglie per la singola registrazione. Se conosci la lingua, impostala; «Auto-detect» non invia un’indicazione di lingua e lascia che il modello la riconosca.
+- L’interfaccia esiste in sette lingue: italiano, inglese, turco, tedesco, francese, spagnolo e portoghese del Brasile. L’italiano c’è dalla versione 1.4.0 su iPhone e 1.2.0 su Android.
+- Riassunti, titoli e risposte della chat arrivano sempre nella lingua dell’app: con l’app in italiano arrivano in italiano, anche se nella registrazione si parla un’altra lingua. La trascrizione invece resta nella lingua in cui si parla.
+- La [traduzione](/it/assistenza/tradurre-trascrizione/) (Pro) porta la trascrizione in una delle sette lingue dell’app, italiano compreso.
+- La lingua di trascrizione vale per tutte le registrazioni: non si sceglie per la singola registrazione. Se conosci la lingua, impostala; «Rilevamento automatico» non invia un’indicazione di lingua e lascia che il modello la riconosca.
 
 ## Domande frequenti
 
 ### Verbi trascrive l’italiano?
 
-Sì. L’italiano è una delle 39 lingue. Imposta «Italiano» in «Settings» → «Transcription Language» (lingua di trascrizione), oppure lascia «Auto-detect».
+Sì. L’italiano è una delle 39 lingue. Imposta «Italiano» in «Impostazioni» → «Lingua di trascrizione», oppure lascia «Rilevamento automatico».
 
 ### Posso avere i riassunti in italiano?
 
-No. I riassunti arrivano nella lingua dell’app, che può essere inglese, turco, tedesco, francese o spagnolo. La trascrizione resta in italiano.
+Sì, dalla versione 1.4.0 su iPhone e 1.2.0 su Android: i riassunti arrivano nella lingua dell’app, quindi con l’app in italiano arrivano in italiano. La trascrizione resta nella lingua parlata.
 
 ### Perché la mia app è in turco?
 
-Su iPhone Verbi si apre in turco quando la prima lingua del telefono non è una delle cinque lingue dell’app. Vai in «Ayarlar» → «Dil» e scegli «English», poi controlla «Transkripsiyon Dili» (lingua di trascrizione).
+Le versioni per iPhone precedenti alla 1.4.0 si aprivano in turco quando la prima lingua del telefono non era inglese, turco, tedesco, francese o spagnolo. La 1.4.0 passa l’app all’italiano una volta sola. Se resta in turco, vai in «Ayarlar» → «Dil» e scegli «Italiano», poi controlla «Lingua di trascrizione».
 
 ---
 
@@ -4673,7 +4969,7 @@ Ja. Jede Aufnahme zählt mit ihrer Länge zu den 60 Minuten pro Monat, sobald si
 
 URL: https://theverbi.com/pt/ajuda/transcricao-ao-vivo/
 Language: pt
-Last updated: 2026-10-24
+Last updated: 2026-10-26
 
 # Como funciona a transcrição ao vivo?
 
@@ -4686,12 +4982,12 @@ Enquanto você grava, o Verbi mostra o texto aparecendo na tela, e depois de par
 3. No iPhone grátis, permita o acesso ao Reconhecimento de Fala quando o iOS pedir.
 4. Toque em Stop (parar) quando terminar. O Verbi prepara a transcrição final.
 
-O app não tem versão em português, então os nomes dos botões aparecem aqui em inglês, com o sentido em português entre parênteses. No iPhone, se o Verbi abriu em turco, troque o idioma primeiro: [veja como](/pt/ajuda/idiomas/).
+Os nomes dos botões aparecem aqui em inglês, com o sentido em português entre parênteses. A partir da versão 1.4.0 no iPhone e 1.2.0 no Android, o app mostra esses nomes em português: [veja o idioma do app](/pt/ajuda/idiomas/).
 
 ## Qual a diferença entre o plano grátis e o Pro?
 
 - iPhone grátis: reconhecimento de fala da Apple. O texto ao vivo é uma prévia; depois de parar, o áudio é transcrito de novo no servidor, e essa é a transcrição final. A prévia só vira a transcrição se a do servidor falhar.
-- iPhone grátis, idioma: em Auto-detect, a prévia ouve no idioma do app. Para ver a prévia em português, escolha Português em Settings → Transcription Language.
+- iPhone grátis, idioma: em Auto-detect (Detecção automática), a prévia ouve no idioma do app. Para ver a prévia em português, deixe o app em português ou escolha Português em Settings → Transcription Language (Ajustes → Idioma de transcrição).
 - iPhone Pro: um modelo de transcrição em tempo real de alta qualidade. Uma sessão sem falhas já é a transcrição final; com a identificação de quem fala, a gravação inteira é transcrita de novo para separar as vozes. Se o modo Pro não iniciar, o app usa o reconhecimento da Apple.
 - Android: o mesmo modelo em tempo real no plano grátis e no Pro. No grátis, o texto ao vivo vira a transcrição final; no Pro, a gravação é transcrita de novo depois de parar, com quem fala separado.
 
@@ -4801,7 +5097,7 @@ Oui, sur les deux plateformes. Sur iPhone, Pro passe à un moteur de meilleure q
 
 URL: https://theverbi.com/it/assistenza/trascrizione-dal-vivo/
 Language: it
-Last updated: 2026-10-24
+Last updated: 2026-10-26
 
 # Come funziona la trascrizione dal vivo?
 
@@ -4814,11 +5110,11 @@ Con la trascrizione dal vivo le parole compaiono sullo schermo mentre si parla; 
 3. Android: tocca «Live Transcription». Su Android «Record & Transcribe» registra senza testo dal vivo.
 4. Tocca «Stop» (ferma) quando hai finito. Poi nasce la trascrizione definitiva.
 
-Le voci dell’app sono citate in inglese, con il significato tra parentesi. Se su iPhone Verbi è in turco, [ecco come passare all’inglese](/it/assistenza/lingue/).
+Le voci dell’app sono citate in inglese, con il significato tra parentesi. Dalla versione 1.4.0 su iPhone e 1.2.0 su Android l’app mostra queste voci in italiano: [ecco le lingue dell’app](/it/assistenza/lingue/).
 
 ## Che differenza c’è tra gratis e Pro?
 
-- iPhone, gratis («Basic», di base): il testo dal vivo viene dal riconoscimento vocale di Apple ed è un’anteprima. Dopo lo stop Verbi trascrive di nuovo la registrazione tramite il server; l’anteprima serve solo da riserva se questo non riesce. Con «Auto-detect» l’anteprima ascolta nella lingua dell’app, quindi per un’anteprima in italiano imposta «Italiano» in «Settings» → «Transcription Language».
+- iPhone, gratis («Basic», di base): il testo dal vivo viene dal riconoscimento vocale di Apple ed è un’anteprima. Dopo lo stop Verbi trascrive di nuovo la registrazione tramite il server; l’anteprima serve solo da riserva se questo non riesce. Con «Auto-detect» l’anteprima ascolta nella lingua dell’app: con l’app in italiano ascolta in italiano, altrimenti imposta «Italiano» in «Settings» → «Transcription Language» («Impostazioni» → «Lingua di trascrizione»).
 - iPhone, Pro («High quality», alta qualità): il testo dal vivo viene da un modello più preciso di OpenAI e diventa direttamente la trascrizione definitiva. Con il riconoscimento di chi parla, dopo lo stop la registrazione viene trascritta di nuovo per separare le voci. Se la sessione Pro non parte, Verbi usa il riconoscimento vocale di Apple.
 - Android: gratis e Pro usano lo stesso modello dal vivo di OpenAI, e un testo dal vivo pulito diventa la trascrizione definitiva. Pro in più, dopo lo stop, trascrive di nuovo con le voci separate.
 
@@ -4977,7 +5273,7 @@ Sim, no Verbi Pro: a transcrição sai separada por voz (Speaker 1, Speaker 2…
 3. Abra a transcrição pronta e toque em Rename Speakers (renomear participantes).
 4. Digite um nome para cada voz. Um campo vazio volta para o rótulo padrão, Speaker N.
 
-O app não tem versão em português, então os nomes dos botões aparecem aqui em inglês, com o sentido em português entre parênteses. No iPhone, se o Verbi abriu em turco, troque o idioma primeiro: [veja como](/pt/ajuda/idiomas/).
+Os nomes dos botões aparecem aqui em inglês, com o sentido em português entre parênteses. A partir da versão 1.4.0 no iPhone e 1.2.0 no Android, o app mostra esses nomes em português: [veja o idioma do app](/pt/ajuda/idiomas/).
 
 ## Bom saber
 
@@ -5092,7 +5388,7 @@ Sì, con Verbi Pro: Verbi separa le voci di una registrazione e le etichetta com
 3. Nella trascrizione tocca «Rename Speakers» (rinomina interlocutori) e dai un nome a ogni voce.
 4. I nomi compaiono nella trascrizione, nel riassunto, nella chat e nelle esportazioni. Se lasci vuoto un campo, torna l’etichetta predefinita.
 
-Le voci dell’app sono citate in inglese, con il significato tra parentesi. Se su iPhone Verbi è in turco, [ecco come passare all’inglese](/it/assistenza/lingue/).
+Le voci dell’app sono citate in inglese, con il significato tra parentesi. Dalla versione 1.4.0 su iPhone e 1.2.0 su Android l’app mostra queste voci in italiano: [ecco le lingue dell’app](/it/assistenza/lingue/).
 
 ## Buono a sapersi
 
@@ -5246,7 +5542,7 @@ Adicione as palavras em Settings → Custom Vocabulary (ajustes → vocabulário
 3. Adicione um termo de cada vez, escrito do jeito que você quer vê-lo na transcrição.
 4. Grave ou importe o áudio. O Verbi usa a lista em todas as gravações novas.
 
-O app não tem versão em português, então os nomes dos botões aparecem aqui em inglês, com o sentido em português entre parênteses. No iPhone, se o Verbi abriu em turco, troque o idioma primeiro: [veja como](/pt/ajuda/idiomas/).
+Os nomes dos botões aparecem aqui em inglês, com o sentido em português entre parênteses. A partir da versão 1.4.0 no iPhone e 1.2.0 no Android, o app mostra esses nomes em português: [veja o idioma do app](/pt/ajuda/idiomas/).
 
 ## O que vale a pena adicionar?
 
@@ -5373,7 +5669,7 @@ Aggiungi le parole in «Settings» → «Custom Vocabulary» (impostazioni → v
 2. In «Add a Term» (aggiungi un termine) scrivi una parola, per esempio un nome come «Giulia Bianchi», e aggiungila.
 3. Ripeti per tutti i termini. L’elenco vale dalla registrazione successiva.
 
-Le voci dell’app sono citate in inglese, con il significato tra parentesi. Se su iPhone Verbi è in turco, [ecco come passare all’inglese](/it/assistenza/lingue/).
+Le voci dell’app sono citate in inglese, con il significato tra parentesi. Dalla versione 1.4.0 su iPhone e 1.2.0 su Android l’app mostra queste voci in italiano: [ecco le lingue dell’app](/it/assistenza/lingue/).
 
 ## Cosa conviene aggiungere?
 
@@ -5403,7 +5699,7 @@ No. Il vocabolario personalizzato è gratuito su iPhone e Android.
 
 URL: https://theverbi.com/help/summary-templates/
 Language: en
-Last updated: 2026-10-24
+Last updated: 2026-10-26
 
 # How do I choose a summary template?
 
@@ -5452,13 +5748,13 @@ On the free plan, only your first transcript of 200 characters or more gets an a
 
 ### Which language is the summary in?
 
-The app’s interface language (English, Turkish, German, French or Spanish), whatever language was spoken. See [which languages Verbi supports](/help/languages/).
+The app’s interface language (English, Turkish, German, French, Spanish, Portuguese or Italian), whatever language was spoken. See [which languages Verbi supports](/help/languages/).
 
 ---
 
 URL: https://theverbi.com/tr/yardim/ozet-sablonlari/
 Language: tr
-Last updated: 2026-10-24
+Last updated: 2026-10-26
 
 # Özet şablonunu nasıl seçerim?
 
@@ -5507,7 +5803,7 @@ Hayır. Bir kaydın özeti oluştuktan sonra yeniden oluşturulamaz ve başka bi
 
 ### Özet hangi dilde gelir?
 
-Kayıtta hangi dil konuşulursa konuşulsun, uygulamanın arayüz dilinde (Türkçe, İngilizce, Almanca, Fransızca ya da İspanyolca). Bkz. [desteklenen diller](/tr/yardim/desteklenen-diller/).
+Kayıtta hangi dil konuşulursa konuşulsun, uygulamanın arayüz dilinde (Türkçe, İngilizce, Almanca, Fransızca, İspanyolca, Portekizce ya da İtalyanca). Bkz. [desteklenen diller](/tr/yardim/desteklenen-diller/).
 
 ---
 
@@ -5558,7 +5854,7 @@ In der Sprache der App, nicht in der Sprache der Aufnahme. Mehr unter [Sprachen]
 
 URL: https://theverbi.com/pt/ajuda/modelos-de-resumo/
 Language: pt
-Last updated: 2026-10-24
+Last updated: 2026-10-26
 
 # Como escolho o modelo do resumo?
 
@@ -5584,7 +5880,7 @@ Numa gravação ainda sem resumo, a área do resumo mostra Generate Summary (ger
 
 No Pro, um resumo também é feito automaticamente depois de cada transcrição com pelo menos 200 caracteres, com o modelo da gravação.
 
-O app não tem versão em português, então os nomes dos botões aparecem aqui em inglês, com o sentido em português entre parênteses. No iPhone, se o Verbi abriu em turco, troque o idioma primeiro: [veja como](/pt/ajuda/idiomas/).
+Os nomes dos botões aparecem aqui em inglês, com o sentido em português entre parênteses. A partir da versão 1.4.0 no iPhone e 1.2.0 no Android, o app mostra esses nomes em português: [veja o idioma do app](/pt/ajuda/idiomas/).
 
 ## Plano grátis, modelo padrão e limites
 
@@ -5607,7 +5903,7 @@ O primeiro, sim: ele sai automaticamente com o modelo padrão. Escolher o modelo
 
 ### Por que meu resumo saiu em inglês ou em turco?
 
-Porque o resumo segue o idioma da interface do app, que não tem versão em português. [Veja como escolher o idioma](/pt/ajuda/idiomas/).
+Porque o resumo segue o idioma do app. A partir da versão 1.4.0 no iPhone e 1.2.0 no Android, o app tem português: escolha Português (Brasil) em Ajustes → Idioma, e os novos resumos saem em português. [Veja como escolher o idioma](/pt/ajuda/idiomas/).
 
 ---
 
@@ -5717,7 +6013,7 @@ Avec l’offre gratuite, seule votre première transcription de 200 caractères 
 
 URL: https://theverbi.com/it/assistenza/modelli-di-riassunto/
 Language: it
-Last updated: 2026-10-24
+Last updated: 2026-10-26
 
 # Come scelgo un modello per il riassunto?
 
@@ -5731,7 +6027,7 @@ Verbi ha nove modelli: «General Meeting» (riunione generica), «1:1 Meeting» 
 
 Con Pro, Verbi scrive in automatico un riassunto dopo ogni trascrizione di almeno 200 caratteri, con il modello della registrazione. Una registrazione resta senza riassunto, per esempio, se risale a prima di Pro o se il riassunto automatico non è riuscito.
 
-Le voci dell’app sono citate in inglese, con il significato tra parentesi. Se su iPhone Verbi è in turco, [ecco come passare all’inglese](/it/assistenza/lingue/).
+Le voci dell’app sono citate in inglese, con il significato tra parentesi. Dalla versione 1.4.0 su iPhone e 1.2.0 su Android l’app mostra queste voci in italiano: [ecco le lingue dell’app](/it/assistenza/lingue/).
 
 ## Da dove viene il modello predefinito?
 
@@ -5744,7 +6040,7 @@ Le voci dell’app sono citate in inglese, con il significato tra parentesi. Se 
 - Se una registrazione ha già un riassunto, non puoi rigenerarlo né cambiare modello.
 - Piano gratuito: per la tua prima trascrizione di almeno 200 caratteri Verbi scrive in automatico un riassunto con il modello predefinito; se non riesce, non lo perdi. Altri riassunti e la scelta del modello ci sono solo con Pro («Pro Feature», funzione Pro).
 - I riassunti restano fedeli a quello che è stato detto: responsabili e scadenze compaiono solo se qualcuno li ha indicati, e le proposte restano separate dalle decisioni.
-- Sono scritti nella lingua dell’app (inglese, turco, tedesco, francese o spagnolo), mai in italiano; la trascrizione resta nella lingua parlata. Le trascrizioni molto lunghe vengono tagliate oltre i 200.000 caratteri (circa 3 ore di parlato), e il modello sa che il testo è stato tagliato.
+- Sono scritti nella lingua dell’app, in italiano con l’app in italiano (dalla versione 1.4.0 su iPhone e 1.2.0 su Android); la trascrizione resta nella lingua parlata. Le trascrizioni molto lunghe vengono tagliate oltre i 200.000 caratteri (circa 3 ore di parlato), e il modello sa che il testo è stato tagliato.
 
 ## Domande frequenti
 
@@ -5758,7 +6054,7 @@ Verbi riassume in automatico solo da 200 caratteri di trascrizione in su. Con il
 
 ### Il riassunto può essere in italiano?
 
-No. Arriva nella lingua dell’app, che può essere inglese, turco, tedesco, francese o spagnolo. Vedi [Lingue](/it/assistenza/lingue/).
+Sì, con l’app in italiano, dalla versione 1.4.0 su iPhone e 1.2.0 su Android: il riassunto arriva nella lingua dell’app. Vedi [Lingue](/it/assistenza/lingue/).
 
 ---
 
@@ -5893,7 +6189,7 @@ Sim, com o Verbi Pro: abra a gravação, toque em AI Chat (chat com IA) e escrev
 3. Escreva no campo Ask about the transcript... (pergunte sobre a transcrição) e envie.
 4. Para apagar a conversa, toque em Clear (limpar).
 
-O app não tem versão em português, então os nomes dos botões aparecem aqui em inglês, com o sentido em português entre parênteses. No iPhone, se o Verbi abriu em turco, troque o idioma primeiro: [veja como](/pt/ajuda/idiomas/).
+Os nomes dos botões aparecem aqui em inglês, com o sentido em português entre parênteses. A partir da versão 1.4.0 no iPhone e 1.2.0 no Android, o app mostra esses nomes em português: [veja o idioma do app](/pt/ajuda/idiomas/).
 
 ## Como as respostas funcionam?
 
@@ -5999,7 +6295,7 @@ Dans la langue de l’app (« Paramètres » → « Langue »), qui n’est 
 
 URL: https://theverbi.com/it/assistenza/domande-alla-trascrizione/
 Language: it
-Last updated: 2026-10-24
+Last updated: 2026-10-26
 
 # Posso fare domande a Verbi su una registrazione?
 
@@ -6012,14 +6308,14 @@ Sì, con Verbi Pro: in una registrazione tocca «AI Chat» (chat AI) e fai la tu
 3. Scrivi la domanda nel campo «Ask about the transcript...» (chiedi sulla trascrizione), per esempio «Cosa abbiamo deciso sul budget?».
 4. Con «Clear» (cancella) svuoti la cronologia della chat.
 
-Le voci dell’app sono citate in inglese, con il significato tra parentesi. Se su iPhone Verbi è in turco, [ecco come passare all’inglese](/it/assistenza/lingue/).
+Le voci dell’app sono citate in inglese, con il significato tra parentesi. Dalla versione 1.4.0 su iPhone e 1.2.0 su Android l’app mostra queste voci in italiano: [ecco le lingue dell’app](/it/assistenza/lingue/).
 
 ## Limiti, lingua e archiviazione
 
 - Solo con Pro, su iPhone e Android.
 - Non c’è un limite giornaliero di domande.
 - Verbi risponde solo dalla trascrizione. Le trascrizioni molto lunghe vengono tagliate oltre i 200.000 caratteri, e come contesto vengono inviati gli ultimi 20 messaggi.
-- Le risposte arrivano nella lingua dell’app (inglese, turco, tedesco, francese o spagnolo), non in italiano.
+- Le risposte arrivano nella lingua dell’app: in italiano, con l’app in italiano (dalla versione 1.4.0 su iPhone e 1.2.0 su Android).
 - I nomi dati con «Rename Speakers» (rinomina interlocutori) li usa anche la chat.
 - La cronologia della chat è salvata sul tuo telefono, per ogni registrazione. Per la risposta, il testo della trascrizione viene inviato a OpenAI.
 
@@ -6031,23 +6327,23 @@ No. Risponde solo dalla trascrizione e ti dice quando la risposta non c’è.
 
 ### Posso avere le risposte in italiano?
 
-No. Le risposte arrivano nella lingua dell’app, che non esiste in italiano. Vedi [Lingue](/it/assistenza/lingue/).
+Sì, con l’app in italiano, dalla versione 1.4.0 su iPhone e 1.2.0 su Android: le risposte arrivano nella lingua dell’app. Vedi [Lingue](/it/assistenza/lingue/).
 
 ---
 
 URL: https://theverbi.com/help/translate-transcript/
 Language: en
-Last updated: 2026-10-24
+Last updated: 2026-10-26
 
 # How do I translate a transcript?
 
-With Verbi Pro, open a recording and tap a language in the Translation card: English, Türkçe, Deutsch, Français or Español. The translation appears under the original transcript, which stays as it is; other target languages aren’t available.
+With Verbi Pro, open a recording and tap a language in the Translation card: English, Türkçe, Deutsch, Français, Español, Português (Brasil) or Italiano. The translation appears under the original transcript, which stays as it is; other target languages aren’t available.
 
 ## How do I translate a recording?
 
 1. Open the recording.
 2. Find the Translation card on the transcript. On the free plan, it shows “Upgrade to Pro for translation”.
-3. Tap a language: English, Türkçe, Deutsch, Français or Español.
+3. Tap a language: English, Türkçe, Deutsch, Français, Español, Português (Brasil) or Italiano.
 4. The translation appears under the original. To remove it, tap the selected language again, or the ✕.
 
 ## Can Verbi translate while it transcribes?
@@ -6057,7 +6353,7 @@ Yes, with Pro. After you stop a recording, the completion screen shows Transcrip
 ## Limits
 
 - Translation is part of Verbi Pro on iPhone and Android.
-- Target languages: only English, Turkish, German, French and Spanish.
+- Target languages: the seven app languages, English, Turkish, German, French, Spanish, Portuguese (Brazil) and Italian. Portuguese and Italian came with version 1.4.0 on iPhone and 1.2.0 on Android.
 - The recording itself can be in any of the 39 [transcription languages](/help/languages/).
 - For very long recordings, up to 200,000 characters of the transcript are translated.
 - To translate, the transcript text is sent to OpenAI.
@@ -6066,7 +6362,7 @@ Yes, with Pro. After you stop a recording, the completion screen shows Transcrip
 
 ### Can I translate into Italian, Portuguese or Arabic?
 
-No. Translation targets are English, Turkish, German, French and Spanish only. Verbi can still transcribe recordings in those other languages.
+Into Italian and Portuguese (Brazil), yes, from version 1.4.0 on iPhone and 1.2.0 on Android. Arabic and the other transcription languages aren’t translation targets, but Verbi still transcribes recordings in them.
 
 ### Does the translation replace the original transcript?
 
@@ -6080,17 +6376,17 @@ No. It’s part of Verbi Pro.
 
 URL: https://theverbi.com/tr/yardim/transkript-cevirisi/
 Language: tr
-Last updated: 2026-10-24
+Last updated: 2026-10-26
 
 # Bir transkripti nasıl çeviririm?
 
-Verbi Pro’da bir kaydı açın ve Çeviri kartında bir dile dokunun: English, Türkçe, Deutsch, Français ya da Español. Çeviri, olduğu gibi kalan orijinal transkriptin altında görünür; başka hedef dil yoktur.
+Verbi Pro’da bir kaydı açın ve Çeviri kartında bir dile dokunun: English, Türkçe, Deutsch, Français, Español, Português (Brasil) ya da Italiano. Çeviri, olduğu gibi kalan orijinal transkriptin altında görünür; başka hedef dil yoktur.
 
 ## Bir kayıt nasıl çevrilir?
 
 1. Kaydı açın.
 2. Transkriptteki Çeviri kartını bulun. Ücretsiz planda kartta “Çeviri için Pro’ya geçin” yazar.
-3. Bir dile dokunun: English, Türkçe, Deutsch, Français ya da Español.
+3. Bir dile dokunun: English, Türkçe, Deutsch, Français, Español, Português (Brasil) ya da Italiano.
 4. Çeviri orijinalin altında görünür. Kaldırmak için seçili dile yeniden ya da ✕ işaretine dokunun.
 
 ## Verbi yazıya dökerken çevirebilir mi?
@@ -6100,7 +6396,7 @@ Evet, Pro’da. Bir kaydı durdurduğunuzda tamamlama ekranında, uygulamanın d
 ## Sınırlar
 
 - Çeviri, iPhone’da ve Android’de Verbi Pro’ya dahildir.
-- Hedef diller yalnızca Türkçe, İngilizce, Almanca, Fransızca ve İspanyolca.
+- Hedef diller, uygulamanın yedi dili: Türkçe, İngilizce, Almanca, Fransızca, İspanyolca, Brezilya Portekizcesi ve İtalyanca. Portekizce ve İtalyanca, iPhone’da 1.4.0, Android’de 1.2.0 sürümüyle geldi.
 - Kaydın kendisi [39 transkripsiyon dilinden](/tr/yardim/desteklenen-diller/) herhangi birinde olabilir.
 - Çok uzun kayıtlarda transkriptin en fazla 200.000 karakteri çevrilir.
 - Çeviri için transkript metni OpenAI’ye gönderilir.
@@ -6109,7 +6405,7 @@ Evet, Pro’da. Bir kaydı durdurduğunuzda tamamlama ekranında, uygulamanın d
 
 ### İtalyancaya, Portekizceye ya da Arapçaya çevirebilir miyim?
 
-Hayır. Çeviri yalnızca Türkçe, İngilizce, Almanca, Fransızca ve İspanyolcaya yapılır. Verbi bu dillerdeki kayıtları yine de yazıya döker.
+İtalyancaya ve Brezilya Portekizcesine evet, iPhone’da 1.4.0, Android’de 1.2.0 sürümünden itibaren. Arapça ve diğer transkripsiyon dilleri çeviri hedefi değildir, ama Verbi bu dillerdeki kayıtları yine de yazıya döker.
 
 ### Çeviri orijinal transkriptin yerini alır mı?
 
@@ -6123,16 +6419,16 @@ Hayır, Verbi Pro’ya dahildir.
 
 URL: https://theverbi.com/de/hilfe/transkript-uebersetzen/
 Language: de
-Last updated: 2026-10-24
+Last updated: 2026-10-26
 
 # Wie übersetze ich ein Transkript?
 
-Die Übersetzung gehört zu Verbi Pro: Öffne ein Transkript und tippe in der Karte „Übersetzung“ auf English, Türkçe, Deutsch, Français oder Español; die Übersetzung erscheint unter dem Original, das erhalten bleibt. Andere Zielsprachen gibt es nicht.
+Die Übersetzung gehört zu Verbi Pro: Öffne ein Transkript und tippe in der Karte „Übersetzung“ auf English, Türkçe, Deutsch, Français, Español, Português (Brasil) oder Italiano; die Übersetzung erscheint unter dem Original, das erhalten bleibt. Andere Zielsprachen gibt es nicht.
 
 ## Wie übersetze ich ein Transkript?
 
 1. Öffne die Aufnahme und scroll zur Karte „Übersetzung“.
-2. Tippe auf die Zielsprache: English, Türkçe, Deutsch, Français oder Español.
+2. Tippe auf die Zielsprache: English, Türkçe, Deutsch, Français, Español, Português (Brasil) oder Italiano.
 3. Die Übersetzung erscheint unter dem Original.
 4. Zum Entfernen tippst du noch einmal auf die gewählte Sprache oder auf das ✕.
 
@@ -6145,7 +6441,7 @@ Die Übersetzung gehört zu Verbi Pro: Öffne ein Transkript und tippe in der Ka
 ## Welche Grenzen gibt es?
 
 - Nur mit Pro. Im kostenlosen Plan steht in der Karte „Für Übersetzung auf Pro upgraden“.
-- Zielsprachen sind nur Englisch, Türkisch, Deutsch, Französisch und Spanisch. Transkribieren kann Verbi dagegen 39 Sprachen.
+- Zielsprachen sind nur die sieben App-Sprachen: Englisch, Türkisch, Deutsch, Französisch, Spanisch, brasilianisches Portugiesisch und Italienisch (Portugiesisch und Italienisch ab Version 1.4.0 auf dem iPhone und 1.2.0 auf Android). Transkribieren kann Verbi dagegen 39 Sprachen.
 - Sehr lange Transkripte werden ab 200.000 Zeichen gekürzt. Für die Übersetzung geht der Transkripttext an OpenAI.
 
 ## Häufige Fragen
@@ -6160,17 +6456,17 @@ Ja. Die Übersetzung steht unter dem Original; das Transkript selbst ändert sic
 
 ### Kann ich ins Italienische oder Polnische übersetzen?
 
-Nein. Verbi übersetzt nur ins Englische, Türkische, Deutsche, Französische und Spanische.
+Ins Italienische ja, ab Version 1.4.0 auf dem iPhone und 1.2.0 auf Android, ebenso ins brasilianische Portugiesisch. Ins Polnische nicht: Zielsprachen sind nur die sieben App-Sprachen.
 
 ---
 
 URL: https://theverbi.com/pt/ajuda/traduzir-transcricao/
 Language: pt
-Last updated: 2026-10-24
+Last updated: 2026-10-26
 
 # Como traduzo uma transcrição?
 
-Com o Verbi Pro, abra a gravação e, no cartão Translation (tradução), toque no idioma de destino: English, Türkçe, Deutsch, Français ou Español. A tradução aparece abaixo do texto original, que continua lá; o português não está entre os destinos.
+Com o Verbi Pro, abra a gravação e, no cartão Translation (tradução), toque no idioma de destino: Português (Brasil), English, Español, Français, Deutsch, Italiano ou Türkçe. A tradução aparece abaixo do texto original, que continua lá.
 
 ## Como traduzir?
 
@@ -6179,7 +6475,7 @@ Com o Verbi Pro, abra a gravação e, no cartão Translation (tradução), toque
 3. A tradução aparece abaixo do original.
 4. Para remover a tradução, toque de novo no idioma escolhido ou no ✕.
 
-O app não tem versão em português, então os nomes dos botões aparecem aqui em inglês, com o sentido em português entre parênteses. No iPhone, se o Verbi abriu em turco, troque o idioma primeiro: [veja como](/pt/ajuda/idiomas/).
+Os nomes dos botões aparecem aqui em inglês, com o sentido em português entre parênteses. A partir da versão 1.4.0 no iPhone e 1.2.0 no Android, o app mostra esses nomes em português: [veja o idioma do app](/pt/ajuda/idiomas/).
 
 ## Dá para traduzir já na gravação?
 
@@ -6190,7 +6486,7 @@ No plano grátis, essa opção não aparece.
 ## Limites
 
 - A tradução faz parte do Pro. No plano grátis, o cartão mostra 🔒 Upgrade to Pro for translation (passe para o Pro para traduzir).
-- Destinos: só inglês, turco, alemão, francês e espanhol, os cinco idiomas da interface. A gravação pode estar em qualquer um dos 39 idiomas da transcrição.
+- Destinos: só os sete idiomas do app, português do Brasil, inglês, espanhol, francês, alemão, italiano e turco. O português e o italiano entraram na versão 1.4.0 no iPhone e 1.2.0 no Android. A gravação pode estar em qualquer um dos 39 idiomas da transcrição.
 - O texto traduzido considera até 200.000 caracteres da transcrição.
 - Para traduzir, o texto da transcrição é enviado à OpenAI.
 
@@ -6198,7 +6494,7 @@ No plano grátis, essa opção não aparece.
 
 ### Dá para traduzir para o português?
 
-Não. Os destinos da tradução são só inglês, turco, alemão, francês e espanhol. Uma gravação em português fica com a transcrição em português.
+Sim, no Pro, a partir da versão 1.4.0 no iPhone e 1.2.0 no Android: toque em Português (Brasil) no cartão de tradução. A tradução aparece abaixo da transcrição original.
 
 ### A tradução é grátis?
 
@@ -6208,11 +6504,11 @@ Não, ela faz parte do Verbi Pro, no iPhone e no Android.
 
 URL: https://theverbi.com/es/ayuda/traducir-transcripcion/
 Language: es
-Last updated: 2026-10-24
+Last updated: 2026-10-26
 
 # ¿Cómo traduzco una transcripción?
 
-Con Verbi Pro, abre la grabación y, en la tarjeta «Traducción», toca el idioma de destino: English, Türkçe, Deutsch, Français o Español. La traducción aparece debajo del texto original, que se mantiene.
+Con Verbi Pro, abre la grabación y, en la tarjeta «Traducción», toca el idioma de destino: English, Türkçe, Deutsch, Français, Español, Português (Brasil) o Italiano. La traducción aparece debajo del texto original, que se mantiene.
 
 ## ¿Cómo traduzco?
 
@@ -6230,7 +6526,7 @@ En el plan gratuito, esta opción no aparece.
 ## Límites
 
 - La traducción es parte de Pro. En el plan gratuito, la tarjeta muestra 🔒 «Actualiza a Pro para traducir».
-- Destinos: solo español, inglés, turco, alemán y francés, los cinco idiomas de la interfaz. La grabación puede estar en cualquiera de los 39 idiomas de la transcripción.
+- Destinos: solo los siete idiomas de la interfaz, español, inglés, turco, alemán, francés, portugués (Brasil) e italiano (el portugués y el italiano, desde la versión 1.4.0 en iPhone y 1.2.0 en Android). La grabación puede estar en cualquiera de los 39 idiomas de la transcripción.
 - La traducción tiene en cuenta hasta 200 000 caracteres de la transcripción.
 - Para traducir, el texto de la transcripción se envía a OpenAI.
 
@@ -6238,7 +6534,7 @@ En el plan gratuito, esta opción no aparece.
 
 ### ¿A qué idiomas puedo traducir?
 
-Solo a español, inglés, turco, alemán y francés. Por ejemplo, una reunión en portugués o en italiano se puede traducir al español, pero no al catalán.
+Solo a los siete idiomas de la interfaz: español, inglés, turco, alemán, francés, portugués (Brasil) e italiano. Por ejemplo, una reunión en catalán se puede traducir al español, pero no hay traducción al catalán.
 
 ### ¿La traducción es gratis?
 
@@ -6248,11 +6544,11 @@ No, es parte de Verbi Pro, en iPhone y en Android.
 
 URL: https://theverbi.com/fr/aide/traduire-une-transcription/
 Language: fr
-Last updated: 2026-10-24
+Last updated: 2026-10-26
 
 # Comment traduire une transcription ?
 
-Avec Verbi Pro, ouvrez l’enregistrement et touchez une langue dans la carte « Traduction » : la traduction s’affiche sous la transcription d’origine. Cinq langues cibles sont proposées : anglais, turc, allemand, français et espagnol.
+Avec Verbi Pro, ouvrez l’enregistrement et touchez une langue dans la carte « Traduction » : la traduction s’affiche sous la transcription d’origine. Sept langues cibles sont proposées : anglais, turc, allemand, français, espagnol, portugais (Brésil) et italien.
 
 ## Comment traduire un enregistrement ?
 
@@ -6267,7 +6563,7 @@ Oui, avec Pro. L’écran de fin d’enregistrement affiche « Langue de la tra
 ## Quelles sont les limites ?
 
 - La traduction fait partie de Verbi Pro, sur iPhone comme sur Android. Avec l’offre gratuite, la carte affiche « Passez à Pro pour la traduction ».
-- Langues cibles : anglais, turc, allemand, français et espagnol uniquement, les cinq langues de l’app.
+- Langues cibles : uniquement les sept langues de l’app, anglais, turc, allemand, français, espagnol, portugais (Brésil) et italien. Le portugais et l’italien sont proposés depuis la version 1.4.0 sur iPhone et 1.2.0 sur Android.
 - Pour un très long enregistrement, 200 000 caractères de transcription au maximum sont traduits.
 - Le texte de la transcription est envoyé à OpenAI pour être traduit. Voir [quelles langues Verbi transcrit](/fr/aide/langues/).
 
@@ -6275,7 +6571,7 @@ Oui, avec Pro. L’écran de fin d’enregistrement affiche « Langue de la tra
 
 ### Puis-je traduire en italien ou en portugais ?
 
-Non. Les traductions sont proposées uniquement en anglais, turc, allemand, français et espagnol.
+Oui, depuis la version 1.4.0 sur iPhone et 1.2.0 sur Android : la carte « Traduction » propose « Português (Brasil) » et « Italiano ». Les autres langues de transcription ne sont pas des langues cibles.
 
 ### La traduction remplace-t-elle la transcription ?
 
@@ -6289,38 +6585,38 @@ Non, elle fait partie de Verbi Pro.
 
 URL: https://theverbi.com/it/assistenza/tradurre-trascrizione/
 Language: it
-Last updated: 2026-10-24
+Last updated: 2026-10-26
 
 # Come traduco una trascrizione?
 
-La traduzione fa parte di Verbi Pro: apri una trascrizione e nella scheda «Translation» (traduzione) tocca English, Türkçe, Deutsch, Français o Español; la traduzione compare sotto l’originale, che resta. Altre lingue di destinazione, italiano compreso, non ci sono.
+La traduzione fa parte di Verbi Pro: apri una trascrizione e nella scheda «Translation» (traduzione) tocca Italiano, English, Türkçe, Deutsch, Français, Español o Português (Brasil); la traduzione compare sotto l’originale, che resta. Altre lingue di destinazione non ci sono.
 
 ## Come traduco una trascrizione?
 
 1. Apri la registrazione e scorri fino alla scheda «Translation» (traduzione).
-2. Tocca la lingua di destinazione: English, Türkçe, Deutsch, Français o Español.
+2. Tocca la lingua di destinazione: Italiano, English, Türkçe, Deutsch, Français, Español o Português (Brasil).
 3. La traduzione compare sotto l’originale.
 4. Per toglierla tocca di nuovo la lingua scelta oppure la ✕.
 
-Le voci dell’app sono citate in inglese, con il significato tra parentesi. Se su iPhone Verbi è in turco, [ecco come passare all’inglese](/it/assistenza/lingue/).
+Le voci dell’app sono citate in inglese, con il significato tra parentesi. Dalla versione 1.4.0 su iPhone e 1.2.0 su Android l’app mostra queste voci in italiano: [ecco le lingue dell’app](/it/assistenza/lingue/).
 
 ## In automatico durante la registrazione (Pro)
 
-- Dopo «Stop» (ferma), con Pro Verbi mostra «Transcript Language» (lingua della trascrizione), impostata sulla lingua dell’app. Si può scegliere solo tra le cinque lingue dell’app.
+- Dopo «Stop» (ferma), con Pro Verbi mostra «Transcript Language» (lingua della trascrizione), impostata sulla lingua dell’app. Si può scegliere solo tra le sette lingue dell’app.
 - Se nella registrazione si parla un’altra lingua, come l’italiano, Verbi aggiunge in automatico una traduzione nella lingua scelta; la trascrizione originale resta.
 - Con il piano gratuito questa scelta non compare.
 
 ## Quali limiti ci sono?
 
 - Solo con Pro. Con il piano gratuito nella scheda compare «Upgrade to Pro for translation» (passa a Pro per la traduzione).
-- Le lingue di destinazione sono solo inglese, turco, tedesco, francese e spagnolo: non si può tradurre in italiano. Trascrivere, invece, Verbi sa farlo in 39 lingue, italiano compreso.
+- Le lingue di destinazione sono solo le sette lingue dell’app: italiano, inglese, turco, tedesco, francese, spagnolo e portoghese del Brasile. L’italiano e il portoghese ci sono dalla versione 1.4.0 su iPhone e 1.2.0 su Android. Trascrivere, invece, Verbi sa farlo in 39 lingue.
 - Le trascrizioni molto lunghe vengono tagliate oltre i 200.000 caratteri. Per la traduzione il testo della trascrizione viene inviato a OpenAI.
 
 ## Domande frequenti
 
 ### Posso tradurre una trascrizione in italiano?
 
-No. Verbi traduce solo in inglese, turco, tedesco, francese e spagnolo. Una registrazione in italiano, invece, viene trascritta in italiano.
+Sì, con Pro, dalla versione 1.4.0 su iPhone e 1.2.0 su Android: nella scheda «Translation» (traduzione) tocca «Italiano». La traduzione compare sotto la trascrizione originale.
 
 ### Posso tradurre in inglese un audio in italiano?
 
@@ -6493,7 +6789,7 @@ Abra a gravação e toque no ícone de compartilhar, no canto superior esquerdo.
 3. Escolha a opção: Copy Text (copiar texto) em qualquer plano; no Pro, também Audio Recording (gravação de áudio), Transcript (transcrição), Export as TXT, Export as PDF ou Summary (resumo).
 4. Escolha onde salvar ou para quem enviar no menu do celular.
 
-O app não tem versão em português, então os nomes dos botões aparecem aqui em inglês, com o sentido em português entre parênteses. No iPhone, se o Verbi abriu em turco, troque o idioma primeiro: [veja como](/pt/ajuda/idiomas/).
+Os nomes dos botões aparecem aqui em inglês, com o sentido em português entre parênteses. A partir da versão 1.4.0 no iPhone e 1.2.0 no Android, o app mostra esses nomes em português: [veja o idioma do app](/pt/ajuda/idiomas/).
 
 ## O que cada opção entrega?
 
@@ -6640,7 +6936,7 @@ In una registrazione tocca l’icona di condivisione in alto a sinistra: con il 
 
 Anche la scheda della trascrizione ha un’icona per copiare.
 
-Le voci dell’app sono citate in inglese, con il significato tra parentesi. Se su iPhone Verbi è in turco, [ecco come passare all’inglese](/it/assistenza/lingue/).
+Le voci dell’app sono citate in inglese, con il significato tra parentesi. Dalla versione 1.4.0 su iPhone e 1.2.0 su Android l’app mostra queste voci in italiano: [ecco le lingue dell’app](/it/assistenza/lingue/).
 
 ## Quali opzioni ci sono?
 
@@ -6676,7 +6972,7 @@ Sì, con Pro tramite «Audio Recording» (registrazione audio), finché il file 
 
 URL: https://theverbi.com/help/free-plan-vs-pro/
 Language: en
-Last updated: 2026-10-24
+Last updated: 2026-10-26
 
 # What does the free plan include, and what does Pro add?
 
@@ -6693,7 +6989,7 @@ The free plan gives you 60 minutes a month for recordings and imports, keeps eac
 | Live transcription | Basic on iPhone | High quality on iPhone |
 | YouTube import (when available) | Limits shown in the app | Unlimited |
 | Sharing and export | Copy text | Share, TXT, PDF, audio; SRT on iPhone |
-| Translation | No | English, Turkish, German, French, Spanish |
+| Translation | No | English, Turkish, German, French, Spanish, Portuguese, Italian |
 | AI Chat | No | Yes |
 | Support | Standard | Priority |
 
@@ -6737,7 +7033,7 @@ Each one is permanently deleted 15 days after its date. Copy the text you want t
 
 URL: https://theverbi.com/tr/yardim/ucretsiz-plan-ve-pro/
 Language: tr
-Last updated: 2026-10-24
+Last updated: 2026-10-26
 
 # Ücretsiz plan neleri içerir, Pro neler ekler?
 
@@ -6754,7 +7050,7 @@ Last updated: 2026-10-24
 | Canlı transkript | iPhone’da temel | iPhone’da yüksek kalite |
 | YouTube içe aktarma (kullanılabildiğinde) | Sınırlar uygulamada gösterilir | Sınırsız |
 | Paylaşma ve dışa aktarma | Metin kopyalama | Paylaşma, TXT, PDF, ses; iPhone’da SRT |
-| Çeviri | Yok | Türkçe, İngilizce, Almanca, Fransızca, İspanyolca |
+| Çeviri | Yok | Türkçe, İngilizce, Almanca, Fransızca, İspanyolca, Portekizce, İtalyanca |
 | AI Sohbet | Yok | Var |
 | Destek | Standart | Öncelikli |
 
@@ -6982,7 +7278,7 @@ La app te muestra el precio en tu moneda antes de suscribirte.
 
 URL: https://theverbi.com/fr/aide/offre-gratuite-et-pro/
 Language: fr
-Last updated: 2026-10-24
+Last updated: 2026-10-26
 
 # Que comprend l’offre gratuite, et qu’apporte Verbi Pro ?
 
@@ -6999,7 +7295,7 @@ L’offre gratuite vous donne 60 minutes par mois pour vos enregistrements et im
 | Transcription en direct | Basique sur iPhone | Haute qualité sur iPhone |
 | Import YouTube (quand il est disponible) | Limites affichées dans l’app | Illimité |
 | Partage et export | Copier le texte | Partage, TXT, PDF, audio ; SRT sur iPhone |
-| Traduction | Non | Anglais, turc, allemand, français, espagnol |
+| Traduction | Non | Anglais, turc, allemand, français, espagnol, portugais, italien |
 | Chat IA | Non | Oui |
 | Assistance | Standard | Prioritaire |
 
@@ -7043,7 +7339,7 @@ Chacun est supprimé définitivement 15 jours après sa date. Copiez le texte qu
 
 URL: https://theverbi.com/it/assistenza/piano-gratuito-e-pro/
 Language: it
-Last updated: 2026-10-24
+Last updated: 2026-10-26
 
 # Cosa include il piano gratuito, e cosa aggiunge Verbi Pro?
 
@@ -7057,7 +7353,7 @@ Il piano gratuito include 60 minuti di trascrizione al mese, che tornano disponi
 | Riconoscimento di chi parla | – | ✓ |
 | Riassunto AI | Uno automatico | Illimitati, con scelta del modello |
 | Chat AI con la trascrizione | – | ✓ |
-| Traduzione (in inglese, turco, tedesco, francese o spagnolo) | – | ✓ |
+| Traduzione (in sette lingue, italiano compreso) | – | ✓ |
 | Trascrizione dal vivo (differenza solo su iPhone) | Di base | Alta qualità |
 | Condivisione ed esportazione | Copia del testo | Trascrizione, riassunto, audio, TXT, PDF |
 | Importazione da YouTube (se disponibile) | Con limiti, che l’app mostra | Illimitata |
@@ -7085,7 +7381,7 @@ Il piano gratuito include 60 minuti di trascrizione al mese, che tornano disponi
 
 Vengono premiati fino a 5 amici. Su ogni dispositivo c’è un solo premio d’invito, anche reinstallando l’app. Se hai già un abbonamento a pagamento, i giorni aspettano che finisca.
 
-Le voci dell’app sono citate in inglese, con il significato tra parentesi. Se su iPhone Verbi è in turco, [ecco come passare all’inglese](/it/assistenza/lingue/).
+Le voci dell’app sono citate in inglese, con il significato tra parentesi. Dalla versione 1.4.0 su iPhone e 1.2.0 su Android l’app mostra queste voci in italiano: [ecco le lingue dell’app](/it/assistenza/lingue/).
 
 ## Domande frequenti
 
@@ -7286,7 +7582,7 @@ Gravações, transcrições e resumos ficam no seu celular: o Verbi não tem con
 
 Para guardar só o texto, desligue Keep Audio Files (manter arquivos de áudio) em Settings → Storage: o áudio é apagado depois de cada transcrição.
 
-O app não tem versão em português, então os nomes dos botões aparecem aqui em inglês, com o sentido em português entre parênteses. No iPhone, se o Verbi abriu em turco, troque o idioma primeiro: [veja como](/pt/ajuda/idiomas/).
+Os nomes dos botões aparecem aqui em inglês, com o sentido em português entre parênteses. A partir da versão 1.4.0 no iPhone e 1.2.0 no Android, o app mostra esses nomes em português: [veja o idioma do app](/pt/ajuda/idiomas/).
 
 ## E as estatísticas de uso?
 
@@ -7442,7 +7738,7 @@ Registrazioni e trascrizioni vengono salvate solo sul tuo telefono: Verbi non ha
 
 «Keep Audio Files» (conserva i file audio) in «Settings» → «Storage» all’inizio è attivo. Se lo disattivi, Verbi cancella l’audio dopo ogni trascrizione; il testo resta.
 
-Le voci dell’app sono citate in inglese, con il significato tra parentesi. Se su iPhone Verbi è in turco, [ecco come passare all’inglese](/it/assistenza/lingue/).
+Le voci dell’app sono citate in inglese, con il significato tra parentesi. Dalla versione 1.4.0 su iPhone e 1.2.0 su Android l’app mostra queste voci in italiano: [ecco le lingue dell’app](/it/assistenza/lingue/).
 
 ## Quali dati di utilizzo raccoglie Verbi?
 
@@ -7626,7 +7922,7 @@ A assinatura é cancelada na loja, não no app: no iPhone, nos Ajustes do iPhone
 
 Tem um código promocional? Toque em Promo Code (código promocional) na mesma tela: no iPhone, abre o resgate de códigos da Apple; no Android, a página de resgate do Google Play.
 
-O app não tem versão em português, então os nomes dos botões aparecem aqui em inglês, com o sentido em português entre parênteses. No iPhone, se o Verbi abriu em turco, troque o idioma primeiro: [veja como](/pt/ajuda/idiomas/).
+Os nomes dos botões aparecem aqui em inglês, com o sentido em português entre parênteses. A partir da versão 1.4.0 no iPhone e 1.2.0 no Android, o app mostra esses nomes em português: [veja o idioma do app](/pt/ajuda/idiomas/).
 
 ## O que acontece quando o Pro termina?
 
@@ -7758,7 +8054,7 @@ Verbi Pro si disdice dove l’hai comprato: su iPhone nell’app Impostazioni, t
 
 Usa sul dispositivo lo stesso account Apple o Google dell’acquisto; un account Verbi non esiste. «Promo Code» (codice promozionale) apre su iPhone la finestra di Apple per riscattare un codice e su Android play.google.com/redeem.
 
-Le voci dell’app sono citate in inglese, con il significato tra parentesi. Se su iPhone Verbi è in turco, [ecco come passare all’inglese](/it/assistenza/lingue/).
+Le voci dell’app sono citate in inglese, con il significato tra parentesi. Dalla versione 1.4.0 su iPhone e 1.2.0 su Android l’app mostra queste voci in italiano: [ecco le lingue dell’app](/it/assistenza/lingue/).
 
 ## Cosa succede quando Pro finisce?
 
