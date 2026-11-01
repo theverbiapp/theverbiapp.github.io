@@ -70,7 +70,7 @@
   "@type": "SoftwareApplication",
   "@id": "https://theverbi.com/#app",
   "name": "Verbi",
-  "alternateName": "Verbi AI Note Taker & Recorder",
+  "alternateName": "Verbi Lecture Recorder & Notes",
   "description": "Verbi records meetings, lectures and interviews, writes them down in 39 languages and gives you a summary with a to-do list.",
   "disambiguatingDescription": "AI voice recorder and note-taking app for meetings, lectures and interviews, on iPhone and Android. Not a language-learning app.",
   "url": "https://theverbi.com/",
@@ -498,6 +498,8 @@ h1, h2, h3, dt, summary { overflow-wrap: break-word; }
 .group { display: grid; gap: 18px; align-content: center; }
 .group h3 { margin: 0; font-size: clamp(var(--t-24), 3vw, var(--t-36)); font-weight: 700; line-height: 1.1; letter-spacing: -.025em; }
 .group > p { margin: 0; max-width: 52ch; color: var(--ink-2); }
+.group > .group-note { max-width: none; padding-top: 14px; border-top: 1px solid var(--rule); font-size: var(--t-14); }
+.group-note:empty { display: none; }
 .facts { display: grid; gap: 0 32px; margin: 10px 0 0; }
 .facts > div { position: relative; padding: 14px 0 14px 36px; border-top: 1px solid var(--rule); }
 .ic { position: absolute; left: 0; top: 16px; width: 22px; height: 22px; color: var(--accent); fill: none; stroke: currentColor; stroke-width: 1.75; stroke-linecap: round; stroke-linejoin: round; }
@@ -762,6 +764,7 @@ h1, h2, h3, dt, summary { overflow-wrap: break-word; }
               <div><dt><svg class="ic" aria-hidden="true"><use href="#i-share"/></svg><span data-i18n="g1.f3">Import and share</span></dt><dd data-i18n="g1.d3">Bring audio from Files, or share it in from any app.</dd></div>
               <div><dt><svg class="ic" aria-hidden="true"><use href="#i-calendar"/></svg><span data-i18n="g1.f4">Meeting reminders</span></dt><dd data-i18n="g1.d4">Verbi reads your calendar and reminds you to record when a meeting starts.</dd></div>
             </dl>
+            <p class="group-note" data-i18n="g1.note">Free plan: 60 minutes of transcription every month (one long lecture can use them up on its own) and only your first AI summary.</p>
           </article>
 
           <article class="group" data-shot="1">
@@ -871,7 +874,7 @@ h1, h2, h3, dt, summary { overflow-wrap: break-word; }
       </header>
       <ul class="guides">
         <li><a class="guide" href="/voice-to-text/" data-i18n-href="guide.voice.href"><span class="guide-h" data-i18n="guide.voice.h">Turn a voice recording into text</span><span class="guide-p" data-i18n="guide.voice.p">Voice memos and audio files as clean, searchable text.</span></a></li>
-        <li><a class="guide" href="/lecture-recorder-transcription/" data-i18n-href="guide.lecture.href"><span class="guide-h" data-i18n="guide.lecture.h">Record a lecture, get study notes</span><span class="guide-p" data-i18n="guide.lecture.p">The full transcript of the class, and lesson notes built from it.</span></a></li>
+        <li><a class="guide" href="/lecture-recorder-transcription/" data-i18n-href="guide.lecture.href"><span class="guide-h" data-i18n="guide.lecture.h">Lecture recorder with transcript and notes</span><span class="guide-p" data-i18n="guide.lecture.p">Record or import a class, get the full transcript and lesson notes built from it.</span></a></li>
         <li><a class="guide" href="/ai-meeting-notes/" data-i18n-href="guide.meeting.href"><span class="guide-h" data-i18n="guide.meeting.h">AI meeting notes</span><span class="guide-p" data-i18n="guide.meeting.p">Decisions and to-dos from your recording, with owners and dates only when someone said them.</span></a></li>
         <li><a class="guide" href="/interview-transcription/" data-i18n-href="guide.interview.href"><span class="guide-h" data-i18n="guide.interview.h">Interview transcription</span><span class="guide-p" data-i18n="guide.interview.p">The whole conversation with the speakers told apart, ready to quote from.</span></a></li>
         <li><a class="guide" href="/video-to-text/" data-i18n-href="guide.video.href"><span class="guide-h" data-i18n="guide.video.h">Turn a YouTube video into text</span><span class="guide-p" data-i18n="guide.video.p">Paste the video’s link and get the transcript.</span></a></li>
@@ -976,6 +979,7 @@ h1, h2, h3, dt, summary { overflow-wrap: break-word; }
       'g1.d3': 'Bring audio from Files, or share it in from any app.',
       'g1.f4': 'Meeting reminders',
       'g1.d4': 'Verbi reads your calendar and reminds you to record when a meeting starts.',
+      'g1.note': 'Free plan: 60 minutes of transcription every month (one long lecture can use them up on its own) and only your first AI summary.',
       'g2.h': 'Know who said what',
       'g2.p': 'Verbi writes in 39 languages and can detect the language on its own. It separates the voices in the room so you can put a name to each one.',
       'g2.f1': '39 languages',
@@ -1048,8 +1052,8 @@ h1, h2, h3, dt, summary { overflow-wrap: break-word; }
       'guide.voice.h': 'Turn a voice recording into text',
       'guide.voice.p': 'Voice memos and audio files as clean, searchable text.',
       'guide.voice.href': '/voice-to-text/',
-      'guide.lecture.h': 'Record a lecture, get study notes',
-      'guide.lecture.p': 'The full transcript of the class, and lesson notes built from it.',
+      'guide.lecture.h': 'Lecture recorder with transcript and notes',
+      'guide.lecture.p': 'Record or import a class, get the full transcript and lesson notes built from it.',
       'guide.lecture.href': '/lecture-recorder-transcription/',
       'guide.meeting.h': 'AI meeting notes',
       'guide.meeting.p': 'Decisions and to-dos from your recording, with owners and dates only when someone said them.',
@@ -1093,6 +1097,7 @@ h1, h2, h3, dt, summary { overflow-wrap: break-word; }
       'g1.d3': 'Dosyalar’dan ses getirin ya da herhangi bir uygulamadan paylaşın.',
       'g1.f4': 'Toplantı hatırlatıcıları',
       'g1.d4': 'Verbi takviminizi okur, toplantı başlarken kaydı açmanızı hatırlatır.',
+      'g1.note': 'Ücretsiz plan: her ay 60 dakika transkripsiyon (uzun bir ders bunu tek başına doldurabilir) ve yalnızca ilk yapay zeka özetiniz.',
       'g2.h': 'Kimin ne dediğini bilin',
       'g2.p': 'Verbi 39 dilde yazar, dili kendisi de algılayabilir. Odadaki sesleri birbirinden ayırır; her birine bir isim verebilirsiniz.',
       'g2.f1': '39 dil',
@@ -1210,6 +1215,7 @@ h1, h2, h3, dt, summary { overflow-wrap: break-word; }
       'g1.d3': 'Hol Audio aus deinen Dateien oder teile es aus jeder App.',
       'g1.f4': 'Meeting-Erinnerungen',
       'g1.d4': 'Verbi liest deinen Kalender und erinnert dich ans Aufnehmen, wenn ein Meeting beginnt.',
+      'g1.note': 'Kostenloser Plan: 60 Minuten Transkription jeden Monat (eine lange Vorlesung kann sie allein aufbrauchen) und nur deine erste KI-Zusammenfassung.',
       'g2.h': 'Sieh, wer was gesagt hat',
       'g2.p': 'Verbi schreibt in 39 Sprachen und erkennt die Sprache auch selbst. Es trennt die Stimmen im Raum, damit du jeder einen Namen geben kannst.',
       'g2.f1': '39 Sprachen',
@@ -1327,6 +1333,7 @@ h1, h2, h3, dt, summary { overflow-wrap: break-word; }
       'g1.d3': 'Traga áudios do app Arquivos ou compartilhe de qualquer app, inclusive mensagens de voz do WhatsApp.',
       'g1.f4': 'Lembretes de reunião',
       'g1.d4': 'O Verbi lê sua agenda e lembra você de gravar quando uma reunião começa.',
+      'g1.note': '',
       'g2.h': 'Saiba quem disse o quê',
       'g2.p': 'O Verbi transcreve em 39 idiomas e detecta o idioma sozinho. No Pro, ele separa as vozes de quem está na sala para você dar um nome a cada uma.',
       'g2.f1': '39 idiomas',
@@ -1444,6 +1451,7 @@ h1, h2, h3, dt, summary { overflow-wrap: break-word; }
       'g1.d3': 'Trae audio desde Archivos o compártelo desde cualquier app.',
       'g1.f4': 'Recordatorios de reuniones',
       'g1.d4': 'Verbi lee tu calendario y te recuerda grabar cuando empieza una reunión.',
+      'g1.note': '',
       'g2.h': 'Distingue quién dijo qué',
       'g2.p': 'Verbi transcribe en 39 idiomas y puede detectar el idioma por sí solo. Con Pro, separa las voces de la sala para que pongas nombre a cada una.',
       'g2.f1': '39 idiomas',
@@ -1561,6 +1569,7 @@ h1, h2, h3, dt, summary { overflow-wrap: break-word; }
       'g1.d3': 'Récupérez un audio depuis Fichiers ou partagez-le depuis n’importe quelle app.',
       'g1.f4': 'Rappels de réunion',
       'g1.d4': 'Verbi lit votre agenda et vous rappelle de lancer l’enregistrement quand une réunion commence.',
+      'g1.note': '',
       'g2.h': 'Sachez qui a dit quoi',
       'g2.p': 'Verbi transcrit en 39 langues et sait détecter la langue tout seul. Il sépare les voix présentes dans la pièce pour que vous puissiez mettre un nom sur chacune.',
       'g2.f1': '39 langues',
@@ -1678,6 +1687,7 @@ h1, h2, h3, dt, summary { overflow-wrap: break-word; }
       'g1.d3': 'Prendi l’audio da File o condividilo da qualsiasi app.',
       'g1.f4': 'Promemoria delle riunioni',
       'g1.d4': 'Verbi legge il tuo calendario e ti ricorda di registrare quando inizia una riunione.',
+      'g1.note': '',
       'g2.h': 'Sai chi ha detto cosa',
       'g2.p': 'Verbi scrive in 39 lingue, italiano compreso, e sa riconoscere la lingua da solo. Separa le voci nella stanza, così puoi dare un nome a ognuna.',
       'g2.f1': '39 lingue',

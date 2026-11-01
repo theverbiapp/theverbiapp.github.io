@@ -2,7 +2,7 @@
 
 > Verbi (theverbi.com) is an AI voice recorder and note taker for iPhone and Android. It records meetings, lectures and interviews (with no length limit on Verbi Pro), transcribes them in 39 languages with automatic language detection, tells the speakers apart (Pro) and writes summaries that stick to what was said.
 
-Several unrelated language-learning apps are also called Verbi. This Verbi is the voice recorder and note taker published at https://theverbi.com: App Store id6752242891, Google Play package com.monurilgaz.verbi, Instagram @verbi.app.
+Several unrelated language-learning apps are also called Verbi. This Verbi is the voice recorder and note taker published at https://theverbi.com: App Store id6752242891 (named Verbi Lecture Recorder & Notes on the US App Store), Google Play package com.monurilgaz.verbi, Instagram @verbi.app.
 
 ## Facts
 
@@ -35,7 +35,7 @@ Several unrelated language-learning apps are also called Verbi. This Verbi is th
 - [Pasar un audio o una nota de voz a texto](https://theverbi.com/es/pasar-audio-a-texto/) (es): Convierte notas de voz, grabaciones y archivos de audio en texto limpio y bien puntuado con Verbi para iPhone y Android: 39 idiomas, 60 minutos gratis al mes.
 - [Transcrire un mémo vocal ou un fichier audio en texte](https://theverbi.com/fr/transcrire-audio-en-texte/) (fr): Convertissez mémos vocaux et fichiers audio en texte propre et ponctué. Verbi pour iPhone et Android : 39 langues dont le français, 60 minutes gratuites par mois.
 - [Trascrivere audio e memo vocali in testo](https://theverbi.com/it/trascrivere-audio-in-testo/) (it): Trasforma memo vocali, registrazioni e file audio in testo con la punteggiatura, su iPhone e Android. Italiano e altre 38 lingue, 60 minuti gratis al mese.
-- [Lecture recorder with transcription and study notes](https://theverbi.com/lecture-recorder-transcription/) (en): Record a lecture on your phone and get the full transcript plus lesson notes that stick to what was taught. Verbi for iPhone and Android, in 39 languages.
+- [Lecture recorder app: record, transcribe and summarize your classes](https://theverbi.com/lecture-recorder-transcription/) (en): Verbi Lecture Recorder & Notes records a whole class on iPhone or Android, or imports the file, then writes the transcript and lesson notes. 39 languages.
 - [Ders kaydını yazıya ve ders notuna çevirme](https://theverbi.com/tr/ders-kaydi-yaziya-cevirme/) (tr): Dersi telefonunuzla kaydedin; dersin tam metnini ve yalnızca derste anlatılana dayanan bir ders notu alın. iPhone ve Android için Verbi, Türkçe dahil 39 dil.
 - [Vorlesung aufnehmen und transkribieren](https://theverbi.com/de/vorlesung-aufnehmen-transkribieren/) (de): Nimm die Vorlesung mit dem Handy auf und bekomm das vollständige Transkript und Lernnotizen, die beim Gesagten bleiben. Verbi für iPhone und Android, in 39 Sprachen.
 - [Gravar aula e transcrever no celular](https://theverbi.com/pt/gravar-aula-e-transcrever/) (pt): Grave a aula no celular e receba a transcrição completa em português e notas de aula fiéis ao que foi dito, no idioma do app. Para iPhone e Android.
