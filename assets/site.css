@@ -56,6 +56,17 @@ body {
 img { max-width: 100%; display: block; }
 h1, h2, h3 { text-wrap: balance; overflow-wrap: break-word; -webkit-hyphens: manual; hyphens: manual; }
 :lang(de) h1, :lang(de) h2, :lang(de) h3 { -webkit-hyphens: auto; hyphens: auto; }
+/* Scripts Host Grotesk does not cover (D-201): installed system fonts, ordered per language so Han
+   characters take their regional shapes. No web font is downloaded for them. */
+:root:lang(ar) { --font: "Host Grotesk", "Geeza Pro", "Noto Sans Arabic", "Segoe UI", Tahoma, ui-sans-serif, system-ui, sans-serif; }
+:root:lang(ja) { --font: "Host Grotesk", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic UI", "Yu Gothic", "Noto Sans JP", Meiryo, ui-sans-serif, system-ui, sans-serif; }
+:root:lang(ko) { --font: "Host Grotesk", "Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans KR", ui-sans-serif, system-ui, sans-serif; }
+:root:lang(zh) { --font: "Host Grotesk", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", ui-sans-serif, system-ui, sans-serif; }
+/* Tight tracking is a Latin habit: it breaks Arabic's joined letters and crowds CJK. */
+:root:is(:lang(ar), :lang(ja), :lang(ko), :lang(zh)) :is(h1, h2, h3, h4, p, summary, .headline, .headline-measure) { letter-spacing: 0; }
+:lang(ja) :is(h1, h2, h3, p, li, dd, summary) { word-break: auto-phrase; line-break: strict; }
+:is(:lang(zh), :lang(ko)) :is(h1, h2, h3, p, li, dd, summary) { line-break: strict; }
+:lang(ko) :is(h1, h2, h3, p, li, dd, summary) { word-break: keep-all; overflow-wrap: break-word; }
 p, li { text-wrap: pretty; }
 a { color: var(--accent); text-underline-offset: .18em; text-decoration-thickness: 1px; }
 :focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; border-radius: 6px; }
@@ -110,13 +121,13 @@ a { color: var(--accent); text-underline-offset: .18em; text-decoration-thicknes
 }
 .prose > section:first-child h2 { margin-top: 0; }
 .prose p { margin: 0 0 14px; }
-.prose ul { margin: 0; padding-left: 1.2em; display: grid; gap: 10px; }
+.prose ul { margin: 0; padding-inline-start: 1.2em; display: grid; gap: 10px; }
 .prose li::marker { color: var(--accent); }
 
 .steps { list-style: none; counter-reset: step; margin: 0; padding: 0; border-bottom: 1px solid var(--rule); }
-.steps li { counter-increment: step; position: relative; padding: 16px 0 16px 48px; border-top: 1px solid var(--rule); }
+.steps li { counter-increment: step; position: relative; padding: 16px 0; padding-inline-start: 48px; border-top: 1px solid var(--rule); }
 .steps li::before {
-  content: counter(step); position: absolute; left: 0; top: 14px;
+  content: counter(step); position: absolute; inset-inline-start: 0; top: 14px;
   width: 32px; height: 32px; border-radius: 50%; display: grid; place-items: center;
   background: var(--seg-bg); color: var(--accent); font-size: var(--t-16); font-weight: 700;
 }
@@ -132,11 +143,12 @@ a { color: var(--accent); text-underline-offset: .18em; text-decoration-thicknes
 }
 .compare { width: 100%; border-collapse: collapse; font-size: var(--t-16); line-height: 1.45; }
 .compare-wide { min-width: 900px; }
-.compare th, .compare td { padding: 12px 16px; text-align: left; vertical-align: top; border-top: 1px solid var(--rule); }
+.compare th, .compare td { padding: 12px 16px; text-align: start; vertical-align: top; border-top: 1px solid var(--rule); }
 .compare thead th { border-top: 0; background: var(--seg-bg); font-size: var(--t-14); font-weight: 650; color: var(--ink-2); }
 .compare tbody th { font-weight: 650; }
-.compare-wide tbody th { position: sticky; left: 0; min-width: 9.5em; background: var(--surface); box-shadow: 1px 0 0 var(--rule); }
-.compare-wide thead th:first-child { position: sticky; left: 0; z-index: 1; }
+.compare-wide tbody th { position: sticky; inset-inline-start: 0; min-width: 9.5em; background: var(--surface); box-shadow: 1px 0 0 var(--rule); }
+html[dir="rtl"] .compare-wide tbody th { box-shadow: -1px 0 0 var(--rule); }
+.compare-wide thead th:first-child { position: sticky; inset-inline-start: 0; z-index: 1; }
 .compare .sub { display: block; margin-top: 2px; font-size: var(--t-14); font-weight: 400; color: var(--ink-2); }
 .prose .note { font-size: var(--t-16); color: var(--ink-2); }
 .sources p { color: var(--ink-2); }
@@ -156,6 +168,7 @@ a { color: var(--accent); text-underline-offset: .18em; text-decoration-thicknes
 .card:hover { border-color: var(--accent); }
 .card-h { font-size: var(--t-18); font-weight: 700; line-height: 1.3; }
 .card-h::after { content: " →"; color: var(--accent); }
+html[dir="rtl"] .card-h::after { content: " ←"; }
 .card-p { font-size: var(--t-16); line-height: 1.5; color: var(--ink-2); }
 
 .cta { margin-top: clamp(72px, 10vw, 140px); padding-block: clamp(64px, 10vw, 128px); }

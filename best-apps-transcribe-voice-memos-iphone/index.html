@@ -163,6 +163,14 @@
         <a href="/es/" hreflang="es" lang="es" aria-label="Español">ES</a>
         <a href="/fr/" hreflang="fr" lang="fr" aria-label="Français">FR</a>
         <a href="/it/" hreflang="it" lang="it" aria-label="Italiano">IT</a>
+        <a href="/ar/" hreflang="ar" lang="ar" aria-label="العربية">AR</a>
+        <a href="/ru/" hreflang="ru" lang="ru" aria-label="Русский">RU</a>
+        <a href="/ja/" hreflang="ja" lang="ja" aria-label="日本語">JA</a>
+        <a href="/ko/" hreflang="ko" lang="ko" aria-label="한국어">KO</a>
+        <a href="/id/" hreflang="id" lang="id" aria-label="Bahasa Indonesia">ID</a>
+        <a href="/nl/" hreflang="nl" lang="nl" aria-label="Nederlands">NL</a>
+        <a href="/pl/" hreflang="pl" lang="pl" aria-label="Polski">PL</a>
+        <a href="/zh/" hreflang="zh-Hans" lang="zh-Hans" aria-label="简体中文">ZH</a>
       </nav>
     </div>
     <div class="intro">
@@ -240,7 +248,7 @@
     </section>
     <section>
       <h2>Verbi</h2>
-      <p>Verbi is an AI voice recorder and note taker for iPhone and Android. It records in the app (Pro has no length limit, and on iPhone the recording keeps going with the screen locked), imports files, and takes voice memos, WhatsApp and Telegram voice messages and other audio shared from any app, as well as video links. It transcribes 39 languages and can detect the language for you.</p>
+      <p>Verbi is an AI voice recorder and note taker for iPhone and Android. It records in the app (long recordings fit within Pro’s hours, and on iPhone the recording keeps going with the screen locked), imports files, and takes voice memos, WhatsApp and Telegram voice messages and other audio shared from any app, as well as video links. It transcribes 39 languages and can detect the language for you.</p>
       <p>Summaries come from nine templates, such as Lesson Notes, General Meeting and Action Items, and contain only what was said: owners and due dates appear only when someone stated them. With Pro, every transcript gets a summary, and you can tell the speakers apart, chat with the transcript, translate it and export it as TXT or PDF; on the free plan, your first summary is on us and you can copy the text. Verbi needs no account, and recordings and transcripts are stored on your phone. To transcribe, the audio is sent to our speech-to-text providers (ElevenLabs and OpenAI), as the <a href="https://theverbi.com/privacy-policy/" rel="noopener">privacy policy</a> explains. The free plan includes 60 minutes of transcription a month.</p>
       <p>A good fit if you record long lectures, meetings or interviews, work in more than one language or on both iPhone and Android, and want a summary shaped for the recording. Verbi has no web or desktop version.</p>
     </section>
@@ -263,7 +271,7 @@
         <li>Download Verbi from the App Store and open it. In Settings → Transcription Language, pick the language of the recording, or leave it on Auto-detect.</li>
         <li>In Voice Memos, tap the recording and open the share sheet.</li>
         <li>Choose Verbi. “Added to Verbi. Open the app to transcribe it.” means the recording was handed over. Share it in the default format: Apple’s <a href="https://support.apple.com/en-us/guide/iphone/iph831c37815/ios" rel="noopener">export page</a> says Options → Editable exports QuickTime Audio, a format Verbi doesn’t read.</li>
-        <li>Open Verbi. The recording is imported and transcribed; with Pro, you first choose the Number of Speakers. On iOS 26 or later, a long transcription keeps going if you leave the app, and Verbi sends a notification when it’s done; on older iOS versions, it continues when you reopen Verbi.</li>
+        <li>Open Verbi. The recording is imported and transcribed; with Pro, you first choose the Number of Speakers. On iOS 26 or later, a long transcription keeps going if you leave the app, and Verbi sends a notification when it’s done; on older iOS versions, the upload continues in the background and the transcription is ready when you reopen Verbi.</li>
         <li>Read, search or copy the text; with Pro, export it as TXT or PDF. A memo saved in Files can also be picked with Upload File. More in <a href="/help/transcribe-audio-file/">how to transcribe an audio file or voice memo</a>.</li>
       </ol>
     </section>
@@ -304,6 +312,7 @@
       <li><a class="card" href="/lecture-recorder-transcription/"><span class="card-h">Lecture recorder with transcript and notes</span><span class="card-p">Record or import a class, get the full transcript and lesson notes built from it.</span></a></li>
       <li><a class="card" href="/interview-transcription/"><span class="card-h">Interview transcription</span><span class="card-p">The whole conversation with the speakers told apart, ready to quote from.</span></a></li>
       <li><a class="card" href="/otter-alternative/"><span class="card-h">An Otter alternative</span><span class="card-p">Otter’s language list, and what Verbi offers for meetings in 39 languages.</span></a></li>
+      <li><a class="card" href="/best-lecture-recorder-apps/"><span class="card-h">Lecture recorder apps compared</span><span class="card-p">Nine ways to record a class and get the text or notes, with each vendor’s own sources.</span></a></li>
       <li><a class="card" href="/"><span class="card-h">Verbi home</span><span class="card-p">Everything Verbi does, the plans and common questions.</span></a></li>
       </ul>
     </nav>
@@ -333,5 +342,32 @@
     </div>
   </div>
 </footer>
+<script>
+  // Who sent this visitor (WEB-11). The tag the visit arrived with
+  // (?utm_source=…), or else the referring site's host, goes to Google Play
+  // as utm_campaign, next to the page's own utm_source=site_…; the install
+  // report can then say "chatgpt.com" beside the page. A site name only:
+  // lower case, [a-z0-9._-], 40 characters. No cookie, nothing stored; if
+  // this does not run the links stay as they were built. build.mjs copies
+  // this block onto every generated page.
+  (() => {
+    try {
+      let from = new URLSearchParams(location.search).get('utm_source') || '';
+      if (!from && document.referrer) {
+        const host = new URL(document.referrer).hostname;
+        if (host !== location.hostname) from = host;
+      }
+      from = from.toLowerCase().replace(/^www\./, '').replace(/[^a-z0-9._-]/g, '').slice(0, 40);
+      if (!from) return;
+      document.querySelectorAll('a[href*="play.google.com/store/apps/details"]').forEach(a => {
+        const url = new URL(a.href);
+        const referrer = url.searchParams.get('referrer');
+        if (!referrer || /(^|&)utm_campaign=/.test(referrer)) return;
+        url.searchParams.set('referrer', referrer + '&utm_campaign=' + from);
+        a.href = url.toString();
+      });
+    } catch (e) { /* the links stay as built */ }
+  })();
+</script>
 </body>
 </html>

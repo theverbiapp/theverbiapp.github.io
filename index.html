@@ -17,6 +17,14 @@
 <link rel="alternate" hreflang="es" href="https://theverbi.com/es/">
 <link rel="alternate" hreflang="fr" href="https://theverbi.com/fr/">
 <link rel="alternate" hreflang="it" href="https://theverbi.com/it/">
+<link rel="alternate" hreflang="ar" href="https://theverbi.com/ar/">
+<link rel="alternate" hreflang="ru" href="https://theverbi.com/ru/">
+<link rel="alternate" hreflang="ja" href="https://theverbi.com/ja/">
+<link rel="alternate" hreflang="ko" href="https://theverbi.com/ko/">
+<link rel="alternate" hreflang="id" href="https://theverbi.com/id/">
+<link rel="alternate" hreflang="nl" href="https://theverbi.com/nl/">
+<link rel="alternate" hreflang="pl" href="https://theverbi.com/pl/">
+<link rel="alternate" hreflang="zh-Hans" href="https://theverbi.com/zh/">
 <link rel="alternate" hreflang="x-default" href="https://theverbi.com/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Verbi">
@@ -27,6 +35,14 @@
 <meta property="og:locale:alternate" content="es_ES">
 <meta property="og:locale:alternate" content="fr_FR">
 <meta property="og:locale:alternate" content="it_IT">
+<meta property="og:locale:alternate" content="ar_AR">
+<meta property="og:locale:alternate" content="ru_RU">
+<meta property="og:locale:alternate" content="ja_JP">
+<meta property="og:locale:alternate" content="ko_KR">
+<meta property="og:locale:alternate" content="id_ID">
+<meta property="og:locale:alternate" content="nl_NL">
+<meta property="og:locale:alternate" content="pl_PL">
+<meta property="og:locale:alternate" content="zh_CN">
 <meta property="og:url" content="https://theverbi.com/">
 <meta property="og:image" content="https://theverbi.com/assets/og.jpg">
 <meta property="og:image:width" content="1200">
@@ -79,7 +95,7 @@
   "operatingSystem": "iOS, Android",
   "applicationCategory": "BusinessApplication",
   "featureList": [
-    "Records meetings, lectures and interviews, with no length limit on Pro (free plan: 60 minutes a month)",
+    "Records meetings, lectures and interviews, with hours of transcription on Pro and MAX (free plan: 60 minutes a month)",
     "Transcription in 39 languages with automatic language detection",
     "Live transcription",
     "Speaker detection and naming (Pro)",
@@ -124,7 +140,7 @@
       "name": "Is Verbi free?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, Verbi is free to download. The free plan includes 60 minutes of transcription a month, live transcription (basic on iPhone), one automatic AI summary and copying the text, and keeps recordings for 15 days. Verbi Pro is an optional subscription without those limits; the app shows its price in your currency before you subscribe."
+        "text": "Yes, Verbi is free to download. The free plan includes 60 minutes of transcription a month, live transcription (basic on iPhone), one automatic AI summary and copying the text, and keeps recordings for 15 days. Verbi Pro (20 hours of transcription a month, or 5 a week on the weekly plan) and MAX (twice the hours) are optional subscriptions; the app shows their price in your currency before you subscribe."
       }
     },
     {
@@ -140,7 +156,7 @@
       "name": "Can Verbi transcribe Turkish and German?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. Both are among the 39 languages Verbi transcribes, and the app itself is available in Turkish and German too, as well as English, French, Spanish, Portuguese and Italian (Portuguese and Italian from version 1.4.0 on iPhone and 1.2.0 on Android)."
+        "text": "Yes. Both are among the 39 languages Verbi transcribes, and the app itself is available in 15 languages, Turkish and German included (the eight newest, Russian, Arabic, Japanese, Korean, Indonesian, Dutch, Polish and Chinese, from version 1.5.0 on iPhone and 1.3.0 on Android)."
       }
     },
     {
@@ -148,7 +164,7 @@
       "name": "How long can a recording be?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "There’s no length limit with Verbi Pro: an hour-long meeting or a whole lecture is transcribed from start to finish. On the free plan, your recordings share 60 minutes a month, and on iPhone a recording stops when they run out. On Android, and on iPhone with iOS 26 or later, you can leave the app while a long recording transcribes and Verbi tells you when it’s ready; on older iOS versions, transcription continues when you reopen the app."
+        "text": "Pro covers long recordings: an hour-long meeting or a whole lecture is transcribed from start to finish, within your plan’s hours (Pro: 20 hours a month or 5 a week; MAX: 40 hours a month or 10 a week). If you run out, you can add extra hours that never expire. On the free plan, your recordings share 60 minutes a month, and on iPhone a recording stops when they run out. You can leave the app while a long recording transcribes. On Android, and on iPhone with iOS 26 or later, Verbi tells you when it’s ready; on earlier iOS versions the upload carries on in the background and the transcript is waiting when you reopen the app."
       }
     },
     {
@@ -312,6 +328,17 @@ a { color: var(--accent); text-underline-offset: .18em; text-decoration-thicknes
 /* German compounds are long; let headings break them properly on a phone. */
 h1, h2, h3, dt, summary { overflow-wrap: break-word; }
 :lang(de) h2, :lang(de) h3, :lang(de) dt { -webkit-hyphens: auto; hyphens: auto; }
+/* Scripts Host Grotesk does not cover (D-201): installed system fonts, ordered per language so Han
+   characters take their regional shapes. No web font is downloaded for them. */
+:root:lang(ar) { --font: "Host Grotesk", "Geeza Pro", "Noto Sans Arabic", "Segoe UI", Tahoma, ui-sans-serif, system-ui, sans-serif; }
+:root:lang(ja) { --font: "Host Grotesk", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic UI", "Yu Gothic", "Noto Sans JP", Meiryo, ui-sans-serif, system-ui, sans-serif; }
+:root:lang(ko) { --font: "Host Grotesk", "Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans KR", ui-sans-serif, system-ui, sans-serif; }
+:root:lang(zh) { --font: "Host Grotesk", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", ui-sans-serif, system-ui, sans-serif; }
+/* Tight tracking is a Latin habit: it breaks Arabic's joined letters and crowds CJK. */
+:root:is(:lang(ar), :lang(ja), :lang(ko), :lang(zh)) :is(h1, h2, h3, h4, p, summary, .headline, .headline-measure) { letter-spacing: 0; }
+:lang(ja) :is(h1, h2, h3, p, li, dd, summary) { word-break: auto-phrase; line-break: strict; }
+:is(:lang(zh), :lang(ko)) :is(h1, h2, h3, p, li, dd, summary) { line-break: strict; }
+:lang(ko) :is(h1, h2, h3, p, li, dd, summary) { word-break: keep-all; overflow-wrap: break-word; }
 
 .hero { padding-block: clamp(20px, 5vh, 64px) clamp(40px, 7vh, 88px); position: relative; }
 .rec {
@@ -618,6 +645,23 @@ h1, h2, h3, dt, summary { overflow-wrap: break-word; }
 .foot a:hover { color: var(--ink); }
 .foot-about { margin: 0 0 14px; max-width: 70ch; font-size: var(--t-14); color: var(--ink-2); }
 
+/* Right-to-left (Arabic, D-201). Flow, flex and grid mirror on their own; these are the physical
+   properties above, flipped. The wave, the phone mock-up and the check marks keep their drawing. */
+html[dir="rtl"] .face + .face { margin-left: 0; margin-right: -8px; }
+html[dir="rtl"] .spk::before, html[dir="rtl"] .who::before { margin-right: 0; margin-left: 8px; }
+html[dir="rtl"] .bullets { padding-left: 0; padding-right: 1.1em; }
+html[dir="rtl"] .task { text-align: right; }
+html[dir="rtl"] .mail-subj span { margin-right: 0; margin-left: 10px; }
+html[dir="rtl"] .bubble.q { border-bottom-right-radius: 20px; border-bottom-left-radius: 6px; }
+html[dir="rtl"] .bubble.a { border-bottom-left-radius: 20px; border-bottom-right-radius: 6px; }
+html[dir="rtl"] .facts > div { padding: 14px 36px 14px 0; }
+html[dir="rtl"] .ic { left: auto; right: 0; }
+html[dir="rtl"] .plan li { padding: 11px 30px 11px 0; }
+html[dir="rtl"] .plan li::before { left: auto; right: 3px; }
+html[dir="rtl"] .faq summary::after { margin-right: 0; margin-left: 4px; }
+html[dir="rtl"] .guide-h::after { content: " ←"; }
+html[dir="rtl"] .caret { margin-left: -.1em; margin-right: .05em; }
+
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; }
 }
@@ -626,7 +670,6 @@ h1, h2, h3, dt, summary { overflow-wrap: break-word; }
 </head>
 <body>
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
-  <symbol id="i-infinity" viewBox="0 0 24 24"><path d="M12 12c-2-2.67-4-4-6-4a4 4 0 1 0 0 8c2 0 4-1.33 6-4Zm0 0c2 2.67 4 4 6 4a4 4 0 0 0 0-8c-2 0-4 1.33-6 4Z"/></symbol>
   <symbol id="i-wave" viewBox="0 0 24 24"><path d="M2 10v3"/><path d="M6 6v11"/><path d="M10 3v18"/><path d="M14 8v7"/><path d="M18 5v13"/><path d="M22 10v3"/></symbol>
   <symbol id="i-share" viewBox="0 0 24 24"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><path d="m16 6-4-4-4 4"/><path d="M12 2v13"/></symbol>
   <symbol id="i-calendar" viewBox="0 0 24 24"><path d="M8 2v4"/><path d="M16 2v4"/><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M3 10h18"/></symbol>
@@ -659,6 +702,14 @@ h1, h2, h3, dt, summary { overflow-wrap: break-word; }
         <a href="/es/" hreflang="es" lang="es" data-lang="es" aria-label="Español">ES</a>
         <a href="/fr/" hreflang="fr" lang="fr" data-lang="fr" aria-label="Français">FR</a>
         <a href="/it/" hreflang="it" lang="it" data-lang="it" aria-label="Italiano">IT</a>
+        <a href="/ar/" hreflang="ar" lang="ar" data-lang="ar" aria-label="العربية">AR</a>
+        <a href="/ru/" hreflang="ru" lang="ru" data-lang="ru" aria-label="Русский">RU</a>
+        <a href="/ja/" hreflang="ja" lang="ja" data-lang="ja" aria-label="日本語">JA</a>
+        <a href="/ko/" hreflang="ko" lang="ko" data-lang="ko" aria-label="한국어">KO</a>
+        <a href="/id/" hreflang="id" lang="id" data-lang="id" aria-label="Bahasa Indonesia">ID</a>
+        <a href="/nl/" hreflang="nl" lang="nl" data-lang="nl" aria-label="Nederlands">NL</a>
+        <a href="/pl/" hreflang="pl" lang="pl" data-lang="pl" aria-label="Polski">PL</a>
+        <a href="/zh/" hreflang="zh-Hans" lang="zh-Hans" data-lang="zh" aria-label="简体中文">ZH</a>
       </nav>
     </div>
 
@@ -756,10 +807,10 @@ h1, h2, h3, dt, summary { overflow-wrap: break-word; }
             <figure class="inline-phone">
               <div class="phone"><div class="screen"><img loading="lazy" src="/assets/screen-live-transcription-recording-lecture.webp" width="599" height="1304" data-i18n-alt="shot.0" alt="Verbi recording a lecture, with the words appearing live"></div><span class="island"></span></div>
             </figure>
-            <h3 data-i18n="g1.h">Record for as long as you need</h3>
-            <p data-i18n="g1.p">Hit record, import a file, or share audio in from another app. On Android, and on iPhone with iOS 26 or later, you can leave Verbi while a long recording transcribes and it will tell you when your notes are ready.</p>
+            <h3 data-i18n="g1.h">Record the whole meeting or lecture</h3>
+            <p data-i18n="g1.p">Hit record, import a file, or share audio in from another app. You can leave Verbi while a long recording transcribes: on Android and on iPhone with iOS 26 or later it tells you when your notes are ready, and on earlier iOS versions the upload carries on in the background.</p>
             <dl class="facts">
-              <div><dt><svg class="ic" aria-hidden="true"><use href="#i-infinity"/></svg><span data-i18n="g1.f1">Long recordings</span></dt><dd data-i18n="g1.d1">An hour-long meeting or a whole lecture, transcribed start to finish. No length limit with Pro.</dd></div>
+              <div><dt><svg class="ic" aria-hidden="true"><use href="#i-wave"/></svg><span data-i18n="g1.f1">Long recordings</span></dt><dd data-i18n="g1.d1">An hour-long meeting or a whole lecture, transcribed start to finish, within your plan’s hours.</dd></div>
               <div><dt><svg class="ic" aria-hidden="true"><use href="#i-wave"/></svg><span data-i18n="g1.f2">Live transcription</span></dt><dd data-i18n="g1.d2">Watch the words appear while you speak.</dd></div>
               <div><dt><svg class="ic" aria-hidden="true"><use href="#i-share"/></svg><span data-i18n="g1.f3">Import and share</span></dt><dd data-i18n="g1.d3">Bring audio from Files, or share it in from any app.</dd></div>
               <div><dt><svg class="ic" aria-hidden="true"><use href="#i-calendar"/></svg><span data-i18n="g1.f4">Meeting reminders</span></dt><dd data-i18n="g1.d4">Verbi reads your calendar and reminds you to record when a meeting starts.</dd></div>
@@ -777,7 +828,7 @@ h1, h2, h3, dt, summary { overflow-wrap: break-word; }
               <div><dt><svg class="ic" aria-hidden="true"><use href="#i-globe"/></svg><span data-i18n="g2.f1">39 languages</span></dt><dd data-i18n="g2.d1">English, Spanish, French, German, Turkish, Japanese and more.</dd></div>
               <div><dt><svg class="ic" aria-hidden="true"><use href="#i-users"/></svg><span data-i18n="g2.f2">Speaker detection</span></dt><dd data-i18n="g2.d2">See who said what and give each voice a name (Pro).</dd></div>
               <div><dt><svg class="ic" aria-hidden="true"><use href="#i-book"/></svg><span data-i18n="g2.f3">Custom vocabulary</span></dt><dd data-i18n="g2.d3">Teach Verbi the names, companies and acronyms it keeps getting wrong.</dd></div>
-              <div><dt><svg class="ic" aria-hidden="true"><use href="#i-translate"/></svg><span data-i18n="g2.f4">Translation</span></dt><dd data-i18n="g2.d4">Read any transcript in English, Turkish, German, French, Spanish, Portuguese or Italian (Pro).</dd></div>
+              <div><dt><svg class="ic" aria-hidden="true"><use href="#i-translate"/></svg><span data-i18n="g2.f4">Translation</span></dt><dd data-i18n="g2.d4">Read any transcript in English, Turkish, German, French, Spanish, Portuguese, Italian, Russian, Arabic, Japanese, Korean, Indonesian, Dutch, Polish or Simplified Chinese (Pro).</dd></div>
             </dl>
           </article>
 
@@ -813,7 +864,7 @@ h1, h2, h3, dt, summary { overflow-wrap: break-word; }
     <div class="wrap">
       <header class="section-head">
         <h2 id="plans-title" data-i18n="plans.title">Start free</h2>
-        <p data-i18n="plans.body">Download Verbi and transcribe 60 minutes every month at no cost. Move to Pro when you need more.</p>
+        <p data-i18n="plans.body">Download Verbi and transcribe 60 minutes every month at no cost. When you need more, Pro and MAX give you hours of transcription.</p>
       </header>
       <div class="plan-grid">
         <div class="plan">
@@ -831,19 +882,40 @@ h1, h2, h3, dt, summary { overflow-wrap: break-word; }
         <div class="plan plan-pro">
           <div class="plan-head">
             <h3>Verbi Pro</h3>
-            <p class="plan-sub" data-i18n="pro.sub">Everything in Free, without the limits.</p>
+            <p class="plan-sub" data-i18n="pro.sub">Everything in Free, plus hours of transcription.</p>
           </div>
           <ul>
-            <li data-i18n="pro.1">Unlimited transcription</li>
-            <li data-i18n="pro.2">Unlimited AI summaries</li>
+            <li data-i18n="pro.1">20 hours of transcription a month (5 a week on the weekly plan)</li>
+            <li data-i18n="pro.2">An AI summary for every transcript</li>
             <li data-i18n="pro.3">Speaker detection</li>
             <li data-i18n="pro.4">Translation</li>
             <li data-i18n="pro.5">High-quality live transcription on iPhone</li>
-            <li data-i18n="pro.6">Unlimited history</li>
+            <li data-i18n="pro.6">Recordings are not deleted after 15 days</li>
+          </ul>
+        </div>
+        <div class="plan">
+          <div class="plan-head">
+            <h3>MAX</h3>
+            <p class="plan-sub" data-i18n="max.sub">Twice the hours of Pro, for heavy use.</p>
+          </div>
+          <ul>
+            <li data-i18n="max.1">40 hours of transcription a month (10 a week on the weekly plan)</li>
+            <li data-i18n="max.2">Everything in Pro</li>
+          </ul>
+        </div>
+        <div class="plan">
+          <div class="plan-head">
+            <h3 data-i18n="extra.name">Extra hours</h3>
+            <p class="plan-sub" data-i18n="extra.sub">For the weeks that run over.</p>
+          </div>
+          <ul>
+            <li data-i18n="extra.1">Packs of 5 or 15 extra hours</li>
+            <li data-i18n="extra.2">They never expire</li>
+            <li data-i18n="extra.3">Used once your plan’s hours run out</li>
           </ul>
         </div>
       </div>
-      <p class="fine" data-i18n="plans.fine">Verbi Pro is a subscription. The app shows the price in your currency before you subscribe.</p>
+      <p class="fine" data-i18n="plans.fine">Pro and MAX are subscriptions (weekly, monthly or yearly), and extra hours are a one-time purchase for subscribers. Plan hours reset every week on weekly plans and every month on monthly and yearly plans, and don’t carry over. The app shows the price in your currency before you subscribe.</p>
     </div>
   </section>
 
@@ -854,10 +926,10 @@ h1, h2, h3, dt, summary { overflow-wrap: break-word; }
         <h2 id="faq-title" data-i18n="faq.title">Questions, answered</h2>
       </header>
       <div class="faq">
-        <details><summary data-i18n="faq.q1">Is Verbi free?</summary><p data-i18n="faq.a1">Yes, Verbi is free to download. The free plan includes 60 minutes of transcription a month, live transcription (basic on iPhone), one automatic AI summary and copying the text, and keeps recordings for 15 days. Verbi Pro is an optional subscription without those limits; the app shows its price in your currency before you subscribe.</p></details>
+        <details><summary data-i18n="faq.q1">Is Verbi free?</summary><p data-i18n="faq.a1">Yes, Verbi is free to download. The free plan includes 60 minutes of transcription a month, live transcription (basic on iPhone), one automatic AI summary and copying the text, and keeps recordings for 15 days. Verbi Pro (20 hours of transcription a month, or 5 a week on the weekly plan) and MAX (twice the hours) are optional subscriptions; the app shows their price in your currency before you subscribe.</p></details>
         <details><summary data-i18n="faq.q2">Which languages does Verbi understand?</summary><p data-i18n="faq.a2">Verbi transcribes 39 languages, including English, Spanish, French, German, Turkish, Italian, Portuguese, Arabic, Japanese and Chinese. You can pick the language or leave it on auto-detect.</p></details>
-        <details><summary data-i18n="faq.q3">Can Verbi transcribe Turkish and German?</summary><p data-i18n="faq.a3">Yes. Both are among the 39 languages Verbi transcribes, and the app itself is available in Turkish and German too, as well as English, French, Spanish, Portuguese and Italian (Portuguese and Italian from version 1.4.0 on iPhone and 1.2.0 on Android).</p></details>
-        <details><summary data-i18n="faq.q4">How long can a recording be?</summary><p data-i18n="faq.a4">There’s no length limit with Verbi Pro: an hour-long meeting or a whole lecture is transcribed from start to finish. On the free plan, your recordings share 60 minutes a month, and on iPhone a recording stops when they run out. On Android, and on iPhone with iOS 26 or later, you can leave the app while a long recording transcribes and Verbi tells you when it’s ready; on older iOS versions, transcription continues when you reopen the app.</p></details>
+        <details><summary data-i18n="faq.q3">Can Verbi transcribe Turkish and German?</summary><p data-i18n="faq.a3">Yes. Both are among the 39 languages Verbi transcribes, and the app itself is available in 15 languages, Turkish and German included (the eight newest, Russian, Arabic, Japanese, Korean, Indonesian, Dutch, Polish and Chinese, from version 1.5.0 on iPhone and 1.3.0 on Android).</p></details>
+        <details><summary data-i18n="faq.q4">How long can a recording be?</summary><p data-i18n="faq.a4">Pro covers long recordings: an hour-long meeting or a whole lecture is transcribed from start to finish, within your plan’s hours (Pro: 20 hours a month or 5 a week; MAX: 40 hours a month or 10 a week). If you run out, you can add extra hours that never expire. On the free plan, your recordings share 60 minutes a month, and on iPhone a recording stops when they run out. You can leave the app while a long recording transcribes. On Android, and on iPhone with iOS 26 or later, Verbi tells you when it’s ready; on earlier iOS versions the upload carries on in the background and the transcript is waiting when you reopen the app.</p></details>
         <details><summary data-i18n="faq.q5">Where are my recordings stored?</summary><p data-i18n="faq.a5">On your phone. Verbi has no account and no cloud sync, so recordings and transcripts are stored on your device. To transcribe, the audio is sent to our speech-to-text providers (ElevenLabs and OpenAI), usually through our server; summaries, chat and translation send the transcript text to OpenAI. The privacy policy explains what is sent, where, and for how long.</p></details>
         <details><summary data-i18n="faq.q6">Does Verbi summarize recordings?</summary><p data-i18n="faq.a6">Yes. With Pro, choose a template (general meeting, 1:1 meeting, daily or weekly meeting, lesson notes, idea capture, action items, email draft or blog post) and the summary comes back in that shape; Pro also summarizes every transcript on its own. Summaries stick to what was said: owners and due dates appear only when someone stated them. With Pro you can also ask the transcript questions. On the free plan, your first transcript gets one summary automatically, with your default template.</p></details>
         <details><summary data-i18n="faq.q7">Is Verbi available on Android?</summary><p data-i18n="faq.a7">Yes. Verbi is on Google Play for Android phones and on the App Store for iPhone.</p></details>
@@ -941,6 +1013,33 @@ h1, h2, h3, dt, summary { overflow-wrap: break-word; }
     const rootHref = `https://apps.apple.com/app/apple-store/id6752242891?pt=${encodeURIComponent(PT)}&ct=site&mt=8`;
     $$('a[href="' + APP_STORE_PLAIN + '"]').forEach(a => { a.href = rootHref; });
   }
+  /* visitor-source:start */
+  // Who sent this visitor (WEB-11). The tag the visit arrived with
+  // (?utm_source=…), or else the referring site's host, goes to Google Play
+  // as utm_campaign, next to the page's own utm_source=site_…; the install
+  // report can then say "chatgpt.com" beside the page. A site name only:
+  // lower case, [a-z0-9._-], 40 characters. No cookie, nothing stored; if
+  // this does not run the links stay as they were built. build.mjs copies
+  // this block onto every generated page.
+  (() => {
+    try {
+      let from = new URLSearchParams(location.search).get('utm_source') || '';
+      if (!from && document.referrer) {
+        const host = new URL(document.referrer).hostname;
+        if (host !== location.hostname) from = host;
+      }
+      from = from.toLowerCase().replace(/^www\./, '').replace(/[^a-z0-9._-]/g, '').slice(0, 40);
+      if (!from) return;
+      document.querySelectorAll('a[href*="play.google.com/store/apps/details"]').forEach(a => {
+        const url = new URL(a.href);
+        const referrer = url.searchParams.get('referrer');
+        if (!referrer || /(^|&)utm_campaign=/.test(referrer)) return;
+        url.searchParams.set('referrer', referrer + '&utm_campaign=' + from);
+        a.href = url.toString();
+      });
+    } catch (e) { /* the links stay as built */ }
+  })();
+  /* visitor-source:end */
   const storeHref = (host, fallback) => { const a = $('a.store[href*="' + host + '"]'); return a ? a.href : fallback; };
   const APP_STORE_HREF = storeHref('apps.apple.com', APP_STORE_PLAIN);
   const PLAY_HREF = storeHref('play.google.com', 'https://play.google.com/store/apps/details?id=com.monurilgaz.verbi');
@@ -969,10 +1068,10 @@ h1, h2, h3, dt, summary { overflow-wrap: break-word; }
       'shot.0': 'Verbi recording a lecture, with the words appearing live',
       'shot.1': 'A meeting transcript with three named speakers and timestamps',
       'shot.2': 'Asking Verbi which decisions were made in a meeting',
-      'g1.h': 'Record for as long as you need',
-      'g1.p': 'Hit record, import a file, or share audio in from another app. On Android, and on iPhone with iOS 26 or later, you can leave Verbi while a long recording transcribes and it will tell you when your notes are ready.',
+      'g1.h': 'Record the whole meeting or lecture',
+      'g1.p': 'Hit record, import a file, or share audio in from another app. You can leave Verbi while a long recording transcribes: on Android and on iPhone with iOS 26 or later it tells you when your notes are ready, and on earlier iOS versions the upload carries on in the background.',
       'g1.f1': 'Long recordings',
-      'g1.d1': 'An hour-long meeting or a whole lecture, transcribed start to finish. No length limit with Pro.',
+      'g1.d1': 'An hour-long meeting or a whole lecture, transcribed start to finish, within your plan’s hours.',
       'g1.f2': 'Live transcription',
       'g1.d2': 'Watch the words appear while you speak.',
       'g1.f3': 'Import and share',
@@ -989,7 +1088,7 @@ h1, h2, h3, dt, summary { overflow-wrap: break-word; }
       'g2.f3': 'Custom vocabulary',
       'g2.d3': 'Teach Verbi the names, companies and acronyms it keeps getting wrong.',
       'g2.f4': 'Translation',
-      'g2.d4': 'Read any transcript in English, Turkish, German, French, Spanish, Portuguese or Italian (Pro).',
+      'g2.d4': 'Read any transcript in English, Turkish, German, French, Spanish, Portuguese, Italian, Russian, Arabic, Japanese, Korean, Indonesian, Dutch, Polish or Simplified Chinese (Pro).',
       'g3.h': 'Get the summary you need',
       'g3.p': 'With Pro, pick a template and the summary comes back in that shape, sticking to what was actually said: owners and due dates appear only when someone stated them. With Pro, every transcript also gets its summary on its own; on the free plan, only your first one does.',
       'g3.f1': 'Nine templates',
@@ -1004,22 +1103,30 @@ h1, h2, h3, dt, summary { overflow-wrap: break-word; }
       'privacy.body': 'Verbi has no account and no cloud sync. To transcribe, the audio is sent to our speech-to-text providers, ElevenLabs and OpenAI, usually through our server. Summaries, chat and translation send the transcript text to OpenAI. Usage statistics never include your recordings or transcripts, and you can turn them off in Settings.',
       'privacy.link': 'Read the privacy policy',
       'plans.title': 'Start free',
-      'plans.body': 'Download Verbi and transcribe 60 minutes every month at no cost. Move to Pro when you need more.',
+      'plans.body': 'Download Verbi and transcribe 60 minutes every month at no cost. When you need more, Pro and MAX give you hours of transcription.',
       'free.name': 'Free',
       'free.sub': 'Try Verbi on your own recordings.',
-      'pro.sub': 'Everything in Free, without the limits.',
+      'pro.sub': 'Everything in Free, plus hours of transcription.',
       'bar.cta': 'Download',
       'free.1': '60 minutes of transcription a month',
       'free.2': 'Recordings kept for 15 days',
       'free.3': 'Live transcription (basic on iPhone)',
       'free.4': 'Your first AI summary',
-      'pro.1': 'Unlimited transcription',
-      'pro.2': 'Unlimited AI summaries',
+      'pro.1': '20 hours of transcription a month (5 a week on the weekly plan)',
+      'pro.2': 'An AI summary for every transcript',
       'pro.3': 'Speaker detection',
       'pro.4': 'Translation',
       'pro.5': 'High-quality live transcription on iPhone',
-      'pro.6': 'Unlimited history',
-      'plans.fine': 'Verbi Pro is a subscription. The app shows the price in your currency before you subscribe.',
+      'pro.6': 'Recordings are not deleted after 15 days',
+      'max.sub': 'Twice the hours of Pro, for heavy use.',
+      'max.1': '40 hours of transcription a month (10 a week on the weekly plan)',
+      'max.2': 'Everything in Pro',
+      'extra.name': 'Extra hours',
+      'extra.sub': 'For the weeks that run over.',
+      'extra.1': 'Packs of 5 or 15 extra hours',
+      'extra.2': 'They never expire',
+      'extra.3': 'Used once your plan’s hours run out',
+      'plans.fine': 'Pro and MAX are subscriptions (weekly, monthly or yearly), and extra hours are a one-time purchase for subscribers. Plan hours reset every week on weekly plans and every month on monthly and yearly plans, and don’t carry over. The app shows the price in your currency before you subscribe.',
       'cta.title': 'Record your next meeting with Verbi.',
       'foot.label': 'Legal and contact',
       'foot.help': 'Help',
@@ -1032,13 +1139,13 @@ h1, h2, h3, dt, summary { overflow-wrap: break-word; }
       'og.alt': 'You talk. Verbi takes the notes.',
       'faq.title': 'Questions, answered',
       'faq.q1': 'Is Verbi free?',
-      'faq.a1': 'Yes, Verbi is free to download. The free plan includes 60 minutes of transcription a month, live transcription (basic on iPhone), one automatic AI summary and copying the text, and keeps recordings for 15 days. Verbi Pro is an optional subscription without those limits; the app shows its price in your currency before you subscribe.',
+      'faq.a1': 'Yes, Verbi is free to download. The free plan includes 60 minutes of transcription a month, live transcription (basic on iPhone), one automatic AI summary and copying the text, and keeps recordings for 15 days. Verbi Pro (20 hours of transcription a month, or 5 a week on the weekly plan) and MAX (twice the hours) are optional subscriptions; the app shows their price in your currency before you subscribe.',
       'faq.q2': 'Which languages does Verbi understand?',
       'faq.a2': 'Verbi transcribes 39 languages, including English, Spanish, French, German, Turkish, Italian, Portuguese, Arabic, Japanese and Chinese. You can pick the language or leave it on auto-detect.',
       'faq.q3': 'Can Verbi transcribe Turkish and German?',
-      'faq.a3': 'Yes. Both are among the 39 languages Verbi transcribes, and the app itself is available in Turkish and German too, as well as English, French, Spanish, Portuguese and Italian (Portuguese and Italian from version 1.4.0 on iPhone and 1.2.0 on Android).',
+      'faq.a3': 'Yes. Both are among the 39 languages Verbi transcribes, and the app itself is available in 15 languages, Turkish and German included (the eight newest, Russian, Arabic, Japanese, Korean, Indonesian, Dutch, Polish and Chinese, from version 1.5.0 on iPhone and 1.3.0 on Android).',
       'faq.q4': 'How long can a recording be?',
-      'faq.a4': 'There’s no length limit with Verbi Pro: an hour-long meeting or a whole lecture is transcribed from start to finish. On the free plan, your recordings share 60 minutes a month, and on iPhone a recording stops when they run out. On Android, and on iPhone with iOS 26 or later, you can leave the app while a long recording transcribes and Verbi tells you when it’s ready; on older iOS versions, transcription continues when you reopen the app.',
+      'faq.a4': 'Pro covers long recordings: an hour-long meeting or a whole lecture is transcribed from start to finish, within your plan’s hours (Pro: 20 hours a month or 5 a week; MAX: 40 hours a month or 10 a week). If you run out, you can add extra hours that never expire. On the free plan, your recordings share 60 minutes a month, and on iPhone a recording stops when they run out. You can leave the app while a long recording transcribes. On Android, and on iPhone with iOS 26 or later, Verbi tells you when it’s ready; on earlier iOS versions the upload carries on in the background and the transcript is waiting when you reopen the app.',
       'faq.q5': 'Where are my recordings stored?',
       'faq.a5': 'On your phone. Verbi has no account and no cloud sync, so recordings and transcripts are stored on your device. To transcribe, the audio is sent to our speech-to-text providers (ElevenLabs and OpenAI), usually through our server; summaries, chat and translation send the transcript text to OpenAI. The privacy policy explains what is sent, where, and for how long.',
       'faq.q6': 'Does Verbi summarize recordings?',
@@ -1087,17 +1194,17 @@ h1, h2, h3, dt, summary { overflow-wrap: break-word; }
       'shot.0': 'Verbi bir dersi kaydediyor, kelimeler canlı olarak ekrana düşüyor',
       'shot.1': 'Üç konuşmacının adı ve zaman damgalarıyla bir toplantı transkripti',
       'shot.2': 'Verbi’ye toplantıda hangi kararların alındığını sormak',
-      'g1.h': 'İstediğiniz kadar kaydedin',
-      'g1.p': 'Kaydı başlatın, dosya içe aktarın ya da başka bir uygulamadan ses paylaşın. Android’de ve iOS 26 ya da sonrası yüklü iPhone’da uzun bir kayıt yazıya dökülürken uygulamadan çıkabilirsiniz; notlarınız hazır olunca Verbi haber verir.',
+      'g1.h': 'Toplantının ya da dersin tamamını kaydedin',
+      'g1.p': 'Kaydı başlatın, dosya içe aktarın ya da başka bir uygulamadan ses paylaşın. Uzun bir kayıt yazıya dökülürken Verbi’den çıkabilirsiniz: Android’de ve iOS 26 ya da sonrası yüklü iPhone’da notlarınız hazır olunca Verbi haber verir; daha eski iOS sürümlerinde yükleme arka planda sürer.',
       'g1.f1': 'Uzun kayıtlar',
-      'g1.d1': 'Bir saatlik toplantı ya da bütün bir ders, baştan sona yazıya dökülür. Pro’da uzunluk sınırı yok.',
+      'g1.d1': 'Bir saatlik toplantı ya da bütün bir ders, planınızın saatleri dahilinde baştan sona yazıya dökülür.',
       'g1.f2': 'Canlı transkripsiyon',
       'g1.d2': 'Siz konuşurken kelimeler ekrana düşer.',
       'g1.f3': 'İçe aktarma ve paylaşım',
       'g1.d3': 'Dosyalar’dan ses getirin ya da herhangi bir uygulamadan paylaşın.',
       'g1.f4': 'Toplantı hatırlatıcıları',
       'g1.d4': 'Verbi takviminizi okur, toplantı başlarken kaydı açmanızı hatırlatır.',
-      'g1.note': 'Ücretsiz plan: her ay 60 dakika transkripsiyon (uzun bir ders bunu tek başına doldurabilir) ve yalnızca ilk yapay zeka özetiniz.',
+      'g1.note': 'Ücretsiz plan: her ay 60 dakika transkripsiyon (uzun bir ders bunu tek başına doldurabilir) ve yalnızca ilk yapay zekaâ özetiniz.',
       'g2.h': 'Kimin ne dediğini bilin',
       'g2.p': 'Verbi 39 dilde yazar, dili kendisi de algılayabilir. Odadaki sesleri birbirinden ayırır; her birine bir isim verebilirsiniz.',
       'g2.f1': '39 dil',
@@ -1122,22 +1229,30 @@ h1, h2, h3, dt, summary { overflow-wrap: break-word; }
       'privacy.body': 'Verbi’de hesap ve bulut eşitleme yok. Transkripsiyon için ses, çoğunlukla sunucumuz üzerinden konuşma tanıma sağlayıcılarımıza (ElevenLabs ve OpenAI) gönderilir. Özet, sohbet ve çeviri için transkript metni OpenAI’ye gider. Kullanım istatistikleri kayıtlarınızı ya da transkriptlerinizi hiçbir zaman içermez ve Ayarlar’dan kapatılabilir.',
       'privacy.link': 'Gizlilik politikasını okuyun',
       'plans.title': 'Ücretsiz başlayın',
-      'plans.body': 'Verbi’yi indirin, her ay 60 dakikayı ücretsiz yazıya dökün. Daha fazlasına ihtiyacınız olduğunda Pro’ya geçin.',
+      'plans.body': 'Verbi’yi indirin, her ay 60 dakikayı ücretsiz yazıya dökün. Daha fazlasına ihtiyacınız olduğunda Pro ve MAX saatlerce transkripsiyon sunar.',
       'free.name': 'Ücretsiz',
       'free.sub': 'Verbi’yi kendi kayıtlarınızda deneyin.',
-      'pro.sub': 'Ücretsiz plandaki her şey, sınırsız.',
+      'pro.sub': 'Ücretsiz plandaki her şey, artı saatlerce transkripsiyon.',
       'bar.cta': 'İndir',
       'free.1': 'Ayda 60 dakika transkripsiyon',
       'free.2': 'Kayıtlar 15 gün saklanır',
       'free.3': 'Canlı transkripsiyon (iPhone’da temel)',
-      'free.4': 'İlk yapay zeka özetiniz',
-      'pro.1': 'Sınırsız transkripsiyon',
-      'pro.2': 'Sınırsız yapay zeka özeti',
+      'free.4': 'İlk yapay zekaâ özetiniz',
+      'pro.1': 'Ayda 20 saat transkripsiyon (haftalık planda haftada 5 saat)',
+      'pro.2': 'Her transkript için yapay zekaâ özeti',
       'pro.3': 'Konuşmacı ayrımı',
       'pro.4': 'Çeviri',
       'pro.5': 'iPhone’da yüksek kaliteli canlı transkripsiyon',
-      'pro.6': 'Sınırsız geçmiş',
-      'plans.fine': 'Verbi Pro bir aboneliktir. Uygulama, abone olmadan önce fiyatı kendi para biriminizde gösterir.',
+      'pro.6': 'Kayıtlar 15 gün sonra silinmez',
+      'max.sub': 'Pro’nun iki katı saat, yoğun kullanım için.',
+      'max.1': 'Ayda 40 saat transkripsiyon (haftalık planda haftada 10 saat)',
+      'max.2': 'Pro’daki her şey',
+      'extra.name': 'Ek saat',
+      'extra.sub': 'Planınızın yetmediği haftalar için.',
+      'extra.1': '5 ya da 15 saatlik ek saat paketleri',
+      'extra.2': 'Süresi dolmaz',
+      'extra.3': 'Plan saatleriniz bitince kullanılır',
+      'plans.fine': 'Pro ve MAX aboneliktir (haftalık, aylık ya da yıllık); ek saat, abonelere tek seferlik satın alma olarak sunulur. Plan saatleri haftalık planlarda her hafta, aylık ve yıllık planlarda her ay yenilenir, devretmez. Uygulama, abone olmadan önce fiyatı kendi para biriminizde gösterir.',
       'cta.title': 'Bir sonraki toplantınızı Verbi ile kaydedin.',
       'foot.label': 'Yasal bilgiler ve iletişim',
       'foot.help': 'Yardım',
@@ -1145,18 +1260,18 @@ h1, h2, h3, dt, summary { overflow-wrap: break-word; }
       'foot.privacy': 'Gizlilik Politikası',
       'foot.terms': 'Kullanım Koşulları',
       'foot.contact': 'İletişim',
-      'foot.about': 'theverbi.com’daki Verbi, toplantılar, dersler ve röportajlar için yapay zeka destekli bir ses kaydedici ve not alma uygulamasıdır; iPhone ve Android’de kullanılabilir.',
+      'foot.about': 'theverbi.com’daki Verbi, toplantılar, dersler ve röportajlar için yapay zekaâ destekli bir ses kaydedici ve not alma uygulamasıdır; iPhone ve Android’de kullanılabilir.',
       'og.desc': 'Siz konuşun, notları Verbi tutsun: 39 dilde transkript, birbirinden ayrılmış konuşmacılar ve görev listesiyle bir özet.',
       'og.alt': 'Mor zemin üzerinde Verbi simgesi ve “You talk. Verbi takes the notes.” yazısı',
       'faq.title': 'Sık sorulan sorular',
       'faq.q1': 'Verbi ücretsiz mi?',
-      'faq.a1': 'Evet, Verbi’yi indirmek ücretsiz. Ücretsiz plan ayda 60 dakika transkripsiyon, canlı transkripsiyon (iPhone’da temel), bir otomatik yapay zeka özeti ve metin kopyalamayı içerir; kayıtlar 15 gün saklanır. Verbi Pro bu sınırları kaldıran isteğe bağlı bir aboneliktir; uygulama, abone olmadan önce fiyatı kendi para biriminizde gösterir.',
+      'faq.a1': 'Evet, Verbi’yi indirmek ücretsiz. Ücretsiz plan ayda 60 dakika transkripsiyon, canlı transkripsiyon (iPhone’da temel), bir otomatik yapay zekaâ özeti ve metin kopyalamayı içerir; kayıtlar 15 gün saklanır. Verbi Pro (ayda 20 saat transkripsiyon, haftalık planda haftada 5 saat) ve MAX (iki katı saat) isteğe bağlı aboneliklerdir; uygulama, abone olmadan önce fiyatı kendi para biriminizde gösterir.',
       'faq.q2': 'Verbi hangi dilleri yazıya döker?',
       'faq.a2': 'Verbi Türkçe, İngilizce, Almanca, İspanyolca, Fransızca, İtalyanca, Portekizce, Arapça, Japonca ve Çince dahil 39 dili yazıya döker. Dili siz seçebilir ya da otomatik algılamaya bırakabilirsiniz.',
       'faq.q3': 'Türkçe kayıtlarda çalışıyor mu?',
       'faq.a3': 'Evet. Türkçe, Verbi’nin yazıya döktüğü 39 dilden biri; uygulamanın arayüzü de Türkçe. Sık geçen özel isimleri ve kısaltmaları Özel Sözlük’e ekleyerek Verbi’nin bunları doğru yazmasına yardımcı olabilirsiniz.',
       'faq.q4': 'Bir kayıt ne kadar uzun olabilir?',
-      'faq.a4': 'Verbi Pro’da uzunluk sınırı yok: bir saatlik toplantı ya da bütün bir ders baştan sona yazıya dökülür. Ücretsiz planda kayıtlarınız ayda toplam 60 dakikayı paylaşır; iPhone’da dakikalar bitince kayıt durur. Android’de ve iOS 26 ya da sonrası yüklü iPhone’da uzun bir kayıt yazıya dökülürken uygulamadan çıkabilirsiniz, hazır olduğunda Verbi haber verir; daha eski iOS sürümlerinde işlem, uygulamayı yeniden açtığınızda devam eder.',
+      'faq.a4': 'Pro uzun kayıtları karşılar: bir saatlik toplantı ya da bütün bir ders, planınızın saatleri dahilinde baştan sona yazıya dökülür (Pro: ayda 20 saat ya da haftada 5 saat; MAX: ayda 40 saat ya da haftada 10 saat). Saatleriniz biterse süresi dolmayan ek saat alabilirsiniz. Ücretsiz planda kayıtlarınız ayda toplam 60 dakikayı paylaşır; iPhone’da dakikalar bitince kayıt durur. Uzun bir kayıt yazıya dökülürken uygulamadan çıkabilirsiniz. Android’de ve iOS 26 ya da sonrası yüklü iPhone’da hazır olduğunda Verbi haber verir; daha eski iOS sürümlerinde yükleme arka planda sürer ve uygulamayı yeniden açtığınızda yazıya dökülmüş metin sizi bekler.',
       'faq.q5': 'Kayıtlarım nerede saklanıyor?',
       'faq.a5': 'Telefonunuzda. Verbi’de hesap ve bulut eşitleme olmadığı için kayıtlarınız ve transkriptleriniz cihazınızda saklanır. Transkripsiyon için ses, çoğunlukla sunucumuz üzerinden konuşma tanıma sağlayıcılarımıza (ElevenLabs ve OpenAI) gönderilir; özet, sohbet ve çeviri için transkript metni OpenAI’ye gider. Nelerin, nereye ve ne kadar süreyle gönderildiğini gizlilik politikası anlatır.',
       'faq.q6': 'Verbi kayıtları özetliyor mu?',
@@ -1205,10 +1320,10 @@ h1, h2, h3, dt, summary { overflow-wrap: break-word; }
       'shot.0': 'Verbi nimmt eine Vorlesung auf, die Wörter erscheinen live',
       'shot.1': 'Ein Meeting-Transkript mit drei benannten Sprechern und Zeitstempeln',
       'shot.2': 'Verbi wird gefragt, welche Entscheidungen im Meeting gefallen sind',
-      'g1.h': 'Nimm auf, so lange du brauchst',
-      'g1.p': 'Starte die Aufnahme, importiere eine Datei oder teile Audio aus einer anderen App. Unter Android und auf dem iPhone ab iOS 26 kannst du die App verlassen, während eine lange Aufnahme transkribiert wird; Verbi meldet sich, sobald deine Notizen fertig sind.',
+      'g1.h': 'Nimm das ganze Meeting oder die ganze Vorlesung auf',
+      'g1.p': 'Starte die Aufnahme, importiere eine Datei oder teile Audio aus einer anderen App. Du kannst Verbi verlassen, während eine lange Aufnahme transkribiert wird: Unter Android und auf dem iPhone ab iOS 26 meldet sich Verbi, sobald deine Notizen fertig sind; unter älteren iOS-Versionen läuft der Upload im Hintergrund weiter.',
       'g1.f1': 'Lange Aufnahmen',
-      'g1.d1': 'Ein einstündiges Meeting oder eine ganze Vorlesung, von Anfang bis Ende transkribiert. Mit Pro ohne Längenbegrenzung.',
+      'g1.d1': 'Ein einstündiges Meeting oder eine ganze Vorlesung, von Anfang bis Ende transkribiert, im Rahmen der Stunden deines Plans.',
       'g1.f2': 'Live-Transkription',
       'g1.d2': 'Die Wörter erscheinen, während du sprichst.',
       'g1.f3': 'Importieren und teilen',
@@ -1240,22 +1355,30 @@ h1, h2, h3, dt, summary { overflow-wrap: break-word; }
       'privacy.body': 'Verbi hat kein Konto und keine Cloud-Synchronisierung. Zum Transkribieren geht das Audio an unsere Spracherkennungsanbieter ElevenLabs und OpenAI, meist über unseren Server. Für Zusammenfassungen, Chat und Übersetzung geht der Transkripttext an OpenAI. Die Nutzungsstatistik enthält nie deine Aufnahmen oder Transkripte, und du kannst sie in den Einstellungen ausschalten.',
       'privacy.link': 'Datenschutzerklärung lesen (auf Englisch)',
       'plans.title': 'Kostenlos starten',
-      'plans.body': 'Lade Verbi herunter und transkribiere jeden Monat 60 Minuten kostenlos. Wechsle zu Pro, wenn du mehr brauchst.',
+      'plans.body': 'Lade Verbi herunter und transkribiere jeden Monat 60 Minuten kostenlos. Wenn du mehr brauchst, bieten Pro und MAX Stunden an Transkription.',
       'free.name': 'Kostenlos',
       'free.sub': 'Probier Verbi mit deinen eigenen Aufnahmen aus.',
-      'pro.sub': 'Alles aus dem kostenlosen Plan, ohne Grenzen.',
+      'pro.sub': 'Alles aus dem kostenlosen Plan, plus Stunden an Transkription.',
       'bar.cta': 'Laden',
       'free.1': '60 Minuten Transkription pro Monat',
       'free.2': 'Aufnahmen werden 15 Tage gespeichert',
       'free.3': 'Live-Transkription (auf dem iPhone einfach)',
       'free.4': 'Deine erste KI-Zusammenfassung',
-      'pro.1': 'Unbegrenzte Transkription',
-      'pro.2': 'Unbegrenzte KI-Zusammenfassungen',
+      'pro.1': '20 Stunden Transkription pro Monat (5 pro Woche im Wochenplan)',
+      'pro.2': 'Eine KI-Zusammenfassung für jedes Transkript',
       'pro.3': 'Sprechererkennung',
       'pro.4': 'Übersetzung',
       'pro.5': 'Live-Transkription in hoher Qualität auf dem iPhone',
-      'pro.6': 'Unbegrenzter Verlauf',
-      'plans.fine': 'Verbi Pro ist ein Abo. Die App zeigt dir den Preis in deiner Währung, bevor du abschließt.',
+      'pro.6': 'Aufnahmen werden nicht nach 15 Tagen gelöscht',
+      'max.sub': 'Doppelt so viele Stunden wie Pro, für intensive Nutzung.',
+      'max.1': '40 Stunden Transkription pro Monat (10 pro Woche im Wochenplan)',
+      'max.2': 'Alles aus Pro',
+      'extra.name': 'Zusatzstunden',
+      'extra.sub': 'Für die Wochen, in denen es mehr wird.',
+      'extra.1': 'Pakete mit 5 oder 15 Zusatzstunden',
+      'extra.2': 'Sie verfallen nie',
+      'extra.3': 'Werden genutzt, sobald die Stunden deines Plans aufgebraucht sind',
+      'plans.fine': 'Pro und MAX sind Abos (wöchentlich, monatlich oder jährlich); Zusatzstunden kaufen Abonnenten einmalig. Bei Wochenplänen werden die Stunden jede Woche zurückgesetzt, bei Monats- und Jahresplänen jeden Monat; sie werden nicht übertragen. Die App zeigt dir den Preis in deiner Währung, bevor du abschließt.',
       'cta.title': 'Nimm dein nächstes Meeting mit Verbi auf.',
       'foot.label': 'Rechtliches und Kontakt',
       'foot.help': 'Hilfe',
@@ -1268,13 +1391,13 @@ h1, h2, h3, dt, summary { overflow-wrap: break-word; }
       'og.alt': 'Verbi-Symbol auf violettem Grund mit dem Satz „You talk. Verbi takes the notes.“',
       'faq.title': 'Häufige Fragen',
       'faq.q1': 'Ist Verbi kostenlos?',
-      'faq.a1': 'Ja, Verbi kannst du kostenlos herunterladen. Der kostenlose Plan enthält 60 Minuten Transkription pro Monat, Live-Transkription (auf dem iPhone in einfacher Qualität), eine automatische KI-Zusammenfassung und das Kopieren des Textes; Aufnahmen werden 15 Tage lang gespeichert. Verbi Pro ist ein optionales Abo ohne diese Grenzen; die App zeigt dir den Preis in deiner Währung, bevor du abschließt.',
+      'faq.a1': 'Ja, Verbi kannst du kostenlos herunterladen. Der kostenlose Plan enthält 60 Minuten Transkription pro Monat, Live-Transkription (auf dem iPhone in einfacher Qualität), eine automatische KI-Zusammenfassung und das Kopieren des Textes; Aufnahmen werden 15 Tage lang gespeichert. Verbi Pro (20 Stunden Transkription pro Monat, 5 pro Woche im Wochenplan) und MAX (doppelt so viele Stunden) sind optionale Abos; die App zeigt dir den Preis in deiner Währung, bevor du abschließt.',
       'faq.q2': 'Welche Sprachen versteht Verbi?',
       'faq.a2': 'Verbi transkribiert 39 Sprachen, darunter Deutsch, Englisch, Türkisch, Spanisch, Französisch, Italienisch, Portugiesisch, Arabisch, Japanisch und Chinesisch. Du kannst die Sprache auswählen oder sie automatisch erkennen lassen.',
       'faq.q3': 'Funktioniert Verbi auf Deutsch?',
       'faq.a3': 'Ja. Deutsch ist eine der 39 Sprachen, die Verbi transkribiert, und auch die App selbst gibt es auf Deutsch. Namen und Abkürzungen, die oft vorkommen, kannst du ins eigene Wörterbuch eintragen, damit Verbi sie besser erkennt.',
       'faq.q4': 'Wie lang darf eine Aufnahme sein?',
-      'faq.a4': 'Mit Verbi Pro gibt es keine Längenbegrenzung: Ein einstündiges Meeting oder eine ganze Vorlesung wird von Anfang bis Ende transkribiert. Im kostenlosen Plan teilen sich deine Aufnahmen 60 Minuten pro Monat, und auf dem iPhone stoppt eine Aufnahme, wenn sie aufgebraucht sind. Unter Android und auf dem iPhone ab iOS 26 kannst du die App verlassen, während eine lange Aufnahme transkribiert wird; Verbi meldet sich, sobald sie fertig ist. Unter älteren iOS-Versionen geht die Transkription weiter, wenn du die App wieder öffnest.',
+      'faq.a4': 'Pro deckt lange Aufnahmen ab: Ein einstündiges Meeting oder eine ganze Vorlesung wird im Rahmen der Stunden deines Plans von Anfang bis Ende transkribiert (Pro: 20 Stunden pro Monat oder 5 pro Woche; MAX: 40 Stunden pro Monat oder 10 pro Woche). Sind sie aufgebraucht, kannst du Zusatzstunden kaufen, die nie verfallen. Im kostenlosen Plan teilen sich deine Aufnahmen 60 Minuten pro Monat, und auf dem iPhone stoppt eine Aufnahme, wenn sie aufgebraucht sind. Du kannst die App verlassen, während eine lange Aufnahme transkribiert wird. Unter Android und auf dem iPhone ab iOS 26 meldet sich Verbi, sobald sie fertig ist; unter älteren iOS-Versionen läuft der Upload im Hintergrund weiter, und das Transkript wartet, wenn du die App wieder öffnest.',
       'faq.q5': 'Wo werden meine Aufnahmen gespeichert?',
       'faq.a5': 'Auf deinem Handy. Verbi hat kein Konto und keine Cloud-Synchronisierung, deshalb werden Aufnahmen und Transkripte auf deinem Gerät gespeichert. Zum Transkribieren geht das Audio an unsere Spracherkennungsanbieter (ElevenLabs und OpenAI), meist über unseren Server; für Zusammenfassungen, Chat und Übersetzung geht der Transkripttext an OpenAI. Was wohin geht und wie lange es bleibt, steht in der Datenschutzerklärung (auf Englisch).',
       'faq.q6': 'Fasst Verbi Aufnahmen zusammen?',
@@ -1308,7 +1431,7 @@ h1, h2, h3, dt, summary { overflow-wrap: break-word; }
       'rec.live': 'Gravando',
       'rec.done': 'Notas prontas',
       'hero.title': 'Você fala. O Verbi anota.',
-      'hero.lede': 'Grave uma reunião, uma aula ou uma entrevista. O Verbi transcreve tudo em 39 idiomas, incluindo o português, e entrega um resumo com lista de tarefas no idioma da interface do app; no Pro, sem limite de duração e com quem disse o quê.',
+      'hero.lede': 'Grave uma reunião, uma aula ou uma entrevista. O Verbi transcreve tudo em 39 idiomas, incluindo o português, e entrega um resumo com lista de tarefas no idioma da interface do app; no Pro, com horas de transcrição e com quem disse o quê.',
       'hero.free': 'Grátis para baixar, com 60 minutos de transcrição todo mês.',
       'badge.apple': 'Baixar na App Store',
       'badge.play': 'Disponível no Google Play',
@@ -1323,10 +1446,10 @@ h1, h2, h3, dt, summary { overflow-wrap: break-word; }
       'shot.0': 'O Verbi gravando uma aula, com as palavras aparecendo ao vivo',
       'shot.1': 'A transcrição de uma reunião com três participantes identificados e marcações de tempo',
       'shot.2': 'Perguntando ao Verbi quais decisões foram tomadas em uma reunião',
-      'g1.h': 'Grave pelo tempo que precisar',
-      'g1.p': 'Aperte o botão de gravar, importe um arquivo ou compartilhe um áudio de outro app. No Android e no iPhone com iOS 26 ou posterior, você pode sair do Verbi enquanto uma gravação longa é transcrita: ele avisa quando suas notas estiverem prontas.',
+      'g1.h': 'Grave a reunião ou a aula inteira',
+      'g1.p': 'Aperte o botão de gravar, importe um arquivo ou compartilhe um áudio de outro app. Você pode sair do Verbi enquanto uma gravação longa é transcrita: no Android e no iPhone com iOS 26 ou posterior, ele avisa quando suas notas estiverem prontas; em versões anteriores do iOS, o envio continua em segundo plano.',
       'g1.f1': 'Gravações longas',
-      'g1.d1': 'Uma reunião de uma hora ou uma aula inteira, transcrita do começo ao fim, sem limite de duração no Pro.',
+      'g1.d1': 'Uma reunião de uma hora ou uma aula inteira, transcrita do começo ao fim, dentro das horas do seu plano.',
       'g1.f2': 'Transcrição ao vivo',
       'g1.d2': 'Veja as palavras aparecerem enquanto você fala.',
       'g1.f3': 'Importe e compartilhe',
@@ -1343,7 +1466,7 @@ h1, h2, h3, dt, summary { overflow-wrap: break-word; }
       'g2.f3': 'Vocabulário personalizado',
       'g2.d3': 'Ensine ao Verbi os nomes, as empresas e as siglas que ele insiste em errar.',
       'g2.f4': 'Tradução',
-      'g2.d4': 'No Pro, traduza qualquer transcrição para português, inglês, espanhol, francês, alemão, italiano ou turco.',
+      'g2.d4': 'No Pro, traduza qualquer transcrição para português, inglês, espanhol, francês, alemão, italiano, turco, russo, árabe, japonês, coreano, indonésio, holandês, polonês ou chinês simplificado.',
       'g3.h': 'O resumo do jeito que você precisa',
       'g3.p': 'O primeiro resumo é grátis e sai automaticamente com o modelo padrão; no Pro, toda transcrição ganha o seu resumo, e você escolhe o modelo. O resumo é fiel ao que foi dito: responsável e prazo só aparecem quando alguém os mencionou. Ele sai no idioma do app: em português, com o app em português (a partir da versão 1.4.0 no iPhone e 1.2.0 no Android).',
       'g3.f1': 'Nove modelos',
@@ -1358,22 +1481,30 @@ h1, h2, h3, dt, summary { overflow-wrap: break-word; }
       'privacy.body': 'O Verbi não tem conta nem sincronização na nuvem. Para transcrever, o áudio é enviado aos nossos provedores de reconhecimento de fala, ElevenLabs e OpenAI, geralmente pelo nosso servidor. Resumos, chat e tradução enviam o texto da transcrição para a OpenAI. As estatísticas de uso nunca incluem suas gravações ou transcrições, e você pode desativá-las nos ajustes do app.',
       'privacy.link': 'Ler a política de privacidade (em inglês)',
       'plans.title': 'Comece grátis',
-      'plans.body': 'Baixe o Verbi e transcreva 60 minutos por mês sem pagar nada. Passe para o Pro quando precisar de mais.',
+      'plans.body': 'Baixe o Verbi e transcreva 60 minutos por mês sem pagar nada. Quando precisar de mais, o Pro e o MAX oferecem horas de transcrição.',
       'free.name': 'Grátis',
       'free.sub': 'Teste o Verbi com as suas próprias gravações.',
-      'pro.sub': 'Tudo do plano Grátis, sem limites.',
+      'pro.sub': 'Tudo do plano Grátis, mais horas de transcrição.',
       'bar.cta': 'Baixar',
       'free.1': '60 minutos de transcrição por mês',
       'free.2': 'Gravações guardadas por 15 dias',
       'free.3': 'Transcrição ao vivo (básica no iPhone)',
       'free.4': 'Seu primeiro resumo de IA',
-      'pro.1': 'Transcrição ilimitada',
-      'pro.2': 'Resumos de IA ilimitados',
+      'pro.1': '20 horas de transcrição por mês (5 por semana no plano semanal)',
+      'pro.2': 'Um resumo de IA para cada transcrição',
       'pro.3': 'Identificação de quem fala',
       'pro.4': 'Tradução',
       'pro.5': 'Transcrição ao vivo de alta qualidade no iPhone',
-      'pro.6': 'Histórico ilimitado',
-      'plans.fine': 'O Verbi Pro é uma assinatura. O app mostra o preço na sua moeda antes de você assinar.',
+      'pro.6': 'Gravações não são apagadas após 15 dias',
+      'max.sub': 'O dobro de horas do Pro, para uso intenso.',
+      'max.1': '40 horas de transcrição por mês (10 por semana no plano semanal)',
+      'max.2': 'Tudo do Pro',
+      'extra.name': 'Horas adicionais',
+      'extra.sub': 'Para as semanas em que o plano não basta.',
+      'extra.1': 'Pacotes de 5 ou 15 horas adicionais',
+      'extra.2': 'Nunca expiram',
+      'extra.3': 'Usadas quando as horas do seu plano acabam',
+      'plans.fine': 'O Pro e o MAX são assinaturas (semanais, mensais ou anuais), e as horas adicionais são uma compra única para assinantes. As horas do plano renovam toda semana nos planos semanais e todo mês nos planos mensais e anuais, e não acumulam. O app mostra o preço na sua moeda antes de você assinar.',
       'cta.title': 'Grave sua próxima reunião com o Verbi.',
       'foot.label': 'Informações legais e contato',
       'foot.help': 'Ajuda',
@@ -1386,13 +1517,13 @@ h1, h2, h3, dt, summary { overflow-wrap: break-word; }
       'og.alt': 'Ícone do Verbi sobre fundo roxo com a frase “You talk. Verbi takes the notes.”',
       'faq.title': 'Perguntas frequentes',
       'faq.q1': 'O Verbi é grátis?',
-      'faq.a1': 'Sim, o Verbi é grátis para baixar. O plano grátis inclui 60 minutos de transcrição por mês, transcrição ao vivo (básica no iPhone) e seu primeiro resumo de IA, e guarda as gravações por 15 dias. O Verbi Pro é uma assinatura opcional sem esses limites; o app mostra o preço na sua moeda antes de você assinar.',
+      'faq.a1': 'Sim, o Verbi é grátis para baixar. O plano grátis inclui 60 minutos de transcrição por mês, transcrição ao vivo (básica no iPhone) e seu primeiro resumo de IA, e guarda as gravações por 15 dias. O Verbi Pro (20 horas de transcrição por mês, 5 por semana no plano semanal) e o MAX (o dobro de horas) são assinaturas opcionais; o app mostra o preço na sua moeda antes de você assinar.',
       'faq.q2': 'Quais idiomas o Verbi entende?',
       'faq.a2': 'O Verbi transcreve 39 idiomas, entre eles português, inglês, espanhol, francês, alemão, italiano, turco, árabe, japonês e chinês. Você pode escolher o idioma ou deixar na detecção automática.',
       'faq.q3': 'O Verbi funciona em português?',
       'faq.a3': 'Sim. A fala em português vira texto em português, com pontuação e detecção automática do idioma. A partir da versão 1.4.0 no iPhone e 1.2.0 no Android, o app também está em português do Brasil, e os resumos, as listas de tarefas e as respostas do chat saem em português quando o app está em português. No Pro, a tradução também tem o português como destino. A página do Verbi na App Store está em português.',
       'faq.q4': 'Quanto tempo pode durar uma gravação?',
-      'faq.a4': 'No Pro, o quanto você precisar: não há limite de duração, e uma reunião de uma hora ou uma aula inteira é transcrita do começo ao fim. No plano grátis, a transcrição é limitada a 60 minutos por mês no total, e no iPhone a gravação para sozinha quando eles acabam. No Android e no iPhone com iOS 26 ou posterior, você pode sair do app enquanto uma gravação longa é transcrita: o Verbi avisa quando ela estiver pronta. Em versões anteriores do iOS, a transcrição continua quando você abre o app de novo.',
+      'faq.a4': 'O Pro cobre gravações longas: uma reunião de uma hora ou uma aula inteira é transcrita do começo ao fim, dentro das horas do seu plano (Pro: 20 horas por mês ou 5 por semana; MAX: 40 horas por mês ou 10 por semana). Se elas acabarem, você pode comprar horas adicionais que nunca expiram. No plano grátis, a transcrição é limitada a 60 minutos por mês no total, e no iPhone a gravação para sozinha quando eles acabam. Você pode sair do app enquanto uma gravação longa é transcrita: no Android e no iPhone com iOS 26 ou posterior, o Verbi avisa quando ela estiver pronta; em versões anteriores do iOS, o envio continua em segundo plano e a transcrição está à sua espera quando você abre o app de novo.',
       'faq.q5': 'Onde ficam minhas gravações?',
       'faq.a5': 'No seu celular. O Verbi não tem conta nem sincronização na nuvem, então gravações e transcrições ficam salvas no seu aparelho. Para transcrever, o áudio é enviado aos nossos provedores de reconhecimento de fala (ElevenLabs e OpenAI), geralmente pelo nosso servidor; resumos, chat e tradução enviam o texto da transcrição para a OpenAI. A política de privacidade (em inglês) explica o que é enviado, para onde e por quanto tempo.',
       'faq.q6': 'O Verbi resume as gravações?',
@@ -1426,7 +1557,7 @@ h1, h2, h3, dt, summary { overflow-wrap: break-word; }
       'rec.live': 'Grabando',
       'rec.done': 'Notas listas',
       'hero.title': 'Tú hablas. Verbi toma nota.',
-      'hero.lede': 'Graba una reunión, una clase o una entrevista. Verbi la pasa a texto en 39 idiomas y te entrega un resumen con la lista de tareas; con Pro, dure lo que dure y con cada persona que habla por separado.',
+      'hero.lede': 'Graba una reunión, una clase o una entrevista. Verbi la pasa a texto en 39 idiomas y te entrega un resumen con la lista de tareas; con Pro, con horas de transcripción y con cada persona que habla por separado.',
       'hero.free': 'Se descarga gratis e incluye 60 minutos de transcripción cada mes.',
       'badge.apple': 'Descargar en el App Store',
       'badge.play': 'Disponible en Google Play',
@@ -1441,10 +1572,10 @@ h1, h2, h3, dt, summary { overflow-wrap: break-word; }
       'shot.0': 'Verbi grabando una clase, con las palabras apareciendo en vivo',
       'shot.1': 'La transcripción de una reunión con tres hablantes con nombre y marcas de tiempo',
       'shot.2': 'Una pregunta a Verbi sobre las decisiones que se tomaron en una reunión',
-      'g1.h': 'Graba todo el tiempo que necesites',
-      'g1.p': 'Graba, importa un archivo o comparte audio desde otra app. En Android y en iPhone con iOS 26 o posterior, puedes salir de Verbi mientras se transcribe una grabación larga: te avisa cuando tus notas están listas.',
+      'g1.h': 'Graba la reunión o la clase entera',
+      'g1.p': 'Graba, importa un archivo o comparte audio desde otra app. Puedes salir de Verbi mientras se transcribe una grabación larga: en Android y en iPhone con iOS 26 o posterior te avisa cuando tus notas están listas; en versiones anteriores de iOS, la subida continúa en segundo plano.',
       'g1.f1': 'Grabaciones largas',
-      'g1.d1': 'Una reunión de una hora o una clase entera, transcrita de principio a fin, sin límite de duración en Pro.',
+      'g1.d1': 'Una reunión de una hora o una clase entera, transcrita de principio a fin, dentro de las horas de tu plan.',
       'g1.f2': 'Transcripción en vivo',
       'g1.d2': 'Mira cómo aparecen las palabras mientras hablas.',
       'g1.f3': 'Importa y comparte',
@@ -1461,7 +1592,7 @@ h1, h2, h3, dt, summary { overflow-wrap: break-word; }
       'g2.f3': 'Vocabulario personalizado',
       'g2.d3': 'Enséñale a Verbi los nombres, empresas y siglas que escribe mal.',
       'g2.f4': 'Traducción',
-      'g2.d4': 'Con Pro, traduce cualquier transcripción al español, inglés, francés, alemán, italiano, portugués o turco.',
+      'g2.d4': 'Con Pro, traduce cualquier transcripción al español, inglés, francés, alemán, italiano, portugués, turco, ruso, árabe, japonés, coreano, indonesio, neerlandés, polaco o chino simplificado.',
       'g3.h': 'El resumen que necesitas',
       'g3.p': 'El primer resumen es gratis y llega automáticamente con la plantilla predeterminada. Con Pro, cada transcripción recibe su resumen y tú eliges la plantilla. El resumen llega con esa estructura, fiel a lo que realmente se dijo: los responsables y las fechas solo aparecen si alguien los mencionó.',
       'g3.f1': 'Nueve plantillas',
@@ -1476,22 +1607,30 @@ h1, h2, h3, dt, summary { overflow-wrap: break-word; }
       'privacy.body': 'Verbi no usa cuentas ni sincronización en la nube. Para transcribir, el audio se envía a nuestros proveedores de reconocimiento de voz, ElevenLabs y OpenAI, normalmente a través de nuestro servidor. Los resúmenes, el chat y la traducción envían el texto de la transcripción a OpenAI. Las estadísticas de uso nunca incluyen tus grabaciones ni tus transcripciones, y puedes desactivarlas en Ajustes.',
       'privacy.link': 'Lee la política de privacidad (en inglés)',
       'plans.title': 'Empieza gratis',
-      'plans.body': 'Descarga Verbi y transcribe 60 minutos cada mes sin pagar nada. Pasa a Pro cuando necesites más.',
+      'plans.body': 'Descarga Verbi y transcribe 60 minutos cada mes sin pagar nada. Cuando necesites más, Pro y MAX te dan horas de transcripción.',
       'free.name': 'Gratis',
       'free.sub': 'Prueba Verbi con tus propias grabaciones.',
-      'pro.sub': 'Todo lo del plan gratuito, sin límites.',
+      'pro.sub': 'Todo lo del plan gratuito, más horas de transcripción.',
       'bar.cta': 'Descargar',
       'free.1': '60 minutos de transcripción al mes',
       'free.2': 'Grabaciones guardadas durante 15 días',
       'free.3': 'Transcripción en vivo (básica en iPhone)',
       'free.4': 'Tu primer resumen con IA',
-      'pro.1': 'Transcripción ilimitada',
-      'pro.2': 'Resúmenes con IA ilimitados',
+      'pro.1': '20 horas de transcripción al mes (5 a la semana en el plan semanal)',
+      'pro.2': 'Un resumen con IA para cada transcripción',
       'pro.3': 'Detección de hablantes',
       'pro.4': 'Traducción',
       'pro.5': 'Transcripción en vivo de alta calidad en iPhone',
-      'pro.6': 'Historial ilimitado',
-      'plans.fine': 'Verbi Pro es una suscripción. La app te muestra el precio en tu moneda antes de suscribirte.',
+      'pro.6': 'Las grabaciones no se borran a los 15 días',
+      'max.sub': 'El doble de horas que Pro, para un uso intensivo.',
+      'max.1': '40 horas de transcripción al mes (10 a la semana en el plan semanal)',
+      'max.2': 'Todo lo de Pro',
+      'extra.name': 'Horas extra',
+      'extra.sub': 'Para las semanas en las que no te llega.',
+      'extra.1': 'Paquetes de 5 o 15 horas extra',
+      'extra.2': 'No caducan',
+      'extra.3': 'Se usan cuando se acaban las horas de tu plan',
+      'plans.fine': 'Pro y MAX son suscripciones (semanales, mensuales o anuales), y las horas extra son una compra única para suscriptores. Las horas del plan se reinician cada semana en los planes semanales y cada mes en los mensuales y anuales, y no se acumulan. La app te muestra el precio en tu moneda antes de suscribirte.',
       'cta.title': 'Graba tu próxima reunión con Verbi.',
       'foot.label': 'Legal y contacto',
       'foot.help': 'Ayuda',
@@ -1504,13 +1643,13 @@ h1, h2, h3, dt, summary { overflow-wrap: break-word; }
       'og.alt': 'Icono de Verbi sobre fondo violeta con la frase «You talk. Verbi takes the notes.»',
       'faq.title': 'Preguntas frecuentes',
       'faq.q1': '¿Verbi es gratis?',
-      'faq.a1': 'Sí, Verbi se descarga gratis. El plan gratuito incluye 60 minutos de transcripción al mes, transcripción en vivo (básica en iPhone) y tu primer resumen con IA, y guarda las grabaciones durante 15 días. Verbi Pro es una suscripción opcional sin esos límites; la app te muestra el precio en tu moneda antes de suscribirte.',
+      'faq.a1': 'Sí, Verbi se descarga gratis. El plan gratuito incluye 60 minutos de transcripción al mes, transcripción en vivo (básica en iPhone) y tu primer resumen con IA, y guarda las grabaciones durante 15 días. Verbi Pro (20 horas de transcripción al mes, 5 a la semana en el plan semanal) y MAX (el doble de horas) son suscripciones opcionales; la app te muestra el precio en tu moneda antes de suscribirte.',
       'faq.q2': '¿Qué idiomas entiende Verbi?',
       'faq.a2': 'Verbi transcribe 39 idiomas, entre ellos español, inglés, portugués, francés, alemán, italiano, turco, árabe, japonés y chino. Puedes elegir el idioma o dejar que lo detecte automáticamente.',
       'faq.q3': '¿Verbi funciona en español?',
       'faq.a3': 'Sí. El español es uno de los 39 idiomas que Verbi transcribe, y la app también está en español. Si en tus grabaciones aparecen a menudo nombres propios o siglas, añádelos al Vocabulario personalizado para que Verbi los escriba bien.',
       'faq.q4': '¿Cuánto puede durar una grabación?',
-      'faq.a4': 'Con Pro, lo que necesites: no hay límite de duración, y una reunión de una hora o una clase entera se transcribe de principio a fin. En el plan gratuito, la transcripción tiene un límite de 60 minutos al mes en total, y en iPhone la grabación se detiene sola cuando se acaban. En Android y en iPhone con iOS 26 o posterior, puedes salir de la app mientras se transcribe una grabación larga: Verbi te avisa cuando está lista. En versiones anteriores de iOS, la transcripción continúa cuando vuelves a abrir la app.',
+      'faq.a4': 'Pro cubre las grabaciones largas: una reunión de una hora o una clase entera se transcribe de principio a fin, dentro de las horas de tu plan (Pro: 20 horas al mes o 5 a la semana; MAX: 40 horas al mes o 10 a la semana). Si se acaban, puedes comprar horas extra que no caducan. En el plan gratuito, la transcripción tiene un límite de 60 minutos al mes en total, y en iPhone la grabación se detiene sola cuando se acaban. Puedes salir de la app mientras se transcribe una grabación larga: en Android y en iPhone con iOS 26 o posterior, Verbi te avisa cuando está lista; en versiones anteriores de iOS, la subida continúa en segundo plano y la transcripción te espera cuando vuelves a abrir la app.',
       'faq.q5': '¿Dónde se guardan mis grabaciones?',
       'faq.a5': 'En tu teléfono. Verbi no usa cuentas ni sincronización en la nube, así que las grabaciones y las transcripciones se guardan en tu dispositivo. Para transcribir, el audio se envía a nuestros proveedores de reconocimiento de voz (ElevenLabs y OpenAI), normalmente a través de nuestro servidor; los resúmenes, el chat y la traducción envían el texto de la transcripción a OpenAI. La política de privacidad (en inglés) explica qué se envía, adónde y durante cuánto tiempo se conserva.',
       'faq.q6': '¿Verbi resume las grabaciones?',
@@ -1539,7 +1678,7 @@ h1, h2, h3, dt, summary { overflow-wrap: break-word; }
     },
     fr: {
       'meta.title': 'Verbi : dictaphone avec transcription et notes IA',
-      'meta.desc': 'Verbi enregistre réunions, cours et entretiens, les retranscrit en 39 langues et rédige un résumé avec la liste des tâches. Durée illimitée avec Pro.',
+      'meta.desc': 'Verbi enregistre réunions, cours et entretiens, les retranscrit en 39 langues et rédige un résumé avec la liste des tâches. Des heures de transcription avec Pro et MAX.',
       'lang.label': 'Langue',
       'rec.live': 'Enregistrement',
       'rec.done': 'Notes prêtes',
@@ -1559,10 +1698,10 @@ h1, h2, h3, dt, summary { overflow-wrap: break-word; }
       'shot.0': 'Verbi enregistre un cours, les mots s’affichent en direct',
       'shot.1': 'La transcription d’une réunion avec trois intervenants nommés et l’horodatage',
       'shot.2': 'Verbi interrogé sur les décisions prises pendant une réunion',
-      'g1.h': 'Enregistrez aussi longtemps qu’il le faut',
-      'g1.p': 'Lancez l’enregistrement, importez un fichier ou partagez un audio depuis une autre app. Sur Android et sur iPhone avec iOS 26 ou plus récent, quittez Verbi pendant la transcription d’un long enregistrement : il vous prévient quand vos notes sont prêtes.',
+      'g1.h': 'Enregistrez toute la réunion ou tout le cours',
+      'g1.p': 'Lancez l’enregistrement, importez un fichier ou partagez un audio depuis une autre app. Vous pouvez quitter Verbi pendant la transcription d’un long enregistrement : sur Android et sur iPhone avec iOS 26 ou plus récent, il vous prévient quand vos notes sont prêtes ; avec une version plus ancienne d’iOS, l’envoi se poursuit en arrière-plan.',
       'g1.f1': 'Longs enregistrements',
-      'g1.d1': 'Une réunion d’une heure ou un cours entier, transcrit du début à la fin. Sans limite de durée avec Pro ; l’offre gratuite donne 60 minutes par mois.',
+      'g1.d1': 'Une réunion d’une heure ou un cours entier, transcrit du début à la fin, dans la limite des heures de votre offre ; l’offre gratuite donne 60 minutes par mois.',
       'g1.f2': 'Transcription en direct',
       'g1.d2': 'Voyez les mots s’écrire pendant que vous parlez.',
       'g1.f3': 'Import et partage',
@@ -1594,22 +1733,30 @@ h1, h2, h3, dt, summary { overflow-wrap: break-word; }
       'privacy.body': 'Verbi fonctionne sans compte ni synchronisation cloud. Pour la transcription, l’audio est envoyé à nos prestataires de reconnaissance vocale, ElevenLabs et OpenAI, le plus souvent via notre serveur. Les résumés, le chat et la traduction envoient le texte de la transcription à OpenAI. Les statistiques d’usage n’incluent jamais vos enregistrements ni vos transcriptions, et vous pouvez les désactiver dans les Paramètres.',
       'privacy.link': 'Lire la politique de confidentialité (en anglais)',
       'plans.title': 'Commencez gratuitement',
-      'plans.body': 'Téléchargez Verbi et transcrivez 60 minutes par mois sans rien payer. Passez à Pro quand il vous en faut plus.',
+      'plans.body': 'Téléchargez Verbi et transcrivez 60 minutes par mois sans rien payer. Quand il vous en faut plus, Pro et MAX offrent des heures de transcription.',
       'free.name': 'Gratuit',
       'free.sub': 'Essayez Verbi sur vos propres enregistrements.',
-      'pro.sub': 'Toute l’offre gratuite, sans les limites.',
+      'pro.sub': 'Toute l’offre gratuite, plus des heures de transcription.',
       'bar.cta': 'Télécharger',
       'free.1': '60 minutes de transcription par mois',
       'free.2': 'Enregistrements conservés 15 jours',
       'free.3': 'Transcription en direct (basique sur iPhone)',
       'free.4': 'Votre premier résumé IA',
-      'pro.1': 'Transcription illimitée',
-      'pro.2': 'Résumés IA illimités',
+      'pro.1': '20 heures de transcription par mois (5 par semaine avec l’abonnement hebdomadaire)',
+      'pro.2': 'Un résumé IA pour chaque transcription',
       'pro.3': 'Détection des intervenants',
       'pro.4': 'Traduction',
       'pro.5': 'Transcription en direct haute qualité sur iPhone',
-      'pro.6': 'Historique illimité',
-      'plans.fine': 'Verbi Pro est un abonnement. L’app affiche le prix dans votre devise avant que vous ne vous abonniez.',
+      'pro.6': 'Enregistrements non supprimés après 15 jours',
+      'max.sub': 'Deux fois les heures de Pro, pour un usage intensif.',
+      'max.1': '40 heures de transcription par mois (10 par semaine avec l’abonnement hebdomadaire)',
+      'max.2': 'Tout ce que comprend Pro',
+      'extra.name': 'Heures supplémentaires',
+      'extra.sub': 'Pour les semaines où il vous en faut plus.',
+      'extra.1': 'Packs de 5 ou 15 heures supplémentaires',
+      'extra.2': 'Elles n’expirent jamais',
+      'extra.3': 'Utilisées quand les heures de votre offre sont épuisées',
+      'plans.fine': 'Pro et MAX sont des abonnements (hebdomadaires, mensuels ou annuels), et les heures supplémentaires sont un achat unique réservé aux abonnés. Les heures de l’offre sont remises à zéro chaque semaine avec les offres hebdomadaires et chaque mois avec les offres mensuelles et annuelles, et ne sont pas reportées. L’app affiche le prix dans votre devise avant que vous ne vous abonniez.',
       'cta.title': 'Enregistrez votre prochaine réunion avec Verbi.',
       'foot.label': 'Mentions légales et contact',
       'foot.help': 'Aide',
@@ -1622,13 +1769,13 @@ h1, h2, h3, dt, summary { overflow-wrap: break-word; }
       'og.alt': 'Icône Verbi sur fond violet avec la phrase « You talk. Verbi takes the notes. »',
       'faq.title': 'Questions fréquentes',
       'faq.q1': 'Verbi est-il gratuit ?',
-      'faq.a1': 'Oui, Verbi se télécharge gratuitement. L’offre gratuite comprend 60 minutes de transcription par mois, la transcription en direct (basique sur iPhone), votre premier résumé IA et la copie du texte ; les enregistrements sont conservés 15 jours. Verbi Pro est un abonnement facultatif sans ces limites ; l’app affiche son prix dans votre devise avant que vous ne vous abonniez.',
+      'faq.a1': 'Oui, Verbi se télécharge gratuitement. L’offre gratuite comprend 60 minutes de transcription par mois, la transcription en direct (basique sur iPhone), votre premier résumé IA et la copie du texte ; les enregistrements sont conservés 15 jours. Verbi Pro (20 heures de transcription par mois, 5 par semaine avec l’abonnement hebdomadaire) et MAX (deux fois plus d’heures) sont des abonnements facultatifs ; l’app affiche leur prix dans votre devise avant que vous ne vous abonniez.',
       'faq.q2': 'Quelles langues Verbi comprend-il ?',
       'faq.a2': 'Verbi transcrit 39 langues, dont le français, l’anglais, l’espagnol, l’allemand, le turc, l’italien, le portugais, l’arabe, le japonais et le chinois. Vous pouvez choisir la langue ou laisser la détection automatique s’en charger.',
       'faq.q3': 'Verbi fonctionne-t-il en français ?',
       'faq.a3': 'Oui. Le français fait partie des 39 langues que Verbi transcrit, et l’app elle-même est disponible en français. Ajoutez au Vocabulaire personnalisé les noms propres et les sigles qui reviennent souvent : Verbi les écrira plus justement.',
       'faq.q4': 'Quelle durée peut avoir un enregistrement ?',
-      'faq.a4': 'Avec Pro, aussi longue que nécessaire : une réunion d’une heure ou un cours entier est transcrit du début à la fin. Avec l’offre gratuite, la transcription est limitée à 60 minutes par mois au total, et sur iPhone un enregistrement s’arrête quand elles sont épuisées. Sur Android et sur iPhone avec iOS 26 ou plus récent, vous pouvez quitter l’app pendant la transcription : Verbi vous prévient quand c’est prêt.',
+      'faq.a4': 'Pro couvre les longs enregistrements : une réunion d’une heure ou un cours entier est transcrit du début à la fin, dans la limite des heures de votre offre (Pro : 20 heures par mois ou 5 par semaine ; MAX : 40 heures par mois ou 10 par semaine). Si elles sont épuisées, vous pouvez acheter des heures supplémentaires qui n’expirent jamais. Avec l’offre gratuite, la transcription est limitée à 60 minutes par mois au total, et sur iPhone un enregistrement s’arrête quand elles sont épuisées. Vous pouvez quitter l’app pendant la transcription d’un long enregistrement : sur Android et sur iPhone avec iOS 26 ou plus récent, Verbi vous prévient quand c’est prêt ; avec une version plus ancienne d’iOS, l’envoi se poursuit en arrière-plan et la transcription vous attend quand vous rouvrez l’app.',
       'faq.q5': 'Où sont stockés mes enregistrements ?',
       'faq.a5': 'Sur votre téléphone. Verbi fonctionne sans compte ni synchronisation cloud : vos enregistrements et vos transcriptions sont stockés sur votre appareil. Pour la transcription, l’audio est envoyé à nos prestataires de reconnaissance vocale (ElevenLabs et OpenAI), le plus souvent via notre serveur ; les résumés, le chat et la traduction envoient le texte de la transcription à OpenAI. La politique de confidentialité (en anglais) précise ce qui est envoyé, où, et pour combien de temps.',
       'faq.q6': 'Verbi résume-t-il les enregistrements ?',
@@ -1677,10 +1824,10 @@ h1, h2, h3, dt, summary { overflow-wrap: break-word; }
       'shot.0': 'Verbi registra una lezione e le parole compaiono dal vivo',
       'shot.1': 'La trascrizione di una riunione con tre interlocutori con nome e minutaggi',
       'shot.2': 'Si chiede a Verbi quali decisioni sono state prese in una riunione',
-      'g1.h': 'Registra per tutto il tempo che serve',
-      'g1.p': 'Avvia la registrazione, importa un file o condividi un audio da un’altra app. Su Android e su iPhone con iOS 26 o successivi puoi uscire da Verbi mentre una registrazione lunga viene trascritta: ti avvisa quando i tuoi appunti sono pronti. Con versioni di iOS precedenti la trascrizione riprende quando riapri l’app.',
-      'g1.f1': 'Qualsiasi durata',
-      'g1.d1': 'Con Pro, una riunione di un’ora o una lezione intera viene trascritta dall’inizio alla fine. Nel piano gratuito valgono i 60 minuti al mese.',
+      'g1.h': 'Registra l’intera riunione o lezione',
+      'g1.p': 'Avvia la registrazione, importa un file o condividi un audio da un’altra app. Puoi uscire da Verbi mentre una registrazione lunga viene trascritta: su Android e su iPhone con iOS 26 o successivi ti avvisa quando i tuoi appunti sono pronti; con versioni di iOS precedenti il caricamento prosegue in background.',
+      'g1.f1': 'Registrazioni lunghe',
+      'g1.d1': 'Con Pro, una riunione di un’ora o una lezione intera viene trascritta dall’inizio alla fine, entro le ore del tuo piano. Nel piano gratuito valgono i 60 minuti al mese.',
       'g1.f2': 'Trascrizione dal vivo',
       'g1.d2': 'Guarda le parole comparire mentre parli.',
       'g1.f3': 'Importa e condividi',
@@ -1697,7 +1844,7 @@ h1, h2, h3, dt, summary { overflow-wrap: break-word; }
       'g2.f3': 'Vocabolario personalizzato',
       'g2.d3': 'Insegna a Verbi i nomi, le aziende e le sigle che continua a sbagliare.',
       'g2.f4': 'Traduzione',
-      'g2.d4': 'Con Pro leggi qualsiasi trascrizione in italiano, inglese, spagnolo, francese, tedesco, portoghese o turco.',
+      'g2.d4': 'Con Pro leggi qualsiasi trascrizione in italiano, inglese, spagnolo, francese, tedesco, portoghese, turco, russo, arabo, giapponese, coreano, indonesiano, olandese, polacco o cinese semplificato.',
       'g3.h': 'Il riassunto che ti serve',
       'g3.p': 'Il riassunto arriva nella forma del modello e resta fedele a quello che è stato detto davvero: responsabili e scadenze compaiono solo se qualcuno li ha indicati. Il primo è gratis e arriva da solo, con il modello predefinito; con Pro scegli il modello e ogni trascrizione ha il suo riassunto in automatico. È scritto nella lingua dell’app, in italiano con l’app in italiano.',
       'g3.f1': 'Nove modelli',
@@ -1712,22 +1859,30 @@ h1, h2, h3, dt, summary { overflow-wrap: break-word; }
       'privacy.body': 'Verbi non ha account né sincronizzazione cloud. Per la trascrizione l’audio viene inviato ai nostri fornitori di riconoscimento vocale, ElevenLabs e OpenAI, di solito tramite il nostro server. Per riassunti, chat e traduzione il testo della trascrizione va a OpenAI. Le statistiche di utilizzo non includono mai le tue registrazioni o trascrizioni, e puoi disattivarle nelle impostazioni.',
       'privacy.link': 'Leggi l’informativa sulla privacy (in inglese)',
       'plans.title': 'Inizia gratis',
-      'plans.body': 'Scarica Verbi e trascrivi 60 minuti al mese senza pagare. Passa a Pro quando ti serve di più.',
+      'plans.body': 'Scarica Verbi e trascrivi 60 minuti al mese senza pagare. Quando ti serve di più, Pro e MAX ti danno ore di trascrizione.',
       'free.name': 'Gratis',
       'free.sub': 'Prova Verbi con le tue registrazioni.',
-      'pro.sub': 'Tutto il piano gratuito, senza limiti.',
+      'pro.sub': 'Tutto il piano gratuito, più ore di trascrizione.',
       'bar.cta': 'Scarica',
       'free.1': '60 minuti di trascrizione al mese',
       'free.2': 'Registrazioni conservate per 15 giorni',
       'free.3': 'Trascrizione dal vivo (di base su iPhone)',
       'free.4': 'Il tuo primo riassunto AI',
-      'pro.1': 'Trascrizione illimitata',
-      'pro.2': 'Riassunti AI illimitati',
+      'pro.1': '20 ore di trascrizione al mese (5 a settimana con il piano settimanale)',
+      'pro.2': 'Un riassunto AI per ogni trascrizione',
       'pro.3': 'Riconoscimento di chi parla',
       'pro.4': 'Traduzione',
       'pro.5': 'Trascrizione dal vivo di alta qualità su iPhone',
-      'pro.6': 'Cronologia illimitata',
-      'plans.fine': 'Verbi Pro è un abbonamento. Prima che ti abboni, l’app ti mostra il prezzo nella tua valuta.',
+      'pro.6': 'Registrazioni non eliminate dopo 15 giorni',
+      'max.sub': 'Il doppio delle ore di Pro, per un uso intensivo.',
+      'max.1': '40 ore di trascrizione al mese (10 a settimana con il piano settimanale)',
+      'max.2': 'Tutto quello che include Pro',
+      'extra.name': 'Ore extra',
+      'extra.sub': 'Per le settimane in cui non bastano.',
+      'extra.1': 'Pacchetti da 5 o 15 ore extra',
+      'extra.2': 'Non scadono mai',
+      'extra.3': 'Si usano quando finiscono le ore del tuo piano',
+      'plans.fine': 'Pro e MAX sono abbonamenti (settimanali, mensili o annuali), e le ore extra sono un acquisto una tantum per gli abbonati. Le ore del piano si azzerano ogni settimana nei piani settimanali e ogni mese in quelli mensili e annuali, e non si accumulano. Prima che ti abboni, l’app ti mostra il prezzo nella tua valuta.',
       'cta.title': 'Registra la tua prossima riunione con Verbi.',
       'foot.label': 'Note legali e contatti',
       'foot.help': 'Assistenza',
@@ -1740,17 +1895,17 @@ h1, h2, h3, dt, summary { overflow-wrap: break-word; }
       'og.alt': 'Icona di Verbi su sfondo viola con la frase «You talk. Verbi takes the notes.»',
       'faq.title': 'Domande frequenti',
       'faq.q1': 'Verbi è gratis?',
-      'faq.a1': 'Sì, Verbi si scarica gratis. Il piano gratuito include 60 minuti di trascrizione al mese, la trascrizione dal vivo (di base su iPhone) e il tuo primo riassunto AI, che arriva in automatico, e conserva le registrazioni per 15 giorni. Verbi Pro è un abbonamento facoltativo senza questi limiti; prima che ti abboni, l’app ti mostra il prezzo nella tua valuta.',
+      'faq.a1': 'Sì, Verbi si scarica gratis. Il piano gratuito include 60 minuti di trascrizione al mese, la trascrizione dal vivo (di base su iPhone) e il tuo primo riassunto AI, che arriva in automatico, e conserva le registrazioni per 15 giorni. Verbi Pro (20 ore di trascrizione al mese, 5 a settimana con il piano settimanale) e MAX (il doppio delle ore) sono abbonamenti facoltativi; prima che ti abboni, l’app ti mostra il prezzo nella tua valuta.',
       'faq.q2': 'Quali lingue capisce Verbi?',
       'faq.a2': 'Verbi trascrive 39 lingue, tra cui italiano, inglese, spagnolo, francese, tedesco, turco, portoghese, arabo, giapponese e cinese. Puoi scegliere la lingua o lasciare che la riconosca da solo.',
       'faq.q3': 'Verbi funziona in italiano?',
       'faq.a3': 'Sì. L’italiano è una delle 39 lingue che Verbi trascrive, e nomi e sigle ricorrenti puoi aggiungerli al vocabolario personalizzato. Dalla versione 1.4.0 su iPhone e 1.2.0 su Android anche l’app è in italiano, e con l’app in italiano riassunti e risposte della chat arrivano in italiano. Con Pro la traduzione è possibile anche verso l’italiano.',
       'faq.q4': 'Quanto può durare una registrazione?',
-      'faq.a4': 'Con Pro, quanto ti serve: una riunione di un’ora o una lezione intera viene trascritta dall’inizio alla fine. Con il piano gratuito la trascrizione è limitata a 60 minuti al mese in tutto, e su iPhone una registrazione si ferma quando finiscono. Su Android e su iPhone con iOS 26 o successivi puoi uscire dall’app mentre una registrazione lunga viene trascritta, e Verbi ti avvisa quando è pronta; con versioni di iOS precedenti la trascrizione riprende quando riapri l’app.',
+      'faq.a4': 'Pro copre le registrazioni lunghe: una riunione di un’ora o una lezione intera viene trascritta dall’inizio alla fine, entro le ore del tuo piano (Pro: 20 ore al mese o 5 a settimana; MAX: 40 ore al mese o 10 a settimana). Se finiscono, puoi acquistare ore extra che non scadono mai. Con il piano gratuito la trascrizione è limitata a 60 minuti al mese in tutto, e su iPhone una registrazione si ferma quando finiscono. Puoi uscire dall’app mentre una registrazione lunga viene trascritta: su Android e su iPhone con iOS 26 o successivi Verbi ti avvisa quando è pronta; con versioni di iOS precedenti il caricamento prosegue in background e la trascrizione ti aspetta quando riapri l’app.',
       'faq.q5': 'Dove vengono salvate le mie registrazioni?',
       'faq.a5': 'Sul tuo telefono. Verbi non ha account né sincronizzazione cloud, quindi registrazioni e trascrizioni restano sul tuo dispositivo. Per la trascrizione l’audio viene inviato ai nostri fornitori di riconoscimento vocale (ElevenLabs e OpenAI), di solito tramite il nostro server; per riassunti, chat e traduzione il testo della trascrizione va a OpenAI. L’informativa sulla privacy (in inglese) spiega cosa viene inviato, dove e per quanto tempo.',
       'faq.q6': 'Verbi riassume le registrazioni?',
-      'faq.a6': 'Sì. Il riassunto arriva nella forma di un modello (riunione generica, colloquio 1:1, riunione quotidiana o settimanale, appunti della lezione, raccolta di idee, cose da fare, bozza di email o articolo per blog) e resta fedele a quello che è stato detto: responsabili e scadenze compaiono solo se qualcuno li ha indicati. Il primo riassunto è gratis e arriva da solo, con il modello predefinito; con Pro i riassunti sono illimitati, scegli tu il modello e puoi anche fare domande alla trascrizione. Il riassunto è scritto nella lingua dell’app, in italiano con l’app in italiano.',
+      'faq.a6': 'Sì. Il riassunto arriva nella forma di un modello (riunione generica, colloquio 1:1, riunione quotidiana o settimanale, appunti della lezione, raccolta di idee, cose da fare, bozza di email o articolo per blog) e resta fedele a quello che è stato detto: responsabili e scadenze compaiono solo se qualcuno li ha indicati. Il primo riassunto è gratis e arriva da solo, con il modello predefinito; con Pro ogni trascrizione ha il suo riassunto, scegli tu il modello e puoi anche fare domande alla trascrizione. Il riassunto è scritto nella lingua dell’app, in italiano con l’app in italiano.',
       'faq.q7': 'Verbi è disponibile per Android?',
       'faq.a7': 'Sì. Verbi è su Google Play per i telefoni Android e sull’App Store per iPhone.',
       'faq.q8': 'Posso trascrivere file audio e video che ho già?',
@@ -1772,6 +1927,1014 @@ h1, h2, h3, dt, summary { overflow-wrap: break-word; }
       'guide.video.h': 'Trascrivere un video YouTube',
       'guide.video.p': 'Incolla il link del video e ottieni la trascrizione.',
       'guide.video.href': '/it/video-youtube-in-testo/'
+    },
+    ru: {
+      'meta.title': 'Verbi: ИИ-диктофон и помощник для заметок',
+      'meta.desc': 'Verbi записывает встречи, лекции и интервью, расшифровывает их на 39 языках, включая русский, и готовит резюме со списком задач.',
+      'lang.label': 'Язык',
+      'rec.live': 'Идёт запись',
+      'rec.done': 'Заметки готовы',
+      'hero.title': 'Вы говорите. Verbi пишет заметки.',
+      'hero.lede': 'Запишите встречу, лекцию или интервью. Verbi расшифрует их на 39 языках, включая русский, разделит голоса говорящих и подготовит резюме со списком задач.',
+      'hero.free': 'Скачать можно бесплатно, и каждый месяц в подарок 60 минут расшифровки.',
+      'badge.apple': 'Загрузите в App Store',
+      'badge.play': 'Доступно в Google Play',
+      'demo.title': 'Часовую встречу можно прочитать за минуту.',
+      'demo.body': 'Verbi записывает каждое слово и различает говорящих. Затем выделяет решения и задачи, а ответственных и сроки указывает, только если их назвали вслух.',
+      'demo.tabs': 'Что Verbi сделал из записи',
+      'tab.review': 'Еженедельная встреча',
+      'tab.email': 'Черновик письма',
+      'tab.ask': 'ИИ-чат',
+      'app.title': 'Что Verbi делает с записью',
+      'app.body': 'От нажатия кнопки записи до раздачи задач.',
+      'shot.0': 'Verbi записывает лекцию, слова появляются на экране сразу',
+      'shot.1': 'Расшифровка встречи с тремя говорящими по именам и отметками времени',
+      'shot.2': 'Вопрос Verbi о том, какие решения приняли на встрече',
+      'g1.h': 'Запишите встречу или лекцию целиком',
+      'g1.p': 'Нажмите запись, импортируйте файл или отправьте аудио из другого приложения. Пока длинная запись расшифровывается, из Verbi можно выйти: на Android и на iPhone с iOS 26 и новее приложение сообщит, когда заметки готовы, а в более ранних версиях iOS загрузка продолжится в фоне.',
+      'g1.f1': 'Длинные записи',
+      'g1.d1': 'Часовая встреча или целая лекция расшифровываются от начала до конца в пределах часов вашего тарифа.',
+      'g1.f2': 'Живая расшифровка',
+      'g1.d2': 'Слова появляются на экране, пока вы говорите.',
+      'g1.f3': 'Импорт и отправка',
+      'g1.d3': 'Берите аудио из «Файлов» или отправляйте его из любого приложения.',
+      'g1.f4': 'Напоминания о встречах',
+      'g1.d4': 'Verbi читает ваш календарь и напоминает включить запись, когда начинается встреча.',
+      'g1.note': 'Бесплатный тариф: 60 минут расшифровки в месяц (одна длинная лекция может израсходовать их целиком) и только первое ИИ-резюме.',
+      'g2.h': 'Кто что сказал',
+      'g2.p': 'Verbi расшифровывает 39 языков, включая русский, и умеет сам определять язык. Он разделяет голоса в комнате, чтобы вы могли подписать каждый.',
+      'g2.f1': '39 языков',
+      'g2.d1': 'Русский, английский, испанский, французский, немецкий, японский и другие.',
+      'g2.f2': 'Распознавание говорящих',
+      'g2.d2': 'Видно, кто что сказал, и каждому голосу можно дать имя (Pro).',
+      'g2.f3': 'Свой словарь',
+      'g2.d3': 'Научите Verbi именам, названиям компаний и аббревиатурам, которые он всё время путает.',
+      'g2.f4': 'Перевод',
+      'g2.d4': 'Читайте любую расшифровку на одном из 15 языков приложения, включая русский (Pro).',
+      'g3.h': 'Резюме в нужном виде',
+      'g3.p': 'С Pro выберите шаблон, и резюме придёт в нужной форме, строго по сказанному: ответственные и сроки появятся, только если их назвали. С Pro резюме создаётся для каждой расшифровки само, а на бесплатном тарифе только для первой.',
+      'g3.f1': 'Девять шаблонов',
+      'g3.d1': 'Общая встреча, встреча один на один, планёрка, еженедельная встреча, конспект занятия, запись идеи, черновик письма, список задач, пост для блога.',
+      'g3.f2': 'Вопросы к расшифровке',
+      'g3.d2': 'Задайте вопрос и получите ответ по тому, что действительно прозвучало (Pro).',
+      'g3.f3': 'Поиск',
+      'g3.d3': 'Находите запись по любому слову, сказанному в ней.',
+      'g3.f4': 'Экспорт',
+      'g3.d4': 'Скопируйте текст, а с Pro отправьте его или сохраните в TXT или PDF.',
+      'privacy.title': 'Ваши записи хранятся на вашем телефоне.',
+      'privacy.body': 'В Verbi нет аккаунта и облачной синхронизации. Для расшифровки аудио отправляется нашим поставщикам распознавания речи, как правило через наш сервер. Для резюме, чата и перевода текст расшифровки уходит поставщику ИИ. В статистику использования никогда не попадают ваши записи и расшифровки, и её можно выключить в настройках.',
+      'privacy.link': 'Читать политику конфиденциальности (на английском)',
+      'plans.title': 'Начните бесплатно',
+      'plans.body': 'Скачайте Verbi и расшифровывайте по 60 минут в месяц бесплатно. Когда понадобится больше, Pro и MAX дают часы расшифровки.',
+      'free.name': 'Бесплатно',
+      'free.sub': 'Попробуйте Verbi на своих записях.',
+      'pro.sub': 'Всё из бесплатного тарифа и часы расшифровки.',
+      'bar.cta': 'Скачать',
+      'free.1': '60 минут расшифровки в месяц',
+      'free.2': 'Записи хранятся 15 дней',
+      'free.3': 'Живая расшифровка (базовая на iPhone)',
+      'free.4': 'Первое ИИ-резюме',
+      'pro.1': '20 часов расшифровки в месяц (5 в неделю при недельной подписке)',
+      'pro.2': 'ИИ-резюме для каждой расшифровки',
+      'pro.3': 'Распознавание говорящих',
+      'pro.4': 'Перевод',
+      'pro.5': 'Живая расшифровка высокого качества на iPhone',
+      'pro.6': 'Записи не удаляются через 15 дней',
+      'max.sub': 'Вдвое больше часов, чем в Pro, для самой активной работы.',
+      'max.1': '40 часов расшифровки в месяц (10 в неделю при недельной подписке)',
+      'max.2': 'Всё, что есть в Pro',
+      'extra.name': 'Дополнительные часы',
+      'extra.sub': 'Для недель, когда часов не хватило.',
+      'extra.1': 'Пакеты по 5 или 15 дополнительных часов',
+      'extra.2': 'Не сгорают',
+      'extra.3': 'Расходуются, когда закончатся часы вашего тарифа',
+      'plans.fine': 'Pro и MAX оформляются по подписке (на неделю, месяц или год), а дополнительные часы подписчики покупают один раз. Часы тарифа обновляются каждую неделю при недельной подписке и каждый месяц при месячной и годовой и не переносятся. Перед оформлением подписки приложение покажет стоимость в вашей валюте.',
+      'cta.title': 'Запишите следующую встречу в Verbi.',
+      'foot.label': 'Правовая информация и контакты',
+      'foot.help': 'Справка',
+      'foot.help.href': '/ru/help/',
+      'foot.privacy': 'Политика конфиденциальности',
+      'foot.terms': 'Условия использования',
+      'foot.contact': 'Контакты',
+      'foot.about': 'Verbi на theverbi.com: ИИ-диктофон и помощник для заметок со встреч, лекций и интервью для iPhone и Android.',
+      'og.desc': 'Вы говорите. Verbi пишет заметки: расшифровка на 39 языках, голоса говорящих разделены, а в конце резюме со списком задач.',
+      'og.alt': 'Вы говорите. Verbi пишет заметки.',
+      'faq.title': 'Вопросы и ответы',
+      'faq.q1': 'Verbi бесплатный?',
+      'faq.a1': 'Да, скачать Verbi можно бесплатно. В бесплатный тариф входят 60 минут расшифровки в месяц, живая расшифровка (базовая на iPhone), одно автоматическое ИИ-резюме и копирование текста, а записи хранятся 15 дней. Verbi Pro (20 часов расшифровки в месяц или 5 в неделю при недельной подписке) и MAX (вдвое больше часов) оформляются по желанию; перед подпиской приложение покажет стоимость в вашей валюте.',
+      'faq.q2': 'Какие языки понимает Verbi?',
+      'faq.a2': 'Verbi расшифровывает 39 языков, среди них русский, английский, испанский, французский, немецкий, турецкий, итальянский, португальский, арабский, японский и китайский. Язык можно выбрать вручную или доверить определение приложению.',
+      'faq.q3': 'Умеет ли Verbi расшифровывать русскую речь?',
+      'faq.a3': 'Да. Русский входит в 39 языков, которые расшифровывает Verbi, а повторяющиеся имена и названия можно добавить в свой словарь. Начиная с версии 1.5.0 на iPhone и 1.3.0 на Android интерфейс приложения тоже на русском, и тогда резюме и ответы чата приходят по-русски. С Pro можно также переводить расшифровки на русский.',
+      'faq.q4': 'Какой длины может быть запись?',
+      'faq.a4': 'Pro рассчитан на длинные записи: часовая встреча или целая лекция расшифровывается от начала до конца в пределах часов вашего тарифа (Pro: 20 часов в месяц или 5 в неделю; MAX: 40 часов в месяц или 10 в неделю). Если часы закончились, можно добавить дополнительные, которые не сгорают. На бесплатном тарифе все записи делят 60 минут в месяц, и на iPhone запись останавливается, когда они закончатся. Пока длинная запись расшифровывается, из приложения можно выйти. На Android и на iPhone с iOS 26 и новее Verbi сообщит, когда всё готово; в более ранних версиях iOS загрузка продолжится в фоне, и расшифровка будет ждать вас при следующем запуске.',
+      'faq.q5': 'Где хранятся мои записи?',
+      'faq.a5': 'На вашем телефоне. В Verbi нет аккаунта и облачной синхронизации, поэтому записи и расшифровки лежат на устройстве. Для расшифровки аудио отправляется нашим поставщикам распознавания речи, как правило через наш сервер; для резюме, чата и перевода текст расшифровки уходит поставщику ИИ. Что отправляется, куда и на какой срок, объясняет политика конфиденциальности.',
+      'faq.q6': 'Делает ли Verbi резюме записей?',
+      'faq.a6': 'Да. С Pro выберите шаблон (общая встреча, встреча один на один, планёрка или еженедельная встреча, конспект занятия, запись идеи, список задач, черновик письма или пост для блога), и резюме придёт в нужной форме; Pro также сам делает резюме каждой расшифровки. Резюме строго по сказанному: ответственные и сроки появляются, только если их назвали. С Pro можно ещё задавать вопросы к расшифровке. На бесплатном тарифе первая расшифровка получает одно резюме автоматически, с вашим шаблоном по умолчанию.',
+      'faq.q7': 'Есть ли Verbi для Android?',
+      'faq.a7': 'Да. Verbi есть в Google Play для телефонов на Android и в App Store для iPhone.',
+      'faq.q8': 'Можно ли расшифровать готовые аудиофайлы и видео?',
+      'faq.a8': 'Да. Импортируйте аудиофайл, отправьте аудио в Verbi из другого приложения или вставьте ссылку на YouTube, и Verbi расшифрует его как запись, сделанную в приложении. Импортированные файлы тратят те же 60 минут бесплатного тарифа в месяц, а ограничения на импорт видео в бесплатном тарифе приложение показывает само.',
+      'guides.title': 'Руководства',
+      'guides.body': 'Пошагово: голосовые заметки, лекции, встречи, интервью и видео.',
+      'guide.voice.h': 'Как перевести голосовую запись в текст',
+      'guide.voice.p': 'Голосовые заметки и аудиофайлы в виде чистого текста с поиском.',
+      'guide.voice.href': '/ru/voice-to-text/',
+      'guide.video.h': 'Как перевести видео с YouTube в текст',
+      'guide.video.p': 'Вставьте ссылку на видео и получите расшифровку.',
+      'guide.video.href': '/ru/video-to-text/',
+      'guide.lecture.h': 'Запись лекций с расшифровкой и конспектом',
+      'guide.lecture.p': 'Запишите или импортируйте лекцию и получите полную расшифровку и конспект на её основе.',
+      'guide.lecture.href': '/ru/lecture-recorder-transcription/',
+      'guide.meeting.h': 'ИИ-протокол встречи',
+      'guide.meeting.p': 'Решения и задачи из записи; ответственных и сроки Verbi указывает, только если их назвали вслух.',
+      'guide.meeting.href': '/ru/ai-meeting-notes/',
+      'guide.interview.h': 'Расшифровка интервью',
+      'guide.interview.p': 'Весь разговор с разделёнными говорящими, из которого удобно цитировать.',
+      'guide.interview.href': '/ru/interview-transcription/'
+    },
+    ar: {
+      'meta.title': 'Verbi: مسجّل صوتي ومدوّن ملاحظات بالذكاء الاصطناعي',
+      'meta.desc': 'يسجّل Verbi الاجتماعات والمحاضرات والمقابلات، ويفرّغها نصًّا بـ 39 لغة منها العربية، ويعدّ لك ملخصًا مع قائمة مهام.',
+      'lang.label': 'اللغة',
+      'rec.live': 'جارٍ التسجيل',
+      'rec.done': 'الملاحظات جاهزة',
+      'hero.title': 'أنت تتحدث. وVerbi يدوّن الملاحظات.',
+      'hero.lede': 'سجّل اجتماعًا أو محاضرة أو مقابلة. يفرّغها Verbi نصًّا بـ 39 لغة منها العربية، ويميّز بين المتحدثين، ويسلّمك ملخصًا مع قائمة مهام.',
+      'hero.free': 'التنزيل مجاني، مع 60 دقيقة من التفريغ كل شهر.',
+      'badge.apple': 'نزّله من App Store',
+      'badge.play': 'احصل عليه من Google Play',
+      'demo.title': 'اقرأ اجتماعًا مدته ساعة في دقيقة.',
+      'demo.body': 'يدوّن Verbi كل كلمة ويميّز بين المتحدثين. ثم يستخرج القرارات والمهام، ولا يذكر المسؤول أو الموعد إلا إذا قاله أحدهم صراحةً.',
+      'demo.tabs': 'ما أنتجه Verbi من التسجيل',
+      'tab.review': 'اجتماع أسبوعي',
+      'tab.email': 'مسودة بريد',
+      'tab.ask': 'دردشة بالذكاء الاصطناعي',
+      'app.title': 'ماذا يفعل Verbi بتسجيلك',
+      'app.body': 'من لحظة ضغط زر التسجيل إلى لحظة توزيع المهام.',
+      'shot.0': 'Verbi يسجّل محاضرة وتظهر الكلمات على الشاشة مباشرة',
+      'shot.1': 'نص اجتماع بثلاثة متحدثين بأسمائهم مع الطوابع الزمنية',
+      'shot.2': 'سؤال Verbi عن القرارات التي اتُّخذت في اجتماع',
+      'g1.h': 'سجّل الاجتماع أو المحاضرة كاملة',
+      'g1.p': 'اضغط تسجيل، أو استورد ملفًا، أو شارك صوتًا من تطبيق آخر. يمكنك مغادرة Verbi أثناء تفريغ تسجيل طويل: على Android وعلى iPhone بنظام iOS 26 أو أحدث ينبّهك عندما تصبح ملاحظاتك جاهزة، وفي إصدارات iOS الأقدم يتابع الرفع في الخلفية.',
+      'g1.f1': 'تسجيلات طويلة',
+      'g1.d1': 'اجتماع مدته ساعة أو محاضرة كاملة تُفرَّغ من أولها إلى آخرها ضمن ساعات باقتك.',
+      'g1.f2': 'تفريغ مباشر',
+      'g1.d2': 'شاهد الكلمات تظهر وأنت تتكلم.',
+      'g1.f3': 'استيراد ومشاركة',
+      'g1.d3': 'أحضر الصوت من تطبيق «الملفات» أو شاركه من أي تطبيق.',
+      'g1.f4': 'تذكيرات الاجتماعات',
+      'g1.d4': 'يقرأ Verbi تقويمك ويذكّرك بالتسجيل عندما يبدأ الاجتماع.',
+      'g1.note': 'الباقة المجانية: 60 دقيقة من التفريغ كل شهر (قد تستهلكها محاضرة طويلة واحدة) وأول ملخص بالذكاء الاصطناعي فقط.',
+      'g2.h': 'اعرف من قال ماذا',
+      'g2.p': 'يفرّغ Verbi 39 لغة منها العربية ويستطيع اكتشاف اللغة بنفسه. ويفصل بين الأصوات في الغرفة لتضع اسمًا لكل صوت.',
+      'g2.f1': '39 لغة',
+      'g2.d1': 'العربية والإنجليزية والإسبانية والفرنسية والألمانية واليابانية وغيرها.',
+      'g2.f2': 'التعرّف على المتحدثين',
+      'g2.d2': 'اعرف من قال ماذا وسمِّ كل صوت (Pro).',
+      'g2.f3': 'مفردات مخصصة',
+      'g2.d3': 'علّم Verbi الأسماء والشركات والاختصارات التي يخطئ فيها دائمًا.',
+      'g2.f4': 'الترجمة',
+      'g2.d4': 'اقرأ أي نص بإحدى لغات التطبيق الـ 15 ومنها العربية (Pro).',
+      'g3.h': 'احصل على الملخص الذي تحتاجه',
+      'g3.p': 'مع Pro اختر قالبًا يأتيك الملخص بشكله، ملتزمًا بما قيل فعلًا: لا يظهر المسؤول أو الموعد إلا إذا ذكره أحدهم. ومع Pro يحصل كل نص على ملخصه تلقائيًا، أما في الباقة المجانية فأول نص فقط.',
+      'g3.f1': 'تسعة قوالب',
+      'g3.d1': 'اجتماع عام، اجتماع فردي، الاجتماع اليومي، الاجتماع الأسبوعي، ملاحظات الدرس، تدوين فكرة، مسودة بريد إلكتروني، بنود العمل، مقالة مدونة.',
+      'g3.f2': 'اسأل النص',
+      'g3.d2': 'اطرح سؤالًا واحصل على إجابة مستمدة مما قيل فعلًا (Pro).',
+      'g3.f3': 'البحث',
+      'g3.d3': 'اعثر على تسجيل بأي كلمة قيلت فيه.',
+      'g3.f4': 'التصدير',
+      'g3.d4': 'انسخ النص، أو شاركه أو احفظه بصيغة TXT أو PDF مع Pro.',
+      'privacy.title': 'تسجيلاتك محفوظة على هاتفك.',
+      'privacy.body': 'ليس لدى Verbi حساب ولا مزامنة سحابية. للتفريغ يُرسَل الصوت إلى مزوّدي التعرّف على الكلام لدينا، غالبًا عبر خادمنا. وللملخصات والدردشة والترجمة يُرسَل نص التفريغ إلى مزوّد الذكاء الاصطناعي. لا تشمل إحصاءات الاستخدام تسجيلاتك ولا نصوصك أبدًا، ويمكنك إيقافها من الإعدادات.',
+      'privacy.link': 'اقرأ سياسة الخصوصية (بالإنجليزية)',
+      'plans.title': 'ابدأ مجانًا',
+      'plans.body': 'نزّل Verbi وفرّغ 60 دقيقة كل شهر دون مقابل. وعندما تحتاج إلى أكثر، تمنحك Pro وMAX ساعات من التفريغ.',
+      'free.name': 'مجاني',
+      'free.sub': 'جرّب Verbi على تسجيلاتك.',
+      'pro.sub': 'كل ما في المجاني، مع ساعات من التفريغ.',
+      'bar.cta': 'نزّل',
+      'free.1': '60 دقيقة من التفريغ شهريًا',
+      'free.2': 'تُحفظ التسجيلات 15 يومًا',
+      'free.3': 'تفريغ مباشر (أساسي على iPhone)',
+      'free.4': 'أول ملخص بالذكاء الاصطناعي',
+      'pro.1': '20 ساعة من التفريغ شهريًا (5 ساعات أسبوعيًا في الباقة الأسبوعية)',
+      'pro.2': 'ملخص بالذكاء الاصطناعي لكل نص',
+      'pro.3': 'التعرّف على المتحدثين',
+      'pro.4': 'الترجمة',
+      'pro.5': 'تفريغ مباشر عالي الجودة على iPhone',
+      'pro.6': 'لا تُحذف التسجيلات بعد 15 يومًا',
+      'max.sub': 'ضعف ساعات Pro، للاستخدام المكثّف.',
+      'max.1': '40 ساعة من التفريغ شهريًا (10 ساعات أسبوعيًا في الباقة الأسبوعية)',
+      'max.2': 'كل ما في Pro',
+      'extra.name': 'ساعات إضافية',
+      'extra.sub': 'للأسابيع التي تزيد فيها حاجتك.',
+      'extra.1': 'حزم من 5 أو 15 ساعة إضافية',
+      'extra.2': 'لا تنتهي صلاحيتها',
+      'extra.3': 'تُستخدم بعد انتهاء ساعات باقتك',
+      'plans.fine': 'Pro وMAX اشتراكان (أسبوعي أو شهري أو سنوي)، والساعات الإضافية شراء لمرة واحدة للمشتركين. تتجدد ساعات الباقة كل أسبوع في الباقات الأسبوعية وكل شهر في الباقات الشهرية والسنوية، ولا تُرحَّل. يعرض لك التطبيق السعر بعملتك قبل الاشتراك.',
+      'cta.title': 'سجّل اجتماعك القادم مع Verbi.',
+      'foot.label': 'الجوانب القانونية والتواصل',
+      'foot.help': 'المساعدة',
+      'foot.help.href': '/ar/help/',
+      'foot.privacy': 'سياسة الخصوصية',
+      'foot.terms': 'شروط الخدمة',
+      'foot.contact': 'التواصل',
+      'foot.about': 'Verbi على theverbi.com هو المسجّل الصوتي ومدوّن الملاحظات بالذكاء الاصطناعي للاجتماعات والمحاضرات والمقابلات، على iPhone وAndroid.',
+      'og.desc': 'أنت تتحدث. وVerbi يدوّن الملاحظات: نص بـ 39 لغة، والمتحدثون مميَّزون، وملخص مع قائمة مهام.',
+      'og.alt': 'أنت تتحدث. وVerbi يدوّن الملاحظات.',
+      'faq.title': 'أسئلة وأجوبة',
+      'faq.q1': 'هل Verbi مجاني؟',
+      'faq.a1': 'نعم، تنزيل Verbi مجاني. تتضمن الباقة المجانية 60 دقيقة من التفريغ شهريًا، وتفريغًا مباشرًا (أساسيًا على iPhone)، وملخصًا واحدًا تلقائيًا بالذكاء الاصطناعي، ونسخ النص، وتُحفظ التسجيلات 15 يومًا. أما Verbi Pro (20 ساعة تفريغ شهريًا أو 5 ساعات أسبوعيًا في الباقة الأسبوعية) وMAX (ضعف الساعات) فاشتراكان اختياريان؛ ويعرض التطبيق سعرهما بعملتك قبل الاشتراك.',
+      'faq.q2': 'ما اللغات التي يفهمها Verbi؟',
+      'faq.a2': 'يفرّغ Verbi 39 لغة، منها العربية والإنجليزية والإسبانية والفرنسية والألمانية والتركية والإيطالية والبرتغالية واليابانية والصينية. يمكنك اختيار اللغة أو تركها على الاكتشاف التلقائي.',
+      'faq.q3': 'هل يفرّغ Verbi الكلام بالعربية؟',
+      'faq.a3': 'نعم. العربية من اللغات الـ 39 التي يفرّغها Verbi، ويمكنك إضافة الأسماء والمصطلحات المتكررة إلى المفردات المخصصة. ومنذ الإصدار 1.5.0 على iPhone و1.3.0 على Android صار التطبيق نفسه بالعربية أيضًا، وعندها تصلك الملخصات وإجابات الدردشة بالعربية. ومع Pro يمكن الترجمة إلى العربية كذلك.',
+      'faq.q4': 'ما أطول تسجيل ممكن؟',
+      'faq.a4': 'تغطي Pro التسجيلات الطويلة: اجتماع مدته ساعة أو محاضرة كاملة تُفرَّغ من أولها إلى آخرها ضمن ساعات باقتك (Pro: 20 ساعة شهريًا أو 5 أسبوعيًا؛ MAX: 40 ساعة شهريًا أو 10 أسبوعيًا). وإن نفدت الساعات يمكنك إضافة ساعات إضافية لا تنتهي صلاحيتها. في الباقة المجانية تتشارك تسجيلاتك 60 دقيقة شهريًا، وعلى iPhone يتوقف التسجيل عند نفادها. يمكنك مغادرة التطبيق أثناء تفريغ تسجيل طويل. على Android وعلى iPhone بنظام iOS 26 أو أحدث ينبّهك Verbi عندما يصبح جاهزًا؛ وفي إصدارات iOS الأقدم يتابع الرفع في الخلفية ويكون النص بانتظارك عند فتح التطبيق.',
+      'faq.q5': 'أين تُحفظ تسجيلاتي؟',
+      'faq.a5': 'على هاتفك. ليس لدى Verbi حساب ولا مزامنة سحابية، فتُحفظ التسجيلات والنصوص على جهازك. للتفريغ يُرسَل الصوت إلى مزوّدي التعرّف على الكلام لدينا، غالبًا عبر خادمنا؛ وللملخصات والدردشة والترجمة يُرسَل نص التفريغ إلى مزوّد الذكاء الاصطناعي. توضّح سياسة الخصوصية ما يُرسَل وإلى أين ولكم من الوقت.',
+      'faq.q6': 'هل يلخّص Verbi التسجيلات؟',
+      'faq.a6': 'نعم. مع Pro اختر قالبًا (اجتماع عام، اجتماع فردي، اجتماع يومي أو أسبوعي، ملاحظات الدرس، تدوين فكرة، بنود العمل، مسودة بريد إلكتروني أو مقالة مدونة) فيأتيك الملخص بشكله؛ وتلخّص Pro كل نص تلقائيًا أيضًا. تلتزم الملخصات بما قيل: لا يظهر المسؤول أو الموعد إلا إذا ذكره أحدهم. ومع Pro يمكنك أيضًا طرح أسئلة على النص. وفي الباقة المجانية يحصل أول نص لك على ملخص واحد تلقائيًا بقالبك الافتراضي.',
+      'faq.q7': 'هل Verbi متاح على Android؟',
+      'faq.a7': 'نعم. Verbi على Google Play لهواتف Android وعلى App Store لـ iPhone.',
+      'faq.q8': 'هل يمكنني تفريغ ملفات صوتية ومقاطع فيديو لدي؟',
+      'faq.a8': 'نعم. استورد ملفًا صوتيًا، أو شارك صوتًا إلى Verbi من تطبيق آخر، أو الصق رابط YouTube، وسيفرّغه Verbi كما يفرّغ تسجيلًا أُجري داخل التطبيق. تُحتسب الملفات المستوردة من الـ 60 دقيقة الشهرية في الباقة المجانية، ويعرض التطبيق أي حدّ لاستيراد الفيديو في الباقة المجانية.',
+      'guides.title': 'الأدلة',
+      'guides.body': 'خطوة بخطوة: المذكرات الصوتية والمحاضرات والاجتماعات والمقابلات ومقاطع الفيديو.',
+      'guide.voice.h': 'حوّل تسجيلًا صوتيًا إلى نص',
+      'guide.voice.p': 'المذكرات الصوتية والملفات الصوتية نصًّا نظيفًا يمكن البحث فيه.',
+      'guide.voice.href': '/ar/voice-to-text/',
+      'guide.video.h': 'حوّل فيديو YouTube إلى نص',
+      'guide.video.p': 'الصق رابط الفيديو واحصل على النص.',
+      'guide.video.href': '/ar/video-to-text/',
+      'guide.lecture.h': 'مسجّل محاضرات مع نص وملاحظات',
+      'guide.lecture.p': 'سجّل حصة أو استوردها واحصل على النص الكامل وملاحظات الدرس المبنية عليه.',
+      'guide.lecture.href': '/ar/lecture-recorder-transcription/',
+      'guide.meeting.h': 'محضر اجتماع بالذكاء الاصطناعي',
+      'guide.meeting.p': 'قرارات ومهام من تسجيلك، ولا يذكر Verbi المسؤول أو الموعد إلا إذا قاله أحدهم.',
+      'guide.meeting.href': '/ar/ai-meeting-notes/',
+      'guide.interview.h': 'تفريغ المقابلات',
+      'guide.interview.p': 'المحادثة كلها مع التمييز بين المتحدثين، وجاهزة للاقتباس.',
+      'guide.interview.href': '/ar/interview-transcription/'
+    },
+    ja: {
+      'meta.title': 'Verbi: AIボイスレコーダー＆議事録メモアプリ',
+      'meta.desc': 'Verbiは会議・講義・インタビューを録音し、日本語を含む39言語で文字起こしして、やることリスト付きの要約まで作ります。',
+      'lang.label': '言語',
+      'rec.live': '録音中',
+      'rec.done': 'メモの準備ができました',
+      'hero.title': '話すのはあなた。メモはVerbiが。',
+      'hero.lede': '会議や講義、インタビューを録音するだけ。Verbiが日本語を含む39言語で文字起こしし、話者を区別して、やることリスト付きの要約を届けます。',
+      'hero.free': 'ダウンロードは無料。毎月60分の文字起こしが使えます。',
+      'badge.apple': 'App Storeでダウンロード',
+      'badge.play': 'Google Playで手に入れよう',
+      'demo.title': '1時間の会議が、1分で読めます。',
+      'demo.body': 'Verbiはすべての発言を書き起こし、話者を区別します。そのうえで決定事項とやることを抜き出し、担当者や期限は本人が口にしたときだけ記します。',
+      'demo.tabs': '録音からVerbiが作ったもの',
+      'tab.review': '週次ミーティング',
+      'tab.email': 'メールの下書き',
+      'tab.ask': 'AIチャット',
+      'app.title': '録音をVerbiでどうするか',
+      'app.body': '録音ボタンを押す瞬間から、タスクを割り振る瞬間まで。',
+      'shot.0': '講義を録音するVerbi。言葉がその場で画面に現れます',
+      'shot.1': '3人の話者の名前とタイムスタンプが付いた会議の文字起こし',
+      'shot.2': '会議でどんな決定があったかをVerbiに質問している画面',
+      'g1.h': '会議も講義も、まるごと録音',
+      'g1.p': '録音ボタンを押すか、ファイルを取り込むか、ほかのアプリから音声を共有します。長い録音の文字起こし中はVerbiを離れても大丈夫です。AndroidとiOS 26以降のiPhoneではメモの準備ができると通知が届き、それより前のiOSではアップロードがバックグラウンドで続きます。',
+      'g1.f1': '長い録音',
+      'g1.d1': '1時間の会議も講義まるごとも、プランの時間の範囲で最初から最後まで文字起こしします。',
+      'g1.f2': 'ライブ文字起こし',
+      'g1.d2': '話しているそばから言葉が画面に現れます。',
+      'g1.f3': '取り込みと共有',
+      'g1.d3': '「ファイル」から音声を取り込むことも、どのアプリからでも共有することもできます。',
+      'g1.f4': '会議のリマインダー',
+      'g1.d4': 'Verbiがカレンダーを読み取り、会議が始まるときに録音を促します。',
+      'g1.note': '無料プラン: 文字起こしは毎月60分（長い講義1本で使い切ることもあります）、AI要約は最初の1回だけです。',
+      'g2.h': '誰が何を言ったか分かる',
+      'g2.p': 'Verbiは日本語を含む39言語で書き起こし、言語を自動で判別できます。その場の声を分けるので、一人ひとりに名前を付けられます。',
+      'g2.f1': '39言語',
+      'g2.d1': '日本語、英語、スペイン語、フランス語、ドイツ語、トルコ語など。',
+      'g2.f2': '話者の識別',
+      'g2.d2': '誰が何を言ったかが分かり、声ごとに名前を付けられます（Pro）。',
+      'g2.f3': 'カスタム語彙',
+      'g2.d3': '何度も間違える人名、社名、略語をVerbiに覚えさせられます。',
+      'g2.f4': '翻訳',
+      'g2.d4': 'どの文字起こしも、日本語を含むアプリの15言語で読めます（Pro）。',
+      'g3.h': '必要な形で要約',
+      'g3.p': 'Proならテンプレートを選ぶだけで、その形で要約が返ってきます。内容は実際に話されたことだけに基づき、担当者や期限は誰かが口にしたときだけ載ります。Proではすべての文字起こしに要約が自動で付き、無料プランでは最初の1回だけです。',
+      'g3.f1': '9つのテンプレート',
+      'g3.d1': '一般的な会議、1on1ミーティング、デイリーミーティング、週次ミーティング、授業ノート、アイデアメモ、メールの下書き、アクションアイテム、ブログ記事。',
+      'g3.f2': '文字起こしに質問',
+      'g3.d2': '質問すると、実際に話された内容から答えが返ってきます（Pro）。',
+      'g3.f3': '検索',
+      'g3.d3': '録音の中で話された言葉から、その録音を探せます。',
+      'g3.f4': '書き出し',
+      'g3.d4': 'テキストをコピーできます。Proなら共有やTXT・PDFでの保存も可能です。',
+      'privacy.title': '録音はあなたのスマートフォンに保存されます。',
+      'privacy.body': 'Verbiにはアカウントもクラウド同期もありません。文字起こしのため、音声は当社の音声認識プロバイダーに、通常は当社のサーバー経由で送られます。要約・チャット・翻訳では、文字起こしのテキストがAIプロバイダーに送られます。利用状況の統計に録音や文字起こしが含まれることはなく、設定でオフにできます。',
+      'privacy.link': 'プライバシーポリシーを読む（英語）',
+      'plans.title': '無料で始める',
+      'plans.body': 'Verbiをダウンロードすれば、毎月60分まで無料で文字起こしできます。もっと必要になったら、ProとMAXで文字起こしの時間が増えます。',
+      'free.name': '無料',
+      'free.sub': '手元の録音でVerbiを試せます。',
+      'pro.sub': '無料プランの内容に加えて、文字起こしの時間が付きます。',
+      'bar.cta': 'ダウンロード',
+      'free.1': '毎月60分の文字起こし',
+      'free.2': '録音は15日間保存',
+      'free.3': 'ライブ文字起こし（iPhoneでは基本版）',
+      'free.4': '最初のAI要約',
+      'pro.1': '毎月20時間の文字起こし（週額プランは毎週5時間）',
+      'pro.2': 'すべての文字起こしにAI要約',
+      'pro.3': '話者の識別',
+      'pro.4': '翻訳',
+      'pro.5': 'iPhoneで高品質なライブ文字起こし',
+      'pro.6': '15日たっても録音は削除されません',
+      'max.sub': 'Proの2倍の時間。たくさん使う方に。',
+      'max.1': '毎月40時間の文字起こし（週額プランは毎週10時間）',
+      'max.2': 'Proの内容をすべて含む',
+      'extra.name': '追加の時間',
+      'extra.sub': '時間が足りなくなる週のために。',
+      'extra.1': '5時間または15時間の追加パック',
+      'extra.2': '有効期限なし',
+      'extra.3': 'プランの時間を使い切ってから使われます',
+      'plans.fine': 'ProとMAXはサブスクリプション（週・月・年）で、追加の時間は購読者向けの1回限りの購入です。プランの時間は、週額プランでは毎週、月額・年額プランでは毎月リセットされ、繰り越されません。購読する前に、アプリがお使いの通貨で価格を表示します。',
+      'cta.title': '次の会議は、Verbiで録音しましょう。',
+      'foot.label': '法的情報とお問い合わせ',
+      'foot.help': 'ヘルプ',
+      'foot.help.href': '/ja/help/',
+      'foot.privacy': 'プライバシーポリシー',
+      'foot.terms': '利用規約',
+      'foot.contact': 'お問い合わせ',
+      'foot.about': 'theverbi.comのVerbiは、会議・講義・インタビュー向けのAIボイスレコーダー兼メモアプリです。iPhoneとAndroidで使えます。',
+      'og.desc': '話すのはあなた。メモはVerbiが。39言語の文字起こし、話者の区別、やることリスト付きの要約。',
+      'og.alt': '話すのはあなた。メモはVerbiが。',
+      'faq.title': 'よくある質問',
+      'faq.q1': 'Verbiは無料ですか？',
+      'faq.a1': 'はい、Verbiは無料でダウンロードできます。無料プランには、毎月60分の文字起こし、ライブ文字起こし（iPhoneでは基本版）、自動AI要約1回、テキストのコピーが含まれ、録音は15日間保存されます。Verbi Pro（毎月20時間、週額プランは毎週5時間の文字起こし）とMAX（その2倍の時間）は任意のサブスクリプションで、購読前にアプリがお使いの通貨で価格を表示します。',
+      'faq.q2': 'Verbiはどの言語に対応していますか？',
+      'faq.a2': 'Verbiは39言語を文字起こしできます。日本語、英語、スペイン語、フランス語、ドイツ語、トルコ語、イタリア語、ポルトガル語、アラビア語、中国語などです。言語は選ぶことも、自動検出に任せることもできます。',
+      'faq.q3': 'Verbiは日本語の音声を文字起こしできますか？',
+      'faq.a3': 'はい。日本語はVerbiが文字起こしする39言語のひとつで、繰り返し出てくる名前や用語はカスタム語彙に追加できます。iPhoneはバージョン1.5.0、Androidは1.3.0から、アプリ自体も日本語になり、要約やチャットの回答も日本語で届きます。Proなら日本語への翻訳もできます。',
+      'faq.q4': '録音はどのくらいの長さまで可能ですか？',
+      'faq.a4': 'Proは長い録音に対応します。1時間の会議も講義まるごとも、プランの時間の範囲で最初から最後まで文字起こしされます（Pro: 毎月20時間または毎週5時間、MAX: 毎月40時間または毎週10時間）。使い切った場合は、有効期限のない追加の時間を購入できます。無料プランでは、すべての録音で毎月60分を分け合い、iPhoneでは使い切ると録音が止まります。長い録音の文字起こし中はアプリを離れても大丈夫です。AndroidとiOS 26以降のiPhoneでは、完了するとVerbiが通知し、それより前のiOSではアップロードがバックグラウンドで続き、アプリを開き直すと文字起こしが待っています。',
+      'faq.q5': '録音はどこに保存されますか？',
+      'faq.a5': 'お使いのスマートフォンです。Verbiにはアカウントもクラウド同期もないため、録音と文字起こしは端末に保存されます。文字起こしのため、音声は当社の音声認識プロバイダーに、通常は当社のサーバー経由で送られます。要約・チャット・翻訳では、文字起こしのテキストがAIプロバイダーに送られます。何が、どこへ、どれくらいの期間送られるかは、プライバシーポリシーに記載しています。',
+      'faq.q6': 'Verbiは録音を要約してくれますか？',
+      'faq.a6': 'はい。Proならテンプレート（一般的な会議、1on1ミーティング、デイリーまたは週次ミーティング、授業ノート、アイデアメモ、アクションアイテム、メールの下書き、ブログ記事）を選ぶと、その形で要約が返ってきます。Proではすべての文字起こしの要約も自動で作られます。要約は話された内容にとどまり、担当者や期限は誰かが口にしたときだけ載ります。Proなら文字起こしに質問することもできます。無料プランでは、最初の文字起こしに、既定のテンプレートで1回だけ要約が自動で付きます。',
+      'faq.q7': 'VerbiはAndroidでも使えますか？',
+      'faq.a7': 'はい。VerbiはAndroid向けにGoogle Playで、iPhone向けにApp Storeで入手できます。',
+      'faq.q8': '手元の音声ファイルや動画も文字起こしできますか？',
+      'faq.a8': 'はい。音声ファイルを取り込む、ほかのアプリから音声をVerbiに共有する、またはYouTubeのリンクを貼り付けると、アプリ内で録音したものと同じように文字起こしします。取り込んだファイルは、無料プランの毎月60分に含まれ、無料プランでの動画の取り込みに制限がある場合はアプリが表示します。',
+      'guides.title': 'ガイド',
+      'guides.body': '手順を追って紹介します。ボイスメモ、講義、会議、インタビュー、動画。',
+      'guide.voice.h': '音声録音をテキストに変換する',
+      'guide.voice.p': 'ボイスメモや音声ファイルを、検索できるきれいなテキストに。',
+      'guide.voice.href': '/ja/voice-to-text/',
+      'guide.video.h': 'YouTube動画をテキストに変換する',
+      'guide.video.p': '動画のリンクを貼るだけで、文字起こしが手に入ります。',
+      'guide.video.href': '/ja/video-to-text/',
+      'guide.lecture.h': '文字起こしとノート付きの講義録音アプリ',
+      'guide.lecture.p': '授業を録音するか取り込むと、全文の文字起こしと、それをもとにした授業ノートが得られます。',
+      'guide.lecture.href': '/ja/lecture-recorder-transcription/',
+      'guide.meeting.h': 'AI議事録',
+      'guide.meeting.p': '録音から決定事項とやることを。担当者や期限は、本人が口にしたときだけ記します。',
+      'guide.meeting.href': '/ja/ai-meeting-notes/',
+      'guide.interview.h': 'インタビューの文字起こし',
+      'guide.interview.p': '話者を区別した会話全体を、そのまま引用できる形で。',
+      'guide.interview.href': '/ja/interview-transcription/'
+    },
+    ko: {
+      'meta.title': 'Verbi: AI 음성 녹음기 · 노트 작성 앱',
+      'meta.desc': 'Verbi는 회의, 강의, 인터뷰를 녹음하고 한국어를 포함한 39개 언어로 텍스트로 변환한 뒤, 할 일 목록이 담긴 요약까지 만들어 줍니다.',
+      'lang.label': '언어',
+      'rec.live': '녹음 중',
+      'rec.done': '노트가 준비되었습니다',
+      'hero.title': '말하세요. 기록은 Verbi가.',
+      'hero.lede': '회의, 강의, 인터뷰를 녹음하세요. Verbi가 한국어를 포함한 39개 언어로 텍스트로 변환하고, 화자를 구분하고, 할 일 목록이 담긴 요약을 전해 드립니다.',
+      'hero.free': '무료로 다운로드할 수 있고, 매달 60분의 텍스트 변환이 포함됩니다.',
+      'badge.apple': 'App Store에서 다운로드',
+      'badge.play': 'Google Play에서 다운로드',
+      'demo.title': '1시간짜리 회의를 1분 만에 읽어 보세요.',
+      'demo.body': 'Verbi는 모든 말을 받아 적고 화자를 구분합니다. 그런 다음 결정 사항과 할 일을 뽑아내며, 담당자와 기한은 누군가 직접 말했을 때만 적습니다.',
+      'demo.tabs': '녹음으로 Verbi가 만든 결과',
+      'tab.review': '주간 회의',
+      'tab.email': '이메일 초안',
+      'tab.ask': 'AI 채팅',
+      'app.title': 'Verbi는 녹음으로 무엇을 할까요',
+      'app.body': '녹음 버튼을 누르는 순간부터 업무를 나누는 순간까지.',
+      'shot.0': '강의를 녹음하는 Verbi, 말이 화면에 바로 나타납니다',
+      'shot.1': '화자 3명의 이름과 타임스탬프가 담긴 회의 텍스트',
+      'shot.2': '회의에서 어떤 결정이 내려졌는지 Verbi에게 묻는 모습',
+      'g1.h': '회의나 강의를 통째로 녹음하세요',
+      'g1.p': '녹음을 누르거나, 파일을 가져오거나, 다른 앱에서 오디오를 공유하세요. 긴 녹음을 변환하는 동안 Verbi를 벗어나도 됩니다. Android와 iOS 26 이상의 iPhone에서는 노트가 준비되면 알려 주고, 이전 iOS에서는 업로드가 백그라운드에서 계속됩니다.',
+      'g1.f1': '긴 녹음',
+      'g1.d1': '1시간짜리 회의나 강의 전체를 플랜 시간 안에서 처음부터 끝까지 텍스트로 변환합니다.',
+      'g1.f2': '실시간 텍스트 변환',
+      'g1.d2': '말하는 동안 단어가 나타나는 것을 볼 수 있습니다.',
+      'g1.f3': '가져오기와 공유',
+      'g1.d3': '파일 앱에서 오디오를 가져오거나 어떤 앱에서든 공유하세요.',
+      'g1.f4': '회의 알림',
+      'g1.d4': 'Verbi가 캘린더를 읽고 회의가 시작될 때 녹음하라고 알려 줍니다.',
+      'g1.note': '무료 플랜: 매달 60분의 텍스트 변환(긴 강의 하나로 다 쓸 수도 있습니다)과 첫 번째 AI 요약만 제공됩니다.',
+      'g2.h': '누가 무슨 말을 했는지 알 수 있습니다',
+      'g2.p': 'Verbi는 한국어를 포함한 39개 언어로 변환하며 언어를 스스로 감지할 수 있습니다. 방 안의 목소리를 나눠 주므로 각 화자에게 이름을 붙일 수 있습니다.',
+      'g2.f1': '39개 언어',
+      'g2.d1': '한국어, 영어, 스페인어, 프랑스어, 독일어, 일본어 등.',
+      'g2.f2': '화자 구분',
+      'g2.d2': '누가 무슨 말을 했는지 확인하고 각 목소리에 이름을 붙이세요(Pro).',
+      'g2.f3': '사용자 어휘',
+      'g2.d3': 'Verbi가 자꾸 틀리는 이름, 회사명, 약어를 알려 주세요.',
+      'g2.f4': '번역',
+      'g2.d4': '어떤 텍스트든 한국어를 포함한 앱의 15개 언어로 읽을 수 있습니다(Pro).',
+      'g3.h': '필요한 형태의 요약을 받아 보세요',
+      'g3.p': 'Pro에서는 템플릿을 고르면 그 형태로 요약이 나오며, 실제로 말한 내용에 충실합니다. 담당자와 기한은 누군가 말했을 때만 나타납니다. Pro에서는 모든 텍스트에 요약이 자동으로 붙고, 무료 플랜에서는 첫 번째 텍스트에만 붙습니다.',
+      'g3.f1': '아홉 가지 템플릿',
+      'g3.d1': '일반 회의, 1:1 미팅, 데일리 회의, 주간 회의, 수업 노트, 아이디어 기록, 이메일 초안, 실행 항목, 블로그 글.',
+      'g3.f2': '텍스트에 질문하기',
+      'g3.d2': '질문하면 실제로 말한 내용에서 답을 찾아 줍니다(Pro).',
+      'g3.f3': '검색',
+      'g3.d3': '녹음 속에서 나온 말로 그 녹음을 찾으세요.',
+      'g3.f4': '내보내기',
+      'g3.d4': '텍스트를 복사하거나, Pro에서는 공유하거나 TXT 또는 PDF로 저장할 수 있습니다.',
+      'privacy.title': '녹음은 내 휴대전화에 저장됩니다.',
+      'privacy.body': 'Verbi에는 계정도 클라우드 동기화도 없습니다. 텍스트 변환을 위해 오디오는 음성 인식 제공업체로, 보통 저희 서버를 거쳐 전송됩니다. 요약, 채팅, 번역에는 텍스트 변환 결과가 AI 제공업체로 전송됩니다. 사용 통계에는 녹음이나 텍스트가 절대 포함되지 않으며, 설정에서 끌 수 있습니다.',
+      'privacy.link': '개인정보 처리방침 읽기(영어)',
+      'plans.title': '무료로 시작하세요',
+      'plans.body': 'Verbi를 다운로드하면 매달 60분의 텍스트 변환을 무료로 쓸 수 있습니다. 더 필요하면 Pro와 MAX로 텍스트 변환 시간을 늘리세요.',
+      'free.name': '무료',
+      'free.sub': '내 녹음으로 Verbi를 써 보세요.',
+      'pro.sub': '무료의 모든 기능에 텍스트 변환 시간이 더해집니다.',
+      'bar.cta': '다운로드',
+      'free.1': '매달 60분의 텍스트 변환',
+      'free.2': '녹음 15일 보관',
+      'free.3': '실시간 텍스트 변환(iPhone에서는 기본)',
+      'free.4': '첫 번째 AI 요약',
+      'pro.1': '매달 20시간의 텍스트 변환(주간 플랜은 매주 5시간)',
+      'pro.2': '모든 텍스트에 AI 요약',
+      'pro.3': '화자 구분',
+      'pro.4': '번역',
+      'pro.5': 'iPhone에서 고품질 실시간 텍스트 변환',
+      'pro.6': '15일이 지나도 녹음이 삭제되지 않음',
+      'max.sub': 'Pro의 두 배 시간, 많이 쓰는 분께 알맞습니다.',
+      'max.1': '매달 40시간의 텍스트 변환(주간 플랜은 매주 10시간)',
+      'max.2': 'Pro의 모든 기능',
+      'extra.name': '추가 시간',
+      'extra.sub': '시간이 모자란 주를 위해.',
+      'extra.1': '5시간 또는 15시간 추가 시간 팩',
+      'extra.2': '만료되지 않음',
+      'extra.3': '플랜 시간을 다 쓴 뒤에 사용됨',
+      'plans.fine': 'Pro와 MAX는 구독(주간, 월간, 연간)이며, 추가 시간은 구독자를 위한 1회 구매입니다. 플랜 시간은 주간 플랜에서는 매주, 월간·연간 플랜에서는 매달 초기화되며 이월되지 않습니다. 구독하기 전에 앱이 내 통화로 가격을 보여 줍니다.',
+      'cta.title': '다음 회의는 Verbi로 녹음하세요.',
+      'foot.label': '법적 고지 및 문의',
+      'foot.help': '도움말',
+      'foot.help.href': '/ko/help/',
+      'foot.privacy': '개인정보 처리방침',
+      'foot.terms': '서비스 약관',
+      'foot.contact': '문의',
+      'foot.about': 'theverbi.com의 Verbi는 회의, 강의, 인터뷰를 위한 AI 음성 녹음기이자 노트 작성 앱으로, iPhone과 Android에서 쓸 수 있습니다.',
+      'og.desc': '말하세요. 기록은 Verbi가. 39개 언어 텍스트 변환, 화자 구분, 할 일 목록이 담긴 요약.',
+      'og.alt': '말하세요. 기록은 Verbi가.',
+      'faq.title': '자주 묻는 질문',
+      'faq.q1': 'Verbi는 무료인가요?',
+      'faq.a1': '네, Verbi는 무료로 다운로드할 수 있습니다. 무료 플랜에는 매달 60분의 텍스트 변환, 실시간 텍스트 변환(iPhone에서는 기본), 자동 AI 요약 1회, 텍스트 복사가 포함되며 녹음은 15일간 보관됩니다. Verbi Pro(매달 20시간, 주간 플랜은 매주 5시간의 텍스트 변환)와 MAX(두 배의 시간)는 선택 구독이며, 구독하기 전에 앱이 내 통화로 가격을 보여 줍니다.',
+      'faq.q2': 'Verbi는 어떤 언어를 이해하나요?',
+      'faq.a2': 'Verbi는 한국어, 영어, 스페인어, 프랑스어, 독일어, 터키어, 이탈리아어, 포르투갈어, 아랍어, 일본어, 중국어 등 39개 언어를 텍스트로 변환합니다. 언어를 직접 고르거나 자동 감지에 맡길 수 있습니다.',
+      'faq.q3': 'Verbi는 한국어 음성도 변환하나요?',
+      'faq.a3': '네. 한국어는 Verbi가 변환하는 39개 언어 중 하나이며, 자주 나오는 이름과 용어는 사용자 어휘에 추가할 수 있습니다. iPhone 1.5.0, Android 1.3.0부터는 앱 자체도 한국어로 제공되어, 요약과 채팅 답변도 한국어로 나옵니다. Pro에서는 한국어로 번역할 수도 있습니다.',
+      'faq.q4': '녹음은 얼마나 길게 할 수 있나요?',
+      'faq.a4': 'Pro는 긴 녹음을 지원합니다. 1시간짜리 회의나 강의 전체가 플랜 시간 안에서 처음부터 끝까지 변환됩니다(Pro: 매달 20시간 또는 매주 5시간, MAX: 매달 40시간 또는 매주 10시간). 시간을 다 쓰면 만료되지 않는 추가 시간을 구매할 수 있습니다. 무료 플랜에서는 모든 녹음이 매달 60분을 나눠 쓰며, iPhone에서는 시간이 다 되면 녹음이 멈춥니다. 긴 녹음을 변환하는 동안 앱을 벗어나도 됩니다. Android와 iOS 26 이상의 iPhone에서는 완료되면 Verbi가 알려 주고, 이전 iOS에서는 업로드가 백그라운드에서 계속되어 앱을 다시 열면 텍스트가 기다리고 있습니다.',
+      'faq.q5': '녹음은 어디에 저장되나요?',
+      'faq.a5': '내 휴대전화에 저장됩니다. Verbi에는 계정도 클라우드 동기화도 없어 녹음과 텍스트가 기기에 저장됩니다. 텍스트 변환을 위해 오디오는 음성 인식 제공업체로, 보통 저희 서버를 거쳐 전송되며, 요약, 채팅, 번역에는 텍스트 변환 결과가 AI 제공업체로 전송됩니다. 무엇이 어디로 얼마나 오래 전송되는지는 개인정보 처리방침에 설명되어 있습니다.',
+      'faq.q6': 'Verbi는 녹음을 요약해 주나요?',
+      'faq.a6': '네. Pro에서는 템플릿(일반 회의, 1:1 미팅, 데일리 또는 주간 회의, 수업 노트, 아이디어 기록, 실행 항목, 이메일 초안, 블로그 글)을 고르면 그 형태로 요약이 나오며, Pro는 모든 텍스트의 요약도 자동으로 만듭니다. 요약은 말한 내용에 충실하여 담당자와 기한은 누군가 말했을 때만 나타납니다. Pro에서는 텍스트에 질문할 수도 있습니다. 무료 플랜에서는 첫 번째 텍스트에 기본 템플릿으로 요약이 한 번 자동으로 붙습니다.',
+      'faq.q7': 'Verbi를 Android에서도 쓸 수 있나요?',
+      'faq.a7': '네. Verbi는 Android 휴대전화용으로 Google Play에, iPhone용으로 App Store에 있습니다.',
+      'faq.q8': '이미 가지고 있는 오디오 파일이나 동영상도 변환할 수 있나요?',
+      'faq.a8': '네. 오디오 파일을 가져오거나, 다른 앱에서 Verbi로 오디오를 공유하거나, YouTube 링크를 붙여 넣으면 앱에서 녹음한 것과 똑같이 변환합니다. 가져온 파일은 무료 플랜의 매달 60분에 포함되며, 무료 플랜의 동영상 가져오기 제한이 있으면 앱이 알려 줍니다.',
+      'guides.title': '가이드',
+      'guides.body': '단계별 안내: 음성 메모, 강의, 회의, 인터뷰, 동영상.',
+      'guide.voice.h': '음성 녹음을 텍스트로 변환하기',
+      'guide.voice.p': '음성 메모와 오디오 파일을 검색할 수 있는 깔끔한 텍스트로.',
+      'guide.voice.href': '/ko/voice-to-text/',
+      'guide.video.h': 'YouTube 동영상을 텍스트로 변환하기',
+      'guide.video.p': '동영상 링크를 붙여 넣으면 텍스트가 나옵니다.',
+      'guide.video.href': '/ko/video-to-text/',
+      'guide.lecture.h': '텍스트와 노트가 있는 강의 녹음 앱',
+      'guide.lecture.p': '수업을 녹음하거나 가져오면 전체 텍스트와 그것으로 만든 수업 노트를 얻습니다.',
+      'guide.lecture.href': '/ko/lecture-recorder-transcription/',
+      'guide.meeting.h': 'AI 회의록',
+      'guide.meeting.p': '녹음에서 결정 사항과 할 일을. 담당자와 기한은 누군가 말했을 때만 적습니다.',
+      'guide.meeting.href': '/ko/ai-meeting-notes/',
+      'guide.interview.h': '인터뷰 텍스트 변환',
+      'guide.interview.p': '화자가 구분된 대화 전체를 바로 인용할 수 있는 형태로.',
+      'guide.interview.href': '/ko/interview-transcription/'
+    },
+    zh: {
+      'meta.title': 'Verbi：AI 录音笔记助手',
+      'meta.desc': 'Verbi 可录制会议、课堂和采访，用包括中文在内的 39 种语言转写成文字，并生成带待办事项的摘要。',
+      'lang.label': '语言',
+      'rec.live': '录音中',
+      'rec.done': '笔记已就绪',
+      'hero.title': '你来说，笔记交给 Verbi。',
+      'hero.lede': '录下一场会议、一堂课或一次采访。Verbi 会用包括中文在内的 39 种语言转写成文字，区分不同说话人，并给你一份带待办事项的摘要。',
+      'hero.free': '免费下载，每月含 60 分钟转写时长。',
+      'badge.apple': '在 App Store 下载',
+      'badge.play': '在 Google Play 获取',
+      'demo.title': '一小时的会议，一分钟读完。',
+      'demo.body': 'Verbi 会逐字记下每句话，并区分说话人。然后提炼出决定和待办事项，只有当有人明确说出负责人和截止日期时才会写上。',
+      'demo.tabs': 'Verbi 用这段录音生成的内容',
+      'tab.review': '每周例会',
+      'tab.email': '邮件草稿',
+      'tab.ask': 'AI 聊天',
+      'app.title': 'Verbi 如何处理你的录音',
+      'app.body': '从按下录音键，到分派任务。',
+      'shot.0': 'Verbi 正在录制一堂课，文字实时出现在屏幕上',
+      'shot.1': '一场会议的转写，标注了三位说话人的姓名和时间戳',
+      'shot.2': '向 Verbi 询问会议上做出了哪些决定',
+      'g1.h': '完整录下整场会议或课堂',
+      'g1.p': '点按录音、导入文件，或从其他 App 分享音频。长录音转写期间可以离开 Verbi：在 Android 以及 iOS 26 或更高版本的 iPhone 上，笔记就绪时会通知你；在更早的 iOS 版本上，上传会在后台继续。',
+      'g1.f1': '长时间录音',
+      'g1.d1': '一小时的会议或整堂课，在套餐时长范围内从头到尾转写。',
+      'g1.f2': '实时转写',
+      'g1.d2': '边说边看到文字出现。',
+      'g1.f3': '导入与分享',
+      'g1.d3': '从“文件”导入音频，或从任何 App 分享进来。',
+      'g1.f4': '会议提醒',
+      'g1.d4': 'Verbi 读取你的日历，会议开始时提醒你录音。',
+      'g1.note': '免费套餐：每月 60 分钟转写（一堂长课就可能用完），且仅含第一份 AI 摘要。',
+      'g2.h': '谁说了什么，一目了然',
+      'g2.p': 'Verbi 支持包括中文在内的 39 种语言，并能自动识别语言。它会区分房间里的不同声音，让你为每个人命名。',
+      'g2.f1': '39 种语言',
+      'g2.d1': '中文、英语、西班牙语、法语、德语、日语等。',
+      'g2.f2': '说话人识别',
+      'g2.d2': '看清谁说了什么，并为每个声音命名（Pro）。',
+      'g2.f3': '自定义词汇',
+      'g2.d3': '教会 Verbi 那些总是写错的人名、公司名和缩写。',
+      'g2.f4': '翻译',
+      'g2.d4': '把任何转写翻译成 App 的 15 种语言，包括中文（Pro）。',
+      'g3.h': '得到你需要的摘要',
+      'g3.p': '使用 Pro，选一个模板，摘要就按那种形式生成，并严格依据实际说过的内容：只有当有人说出负责人和截止日期时才会出现。Pro 会自动为每份转写生成摘要；免费套餐只为第一份生成。',
+      'g3.f1': '九种模板',
+      'g3.d1': '常规会议、一对一会议、每日例会、每周例会、课堂笔记、灵感记录、邮件草稿、行动项、博客文章。',
+      'g3.f2': '向转写提问',
+      'g3.d2': '提出问题，得到依据实际说过内容的回答（Pro）。',
+      'g3.f3': '搜索',
+      'g3.d3': '用录音里说过的任何话找到这段录音。',
+      'g3.f4': '导出',
+      'g3.d4': '复制文本；使用 Pro 还可以分享，或保存为 TXT 或 PDF。',
+      'privacy.title': '你的录音保存在你的手机上。',
+      'privacy.body': 'Verbi 没有账户，也没有云同步。转写时，音频会发送给我们的语音识别服务提供商，通常经由我们的服务器。摘要、聊天和翻译会把转写文本发送给 AI 服务提供商。使用统计绝不包含你的录音或转写内容，你可以在设置中关闭。',
+      'privacy.link': '阅读隐私政策（英文）',
+      'plans.title': '免费开始',
+      'plans.body': '下载 Verbi，每月免费转写 60 分钟。需要更多时，Pro 和 MAX 提供按小时计的转写时长。',
+      'free.name': '免费',
+      'free.sub': '用你自己的录音试试 Verbi。',
+      'pro.sub': '包含免费套餐的全部功能，另有转写时长。',
+      'bar.cta': '下载',
+      'free.1': '每月 60 分钟转写',
+      'free.2': '录音保留 15 天',
+      'free.3': '实时转写（iPhone 上为基础版）',
+      'free.4': '第一份 AI 摘要',
+      'pro.1': '每月 20 小时转写（每周套餐为每周 5 小时）',
+      'pro.2': '每份转写都有 AI 摘要',
+      'pro.3': '说话人识别',
+      'pro.4': '翻译',
+      'pro.5': 'iPhone 上的高质量实时转写',
+      'pro.6': '录音不会在 15 天后被删除',
+      'max.sub': '时长是 Pro 的两倍，适合重度使用。',
+      'max.1': '每月 40 小时转写（每周套餐为每周 10 小时）',
+      'max.2': '包含 Pro 的全部功能',
+      'extra.name': '额外时长',
+      'extra.sub': '应对时长不够用的那几周。',
+      'extra.1': '5 小时或 15 小时的额外时长包',
+      'extra.2': '永不过期',
+      'extra.3': '在套餐时长用完后使用',
+      'plans.fine': 'Pro 和 MAX 为订阅（每周、每月或每年），额外时长是面向订阅用户的一次性购买。套餐时长在每周套餐中每周重置，在每月和每年套餐中每月重置，不会累计到下一期。订阅前，App 会以你所在地区的货币显示价格。',
+      'cta.title': '下一场会议，用 Verbi 来录。',
+      'foot.label': '法律信息与联系方式',
+      'foot.help': '帮助',
+      'foot.help.href': '/zh/help/',
+      'foot.privacy': '隐私政策',
+      'foot.terms': '服务条款',
+      'foot.contact': '联系我们',
+      'foot.about': 'theverbi.com 上的 Verbi 是面向会议、课堂和采访的 AI 录音与笔记应用，支持 iPhone 和 Android。',
+      'og.desc': '你来说，笔记交给 Verbi：39 种语言转写、区分说话人，并生成带待办事项的摘要。',
+      'og.alt': '你来说，笔记交给 Verbi。',
+      'faq.title': '常见问题',
+      'faq.q1': 'Verbi 免费吗？',
+      'faq.a1': '是的，Verbi 可免费下载。免费套餐包含每月 60 分钟转写、实时转写（iPhone 上为基础版）、一份自动 AI 摘要和文本复制，录音保留 15 天。Verbi Pro（每月 20 小时转写，每周套餐为每周 5 小时）和 MAX（时长翻倍）是可选订阅；订阅前，App 会以你所在地区的货币显示价格。',
+      'faq.q2': 'Verbi 支持哪些语言？',
+      'faq.a2': 'Verbi 可转写 39 种语言，包括中文、英语、西班牙语、法语、德语、土耳其语、意大利语、葡萄牙语、阿拉伯语和日语。你可以自己选择语言，也可以交给自动检测。',
+      'faq.q3': 'Verbi 能转写中文吗？',
+      'faq.a3': '能。中文是 Verbi 转写的 39 种语言之一，反复出现的人名和术语可以加入自定义词汇。从 iPhone 1.5.0 和 Android 1.3.0 起，App 本身也有简体中文界面，此时摘要和聊天回答也会是中文。使用 Pro 还可以翻译成中文。',
+      'faq.q4': '录音最长可以多长？',
+      'faq.a4': 'Pro 支持长录音：一小时的会议或整堂课，会在套餐时长范围内从头到尾转写（Pro：每月 20 小时或每周 5 小时；MAX：每月 40 小时或每周 10 小时）。时长用完后，可以购买永不过期的额外时长。免费套餐中，你的所有录音共享每月 60 分钟，在 iPhone 上用完后录音会停止。长录音转写期间可以离开 App。在 Android 以及 iOS 26 或更高版本的 iPhone 上，转写完成时 Verbi 会通知你；在更早的 iOS 版本上，上传会在后台继续，重新打开 App 时转写已在等你。',
+      'faq.q5': '我的录音保存在哪里？',
+      'faq.a5': '保存在你的手机上。Verbi 没有账户，也没有云同步，所以录音和转写都保存在你的设备中。转写时，音频会发送给我们的语音识别服务提供商，通常经由我们的服务器；摘要、聊天和翻译会把转写文本发送给 AI 服务提供商。隐私政策说明了发送的内容、去向和保留时间。',
+      'faq.q6': 'Verbi 会为录音生成摘要吗？',
+      'faq.a6': '会。使用 Pro，选择一个模板（常规会议、一对一会议、每日或每周例会、课堂笔记、灵感记录、行动项、邮件草稿或博客文章），摘要就按那种形式生成；Pro 还会自动为每份转写生成摘要。摘要严格依据所说内容：只有当有人说出负责人和截止日期时才会出现。使用 Pro 还可以向转写提问。免费套餐中，你的第一份转写会自动获得一份摘要，使用你的默认模板。',
+      'faq.q7': 'Verbi 有 Android 版吗？',
+      'faq.a7': '有。Verbi 在 Google Play 上提供 Android 版，在 App Store 上提供 iPhone 版。',
+      'faq.q8': '我能转写已有的音频文件和视频吗？',
+      'faq.a8': '可以。导入音频文件、从其他 App 把音频分享给 Verbi，或粘贴 YouTube 链接，Verbi 会像处理在 App 内录制的内容一样转写。导入的文件会计入免费套餐每月的 60 分钟，免费套餐对视频导入如有限制，App 会提示。',
+      'guides.title': '指南',
+      'guides.body': '一步步上手：语音备忘录、课堂、会议、采访和视频。',
+      'guide.voice.h': '把语音录音转成文字',
+      'guide.voice.p': '把语音备忘录和音频文件变成整洁、可搜索的文字。',
+      'guide.voice.href': '/zh/voice-to-text/',
+      'guide.video.h': '把 YouTube 视频转成文字',
+      'guide.video.p': '粘贴视频链接，即可得到转写。',
+      'guide.video.href': '/zh/video-to-text/',
+      'guide.lecture.h': '带转写和笔记的课堂录音应用',
+      'guide.lecture.p': '录下或导入一堂课，得到完整转写和据此生成的课堂笔记。',
+      'guide.lecture.href': '/zh/lecture-recorder-transcription/',
+      'guide.meeting.h': 'AI 会议纪要',
+      'guide.meeting.p': '从录音得到决定与待办；负责人和日期只有在有人说出时才写。',
+      'guide.meeting.href': '/zh/ai-meeting-notes/',
+      'guide.interview.h': '采访转写',
+      'guide.interview.p': '区分了说话人的整段对话，便于直接引用。',
+      'guide.interview.href': '/zh/interview-transcription/'
+    },
+    id: {
+      'meta.title': 'Verbi: perekam suara dan pencatat AI',
+      'meta.desc': 'Verbi merekam rapat, kuliah, dan wawancara, mentranskripsikannya dalam 39 bahasa termasuk bahasa Indonesia, lalu membuat ringkasan beserta daftar tugas.',
+      'lang.label': 'Bahasa',
+      'rec.live': 'Merekam',
+      'rec.done': 'Catatan siap',
+      'hero.title': 'Anda bicara. Verbi mencatat.',
+      'hero.lede': 'Rekam rapat, kuliah, atau wawancara. Verbi mentranskripsikannya dalam 39 bahasa termasuk bahasa Indonesia, membedakan para pembicara, dan menyerahkan ringkasan beserta daftar tugas.',
+      'hero.free': 'Unduh gratis, dengan 60 menit transkripsi setiap bulan.',
+      'badge.apple': 'Unduh di App Store',
+      'badge.play': 'Dapatkan di Google Play',
+      'demo.title': 'Baca rapat sejam dalam semenit.',
+      'demo.body': 'Verbi menuliskan setiap kata dan membedakan para pembicara. Lalu ia mengambil keputusan dan tugasnya, lengkap dengan penanggung jawab dan tenggat hanya jika ada yang menyebutkannya.',
+      'demo.tabs': 'Hasil Verbi dari rekaman',
+      'tab.review': 'Rapat mingguan',
+      'tab.email': 'Draf email',
+      'tab.ask': 'Chat AI',
+      'app.title': 'Yang dilakukan Verbi pada rekaman Anda',
+      'app.body': 'Dari saat Anda menekan rekam sampai saat Anda membagikan tugas.',
+      'shot.0': 'Verbi merekam kuliah, kata-katanya muncul langsung di layar',
+      'shot.1': 'Transkrip rapat dengan tiga pembicara bernama dan stempel waktu',
+      'shot.2': 'Bertanya kepada Verbi keputusan apa saja yang diambil dalam rapat',
+      'g1.h': 'Rekam seluruh rapat atau kuliah',
+      'g1.p': 'Tekan rekam, impor file, atau bagikan audio dari aplikasi lain. Anda boleh meninggalkan Verbi saat rekaman panjang ditranskripsikan: di Android dan iPhone dengan iOS 26 atau lebih baru, Verbi memberi tahu saat catatan siap, sedangkan di iOS yang lebih lama unggahan berlanjut di latar belakang.',
+      'g1.f1': 'Rekaman panjang',
+      'g1.d1': 'Rapat sejam atau satu kuliah penuh ditranskripsikan dari awal sampai akhir, sesuai jam paket Anda.',
+      'g1.f2': 'Transkripsi langsung',
+      'g1.d2': 'Lihat kata-kata muncul saat Anda berbicara.',
+      'g1.f3': 'Impor dan bagikan',
+      'g1.d3': 'Bawa audio dari Files, atau bagikan dari aplikasi mana pun.',
+      'g1.f4': 'Pengingat rapat',
+      'g1.d4': 'Verbi membaca kalender Anda dan mengingatkan untuk merekam saat rapat dimulai.',
+      'g1.note': 'Paket gratis: 60 menit transkripsi setiap bulan (satu kuliah panjang bisa menghabiskannya sendiri) dan hanya ringkasan AI pertama.',
+      'g2.h': 'Tahu siapa yang bilang apa',
+      'g2.p': 'Verbi menulis dalam 39 bahasa termasuk bahasa Indonesia dan dapat mengenali bahasanya sendiri. Ia memisahkan suara-suara di ruangan agar Anda bisa memberi nama pada masing-masing.',
+      'g2.f1': '39 bahasa',
+      'g2.d1': 'Indonesia, Inggris, Spanyol, Prancis, Jerman, Jepang, dan lainnya.',
+      'g2.f2': 'Deteksi pembicara',
+      'g2.d2': 'Lihat siapa yang bilang apa dan beri nama tiap suara (Pro).',
+      'g2.f3': 'Kosakata khusus',
+      'g2.d3': 'Ajari Verbi nama, perusahaan, dan singkatan yang terus salah ia tulis.',
+      'g2.f4': 'Terjemahan',
+      'g2.d4': 'Baca transkrip apa pun dalam salah satu dari 15 bahasa aplikasi, termasuk bahasa Indonesia (Pro).',
+      'g3.h': 'Dapatkan ringkasan yang Anda butuhkan',
+      'g3.p': 'Dengan Pro, pilih template dan ringkasan datang dalam bentuk itu, setia pada yang benar-benar dikatakan: penanggung jawab dan tenggat muncul hanya jika ada yang menyebutkannya. Dengan Pro, setiap transkrip mendapat ringkasannya sendiri; di paket gratis, hanya yang pertama.',
+      'g3.f1': 'Sembilan template',
+      'g3.d1': 'Rapat umum, rapat 1:1, rapat harian, rapat mingguan, catatan pelajaran, tangkap ide, draf email, daftar tindakan, artikel blog.',
+      'g3.f2': 'Tanya transkrip',
+      'g3.d2': 'Ajukan pertanyaan dan dapatkan jawaban dari yang benar-benar dikatakan (Pro).',
+      'g3.f3': 'Pencarian',
+      'g3.d3': 'Temukan rekaman dari kata apa pun yang diucapkan di dalamnya.',
+      'g3.f4': 'Ekspor',
+      'g3.d4': 'Salin teksnya, atau dengan Pro bagikan atau simpan sebagai TXT atau PDF.',
+      'privacy.title': 'Rekaman Anda disimpan di ponsel Anda.',
+      'privacy.body': 'Verbi tidak memiliki akun dan sinkronisasi cloud. Untuk transkripsi, audio dikirim ke penyedia pengenalan suara kami, biasanya melalui server kami. Untuk ringkasan, chat, dan terjemahan, teks transkrip dikirim ke penyedia AI. Statistik penggunaan tidak pernah memuat rekaman atau transkrip Anda, dan Anda bisa mematikannya di Pengaturan.',
+      'privacy.link': 'Baca kebijakan privasi (dalam bahasa Inggris)',
+      'plans.title': 'Mulai gratis',
+      'plans.body': 'Unduh Verbi dan transkripsikan 60 menit setiap bulan tanpa biaya. Saat butuh lebih banyak, Pro dan MAX memberi Anda jam transkripsi.',
+      'free.name': 'Gratis',
+      'free.sub': 'Coba Verbi pada rekaman Anda sendiri.',
+      'pro.sub': 'Semua yang ada di Gratis, ditambah jam transkripsi.',
+      'bar.cta': 'Unduh',
+      'free.1': '60 menit transkripsi sebulan',
+      'free.2': 'Rekaman disimpan 15 hari',
+      'free.3': 'Transkripsi langsung (dasar di iPhone)',
+      'free.4': 'Ringkasan AI pertama Anda',
+      'pro.1': '20 jam transkripsi sebulan (5 jam seminggu pada paket mingguan)',
+      'pro.2': 'Ringkasan AI untuk setiap transkrip',
+      'pro.3': 'Deteksi pembicara',
+      'pro.4': 'Terjemahan',
+      'pro.5': 'Transkripsi langsung berkualitas tinggi di iPhone',
+      'pro.6': 'Rekaman tidak dihapus setelah 15 hari',
+      'max.sub': 'Dua kali jam Pro, untuk pemakaian berat.',
+      'max.1': '40 jam transkripsi sebulan (10 jam seminggu pada paket mingguan)',
+      'max.2': 'Semua yang ada di Pro',
+      'extra.name': 'Jam ekstra',
+      'extra.sub': 'Untuk minggu-minggu saat jam paket tidak cukup.',
+      'extra.1': 'Paket 5 atau 15 jam ekstra',
+      'extra.2': 'Tidak pernah kedaluwarsa',
+      'extra.3': 'Dipakai setelah jam paket Anda habis',
+      'plans.fine': 'Pro dan MAX adalah langganan (mingguan, bulanan, atau tahunan), dan jam ekstra adalah pembelian satu kali untuk pelanggan. Jam paket direset setiap minggu pada paket mingguan dan setiap bulan pada paket bulanan dan tahunan, serta tidak terbawa ke periode berikutnya. Aplikasi menampilkan harga dalam mata uang Anda sebelum Anda berlangganan.',
+      'cta.title': 'Rekam rapat berikutnya dengan Verbi.',
+      'foot.label': 'Hukum dan kontak',
+      'foot.help': 'Bantuan',
+      'foot.help.href': '/id/bantuan/',
+      'foot.privacy': 'Kebijakan Privasi',
+      'foot.terms': 'Ketentuan Layanan',
+      'foot.contact': 'Kontak',
+      'foot.about': 'Verbi di theverbi.com adalah perekam suara dan aplikasi pencatat AI untuk rapat, kuliah, dan wawancara, di iPhone dan Android.',
+      'og.desc': 'Anda bicara. Verbi mencatat: transkrip dalam 39 bahasa, para pembicara dibedakan, dan ringkasan dengan daftar tugas.',
+      'og.alt': 'Anda bicara. Verbi mencatat.',
+      'faq.title': 'Pertanyaan umum',
+      'faq.q1': 'Apakah Verbi gratis?',
+      'faq.a1': 'Ya, Verbi gratis diunduh. Paket gratis mencakup 60 menit transkripsi sebulan, transkripsi langsung (dasar di iPhone), satu ringkasan AI otomatis, dan menyalin teks, serta menyimpan rekaman selama 15 hari. Verbi Pro (20 jam transkripsi sebulan, atau 5 jam seminggu pada paket mingguan) dan MAX (dua kali jamnya) adalah langganan opsional; aplikasi menampilkan harganya dalam mata uang Anda sebelum Anda berlangganan.',
+      'faq.q2': 'Bahasa apa saja yang dipahami Verbi?',
+      'faq.a2': 'Verbi mentranskripsikan 39 bahasa, termasuk bahasa Indonesia, Inggris, Spanyol, Prancis, Jerman, Turki, Italia, Portugis, Arab, Jepang, dan Mandarin. Anda bisa memilih bahasanya atau membiarkannya pada deteksi otomatis.',
+      'faq.q3': 'Apakah Verbi bisa mentranskripsikan bahasa Indonesia?',
+      'faq.a3': 'Bisa. Bahasa Indonesia termasuk dalam 39 bahasa yang ditranskripsikan Verbi, dan nama serta istilah yang sering muncul bisa ditambahkan ke kosakata khusus. Mulai versi 1.5.0 di iPhone dan 1.3.0 di Android, aplikasinya sendiri juga tersedia dalam bahasa Indonesia, sehingga ringkasan dan jawaban chat pun datang dalam bahasa Indonesia. Dengan Pro, terjemahan ke bahasa Indonesia juga bisa dilakukan.',
+      'faq.q4': 'Berapa lama rekaman bisa berlangsung?',
+      'faq.a4': 'Pro mendukung rekaman panjang: rapat sejam atau satu kuliah penuh ditranskripsikan dari awal sampai akhir, sesuai jam paket Anda (Pro: 20 jam sebulan atau 5 jam seminggu; MAX: 40 jam sebulan atau 10 jam seminggu). Jika habis, Anda bisa menambah jam ekstra yang tidak pernah kedaluwarsa. Di paket gratis, semua rekaman berbagi 60 menit sebulan, dan di iPhone rekaman berhenti saat menit itu habis. Anda boleh meninggalkan aplikasi saat rekaman panjang ditranskripsikan. Di Android dan iPhone dengan iOS 26 atau lebih baru, Verbi memberi tahu saat selesai; di iOS yang lebih lama unggahan berlanjut di latar belakang dan transkrip menunggu saat Anda membuka aplikasi lagi.',
+      'faq.q5': 'Di mana rekaman saya disimpan?',
+      'faq.a5': 'Di ponsel Anda. Verbi tidak memiliki akun dan sinkronisasi cloud, jadi rekaman dan transkrip disimpan di perangkat Anda. Untuk transkripsi, audio dikirim ke penyedia pengenalan suara kami, biasanya melalui server kami; untuk ringkasan, chat, dan terjemahan, teks transkrip dikirim ke penyedia AI. Kebijakan privasi menjelaskan apa yang dikirim, ke mana, dan berapa lama.',
+      'faq.q6': 'Apakah Verbi meringkas rekaman?',
+      'faq.a6': 'Ya. Dengan Pro, pilih template (rapat umum, rapat 1:1, rapat harian atau mingguan, catatan pelajaran, tangkap ide, daftar tindakan, draf email, atau artikel blog) dan ringkasan datang dalam bentuk itu; Pro juga meringkas setiap transkrip dengan sendirinya. Ringkasan setia pada yang dikatakan: penanggung jawab dan tenggat muncul hanya jika ada yang menyebutkannya. Dengan Pro, Anda juga bisa mengajukan pertanyaan pada transkrip. Di paket gratis, transkrip pertama Anda mendapat satu ringkasan otomatis dengan template bawaan Anda.',
+      'faq.q7': 'Apakah Verbi tersedia di Android?',
+      'faq.a7': 'Ya. Verbi ada di Google Play untuk ponsel Android dan di App Store untuk iPhone.',
+      'faq.q8': 'Bisakah saya mentranskripsikan file audio dan video yang sudah ada?',
+      'faq.a8': 'Bisa. Impor file audio, bagikan audio ke Verbi dari aplikasi lain, atau tempel tautan YouTube, dan Verbi mentranskripsikannya seperti rekaman yang dibuat di aplikasi. File yang diimpor dihitung dalam 60 menit sebulan paket gratis, dan aplikasi menampilkan batas impor video di paket gratis bila ada.',
+      'guides.title': 'Panduan',
+      'guides.body': 'Langkah demi langkah: memo suara, kuliah, rapat, wawancara, dan video.',
+      'guide.voice.h': 'Ubah rekaman suara menjadi teks',
+      'guide.voice.p': 'Memo suara dan file audio menjadi teks yang rapi dan bisa dicari.',
+      'guide.voice.href': '/id/suara-ke-teks/',
+      'guide.video.h': 'Ubah video YouTube menjadi teks',
+      'guide.video.p': 'Tempel tautan videonya dan dapatkan transkripnya.',
+      'guide.video.href': '/id/video-youtube-ke-teks/',
+      'guide.lecture.h': 'Perekam kuliah dengan transkrip dan catatan',
+      'guide.lecture.p': 'Rekam atau impor kelas, dapatkan transkrip lengkap dan catatan pelajaran yang dibuat darinya.',
+      'guide.lecture.href': '/id/rekam-kuliah-dan-transkrip/',
+      'guide.meeting.h': 'Notulen rapat AI',
+      'guide.meeting.p': 'Keputusan dan tugas dari rekaman Anda, dengan penanggung jawab dan tanggal hanya jika ada yang menyebutkannya.',
+      'guide.meeting.href': '/id/notulen-rapat-ai/',
+      'guide.interview.h': 'Transkripsi wawancara',
+      'guide.interview.p': 'Seluruh percakapan dengan pembicara yang dibedakan, siap dikutip.',
+      'guide.interview.href': '/id/transkripsi-wawancara/'
+    },
+    nl: {
+      'meta.title': 'Verbi: AI-notulist en voicerecorder',
+      'meta.desc': 'Verbi neemt vergaderingen, colleges en interviews op, zet ze in 39 talen om in tekst, waaronder Nederlands, en maakt een samenvatting met een takenlijst.',
+      'lang.label': 'Taal',
+      'rec.live': 'Opname loopt',
+      'rec.done': 'Notities klaar',
+      'hero.title': 'Jij praat. Verbi noteert.',
+      'hero.lede': 'Neem een vergadering, college of interview op. Verbi schrijft het uit in 39 talen, waaronder Nederlands, houdt de sprekers uit elkaar en geeft je een samenvatting met een takenlijst.',
+      'hero.free': 'Gratis te downloaden, met elke maand 60 minuten transcriptie.',
+      'badge.apple': 'Download in de App Store',
+      'badge.play': 'Ontdek het op Google Play',
+      'demo.title': 'Lees een vergadering van een uur in een minuut.',
+      'demo.body': 'Verbi schrijft elk woord uit en houdt de sprekers uit elkaar. Daarna haalt het de besluiten en taken eruit, met eigenaren en deadlines alleen als iemand ze heeft genoemd.',
+      'demo.tabs': 'Wat Verbi van de opname maakte',
+      'tab.review': 'Weekoverleg',
+      'tab.email': 'Concept-e-mail',
+      'tab.ask': 'AI-chat',
+      'app.title': 'Wat Verbi met een opname doet',
+      'app.body': 'Vanaf het moment dat je op opnemen drukt tot het moment dat je de taken verdeelt.',
+      'shot.0': 'Verbi neemt een college op, de woorden verschijnen meteen',
+      'shot.1': 'Een transcript van een vergadering met drie sprekers met naam en tijdstempels',
+      'shot.2': 'Aan Verbi vragen welke besluiten er in een vergadering zijn genomen',
+      'g1.h': 'Neem de hele vergadering of het hele college op',
+      'g1.p': 'Druk op opnemen, importeer een bestand of deel audio vanuit een andere app. Je kunt Verbi verlaten terwijl een lange opname wordt getranscribeerd: op Android en op iPhone met iOS 26 of nieuwer krijg je een melding zodra je notities klaar zijn, en op oudere iOS-versies gaat de upload op de achtergrond door.',
+      'g1.f1': 'Lange opnames',
+      'g1.d1': 'Een vergadering van een uur of een heel college, van begin tot eind getranscribeerd binnen de uren van je abonnement.',
+      'g1.f2': 'Live transcriptie',
+      'g1.d2': 'Zie de woorden verschijnen terwijl je praat.',
+      'g1.f3': 'Importeren en delen',
+      'g1.d3': 'Haal audio uit Bestanden of deel het vanuit elke app.',
+      'g1.f4': 'Vergaderherinneringen',
+      'g1.d4': 'Verbi leest je agenda en herinnert je eraan op te nemen als een vergadering begint.',
+      'g1.note': 'Gratis abonnement: 60 minuten transcriptie per maand (één lang college kan ze in zijn eentje opmaken) en alleen je eerste AI-samenvatting.',
+      'g2.h': 'Weet wie wat zei',
+      'g2.p': 'Verbi schrijft in 39 talen, waaronder Nederlands, en kan de taal zelf herkennen. Het scheidt de stemmen in de ruimte, zodat je elke stem een naam kunt geven.',
+      'g2.f1': '39 talen',
+      'g2.d1': 'Nederlands, Engels, Spaans, Frans, Duits, Japans en meer.',
+      'g2.f2': 'Sprekerherkenning',
+      'g2.d2': 'Zie wie wat zei en geef elke stem een naam (Pro).',
+      'g2.f3': 'Eigen woordenlijst',
+      'g2.d3': 'Leer Verbi de namen, bedrijven en afkortingen die het steeds verkeerd schrijft.',
+      'g2.f4': 'Vertaling',
+      'g2.d4': 'Lees elk transcript in een van de 15 talen van de app, waaronder Nederlands (Pro).',
+      'g3.h': 'Krijg de samenvatting die je nodig hebt',
+      'g3.p': 'Met Pro kies je een sjabloon en komt de samenvatting in die vorm terug, trouw aan wat er echt is gezegd: eigenaren en deadlines verschijnen alleen als iemand ze heeft genoemd. Met Pro krijgt elk transcript ook zelf een samenvatting; in het gratis abonnement alleen het eerste.',
+      'g3.f1': 'Negen sjablonen',
+      'g3.d1': 'Algemene vergadering, 1-op-1-gesprek, dagelijkse stand-up, weekoverleg, lesaantekeningen, idee vastleggen, concept-e-mail, actiepunten, blogartikel.',
+      'g3.f2': 'Vraag het transcript',
+      'g3.d2': 'Stel een vraag en krijg een antwoord op basis van wat er echt is gezegd (Pro).',
+      'g3.f3': 'Zoeken',
+      'g3.d3': 'Vind een opname via alles wat erin is gezegd.',
+      'g3.f4': 'Exporteren',
+      'g3.d4': 'Kopieer de tekst, of deel hem met Pro of bewaar hem als txt of pdf.',
+      'privacy.title': 'Je opnames staan op je telefoon.',
+      'privacy.body': 'Verbi heeft geen account en geen cloudsynchronisatie. Om te transcriberen wordt de audio naar onze aanbieders van spraakherkenning gestuurd, meestal via onze server. Voor samenvattingen, chat en vertaling gaat de tekst van het transcript naar een AI-aanbieder. Gebruiksstatistieken bevatten nooit je opnames of transcripten, en je kunt ze uitzetten in Instellingen.',
+      'privacy.link': 'Lees het privacybeleid (in het Engels)',
+      'plans.title': 'Begin gratis',
+      'plans.body': 'Download Verbi en transcribeer elke maand 60 minuten zonder kosten. Heb je meer nodig, dan geven Pro en MAX je uren transcriptie.',
+      'free.name': 'Gratis',
+      'free.sub': 'Probeer Verbi uit op je eigen opnames.',
+      'pro.sub': 'Alles uit Gratis, plus uren transcriptie.',
+      'bar.cta': 'Download',
+      'free.1': '60 minuten transcriptie per maand',
+      'free.2': 'Opnames 15 dagen bewaard',
+      'free.3': 'Live transcriptie (basis op iPhone)',
+      'free.4': 'Je eerste AI-samenvatting',
+      'pro.1': '20 uur transcriptie per maand (5 per week bij het wekelijkse abonnement)',
+      'pro.2': 'Een AI-samenvatting bij elk transcript',
+      'pro.3': 'Sprekerherkenning',
+      'pro.4': 'Vertaling',
+      'pro.5': 'Live transcriptie van hoge kwaliteit op iPhone',
+      'pro.6': 'Opnames worden na 15 dagen niet verwijderd',
+      'max.sub': 'Twee keer zoveel uren als Pro, voor intensief gebruik.',
+      'max.1': '40 uur transcriptie per maand (10 per week bij het wekelijkse abonnement)',
+      'max.2': 'Alles uit Pro',
+      'extra.name': 'Extra uren',
+      'extra.sub': 'Voor de weken dat het uitloopt.',
+      'extra.1': 'Pakketten van 5 of 15 extra uur',
+      'extra.2': 'Ze verlopen nooit',
+      'extra.3': 'Gebruikt zodra de uren van je abonnement op zijn',
+      'plans.fine': 'Pro en MAX zijn abonnementen (wekelijks, maandelijks of jaarlijks), en extra uren zijn een eenmalige aankoop voor abonnees. De uren van je abonnement worden bij wekelijkse abonnementen elke week en bij maandelijkse en jaarlijkse abonnementen elke maand gereset, en worden niet meegenomen. De app toont de prijs in jouw valuta voordat je je abonneert.',
+      'cta.title': 'Neem je volgende vergadering op met Verbi.',
+      'foot.label': 'Juridisch en contact',
+      'foot.help': 'Hulp',
+      'foot.help.href': '/nl/hulp/',
+      'foot.privacy': 'Privacybeleid',
+      'foot.terms': 'Servicevoorwaarden',
+      'foot.contact': 'Contact',
+      'foot.about': 'Verbi op theverbi.com is de AI-voicerecorder en notulist voor vergaderingen, colleges en interviews, op iPhone en Android.',
+      'og.desc': 'Jij praat. Verbi noteert: een transcript in 39 talen, de sprekers uit elkaar gehouden en een samenvatting met een takenlijst.',
+      'og.alt': 'Jij praat. Verbi noteert.',
+      'faq.title': 'Vragen en antwoorden',
+      'faq.q1': 'Is Verbi gratis?',
+      'faq.a1': 'Ja, Verbi is gratis te downloaden. Het gratis abonnement bevat 60 minuten transcriptie per maand, live transcriptie (basis op iPhone), één automatische AI-samenvatting en het kopiëren van de tekst, en bewaart opnames 15 dagen. Verbi Pro (20 uur transcriptie per maand, of 5 per week bij het wekelijkse abonnement) en MAX (twee keer zoveel uren) zijn optionele abonnementen; de app toont de prijs in jouw valuta voordat je je abonneert.',
+      'faq.q2': 'Welke talen begrijpt Verbi?',
+      'faq.a2': 'Verbi transcribeert 39 talen, waaronder Nederlands, Engels, Spaans, Frans, Duits, Turks, Italiaans, Portugees, Arabisch, Japans en Chinees. Je kunt de taal kiezen of op automatisch herkennen laten staan.',
+      'faq.q3': 'Kan Verbi Nederlands transcriberen?',
+      'faq.a3': 'Ja. Nederlands is een van de 39 talen die Verbi transcribeert, en terugkerende namen en termen kun je toevoegen aan de eigen woordenlijst. Vanaf versie 1.5.0 op iPhone en 1.3.0 op Android is ook de app zelf in het Nederlands beschikbaar, en dan komen samenvattingen en chatantwoorden ook in het Nederlands. Met Pro kun je ook naar het Nederlands vertalen.',
+      'faq.q4': 'Hoe lang mag een opname zijn?',
+      'faq.a4': 'Pro dekt lange opnames: een vergadering van een uur of een heel college wordt van begin tot eind getranscribeerd, binnen de uren van je abonnement (Pro: 20 uur per maand of 5 per week; MAX: 40 uur per maand of 10 per week). Als ze op zijn, kun je extra uren toevoegen die nooit verlopen. In het gratis abonnement delen je opnames 60 minuten per maand, en op iPhone stopt een opname als die op zijn. Je kunt de app verlaten terwijl een lange opname wordt getranscribeerd. Op Android en op iPhone met iOS 26 of nieuwer laat Verbi het weten als het klaar is; op oudere iOS-versies gaat de upload op de achtergrond door en staat het transcript klaar als je de app weer opent.',
+      'faq.q5': 'Waar worden mijn opnames bewaard?',
+      'faq.a5': 'Op je telefoon. Verbi heeft geen account en geen cloudsynchronisatie, dus opnames en transcripten staan op je toestel. Om te transcriberen wordt de audio naar onze aanbieders van spraakherkenning gestuurd, meestal via onze server; voor samenvattingen, chat en vertaling gaat de tekst van het transcript naar een AI-aanbieder. Het privacybeleid legt uit wat er wordt verstuurd, waarheen en hoe lang.',
+      'faq.q6': 'Maakt Verbi samenvattingen van opnames?',
+      'faq.a6': 'Ja. Kies met Pro een sjabloon (algemene vergadering, 1-op-1-gesprek, dagelijkse stand-up of weekoverleg, lesaantekeningen, idee vastleggen, actiepunten, concept-e-mail of blogartikel) en de samenvatting komt in die vorm terug; Pro vat ook elk transcript zelf samen. Samenvattingen blijven bij wat er is gezegd: eigenaren en deadlines verschijnen alleen als iemand ze heeft genoemd. Met Pro kun je ook vragen stellen aan het transcript. In het gratis abonnement krijgt je eerste transcript automatisch één samenvatting, met je standaardsjabloon.',
+      'faq.q7': 'Is Verbi beschikbaar op Android?',
+      'faq.a7': 'Ja. Verbi staat op Google Play voor Android-telefoons en in de App Store voor iPhone.',
+      'faq.q8': 'Kan ik audiobestanden en video’s die ik al heb transcriberen?',
+      'faq.a8': 'Ja. Importeer een audiobestand, deel audio met Verbi vanuit een andere app of plak een YouTube-link, en Verbi transcribeert het als een opname die in de app is gemaakt. Geïmporteerde bestanden tellen mee voor de 60 minuten per maand van het gratis abonnement, en de app toont een eventuele limiet voor video-import in het gratis abonnement.',
+      'guides.title': 'Gidsen',
+      'guides.body': 'Stap voor stap: spraakmemo’s, colleges, vergaderingen, interviews en video’s.',
+      'guide.voice.h': 'Zet een spraakopname om in tekst',
+      'guide.voice.p': 'Spraakmemo’s en audiobestanden als nette, doorzoekbare tekst.',
+      'guide.voice.href': '/nl/spraak-naar-tekst/',
+      'guide.video.h': 'Zet een YouTube-video om in tekst',
+      'guide.video.p': 'Plak de link van de video en krijg het transcript.',
+      'guide.video.href': '/nl/youtube-video-naar-tekst/',
+      'guide.lecture.h': 'Collegerecorder met transcript en aantekeningen',
+      'guide.lecture.p': 'Neem een les op of importeer hem, en krijg het volledige transcript en de lesaantekeningen die ervan worden gemaakt.',
+      'guide.lecture.href': '/nl/college-opnemen-en-transcriberen/',
+      'guide.meeting.h': 'AI-vergadernotulen',
+      'guide.meeting.p': 'Besluiten en taken uit je opname, met eigenaren en data alleen als iemand ze noemde.',
+      'guide.meeting.href': '/nl/ai-vergadernotulen/',
+      'guide.interview.h': 'Interviews transcriberen',
+      'guide.interview.p': 'Het hele gesprek met de sprekers uit elkaar gehouden, klaar om uit te citeren.',
+      'guide.interview.href': '/nl/interview-transcriberen/'
+    },
+    pl: {
+      'meta.title': 'Verbi: dyktafon AI i asystent notatek',
+      'meta.desc': 'Verbi nagrywa spotkania, wykłady i wywiady, transkrybuje je w 39 językach, także po polsku, i przygotowuje podsumowanie z listą zadań.',
+      'lang.label': 'Język',
+      'rec.live': 'Nagrywanie',
+      'rec.done': 'Notatki gotowe',
+      'hero.title': 'Ty mówisz. Verbi notuje.',
+      'hero.lede': 'Nagraj spotkanie, wykład lub wywiad. Verbi spisze je w 39 językach, także po polsku, rozpozna, kto mówi, i da Ci podsumowanie z listą zadań.',
+      'hero.free': 'Pobierzesz za darmo, a co miesiąc dostajesz 60 minut transkrypcji.',
+      'badge.apple': 'Pobierz w App Store',
+      'badge.play': 'Pobierz z Google Play',
+      'demo.title': 'Godzinne spotkanie przeczytasz w minutę.',
+      'demo.body': 'Verbi spisuje każde słowo i rozróżnia mówców. Potem wyciąga decyzje i zadania, a osoby odpowiedzialne i terminy podaje tylko wtedy, gdy ktoś je wypowiedział.',
+      'demo.tabs': 'Co Verbi zrobiło z nagrania',
+      'tab.review': 'Spotkanie tygodniowe',
+      'tab.email': 'Wersja robocza e-maila',
+      'tab.ask': 'Czat AI',
+      'app.title': 'Co Verbi robi z nagraniem',
+      'app.body': 'Od chwili, gdy naciśniesz nagrywanie, do chwili, gdy rozdzielisz zadania.',
+      'shot.0': 'Verbi nagrywa wykład, a słowa pojawiają się na żywo',
+      'shot.1': 'Transkrypcja spotkania z trzema mówcami z imionami i znacznikami czasu',
+      'shot.2': 'Pytanie do Verbi, jakie decyzje zapadły na spotkaniu',
+      'g1.h': 'Nagraj całe spotkanie lub wykład',
+      'g1.p': 'Naciśnij nagrywanie, zaimportuj plik albo udostępnij dźwięk z innej aplikacji. Podczas transkrypcji długiego nagrania możesz wyjść z Verbi: na Androidzie i na iPhonie z iOS 26 lub nowszym dostaniesz powiadomienie, gdy notatki będą gotowe, a w starszych wersjach iOS przesyłanie trwa w tle.',
+      'g1.f1': 'Długie nagrania',
+      'g1.d1': 'Godzinne spotkanie albo cały wykład, przetranskrybowane od początku do końca w ramach godzin Twojego planu.',
+      'g1.f2': 'Transkrypcja na żywo',
+      'g1.d2': 'Patrz, jak słowa pojawiają się w trakcie mówienia.',
+      'g1.f3': 'Import i udostępnianie',
+      'g1.d3': 'Weź dźwięk z aplikacji Pliki albo udostępnij go z dowolnej aplikacji.',
+      'g1.f4': 'Przypomnienia o spotkaniach',
+      'g1.d4': 'Verbi czyta Twój kalendarz i przypomina o nagrywaniu, gdy zaczyna się spotkanie.',
+      'g1.note': 'Plan bezpłatny: 60 minut transkrypcji miesięcznie (jeden długi wykład może je zużyć sam) i tylko pierwsze podsumowanie AI.',
+      'g2.h': 'Wiesz, kto co powiedział',
+      'g2.p': 'Verbi pisze w 39 językach, także po polsku, i potrafi samo rozpoznać język. Oddziela głosy w pomieszczeniu, żeby można było nadać każdemu imię.',
+      'g2.f1': '39 języków',
+      'g2.d1': 'Polski, angielski, hiszpański, francuski, niemiecki, japoński i inne.',
+      'g2.f2': 'Rozpoznawanie mówców',
+      'g2.d2': 'Zobacz, kto co powiedział, i nadaj każdemu głosowi imię (Pro).',
+      'g2.f3': 'Własne słownictwo',
+      'g2.d3': 'Naucz Verbi imion, nazw firm i skrótów, które ciągle myli.',
+      'g2.f4': 'Tłumaczenie',
+      'g2.d4': 'Czytaj każdą transkrypcję w jednym z 15 języków aplikacji, także po polsku (Pro).',
+      'g3.h': 'Dostań podsumowanie, jakiego potrzebujesz',
+      'g3.p': 'Z Pro wybierasz szablon, a podsumowanie wraca w tej formie, trzymając się tego, co naprawdę padło: osoby odpowiedzialne i terminy pojawiają się tylko wtedy, gdy ktoś je wypowiedział. Z Pro każda transkrypcja dostaje podsumowanie automatycznie; w planie bezpłatnym tylko pierwsza.',
+      'g3.f1': 'Dziewięć szablonów',
+      'g3.d1': 'Spotkanie ogólne, spotkanie 1:1, codzienne spotkanie, spotkanie tygodniowe, notatki z zajęć, zapis pomysłu, wersja robocza e-maila, lista działań, wpis na bloga.',
+      'g3.f2': 'Zapytaj transkrypcję',
+      'g3.d2': 'Zadaj pytanie i dostań odpowiedź opartą na tym, co faktycznie padło (Pro).',
+      'g3.f3': 'Wyszukiwanie',
+      'g3.d3': 'Znajdź nagranie po czymkolwiek, co w nim powiedziano.',
+      'g3.f4': 'Eksport',
+      'g3.d4': 'Skopiuj tekst albo z Pro udostępnij go lub zapisz jako TXT lub PDF.',
+      'privacy.title': 'Twoje nagrania są na Twoim telefonie.',
+      'privacy.body': 'Verbi nie ma konta ani synchronizacji z chmurą. Do transkrypcji dźwięk jest wysyłany do naszych dostawców rozpoznawania mowy, zwykle przez nasz serwer. Do podsumowań, czatu i tłumaczeń tekst transkrypcji trafia do dostawcy AI. Statystyki użycia nigdy nie zawierają Twoich nagrań ani transkrypcji, a w Ustawieniach możesz je wyłączyć.',
+      'privacy.link': 'Przeczytaj politykę prywatności (po angielsku)',
+      'plans.title': 'Zacznij za darmo',
+      'plans.body': 'Pobierz Verbi i transkrybuj 60 minut miesięcznie bez opłat. Gdy potrzebujesz więcej, Pro i MAX dają godziny transkrypcji.',
+      'free.name': 'Bezpłatny',
+      'free.sub': 'Wypróbuj Verbi na własnych nagraniach.',
+      'pro.sub': 'Wszystko z planu bezpłatnego plus godziny transkrypcji.',
+      'bar.cta': 'Pobierz',
+      'free.1': '60 minut transkrypcji miesięcznie',
+      'free.2': 'Nagrania przechowywane 15 dni',
+      'free.3': 'Transkrypcja na żywo (podstawowa na iPhonie)',
+      'free.4': 'Pierwsze podsumowanie AI',
+      'pro.1': '20 godzin transkrypcji miesięcznie (5 tygodniowo w planie tygodniowym)',
+      'pro.2': 'Podsumowanie AI do każdej transkrypcji',
+      'pro.3': 'Rozpoznawanie mówców',
+      'pro.4': 'Tłumaczenie',
+      'pro.5': 'Transkrypcja na żywo wysokiej jakości na iPhonie',
+      'pro.6': 'Nagrania nie są usuwane po 15 dniach',
+      'max.sub': 'Dwa razy więcej godzin niż w Pro, do intensywnego użytkowania.',
+      'max.1': '40 godzin transkrypcji miesięcznie (10 tygodniowo w planie tygodniowym)',
+      'max.2': 'Wszystko z Pro',
+      'extra.name': 'Dodatkowe godziny',
+      'extra.sub': 'Na tygodnie, które się przeciągają.',
+      'extra.1': 'Pakiety po 5 lub 15 dodatkowych godzin',
+      'extra.2': 'Nigdy nie wygasają',
+      'extra.3': 'Wykorzystywane, gdy skończą się godziny Twojego planu',
+      'plans.fine': 'Pro i MAX to subskrypcje (tygodniowe, miesięczne lub roczne), a dodatkowe godziny to jednorazowy zakup dla subskrybentów. Godziny planu odnawiają się co tydzień w planach tygodniowych i co miesiąc w planach miesięcznych i rocznych oraz nie przechodzą na kolejny okres. Aplikacja pokazuje cenę w Twojej walucie przed zakupem subskrypcji.',
+      'cta.title': 'Nagraj następne spotkanie z Verbi.',
+      'foot.label': 'Informacje prawne i kontakt',
+      'foot.help': 'Pomoc',
+      'foot.help.href': '/pl/pomoc/',
+      'foot.privacy': 'Polityka prywatności',
+      'foot.terms': 'Warunki korzystania z usługi',
+      'foot.contact': 'Kontakt',
+      'foot.about': 'Verbi na theverbi.com to dyktafon AI i aplikacja do notatek ze spotkań, wykładów i wywiadów na iPhone’a i Androida.',
+      'og.desc': 'Ty mówisz. Verbi notuje: transkrypcja w 39 językach, rozróżnieni mówcy i podsumowanie z listą zadań.',
+      'og.alt': 'Ty mówisz. Verbi notuje.',
+      'faq.title': 'Pytania i odpowiedzi',
+      'faq.q1': 'Czy Verbi jest bezpłatne?',
+      'faq.a1': 'Tak, Verbi pobierzesz za darmo. Plan bezpłatny obejmuje 60 minut transkrypcji miesięcznie, transkrypcję na żywo (podstawową na iPhonie), jedno automatyczne podsumowanie AI i kopiowanie tekstu, a nagrania są przechowywane 15 dni. Verbi Pro (20 godzin transkrypcji miesięcznie lub 5 tygodniowo w planie tygodniowym) i MAX (dwa razy więcej godzin) to opcjonalne subskrypcje; aplikacja pokazuje ich cenę w Twojej walucie przed zakupem.',
+      'faq.q2': 'Jakie języki rozumie Verbi?',
+      'faq.a2': 'Verbi transkrybuje 39 języków, m.in. polski, angielski, hiszpański, francuski, niemiecki, turecki, włoski, portugalski, arabski, japoński i chiński. Język możesz wybrać albo zostawić automatyczne wykrywanie.',
+      'faq.q3': 'Czy Verbi poradzi sobie z polskim?',
+      'faq.a3': 'Tak. Polski jest jednym z 39 języków, które transkrybuje Verbi, a powtarzające się imiona i terminy możesz dodać do własnego słownictwa. Od wersji 1.5.0 na iPhonie i 1.3.0 na Androidzie sama aplikacja też jest po polsku, a wtedy podsumowania i odpowiedzi czatu też są po polsku. Z Pro można też tłumaczyć na polski.',
+      'faq.q4': 'Jak długie może być nagranie?',
+      'faq.a4': 'Pro obsługuje długie nagrania: godzinne spotkanie albo cały wykład jest transkrybowany od początku do końca w ramach godzin Twojego planu (Pro: 20 godzin miesięcznie lub 5 tygodniowo; MAX: 40 godzin miesięcznie lub 10 tygodniowo). Gdy się skończą, możesz dokupić dodatkowe godziny, które nigdy nie wygasają. W planie bezpłatnym wszystkie nagrania dzielą 60 minut miesięcznie, a na iPhonie nagranie zatrzymuje się, gdy się skończą. Podczas transkrypcji długiego nagrania możesz wyjść z aplikacji. Na Androidzie i na iPhonie z iOS 26 lub nowszym Verbi powiadomi Cię, gdy będzie gotowe; w starszych wersjach iOS przesyłanie trwa w tle, a transkrypcja czeka po ponownym otwarciu aplikacji.',
+      'faq.q5': 'Gdzie są przechowywane moje nagrania?',
+      'faq.a5': 'Na Twoim telefonie. Verbi nie ma konta ani synchronizacji z chmurą, więc nagrania i transkrypcje są na Twoim urządzeniu. Do transkrypcji dźwięk jest wysyłany do naszych dostawców rozpoznawania mowy, zwykle przez nasz serwer; do podsumowań, czatu i tłumaczeń tekst transkrypcji trafia do dostawcy AI. Polityka prywatności wyjaśnia, co jest wysyłane, dokąd i na jak długo.',
+      'faq.q6': 'Czy Verbi robi podsumowania nagrań?',
+      'faq.a6': 'Tak. Z Pro wybierasz szablon (spotkanie ogólne, spotkanie 1:1, codzienne lub tygodniowe spotkanie, notatki z zajęć, zapis pomysłu, lista działań, wersja robocza e-maila albo wpis na bloga), a podsumowanie wraca w tej formie; Pro samo podsumowuje też każdą transkrypcję. Podsumowania trzymają się tego, co padło: osoby odpowiedzialne i terminy pojawiają się tylko wtedy, gdy ktoś je wypowiedział. Z Pro możesz też zadawać pytania do transkrypcji. W planie bezpłatnym Twoja pierwsza transkrypcja dostaje jedno podsumowanie automatycznie, z domyślnym szablonem.',
+      'faq.q7': 'Czy Verbi jest dostępne na Androida?',
+      'faq.a7': 'Tak. Verbi jest w Google Play na telefony z Androidem i w App Store na iPhone’a.',
+      'faq.q8': 'Czy mogę transkrybować pliki audio i filmy, które już mam?',
+      'faq.a8': 'Tak. Zaimportuj plik audio, udostępnij dźwięk do Verbi z innej aplikacji albo wklej link do YouTube, a Verbi przetranskrybuje go jak nagranie zrobione w aplikacji. Zaimportowane pliki liczą się do 60 minut miesięcznie w planie bezpłatnym, a aplikacja pokazuje ewentualny limit importu filmów w tym planie.',
+      'guides.title': 'Poradniki',
+      'guides.body': 'Krok po kroku: notatki głosowe, wykłady, spotkania, wywiady i filmy.',
+      'guide.voice.h': 'Zamień nagranie głosowe na tekst',
+      'guide.voice.p': 'Notatki głosowe i pliki audio jako czysty tekst, który można przeszukiwać.',
+      'guide.voice.href': '/pl/glos-na-tekst/',
+      'guide.video.h': 'Zamień film z YouTube na tekst',
+      'guide.video.p': 'Wklej link do filmu i dostań transkrypcję.',
+      'guide.video.href': '/pl/film-z-youtube-na-tekst/',
+      'guide.lecture.h': 'Nagrywanie wykładów z transkrypcją i notatkami',
+      'guide.lecture.p': 'Nagraj lub zaimportuj zajęcia i dostań pełną transkrypcję oraz notatki z zajęć zbudowane na jej podstawie.',
+      'guide.lecture.href': '/pl/nagrywanie-wykladow-i-notatki/',
+      'guide.meeting.h': 'Notatki ze spotkań AI',
+      'guide.meeting.p': 'Decyzje i zadania z nagrania; osoby odpowiedzialne i terminy tylko wtedy, gdy ktoś je wypowiedział.',
+      'guide.meeting.href': '/pl/notatki-ze-spotkan-ai/',
+      'guide.interview.h': 'Transkrypcja wywiadów',
+      'guide.interview.p': 'Cała rozmowa z rozróżnionymi mówcami, gotowa do cytowania.',
+      'guide.interview.href': '/pl/transkrypcja-wywiadow/'
     }
   };
 
@@ -1783,7 +2946,15 @@ h1, h2, h3, dt, summary { overflow-wrap: break-word; }
     pt: { apple: ['/assets/app-store-badge-en.svg', 144, 48], play: ['/assets/google-play-badge-en.png', 161, 48] },
     es: { apple: ['/assets/app-store-badge-en.svg', 144, 48], play: ['/assets/google-play-badge-en.png', 161, 48] },
     fr: { apple: ['/assets/app-store-badge-en.svg', 144, 48], play: ['/assets/google-play-badge-en.png', 161, 48] },
-    it: { apple: ['/assets/app-store-badge-en.svg', 144, 48], play: ['/assets/google-play-badge-en.png', 161, 48] }
+    it: { apple: ['/assets/app-store-badge-en.svg', 144, 48], play: ['/assets/google-play-badge-en.png', 161, 48] },
+    ru: { apple: ['/assets/app-store-badge-en.svg', 144, 48], play: ['/assets/google-play-badge-en.png', 161, 48] },
+    ar: { apple: ['/assets/app-store-badge-en.svg', 144, 48], play: ['/assets/google-play-badge-en.png', 161, 48] },
+    ja: { apple: ['/assets/app-store-badge-en.svg', 144, 48], play: ['/assets/google-play-badge-en.png', 161, 48] },
+    ko: { apple: ['/assets/app-store-badge-en.svg', 144, 48], play: ['/assets/google-play-badge-en.png', 161, 48] },
+    zh: { apple: ['/assets/app-store-badge-en.svg', 144, 48], play: ['/assets/google-play-badge-en.png', 161, 48] },
+    id: { apple: ['/assets/app-store-badge-en.svg', 144, 48], play: ['/assets/google-play-badge-en.png', 161, 48] },
+    nl: { apple: ['/assets/app-store-badge-en.svg', 144, 48], play: ['/assets/google-play-badge-en.png', 161, 48] },
+    pl: { apple: ['/assets/app-store-badge-en.svg', 144, 48], play: ['/assets/google-play-badge-en.png', 161, 48] }
   };
 
   /* Each phrase is heard word by word (interim: lower case, no punctuation),
@@ -1882,6 +3053,63 @@ h1, h2, h3, dt, summary { overflow-wrap: break-word; }
           ['prende', 'prende'],
           ['appunti', 'appunti.']
         ]
+      ]
+    },
+    ru: {
+      lines: [[0, 1], [2], [3, 4]],
+      phrases: [
+        [['вы', 'Вы'], ['говорите', 'говорите.']],
+        [['verbi', 'Verbi'], ['пишет', 'пишет'], ['заметки', 'заметки.']]
+      ]
+    },
+    ar: {
+      lines: [[0, 1], [2], [3, 4]],
+      phrases: [
+        [['أنت', 'أنت'], ['تتحدث', 'تتحدث.']],
+        [['verbi', 'Verbi'], ['يدون', 'يدوّن'], ['الملاحظات', 'الملاحظات.']]
+      ]
+    },
+    ja: {
+      sep: '',
+      lines: [[0, 1], [2, 3]],
+      phrases: [
+        [['話すのは', '話すのは'], ['あなた', 'あなた。']],
+        [['メモは', 'メモは'], ['verbiが', 'Verbiが。']]
+      ]
+    },
+    ko: {
+      lines: [[0], [1, 2]],
+      phrases: [
+        [['말하세요', '말하세요.']],
+        [['기록은', '기록은'], ['verbi가', 'Verbi가.']]
+      ]
+    },
+    zh: {
+      lines: [[0], [1, 2]],
+      phrases: [
+        [['你来说', '你来说，']],
+        [['笔记交给', '笔记交给'], ['verbi', 'Verbi。']]
+      ]
+    },
+    id: {
+      lines: [[0, 1], [2, 3]],
+      phrases: [
+        [['anda', 'Anda'], ['bicara', 'bicara.']],
+        [['verbi', 'Verbi'], ['mencatat', 'mencatat.']]
+      ]
+    },
+    nl: {
+      lines: [[0, 1], [2, 3]],
+      phrases: [
+        [['jij', 'Jij'], ['praat', 'praat.']],
+        [['verbi', 'Verbi'], ['noteert', 'noteert.']]
+      ]
+    },
+    pl: {
+      lines: [[0, 1], [2, 3]],
+      phrases: [
+        [['ty', 'Ty'], ['mówisz', 'mówisz.']],
+        [['verbi', 'Verbi'], ['notuje', 'notuje.']]
       ]
     }
   };
@@ -2287,6 +3515,366 @@ h1, h2, h3, dt, summary { overflow-wrap: break-word; }
         ['q', 'Quando lanciamo?'],
         ['a', 'On Tuesday, October 14. Luca will have the release candidate ready by October 10.']
       ]
+    },
+    ru: {
+      title: 'Недельная встреча по продукту',
+      meta: 'Пример записи, 52 мин',
+      transcript: [
+        ['Мария', '00:00', 'Так, начинаем. Сегодня в повестке три вопроса: дата запуска, бета-версия и маркетинговый бюджет. Лев, как у нас дела со сборкой для релиза?'],
+        ['Лев', '00:12', 'Всё хорошо. Новый поиск готов, а вчера мы починили сбой синхронизации на старых телефонах. {rc|Релиз-кандидат будет готов к 10 октября}, поэтому предлагаю запуститься во вторник, 14 октября.'],
+        ['Мария', '00:27', 'Меня 14 октября устраивает. Клара, это ложится на кампанию?'],
+        ['Клара', '00:33', 'Да. {shots|Финальные скриншоты нужны мне к 6 октября}, чтобы подготовить страницу в App Store. По бюджету прошу двенадцать тысяч долларов: восемь на рекламу в соцсетях и четыре на сотрудничество с блогерами.'],
+        ['Мария', '00:48', 'Давайте пока утвердим десять тысяч, а бюджет на блогеров пересмотрим после первой недели запуска.'],
+        ['Клара', '01:02', 'Согласна. {survey|В пятницу отправлю опрос для беты.}'],
+        ['Мария', '01:09', 'Отлично. {finance|В понедельник сообщу финансистам решение по бюджету.}']
+      ],
+      review: {
+        topicsH: 'Темы', topics: 'Дата запуска, бета-версия, маркетинговый бюджет',
+        decisionsH: 'Решения',
+        decisions: ['Запуск во вторник, 14 октября.', 'Пока утверждено 10 000 долларов. Бюджет на блогеров пересмотрят после первой недели запуска.'],
+        tasksH: 'Список задач',
+        tasks: [
+          ['Лев', 'Подготовить релиз-кандидат', '10 окт.', 'rc'],
+          ['Клара', 'Передать финальные скриншоты', '6 окт.', 'shots'],
+          ['Клара', 'Отправить опрос для беты', 'Пятница', 'survey'],
+          ['Мария', 'Сообщить финансистам решение по бюджету', 'Понедельник', 'finance']
+        ],
+        hint: 'Выберите задачу, чтобы увидеть, где это прозвучало.',
+        at: (who, ts) => `${who}, ${ts}`,
+        quotes: ['«', '»']
+      },
+      email: {
+        subjectLabel: 'Тема',
+        subject: 'Недельная встреча по продукту: дата запуска и бюджет',
+        body: [
+          'Привет, команда!',
+          'Запускаемся во вторник, 14 октября. Лев подготовит релиз-кандидат к 10 октября, а Кларе нужны финальные скриншоты к 6 октября для страницы в App Store.',
+          'Пока мы утвердили на маркетинг 10 000 долларов. Бюджет на блогеров пересмотрим после первой недели запуска.',
+          'Клара отправит опрос для беты в пятницу, а я в понедельник сообщу финансистам решение по бюджету.',
+          'Спасибо,\nМария'
+        ]
+      },
+      ask: [
+        ['q', 'Что мы решили по бюджету?'],
+        ['a', 'Мария пока утвердила 10 000 долларов. Клара просила 12 000, а бюджет на сотрудничество с блогерами пересмотрят после первой недели запуска.'],
+        ['q', 'Когда запускаемся?'],
+        ['a', 'Во вторник, 14 октября. Лев подготовит релиз-кандидат к 10 октября.']
+      ]
+    },
+    ar: {
+      title: 'اجتماع المنتج الأسبوعي',
+      meta: 'تسجيل تجريبي، 52 دقيقة',
+      transcript: [
+        ['مريم', '00:00', 'حسنًا جميعًا، لنبدأ. أمامنا ثلاثة بنود اليوم: موعد الإطلاق والنسخة التجريبية وميزانية التسويق. ليث، أين وصلنا في نسخة الإصدار؟'],
+        ['ليث', '00:12', 'وضعنا جيد. انتهت ميزة البحث الجديدة، وأُصلح أمس انهيار المزامنة على الهواتف القديمة. {rc|ستكون النسخة المرشحة للإصدار جاهزة بحلول 10 أكتوبر}، لذا أقترح أن نطلق يوم الثلاثاء 14 أكتوبر.'],
+        ['مريم', '00:27', 'يوم 14 أكتوبر مناسب لي. سارة، هل يناسب الحملة؟'],
+        ['سارة', '00:33', 'نعم. {shots|أحتاج لقطات الشاشة النهائية بحلول 6 أكتوبر} لإعداد صفحة App Store. وبالنسبة إلى الميزانية أطلب اثني عشر ألف دولار: ثمانية للإعلانات على وسائل التواصل وأربعة للتعاون مع صنّاع المحتوى.'],
+        ['مريم', '00:48', 'لنعتمد عشرة آلاف الآن، ونراجع ميزانية صنّاع المحتوى بعد الأسبوع الأول من الإطلاق.'],
+        ['سارة', '01:02', 'موافقة. {survey|سأرسل استبيان النسخة التجريبية يوم الجمعة.}'],
+        ['مريم', '01:09', 'ممتاز. {finance|سأشارك قرار الميزانية مع المالية يوم الاثنين.}']
+      ],
+      review: {
+        topicsH: 'المواضيع', topics: 'موعد الإطلاق، النسخة التجريبية، ميزانية التسويق',
+        decisionsH: 'القرارات',
+        decisions: ['الإطلاق يوم الثلاثاء 14 أكتوبر.', 'اعتماد 10,000 دولار حاليًا. ستُراجَع ميزانية صنّاع المحتوى بعد الأسبوع الأول من الإطلاق.'],
+        tasksH: 'قائمة المهام',
+        tasks: [
+          ['ليث', 'تسليم النسخة المرشحة للإصدار', '10 أكتوبر', 'rc'],
+          ['سارة', 'تسليم لقطات الشاشة النهائية', '6 أكتوبر', 'shots'],
+          ['سارة', 'إرسال استبيان النسخة التجريبية', 'الجمعة', 'survey'],
+          ['مريم', 'مشاركة قرار الميزانية مع المالية', 'الاثنين', 'finance']
+        ],
+        hint: 'اختر مهمة لترى أين قيلت.',
+        at: (who, ts) => `${who}، ${ts}`,
+        quotes: ['«', '»']
+      },
+      email: {
+        subjectLabel: 'الموضوع',
+        subject: 'اجتماع المنتج الأسبوعي: موعد الإطلاق والميزانية',
+        body: [
+          'مرحبًا بالفريق،',
+          'سنطلق يوم الثلاثاء 14 أكتوبر. سيجهّز ليث النسخة المرشحة للإصدار بحلول 10 أكتوبر، وتحتاج سارة لقطات الشاشة النهائية بحلول 6 أكتوبر لصفحة App Store.',
+          'اعتمدنا حاليًا 10,000 دولار للتسويق. وسنراجع ميزانية صنّاع المحتوى بعد الأسبوع الأول من الإطلاق.',
+          'سترسل سارة استبيان النسخة التجريبية يوم الجمعة، وسأشارك قرار الميزانية مع المالية يوم الاثنين.',
+          'شكرًا،\nمريم'
+        ]
+      },
+      ask: [
+        ['q', 'ماذا قررنا بشأن الميزانية؟'],
+        ['a', 'اعتمدت مريم 10,000 دولار حاليًا. كانت سارة قد طلبت 12,000، وستُراجَع ميزانية التعاون مع صنّاع المحتوى بعد الأسبوع الأول من الإطلاق.'],
+        ['q', 'متى نطلق؟'],
+        ['a', 'يوم الثلاثاء 14 أكتوبر. سيجهّز ليث النسخة المرشحة للإصدار بحلول 10 أكتوبر.']
+      ]
+    },
+    ja: {
+      title: '週次プロダクト会議',
+      meta: 'サンプル録音、52分',
+      transcript: [
+        ['美咲', '00:00', 'では、始めましょう。今日の議題は3つです。ローンチ日、ベータ版、マーケティング予算。蓮さん、リリースビルドの状況はどうですか？'],
+        ['蓮', '00:12', '順調です。新しい検索機能は完成し、古い機種での同期のクラッシュも昨日直しました。{rc|リリース候補は10月10日までに用意できます}ので、ローンチは10月14日の火曜日を提案します。'],
+        ['美咲', '00:27', '10月14日で問題ありません。葵さん、キャンペーンとも合いますか？'],
+        ['葵', '00:33', 'はい。{shots|最終のスクリーンショットは10月6日までにほしいです}。App Storeのページを準備するためです。予算は1万2千ドルをお願いしたいです。内訳はSNS広告が8千ドル、クリエイターとの協業が4千ドルです。'],
+        ['美咲', '00:48', 'まずは1万ドルを承認して、クリエイター向けの予算はローンチ後の最初の1週間が過ぎてから見直しましょう。'],
+        ['葵', '01:02', 'それで大丈夫です。{survey|金曜日にベータ版のアンケートを送ります。}'],
+        ['美咲', '01:09', 'ありがとう。{finance|月曜日に、予算の決定を経理に共有します。}']
+      ],
+      review: {
+        topicsH: 'トピック', topics: 'ローンチ日、ベータ版、マーケティング予算',
+        decisionsH: '決定事項',
+        decisions: ['ローンチは10月14日（火）。', '当面は1万ドルを承認。クリエイター向けの予算は、ローンチ後の最初の1週間が過ぎてから見直す。'],
+        tasksH: 'やることリスト',
+        tasks: [
+          ['蓮', 'リリース候補を用意する', '10月10日', 'rc'],
+          ['葵', '最終のスクリーンショットを渡す', '10月6日', 'shots'],
+          ['葵', 'ベータ版のアンケートを送る', '金曜日', 'survey'],
+          ['美咲', '予算の決定を経理に共有する', '月曜日', 'finance']
+        ],
+        hint: 'タスクを選ぶと、どこで話されたかが分かります。',
+        at: (who, ts) => `${who}、${ts}`,
+        quotes: ['「', '」']
+      },
+      email: {
+        subjectLabel: '件名',
+        subject: '週次プロダクト会議: ローンチ日と予算',
+        body: [
+          'チームのみなさん',
+          'ローンチは10月14日（火）です。蓮さんがリリース候補を10月10日までに用意し、葵さんはApp Storeのページ用に最終のスクリーンショットを10月6日までに必要としています。',
+          'マーケティングには、当面1万ドルを承認しました。クリエイター向けの予算は、ローンチ後の最初の1週間が過ぎてから見直します。',
+          '葵さんは金曜日にベータ版のアンケートを送り、私は月曜日に予算の決定を経理に共有します。',
+          'よろしくお願いします。\n美咲'
+        ]
+      },
+      ask: [
+        ['q', '予算についてどう決まりましたか？'],
+        ['a', '美咲さんが当面1万ドルを承認しました。葵さんは1万2千ドルを希望していて、クリエイターとの協業予算はローンチ後の最初の1週間が過ぎてから見直されます。'],
+        ['q', 'ローンチはいつですか？'],
+        ['a', '10月14日（火）です。蓮さんがリリース候補を10月10日までに用意します。']
+      ]
+    },
+    ko: {
+      title: '주간 제품 회의',
+      meta: '예시 녹음, 52분',
+      transcript: [
+        ['미경', '00:00', '자, 시작하겠습니다. 오늘 안건은 세 가지입니다. 출시일, 베타, 마케팅 예산이요. 준호 씨, 출시 빌드는 어떻게 되고 있나요?'],
+        ['준호', '00:12', '좋은 상태입니다. 새 검색 기능은 끝났고, 구형 휴대전화의 동기화 오류도 어제 고쳤습니다. {rc|출시 후보 버전은 10월 10일까지 준비하겠습니다}, 그래서 출시는 10월 14일 화요일로 제안드립니다.'],
+        ['미경', '00:27', '10월 14일 좋습니다. 수진 씨, 캠페인과 맞나요?'],
+        ['수진', '00:33', '네. {shots|최종 스크린샷은 10월 6일까지 필요합니다}. App Store 페이지를 준비해야 해서요. 예산은 1만 2천 달러를 요청드립니다. 소셜 광고에 8천, 크리에이터 협업에 4천입니다.'],
+        ['미경', '00:48', '일단 1만 달러를 승인하고, 크리에이터 예산은 출시 첫 주가 지난 뒤에 다시 검토하죠.'],
+        ['수진', '01:02', '좋습니다. {survey|금요일에 베타 설문을 보내겠습니다.}'],
+        ['미경', '01:09', '좋아요. {finance|월요일에 예산 결정을 재무팀에 공유할게요.}']
+      ],
+      review: {
+        topicsH: '주제', topics: '출시일, 베타, 마케팅 예산',
+        decisionsH: '결정 사항',
+        decisions: ['10월 14일 화요일에 출시.', '우선 1만 달러 승인. 크리에이터 예산은 출시 첫 주가 지난 뒤 검토.'],
+        tasksH: '할 일 목록',
+        tasks: [
+          ['준호', '출시 후보 버전 전달', '10월 10일', 'rc'],
+          ['수진', '최종 스크린샷 전달', '10월 6일', 'shots'],
+          ['수진', '베타 설문 발송', '금요일', 'survey'],
+          ['미경', '예산 결정을 재무팀에 공유', '월요일', 'finance']
+        ],
+        hint: '할 일을 선택하면 어디에서 말했는지 볼 수 있습니다.',
+        at: (who, ts) => `${who}, ${ts}`,
+        quotes: ['“', '”']
+      },
+      email: {
+        subjectLabel: '제목',
+        subject: '주간 제품 회의: 출시일과 예산',
+        body: [
+          '팀 여러분께,',
+          '출시는 10월 14일 화요일입니다. 준호 씨가 출시 후보 버전을 10월 10일까지 준비하고, 수진 씨는 App Store 페이지용 최종 스크린샷이 10월 6일까지 필요합니다.',
+          '마케팅에는 우선 1만 달러를 승인했습니다. 크리에이터 예산은 출시 첫 주가 지난 뒤 검토하겠습니다.',
+          '수진 씨가 금요일에 베타 설문을 보내고, 저는 월요일에 예산 결정을 재무팀에 공유하겠습니다.',
+          '감사합니다.\n미경'
+        ]
+      },
+      ask: [
+        ['q', '예산은 어떻게 결정했나요?'],
+        ['a', '미경 님이 우선 1만 달러를 승인했습니다. 수진 님은 1만 2천 달러를 요청했고, 크리에이터 협업 예산은 출시 첫 주가 지난 뒤 검토합니다.'],
+        ['q', '출시는 언제인가요?'],
+        ['a', '10월 14일 화요일입니다. 준호 님이 출시 후보 버전을 10월 10일까지 준비합니다.']
+      ]
+    },
+    zh: {
+      title: '每周产品例会',
+      meta: '示例录音，52 分钟',
+      transcript: [
+        ['王芳', '00:00', '好，我们开始吧。今天有三项议程：上线日期、内测和市场预算。李明，发布版本进展如何？'],
+        ['李明', '00:12', '状态不错。新的搜索功能已经完成，旧手机上的同步崩溃昨天也修好了。{rc|我会在 10 月 10 日前备好发布候选版本}，所以我建议 10 月 14 日星期二上线。'],
+        ['王芳', '00:27', '10 月 14 日我这边可以。陈静，这个时间和宣传活动合得上吗？'],
+        ['陈静', '00:33', '可以。{shots|我需要在 10 月 6 日前拿到最终截图}，用来准备 App Store 页面。预算方面，我申请一万两千美元：八千用于社交媒体广告，四千用于创作者合作。'],
+        ['王芳', '00:48', '我们先批一万，创作者预算等上线第一周过后再评估。'],
+        ['陈静', '01:02', '没问题。{survey|我周五发内测问卷。}'],
+        ['王芳', '01:09', '好。{finance|我周一把预算决定同步给财务。}']
+      ],
+      review: {
+        topicsH: '议题', topics: '上线日期、内测、市场预算',
+        decisionsH: '决定',
+        decisions: ['10 月 14 日星期二上线。', '暂批一万美元。创作者预算在上线第一周过后再评估。'],
+        tasksH: '待办事项',
+        tasks: [
+          ['李明', '交付发布候选版本', '10 月 10 日', 'rc'],
+          ['陈静', '提供最终截图', '10 月 6 日', 'shots'],
+          ['陈静', '发送内测问卷', '周五', 'survey'],
+          ['王芳', '把预算决定同步给财务', '周一', 'finance']
+        ],
+        hint: '选择一项任务，查看它是在哪里说的。',
+        at: (who, ts) => `${who}，${ts}`,
+        quotes: ['“', '”']
+      },
+      email: {
+        subjectLabel: '主题',
+        subject: '每周产品例会：上线日期与预算',
+        body: [
+          '各位好，',
+          '我们定在 10 月 14 日星期二上线。李明会在 10 月 10 日前备好发布候选版本，陈静需要在 10 月 6 日前拿到最终截图，用于 App Store 页面。',
+          '市场预算我们暂批了一万美元。创作者预算将在上线第一周过后再评估。',
+          '陈静周五会发内测问卷，我周一会把预算决定同步给财务。',
+          '谢谢，\n王芳'
+        ]
+      },
+      ask: [
+        ['q', '预算是怎么定的？'],
+        ['a', '王芳暂批了一万美元。陈静申请的是一万两千美元，创作者合作的预算将在上线第一周过后再评估。'],
+        ['q', '什么时候上线？'],
+        ['a', '10 月 14 日星期二。李明会在 10 月 10 日前备好发布候选版本。']
+      ]
+    },
+    id: {
+      title: 'Rapat produk mingguan',
+      meta: 'Rekaman contoh, 52 menit',
+      transcript: [
+        ['Sari', '00:00', 'Baik, semuanya, kita mulai. Ada tiga hal di agenda hari ini: tanggal peluncuran, beta, dan anggaran pemasaran. Budi, bagaimana build rilisnya?'],
+        ['Budi', '00:12', 'Kondisinya bagus. Fitur pencarian baru sudah selesai, dan crash sinkronisasi di ponsel lama sudah diperbaiki kemarin. {rc|Kandidat rilis akan siap paling lambat 10 Oktober}, jadi saya usul kita meluncur hari Selasa, 14 Oktober.'],
+        ['Sari', '00:27', '14 Oktober cocok untuk saya. Dewi, apakah itu pas dengan kampanyenya?'],
+        ['Dewi', '00:33', 'Pas. {shots|Saya butuh tangkapan layar final paling lambat 6 Oktober} untuk menyiapkan halaman App Store. Untuk anggaran, saya minta dua belas ribu dolar: delapan untuk iklan media sosial dan empat untuk kerja sama dengan kreator.'],
+        ['Sari', '00:48', 'Untuk sekarang kita setujui sepuluh ribu dulu, dan anggaran kreator kita tinjau setelah minggu pertama peluncuran.'],
+        ['Dewi', '01:02', 'Setuju. {survey|Saya kirim survei beta hari Jumat.}'],
+        ['Sari', '01:09', 'Bagus. {finance|Saya akan membagikan keputusan anggaran ke bagian keuangan hari Senin.}']
+      ],
+      review: {
+        topicsH: 'Topik', topics: 'Tanggal peluncuran, beta, anggaran pemasaran',
+        decisionsH: 'Keputusan',
+        decisions: ['Meluncur hari Selasa, 14 Oktober.', 'Untuk sekarang disetujui 10.000 dolar. Anggaran kreator ditinjau setelah minggu pertama peluncuran.'],
+        tasksH: 'Daftar tugas',
+        tasks: [
+          ['Budi', 'Menyiapkan kandidat rilis', '10 Okt', 'rc'],
+          ['Dewi', 'Menyerahkan tangkapan layar final', '6 Okt', 'shots'],
+          ['Dewi', 'Mengirim survei beta', 'Jumat', 'survey'],
+          ['Sari', 'Membagikan keputusan anggaran ke keuangan', 'Senin', 'finance']
+        ],
+        hint: 'Pilih tugas untuk melihat di mana tugas itu disebut.',
+        at: (who, ts) => `${who}, ${ts}`,
+        quotes: ['“', '”']
+      },
+      email: {
+        subjectLabel: 'Subjek',
+        subject: 'Rapat produk mingguan: tanggal peluncuran dan anggaran',
+        body: [
+          'Halo tim,',
+          'Kita meluncur hari Selasa, 14 Oktober. Budi akan menyiapkan kandidat rilis paling lambat 10 Oktober, dan Dewi butuh tangkapan layar final paling lambat 6 Oktober untuk halaman App Store.',
+          'Untuk sekarang kita menyetujui 10.000 dolar untuk pemasaran. Anggaran kreator akan kita tinjau setelah minggu pertama peluncuran.',
+          'Dewi mengirim survei beta hari Jumat, dan saya akan membagikan keputusan anggaran ke bagian keuangan hari Senin.',
+          'Terima kasih,\nSari'
+        ]
+      },
+      ask: [
+        ['q', 'Apa keputusan kita soal anggaran?'],
+        ['a', 'Sari menyetujui 10.000 dolar untuk sekarang. Dewi meminta 12.000, dan anggaran kerja sama kreator akan ditinjau setelah minggu pertama peluncuran.'],
+        ['q', 'Kapan kita meluncur?'],
+        ['a', 'Hari Selasa, 14 Oktober. Budi akan menyiapkan kandidat rilis paling lambat 10 Oktober.']
+      ]
+    },
+    nl: {
+      title: 'Wekelijks productoverleg',
+      meta: 'Voorbeeldopname, 52 min',
+      transcript: [
+        ['Sanne', '00:00', 'Oké allemaal, laten we beginnen. Er staan vandaag drie punten op de agenda: de lanceringsdatum, de bèta en het marketingbudget. Daan, waar staan we met de releasebuild?'],
+        ['Daan', '00:12', 'Het ziet er goed uit. De nieuwe zoekfunctie is klaar en de synchronisatiecrash op oudere telefoons is gisteren opgelost. {rc|Uiterlijk 10 oktober heb ik de releasekandidaat klaar}, dus ik stel voor dat we dinsdag 14 oktober lanceren.'],
+        ['Sanne', '00:27', '14 oktober komt mij goed uit. Lotte, past dat bij de campagne?'],
+        ['Lotte', '00:33', 'Ja. {shots|Ik heb de definitieve screenshots uiterlijk 6 oktober nodig} om de App Store-pagina voor te bereiden. Voor het budget vraag ik twaalfduizend euro: acht voor betaalde social media en vier voor samenwerkingen met creators.'],
+        ['Sanne', '00:48', 'Laten we voorlopig tienduizend goedkeuren en het creatorbudget na de eerste week van de lancering opnieuw bekijken.'],
+        ['Lotte', '01:02', 'Prima. {survey|Vrijdag stuur ik de bètaenquête.}'],
+        ['Sanne', '01:09', 'Mooi. {finance|Maandag deel ik het budgetbesluit met finance.}']
+      ],
+      review: {
+        topicsH: 'Onderwerpen', topics: 'Lanceringsdatum, bèta, marketingbudget',
+        decisionsH: 'Besluiten',
+        decisions: ['Lancering op dinsdag 14 oktober.', 'Voorlopig € 10.000 goedgekeurd. Het creatorbudget wordt na de eerste week van de lancering opnieuw bekeken.'],
+        tasksH: 'Takenlijst',
+        tasks: [
+          ['Daan', 'De releasekandidaat opleveren', '10 okt', 'rc'],
+          ['Lotte', 'De definitieve screenshots aanleveren', '6 okt', 'shots'],
+          ['Lotte', 'De bètaenquête versturen', 'Vrijdag', 'survey'],
+          ['Sanne', 'Het budgetbesluit delen met finance', 'Maandag', 'finance']
+        ],
+        hint: 'Selecteer een taak om te zien waar die is genoemd.',
+        at: (who, ts) => `${who}, ${ts}`,
+        quotes: ['“', '”']
+      },
+      email: {
+        subjectLabel: 'Onderwerp',
+        subject: 'Wekelijks productoverleg: lanceringsdatum en budget',
+        body: [
+          'Hoi team,',
+          'We lanceren op dinsdag 14 oktober. Daan heeft de releasekandidaat uiterlijk 10 oktober klaar en Lotte heeft de definitieve screenshots uiterlijk 6 oktober nodig voor de App Store-pagina.',
+          'We hebben voorlopig € 10.000 voor marketing goedgekeurd. Het creatorbudget bekijken we na de eerste week van de lancering opnieuw.',
+          'Lotte stuurt vrijdag de bètaenquête, en ik deel maandag het budgetbesluit met finance.',
+          'Bedankt,\nSanne'
+        ]
+      },
+      ask: [
+        ['q', 'Wat hebben we over het budget besloten?'],
+        ['a', 'Sanne heeft voorlopig € 10.000 goedgekeurd. Lotte had € 12.000 gevraagd, en het budget voor samenwerkingen met creators wordt na de eerste week van de lancering opnieuw bekeken.'],
+        ['q', 'Wanneer lanceren we?'],
+        ['a', 'Op dinsdag 14 oktober. Daan heeft de releasekandidaat uiterlijk 10 oktober klaar.']
+      ]
+    },
+    pl: {
+      title: 'Cotygodniowe spotkanie produktowe',
+      meta: 'Przykładowe nagranie, 52 min',
+      transcript: [
+        ['Marta', '00:00', 'Dobrze, zaczynamy. Na dziś mamy trzy punkty: datę premiery, betę i budżet marketingowy. Kuba, jak stoimy z buildem wydania?'],
+        ['Kuba', '00:12', 'Jest dobrze. Nowa wyszukiwarka jest gotowa, a awarię synchronizacji na starszych telefonach naprawiliśmy wczoraj. {rc|Kandydata do wydania przygotuję do 10 października}, więc proponuję premierę we wtorek, 14 października.'],
+        ['Marta', '00:27', '14 października mi pasuje. Ola, czy to się zgadza z kampanią?'],
+        ['Ola', '00:33', 'Tak. {shots|Finalne zrzuty ekranu potrzebuję do 6 października}, żeby przygotować stronę w App Store. Na budżet proszę o dwanaście tysięcy złotych: osiem na płatne social media i cztery na współpracę z twórcami.'],
+        ['Marta', '00:48', 'Na razie zatwierdźmy dziesięć tysięcy, a budżet na twórców przejrzyjmy po pierwszym tygodniu od premiery.'],
+        ['Ola', '01:02', 'Pasuje. {survey|W piątek wyślę ankietę dla bety.}'],
+        ['Marta', '01:09', 'Świetnie. {finance|W poniedziałek przekażę decyzję o budżecie do finansów.}']
+      ],
+      review: {
+        topicsH: 'Tematy', topics: 'Data premiery, beta, budżet marketingowy',
+        decisionsH: 'Decyzje',
+        decisions: ['Premiera we wtorek, 14 października.', 'Na razie zatwierdzono 10 000 zł. Budżet na twórców zostanie przejrzany po pierwszym tygodniu od premiery.'],
+        tasksH: 'Lista zadań',
+        tasks: [
+          ['Kuba', 'Przygotować kandydata do wydania', '10 paź', 'rc'],
+          ['Ola', 'Dostarczyć finalne zrzuty ekranu', '6 paź', 'shots'],
+          ['Ola', 'Wysłać ankietę dla bety', 'Piątek', 'survey'],
+          ['Marta', 'Przekazać decyzję o budżecie do finansów', 'Poniedziałek', 'finance']
+        ],
+        hint: 'Wybierz zadanie, aby zobaczyć, gdzie padło.',
+        at: (who, ts) => `${who}, ${ts}`,
+        quotes: ['„', '”']
+      },
+      email: {
+        subjectLabel: 'Temat',
+        subject: 'Cotygodniowe spotkanie produktowe: data premiery i budżet',
+        body: [
+          'Cześć zespole,',
+          'Premiera jest we wtorek, 14 października. Kuba przygotuje kandydata do wydania do 10 października, a Ola potrzebuje finalnych zrzutów ekranu do 6 października na stronę w App Store.',
+          'Na marketing zatwierdziliśmy na razie 10 000 zł. Budżet na twórców przejrzymy po pierwszym tygodniu od premiery.',
+          'Ola wyśle ankietę dla bety w piątek, a ja w poniedziałek przekażę decyzję o budżecie do finansów.',
+          'Dzięki,\nMarta'
+        ]
+      },
+      ask: [
+        ['q', 'Co ustaliliśmy w sprawie budżetu?'],
+        ['a', 'Marta zatwierdziła na razie 10 000 zł. Ola prosiła o 12 000, a budżet na współpracę z twórcami zostanie przejrzany po pierwszym tygodniu od premiery.'],
+        ['q', 'Kiedy mamy premierę?'],
+        ['a', 'We wtorek, 14 października. Kuba przygotuje kandydata do wydania do 10 października.']
+      ]
     }
   };
 
@@ -2309,6 +3897,7 @@ h1, h2, h3, dt, summary { overflow-wrap: break-word; }
       if (saved && I18N[saved]) return saved;
     } catch (e) {}
     const first = (navigator.languages && navigator.languages[0]) || navigator.language || 'en';
+    if (/^zh-(hant|tw|hk|mo)/i.test(first)) return 'en';   // only Simplified Chinese is written
     const m = /^([a-z]{2})\b/i.exec(first);
     return m && I18N[m[1].toLowerCase()] ? m[1].toLowerCase() : 'en';
   }
@@ -2316,7 +3905,8 @@ h1, h2, h3, dt, summary { overflow-wrap: break-word; }
 
   function applyCopy() {
     const t = I18N[lang];
-    document.documentElement.lang = lang;
+    document.documentElement.lang = lang === 'zh' ? 'zh-Hans' : lang;
+    document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr';
     document.title = t['meta.title'];
     const md = $('meta[name="description"]');
     if (md) md.setAttribute('content', t['meta.desc']);
@@ -2472,14 +4062,15 @@ h1, h2, h3, dt, summary { overflow-wrap: break-word; }
     function build() {
       const h = HEADLINE[lang];
       const flat = h.phrases.flat();
+      const sep = h.sep == null ? ' ' : h.sep;   // Japanese and Chinese set their words without spaces
       words = flat.map(([interim, fin], idx) => ({ interim, fin, idx, node: el('span', { class: 'w', text: fin }) }));
       const lines = h.lines.map(ids => {
         const line = el('span', { class: 'line' });
-        ids.forEach((id, k) => { if (k) line.append(' '); line.append(words[id].node); });
+        ids.forEach((id, k) => { if (k && sep) line.append(sep); line.append(words[id].node); });
         return line;
       });
       vis.replaceChildren(...lines);
-      measure.replaceChildren(...h.lines.map(ids => el('span', { class: 'line', text: ids.map(id => words[id].fin).join(' ') })));
+      measure.replaceChildren(...h.lines.map(ids => el('span', { class: 'line', text: ids.map(id => words[id].fin).join(sep) })));
 
       // timeline
       plan = []; windows = [];
