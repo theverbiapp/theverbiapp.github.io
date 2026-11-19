@@ -153,6 +153,11 @@ Facts about other apps come only from their own official pages, each linked on t
 - [Приложения для расшифровки аудио на русском (2026)](https://theverbi.com/ru/russian-transcription-apps/) (ru): Диктофон и Заметки на iPhone, Диктофон от Google, WhatsApp, Telegram, Otter, Notta, Transkriptor, Transcribe и Verbi: русская речь, язык интерфейса, запись, импорт и резюме, с источниками.
 - [Apps para pasar audio a texto en español (2026)](https://theverbi.com/es/apps-para-pasar-audio-a-texto/) (es): Notas de Voz y Notas del iPhone, Grabadora de Google y de Samsung, WhatsApp, Otter, Notta, Transkriptor, TurboScribe, Transcribe y Verbi: español, plataformas, grabar o importar y resúmenes, con fuentes.
 - [Applications pour transcrire un audio en texte en français (2026)](https://theverbi.com/fr/applications-pour-transcrire-un-audio-en-texte/) (fr): Dictaphone et Notes de l’iPhone, Enregistreur de Google, Otter, Notta, Transkriptor, TurboScribe, Noota, Transcribe et Verbi : français, langue de l’app, enregistrement, import, résumé, sources.
+- [Jaka aplikacja zamieni nagranie po polsku na tekst? (2026)](https://theverbi.com/pl/aplikacje-do-transkrypcji-nagran-po-polsku/) (pl): Dyktafon i Notatki na iPhonie, Dyktafon Google i Samsunga, WhatsApp, Otter, Notta, Transkriptor i Verbi: polski, język aplikacji, nagrywanie, import i podsumowania, ze źródłami.
+- [日本語の文字起こしアプリ比較（2026年）](https://theverbi.com/ja/japanese-transcription-apps/) (ja): iPhoneのボイスメモとメモ、Googleのレコーダー、Galaxyのボイスレコーダー、LINE、LINE WORKS AiNote、Otter、Notta、Transkriptor、Transcribe、Verbiを、日本語対応、録音、取り込み、AI要約で比較。出典付き。
+- [한국어 녹음을 텍스트로 바꿔 주는 앱 비교 (2026)](https://theverbi.com/ko/korean-transcription-apps/) (ko): iPhone 음성 메모와 메모, 갤럭시 AI 텍스트 변환 어시스트, Google 녹음기, 클로바노트, Otter, Notta, Transkriptor, Verbi: 한국어 변환, 앱 언어, 녹음, 파일 가져오기, 요약을 출처와 함께 비교.
+- [中文录音转文字：哪些应用可以用？（2026）](https://theverbi.com/zh/chinese-transcription-apps/) (zh): iPhone 语音备忘录和备忘录、Google 录音机、三星录音机、WhatsApp、微信、Otter、Notta、Transkriptor、Transcribe 和 Verbi：中文转写、平台、录音或导入、AI 摘要，均附来源。
+- [Aplikasi transkripsi audio bahasa Indonesia (2026)](https://theverbi.com/id/aplikasi-transkripsi-bahasa-indonesia/) (id): Memo Suara dan Catatan di iPhone, Perekam Suara Google dan Samsung, WhatsApp, Otter, Notta, Transkriptor, Transcribe, dan Verbi: bahasa Indonesia, bahasa aplikasi, rekam, impor, dan ringkasan, dengan sumber.
 
 ## Get the app
 

@@ -6881,7 +6881,7 @@ Para quién es: quien graba reuniones, sobre todo en la computadora, y no necesi
 
 Notta funciona en iPhone y Android, en la web y en computadoras con Windows y macOS ([entornos compatibles](https://support.notta.ai/hc/en-us/articles/18119588493467-Supported-environments)). En la app, el botón + ofrece [importar archivos, grabar y transcribir reuniones en vivo](https://support.notta.ai/hc/en-us/articles/17604467003803-Introduction-about-Notta-App); el español está en su [lista de idiomas](https://support.notta.ai/hc/en-us/articles/4403155631131-What-languages-does-Notta-support), y la [ficha del App Store de México](https://apps.apple.com/mx/app/notta-transcripci%C3%B3n-notas-ai/id1480649572) muestra la app en español y describe resúmenes automáticos.
 
-Para quién es: quien pasa del teléfono a la computadora y quiere que un bot se una a sus videollamadas.
+Para quién es: quien pasa del teléfono a la computadora y quiere transcribir sus reuniones en línea en vivo.
 
 ## Transkriptor
 
@@ -7126,6 +7126,748 @@ Les informations sur les autres apps de cette page proviennent de leurs pages of
 - TurboScribe : [site en français](https://turboscribe.ai/fr/), [usage sur téléphone](https://turboscribe.ai/help/does-turboscribe-have-a-mobile-app), [enregistrer et importer un audio](https://turboscribe.ai/u/transcribe-voice-memos), [TurboScribe GPT](https://turboscribe.ai/blog/turboscribe-gpt-transcribe-and-chat)
 - Noota : [site](https://www.noota.io/fr), [transcription audio](https://www.noota.io/fr/products/audio-transcription), [langues prises en charge](https://intercom.help/noota/en/articles/8566513-supported-languages) (en anglais), [App Store](https://apps.apple.com/fr/app/noota-meeting-assistant/id6742792493), [Google Play](https://play.google.com/store/apps/details?id=com.noota_react_native&hl=fr)
 - Transcribe – Voix en texte (DENIVIP) : [App Store id1241342461](https://apps.apple.com/fr/app/transcribe-voix-en-texte/id1241342461), [transcribe.com](https://transcribe.com/), [centre d’aide](https://transcribe.com/help-center)
+
+---
+
+URL: https://theverbi.com/pl/aplikacje-do-transkrypcji-nagran-po-polsku/
+Language: pl
+Last updated: 2026-11-19
+
+# Jaka aplikacja zamieni nagranie po polsku na tekst? (2026)
+
+Polskiego nie ma na liście języków transkrypcji w Dyktafonie i Notatkach na iPhonie, w Dyktafonie Google na Pixelach ani w transkrypcji wiadomości głosowych WhatsApp (stan na 19 listopada 2026). Polski obsługuje za to Asystent transkrypcji w Dyktafonie Samsunga oraz aplikacje Otter, Notta, Transkriptor i Verbi. Tabela zestawia to, co każdy producent pisze na własnych stronach; wszystko sprawdziliśmy 19 listopada 2026.
+
+## Które aplikacje transkrybują polski?
+
+| Aplikacja | Platformy | Transkrybuje polski | Aplikacja po polsku | Nagrywanie w telefonie | Import pliku | Podsumowanie AI |
+| --- | --- | --- | --- | --- | --- | --- |
+| Dyktafon (Apple (Voice Memos)) | iPhone | Polskiego nie ma na liście języków transkrypcji¹ | Tak | Tak; transkrypcja podczas nagrywania w obsługiwanych językach | — | Przez Narzędzia pisania Apple Intelligence; polskiego nie ma na liście jej języków² |
+| Notatki („Nagranie audio” w notatce) | iPhone | Polskiego nie ma na liście języków urządzenia dla transkrypcji audio¹ | Tak | Tak; transkrypcja na żywo w obsługiwanych językach | — | Streszczenie z Apple Intelligence; polskiego nie ma na liście jej języków² |
+| Dyktafon Google (Recorder, telefony Pixel) | Pixel 3 lub nowszy, Pixel Tablet | Polskiego nie ma na listach języków³ | — | Tak | — | Pixel 8 lub nowszy; polskiego nie ma na liście języków podsumowań³ |
+| Dyktafon Samsung (Asystent transkrypcji (Galaxy AI)) | Urządzenia Galaxy z Galaxy AI | Tak⁴ | — | Tak | — | Tak, po zalogowaniu na konto Samsung |
+| Otter | iOS, Android, web, komputer (Mac, Windows) | Tak⁵ | Nie, po angielsku⁶ | Tak, na żywo | Tak | Tak |
+| Notta | iOS, Android, web, komputer (Windows, macOS) | Tak | Tak⁶ | Tak, także na żywo | Tak | Tak |
+| Transkriptor („Transkriptor - Mowa na Tekst”) | iOS, Android, web, rozszerzenie Chrome, komputer (Windows, Mac) | Tak | Tak⁶ | Tak | Tak | Tak |
+| Verbi | iPhone, Android | Tak, z automatycznym wykrywaniem języka | Tak, od wersji 1.5.0 (iPhone) i 1.3.0 (Android) | Tak, z transkrypcją na żywo | Tak; także wiadomości głosowe z WhatsApp i Telegrama oraz linki do YouTube | Tak: dziewięć szablonów, po polsku, gdy aplikacja jest po polsku |
+
+— Źródło tego nie podaje.
+
+¹ Podręcznik użytkownika iPhone’a (iOS 27): transkrypcja audio działa na iPhonie 12 lub nowszym po angielsku, hiszpańsku, portugalsku, włosku, francusku, niemiecku, japońsku, koreańsku oraz chińsku uproszczonym i tradycyjnym; stan na 19 listopada 2026. ² Lista języków Apple Intelligence jest na stronie podręcznika o Notatkach; w iOS 27 Apple Intelligence wymaga iPhone’a 15 Pro, iPhone’a 15 Pro Max lub iPhone’a 16 albo nowszego. ³ Pomoc Google, stan na 19 listopada 2026: polskiego nie ma ani na liście transkrypcji w czasie rzeczywistym, ani na liście „Transcribe again”, ani wśród języków podsumowań. ⁴ Lista języków Asystenta transkrypcji na stronie Samsung Polska (ostatnia aktualizacja listy: listopad 2024). ⁵ Polski jest na liście języków w centrum pomocy Ottera (artykuł zaktualizowany 10 listopada 2026); opis w App Store wymienia jako języki aplikacji angielski, hiszpański, francuski i japoński. ⁶ Języki aplikacji według polskiego App Store.
+
+## Czy iPhone sam zamieni nagranie po polsku na tekst?
+
+Według [podręcznika użytkownika iPhone’a](https://support.apple.com/pl-pl/guide/iphone/iph00953a982/ios) (iOS 27) Dyktafon zamienia mowę na tekst na iPhonie 12 lub nowszym po angielsku, hiszpańsku, portugalsku, włosku, francusku, niemiecku, japońsku, koreańsku oraz chińsku uproszczonym i tradycyjnym, a dostępność zależy od kraju i regionu. Polskiego na tej liście nie ma (stan na 19 listopada 2026). Samo nagrywanie działa oczywiście w każdym języku, a nagranie możesz wyeksportować jako plik .m4a.
+
+W Notatkach jest tak samo: polecenie „Nagranie audio” znajdziesz w każdej notatce, ale według [podręcznika do Notatek](https://support.apple.com/pl-pl/guide/iphone/iphbe11247b5/ios) transkrypcja działa tylko wtedy, gdy język urządzenia to jeden z tych samych języków. Streszczenia Apple Intelligence też zależą od języka, a polskiego nie ma na liście jej języków podanej na tej stronie. Również [zestawienie funkcji Apple](https://www.apple.com/ios/feature-availability/) nie wymienia polskiego przy „Notes: Audio Transcription”. Jeśli chcesz mieć polskie nagranie jako tekst, potrzebujesz innej aplikacji.
+
+## A wiadomości głosowe w WhatsAppie?
+
+WhatsApp potrafi pokazać tekst odebranych wiadomości głosowych po włączeniu „Transkrypcji wiadomości głosowych” w Ustawieniach, w sekcji Czaty; transkrypcja powstaje na urządzeniu. Według Centrum pomocy na [Androidzie](https://faq.whatsapp.com/241617298315321/?cms_platform=android&locale=pl_PL) obsługiwane są obecnie tylko angielski, hiszpański, portugalski i rosyjski, a na [iPhonie](https://faq.whatsapp.com/241617298315321/?cms_platform=iphone&locale=pl_PL) polskiego nie ma ani na liście dla iOS 16, ani na tej dla iOS 17 i nowszych (stan na 19 listopada 2026).
+
+Przy wiadomościach audio w aplikacji Wiadomości na iPhonie [zestawienie funkcji Apple](https://www.apple.com/ios/feature-availability/) również nie wymienia polskiego w punkcie „Messages: Audio Messages Transcription”.
+
+Jeśli chcesz przeczytać polską wiadomość głosową, zachować ją jako tekst albo dostać jej podsumowanie, udostępnij ją aplikacji do transkrypcji. Verbi przyjmuje wiadomości głosowe z WhatsApp i Telegrama z menu udostępniania, transkrybuje je w całości i podsumowuje ([jak to zrobić](/pl/pomoc/wiadomosci-glosowe-whatsapp/)).
+
+## Dyktafon Google (Pixel)
+
+Aplikacja Recorder od Google (w polskim Google Play: „[Dyktafon](https://play.google.com/store/apps/details?id=com.google.android.apps.recorder&hl=pl)”) działa na Pixelu 3 lub nowszym i na Pixel Tablet ([pomoc Google](https://support.google.com/pixelphone/answer/16267668?hl=en)). Na [stronie z językami](https://support.google.com/pixelphone/answer/16267698?hl=en) polskiego nie ma ani przy transkrypcji w czasie rzeczywistym, ani przy funkcji „Transcribe again”, która ponownie transkrybuje gotowe nagranie, ani wśród języków podsumowań (Pixel 8 lub nowszy); stan na 19 listopada 2026.
+
+Dla kogo: dla właścicieli Pixeli, którzy nagrywają po polsku i chcą mieć sam plik audio; do tekstu potrzebna jest inna aplikacja.
+
+## Dyktafon Samsung (Galaxy AI)
+
+Na telefonach Galaxy Asystent transkrypcji z Galaxy AI działa w aplikacji Dyktafon. [Strona pomocy Samsung Polska](https://www.samsung.com/pl/support/mobile-devices/jak-korzystac-z-funkcji-asystent-transkrypcji-na-galaxy-s24) wymienia polski wśród obsługiwanych języków: wybierasz nagranie, dotykasz „Transkrypcja” i wybierasz język. Tekst można przetłumaczyć i podsumować; do podsumowania trzeba być zalogowanym na konto Samsung, a bardzo krótkiego nagrania nie da się podsumować. Według [nowszej strony Samsunga](https://www.samsung.com/pl/support/mobile-devices/how-to-use-galaxy-ai-transcript-assist/) funkcja rozpoznaje też mówców. Działa na urządzeniach i modelach Galaxy, które obsługują Galaxy AI.
+
+Dla kogo: dla właścicieli Galaxy z Galaxy AI, którzy nagrywają w Dyktafonie i nie chcą instalować kolejnej aplikacji.
+
+## Otter
+
+Otter ma aplikacje na iPhone’a i Androida, wersję w przeglądarce i [aplikację na Maca i Windowsa](https://help.otter.ai/hc/en-us/articles/35973988280215-Otter-Desktop-App-Mac-Windows). Polski jest na [liście języków](https://help.otter.ai/hc/en-us/articles/360047247414-Supported-Languages) w centrum pomocy (artykuł zaktualizowany 10 listopada 2026): Otter transkrybuje w nim spotkania, nagrania audio i pliki wideo, a język mowy wybierasz przed nagraniem lub importem. Według [polskiego App Store](https://apps.apple.com/pl/app/otter-transcribe-voice-notes/id1276437113) aplikacja jest po angielsku; karta opisuje nagrywanie z transkrypcją na żywo, import plików audio i wideo oraz automatyczne podsumowania spotkań.
+
+Dla kogo: dla osób, które nagrywają spotkania służbowe, chcą mieć notatki w telefonie, przeglądarce i na komputerze i nie przeszkadza im angielski interfejs.
+
+## Notta
+
+Notta działa na iPhonie i Androidzie, w przeglądarce oraz w aplikacji na Windowsa i macOS ([obsługiwane środowiska](https://support.notta.ai/hc/en-us/articles/18119588493467-Supported-environments)). W aplikacji możesz [importować pliki, nagrywać i transkrybować spotkania na żywo](https://support.notta.ai/hc/en-us/articles/17604467003803-Introduction-about-Notta-App); polski jest na [liście języków](https://support.notta.ai/hc/en-us/articles/4403155631131-What-languages-does-Notta-support-for-transcription-and-translation) transkrypcji jednojęzycznej, a [polski App Store](https://apps.apple.com/pl/app/notta-transcribe-voice-to-text/id1480649572) wymienia polski wśród języków aplikacji i opisuje podsumowania AI.
+
+Dla kogo: dla osób, które przełączają się między telefonem a komputerem i nagrywają w kilku językach.
+
+## Transkriptor
+
+Transkriptor ma aplikacje na iOS i Androida, wersję webową, rozszerzenie do Chrome i [aplikację na Windowsa i Maca](https://transkriptor.com/desktop-app/). [Polska wersja strony](https://transkriptor.com/pl/) wymienia polski wśród języków transkrypcji i opisuje nagrywanie, przesyłanie plików oraz podsumowania spotkań generowane przez AI, a karta w [polskim App Store](https://apps.apple.com/pl/app/transkriptor-speech-to-text/id1610386353) („Transkriptor - Mowa na Tekst”) pokazuje aplikację po polsku i opisuje wbudowany rekorder, pliki MP3, WAV i M4A, rozpoznawanie mówców i czat z transkrypcją.
+
+Dla kogo: dla osób, które chcą nagrywać spotkania online z komputera albo korzystać z rozszerzenia w przeglądarce.
+
+## Verbi
+
+Verbi to dyktafon z AI na iPhone’a i Androida. Od wersji 1.5.0 na iPhonie i 1.3.0 na Androidzie aplikacja jest po polsku, a wtedy podsumowania, tytuły i odpowiedzi czatu też są po polsku. Transkrypcja pozostaje w języku, w którym mówiono: Verbi transkrybuje 39 języków, w tym polski, i potrafi sam wykryć język.
+
+Nagrywasz w aplikacji (z Pro długie nagrania w ramach godzin planu; na iPhonie i Androidzie nagrywanie trwa dalej przy zablokowanym ekranie), importujesz plik audio lub wideo, udostępniasz wiadomość głosową z WhatsApp lub Telegrama albo wklejasz link do YouTube. Podsumowania powstają według dziewięciu szablonów, takich jak Notatki z zajęć, Spotkanie ogólne i Lista działań, i trzymają się tego, co padło: osoby odpowiedzialne i terminy pojawiają się tylko wtedy, gdy ktoś je wypowiedział. Z Pro każda transkrypcja dostaje podsumowanie, a do tego masz rozpoznawanie mówców, czat z transkrypcją, tłumaczenie i eksport do TXT lub PDF; w planie bezpłatnym masz 3 podsumowania miesięcznie i kopiujesz tekst.
+
+Verbi nie wymaga konta, a nagrania i transkrypcje są na Twoim telefonie. Do transkrypcji dźwięk trafia do naszych dostawców rozpoznawania mowy (ElevenLabs i OpenAI), jak wyjaśnia [polityka prywatności](https://theverbi.com/privacy-policy/) (po angielsku). Plan bezpłatny obejmuje 60 minut transkrypcji miesięcznie.
+
+Dla kogo: dla osób, które nagrywają długie wykłady, spotkania i wywiady po polsku, dostają długie wiadomości głosowe na WhatsAppie albo używają i iPhone’a, i Androida. Verbi nie ma wersji webowej ani aplikacji na komputer.
+
+## Jak wybrać aplikację do transkrypcji po polsku?
+
+To zależy od tego, co nagrywasz i co chcesz zrobić z tekstem. Na podstawie tabeli:
+
+- Wykłady: potrzebujesz nagrania i notatek. Notta, Transkriptor i Verbi piszą podsumowania AI, a szablon Notatki z zajęć w Verbi trzyma się tego, co powiedział prowadzący. Zobacz [nagrywanie wykładów i notatki](/pl/nagrywanie-wykladow-i-notatki/).
+- Spotkania: jeśli pracujesz na komputerze, Otter, Notta i Transkriptor mają aplikacje na Windowsa i Maca. Verbi nagrywa mikrofonem telefonu i nie dołącza do rozmowy jako bot; zobacz [notatki ze spotkań z AI](/pl/notatki-ze-spotkan-ai/).
+- Wywiady: Transkriptor w polskim App Store i Samsung na swojej stronie pomocy opisują rozpoznawanie mówców; w Verbi rozpoznawanie mówców jest w Pro. Zobacz [transkrypcja wywiadów](/pl/transkrypcja-wywiadow/).
+- Bez wydawania pieniędzy: na telefonach Galaxy z Galaxy AI Asystent transkrypcji jest w Dyktafonie. Plany innych aplikacji często się zmieniają, więc ich tu nie podajemy; plan bezpłatny Verbi obejmuje 60 minut transkrypcji miesięcznie.
+- Wiadomości głosowe z WhatsApp: polskiego nie ma na listach transkrypcji WhatsApp ani na Androidzie, ani na iPhonie (stan na 19 listopada 2026). Udostępnij wiadomość aplikacji, która importuje plik, na przykład Verbi.
+- Android: Otter, Notta, Transkriptor i Verbi mają aplikację na Androida; na telefonach Galaxy polski obsługuje też Dyktafon Samsunga.
+- Aplikacja po polsku: według polskiego App Store Notta i Transkriptor są po polsku; Verbi także, od wersji 1.5.0 na iPhonie i 1.3.0 na Androidzie. Otter jest po angielsku.
+- Prywatność: sprawdź w polityce prywatności każdej aplikacji, gdzie przetwarzany i przechowywany jest dźwięk. WhatsApp tworzy transkrypcję na urządzeniu; Verbi przechowuje nagrania na telefonie i wysyła dźwięk do transkrypcji swoim dostawcom; zobacz [prywatność i przechowywanie](/pl/pomoc/prywatnosc-i-przechowywanie/).
+
+## Jak zamienić nagranie po polsku na tekst w Verbi?
+
+1. Pobierz Verbi z App Store lub Google Play. W "Ustawienia" → "Język transkrypcji" wybierz polski albo zostaw "Wykryj automatycznie". Żeby podsumowania były po polsku, w "Ustawienia" → "Język" wybierz polski.
+2. Aby nagrywać, dotknij "Nagraj i transkrybuj". Jeśli chcesz widzieć tekst w trakcie mówienia, wybierz "Transkrypcja na żywo".
+3. Przy nagraniu, które już masz, dotknij "Prześlij plik" albo udostępnij dźwięk do Verbi z Dyktafonu, WhatsApp, Telegrama lub innej aplikacji. Na iPhonie poczekaj na komunikat "Dodano do Verbi. Otwórz aplikację, aby przetranskrybować." i otwórz Verbi.
+4. Z Dyktafonu na iPhonie udostępniaj nagranie w domyślnym formacie (.m4a). Według [strony Apple o eksportowaniu](https://support.apple.com/pl-pl/guide/iphone/iph831c37815/ios) opcja „Edytowalny” zapisuje plik w formacie QuickTime Audio, a tego formatu Verbi nie odczytuje.
+5. Gdy tekst jest gotowy, możesz go czytać, przeszukiwać i kopiować. Plan bezpłatny obejmuje 3 podsumowania miesięcznie; z Pro każda transkrypcja dostaje podsumowanie, a tekst możesz eksportować do TXT lub PDF. Więcej w [głos na tekst](/pl/glos-na-tekst/) i [jakie języki transkrybuje Verbi](/pl/pomoc/jezyki/).
+
+## Najczęstsze pytania
+
+### Czy iPhone zamieni nagranie po polsku na tekst bez innej aplikacji?
+
+Nie w Dyktafonie ani w Notatkach: według podręcznika użytkownika iPhone’a (iOS 27, stan na 19 listopada 2026) polskiego nie ma na liście języków transkrypcji audio. Z App Store polski transkrybują m.in. Otter, Notta, Transkriptor i Verbi.
+
+### Czy WhatsApp zamienia polskie wiadomości głosowe na tekst?
+
+Według Centrum pomocy WhatsApp polskiego nie ma na liście języków transkrypcji wiadomości głosowych ani na Androidzie (angielski, hiszpański, portugalski i rosyjski), ani na iPhonie (stan na 19 listopada 2026). Możesz udostępnić wiadomość głosową do Verbi z menu udostępniania i dostać ją jako tekst.
+
+### Czy Otter transkrybuje po polsku?
+
+Tak: polski jest na liście obsługiwanych języków w centrum pomocy Ottera (artykuł zaktualizowany 10 listopada 2026), dla spotkań, nagrań audio i plików wideo; język wybierasz przed nagraniem lub importem. Sama aplikacja jest według polskiego App Store po angielsku.
+
+### Czy jest darmowa aplikacja do transkrypcji po polsku?
+
+Na telefonach Galaxy z Galaxy AI Asystent transkrypcji w Dyktafonie Samsunga obsługuje polski. Plany innych aplikacji często się zmieniają, więc ich tu nie podajemy; sprawdź stronę każdej aplikacji. Verbi pobierzesz za darmo: plan bezpłatny obejmuje 60 minut transkrypcji miesięcznie, przechowywanie nagrań przez 15 dni i 3 podsumowania AI miesięcznie, bez zakładania konta.
+
+### Czy podsumowanie będzie po polsku?
+
+W Verbi tak, jeśli aplikacja jest po polsku (od wersji 1.5.0 na iPhonie i 1.3.0 na Androidzie): podsumowania, tytuły i odpowiedzi czatu pojawiają się w języku aplikacji, a transkrypcja pozostaje w języku, w którym mówiono.
+
+### Kto przygotował to porównanie?
+
+Zespół Verbi. O innych aplikacjach piszemy tylko to, co jest na ich oficjalnych stronach, w centrach pomocy i w sklepach z aplikacjami; czego źródło nie podaje, oznaczamy w tabeli jako „—”.
+
+## Źródła
+
+Informacje o innych aplikacjach na tej stronie pochodzą z ich oficjalnych stron, centrów pomocy i kart w sklepach z aplikacjami i zostały sprawdzone 19 listopada 2026. Mogą się zmienić wraz z aktualizacjami aplikacji.
+
+- Apple: [transkrypcja w Dyktafonie](https://support.apple.com/pl-pl/guide/iphone/iph00953a982/ios), [nagrywanie i transkrypcja w Notatkach](https://support.apple.com/pl-pl/guide/iphone/iphbe11247b5/ios), [eksportowanie nagrania](https://support.apple.com/pl-pl/guide/iphone/iph831c37815/ios), [dostępność funkcji](https://www.apple.com/ios/feature-availability/) (po angielsku)
+- Dyktafon Google: [języki i podsumowania](https://support.google.com/pixelphone/answer/16267698?hl=en), [urządzenia](https://support.google.com/pixelphone/answer/16267668?hl=en) (po angielsku), [Google Play](https://play.google.com/store/apps/details?id=com.google.android.apps.recorder&hl=pl)
+- Samsung: [Asystent transkrypcji z Galaxy AI](https://www.samsung.com/pl/support/mobile-devices/jak-korzystac-z-funkcji-asystent-transkrypcji-na-galaxy-s24), [Asystent transkrypcji, nowsza strona](https://www.samsung.com/pl/support/mobile-devices/how-to-use-galaxy-ai-transcript-assist/)
+- WhatsApp: [transkrypcje wiadomości głosowych na Androidzie](https://faq.whatsapp.com/241617298315321/?cms_platform=android&locale=pl_PL) i [na iPhonie](https://faq.whatsapp.com/241617298315321/?cms_platform=iphone&locale=pl_PL)
+- Otter: [obsługiwane języki](https://help.otter.ai/hc/en-us/articles/360047247414-Supported-Languages), [aplikacja na komputer](https://help.otter.ai/hc/en-us/articles/35973988280215-Otter-Desktop-App-Mac-Windows) (po angielsku), [App Store](https://apps.apple.com/pl/app/otter-transcribe-voice-notes/id1276437113), [Google Play](https://play.google.com/store/apps/details?id=com.aisense.otter&hl=pl)
+- Notta: [obsługiwane środowiska](https://support.notta.ai/hc/en-us/articles/18119588493467-Supported-environments), [języki](https://support.notta.ai/hc/en-us/articles/4403155631131-What-languages-does-Notta-support-for-transcription-and-translation), [aplikacja](https://support.notta.ai/hc/en-us/articles/17604467003803-Introduction-about-Notta-App) (po angielsku), [App Store](https://apps.apple.com/pl/app/notta-transcribe-voice-to-text/id1480649572), [Google Play](https://play.google.com/store/apps/details?id=com.langogo.transcribe&hl=pl)
+- Transkriptor: [języki i funkcje](https://transkriptor.com/pl/), [aplikacja na komputer](https://transkriptor.com/desktop-app/), [App Store](https://apps.apple.com/pl/app/transkriptor-speech-to-text/id1610386353), [Google Play](https://play.google.com/store/apps/details?id=com.transkriptor.app&hl=pl)
+
+---
+
+URL: https://theverbi.com/ja/japanese-transcription-apps/
+Language: ja
+Last updated: 2026-11-19
+
+# 日本語の文字起こしアプリ比較（2026年）
+
+日本語の音声は、iPhoneの「ボイスメモ」と「メモ」、PixelのGoogleレコーダー、GalaxyのボイスレコーダーがOSの機能として文字起こしでき、専用アプリもほぼすべてが日本語に対応しています。そのため選ぶ基準は「日本語を聞き取れるか」よりも、何を録るか、手元の音声ファイルを取り込めるか、要約がほしいか、iPhoneとAndroidのどちらで使うかです。表には、各社が自社の公式ページに書いている内容だけをまとめました。すべて2026年11月19日に確認しています。
+
+## 日本語の音声を文字起こしできるアプリは？
+
+| アプリ | 対応環境 | 日本語の文字起こし | アプリの日本語表示 | スマホで録音 | ファイルの取り込み | AI要約 |
+| --- | --- | --- | --- | --- | --- | --- |
+| ボイスメモ (Apple) | iPhone | はい（iPhone 12以降）¹ | はい | はい、録音中に文字起こしを表示 | — | — |
+| メモ (メモ内の「オーディオを録音」) | iPhone | はい（iPhone 12以降）¹ | はい | はい、録音中に文字起こしを表示 | — | はい、Apple Intelligenceで² |
+| レコーダー (Google（Pixel）) | Pixel 3以降、Pixel Tablet | はい、リアルタイム | — | はい | — | はい（Pixel 8以降） |
+| ボイスレコーダー (Samsung 文字起こしアシスト（Galaxy AI）) | Galaxy AI対応のGalaxy | はい³ | — | はい | — | はい、Samsungアカウントにログインして |
+| LINE 通話レコーディング (LINEラボ) | iOS、Android（LINE 26.16.0以上） | 1:1の音声通話のみ⁴ | はい | 通話の録音のみ | — | — |
+| LINE WORKS AiNote (LINE WORKS) | iPhone、iPad、Android | はい | はい⁵ | はい | はい | はい |
+| Otter | iOS、Android、Web、パソコン（Mac、Windows） | はい⁶ | いいえ、英語⁵ | はい、リアルタイム | はい | はい |
+| Notta | iOS、Android、Web、パソコン（Windows、macOS） | はい | はい⁵ | はい、リアルタイム | はい | はい |
+| Transkriptor | iOS、Android、Web、Chrome拡張機能、パソコン | はい | はい⁵ | はい | はい | はい |
+| Transcribe – 音声をテキストに変換 (DENIVIP · App Store id1241342461) | iPhone、iPad、Mac、Web | はい | はい⁵ | はい、リアルタイム | はい | はい |
+| Verbi | iPhone、Android | はい、言語の自動検出あり | はい（iPhone 1.5.0、Android 1.3.0以降） | はい、ライブ文字起こしあり | はい。WhatsAppやTelegramのボイスメッセージ、YouTubeのリンクも | はい。9つのテンプレート、アプリが日本語なら日本語で |
+
+— 出典に記載がありません。
+
+¹ Appleのユーザガイド（iOS 27）によると、オーディオの文字起こしはiPhone 12以降で、英語、スペイン語、ポルトガル語、イタリア語、フランス語、ドイツ語、日本語、韓国語、簡体字中国語、繁体字中国語に対応しています。「メモ」では、デバイスの言語がこれらのいずれかのときに文字起こしされます。一部の国や地域では利用できません。² iOS 27以降のApple Intelligenceは、iPhone 15 Pro、iPhone 15 Pro Max、iPhone 16の各種モデル以降で使えます。³ Samsungのサポートページ（シンガポール、英語）の対応言語一覧によります。⁴ LINEのガイドによると、文字起こしは日本のLINEアカウント同士の1:1音声通話のみで、対応言語は日本語のみです。LINEラボの機能のため、予告なく利用できなくなる場合があります。⁵ アプリの言語は日本のApp Storeの掲載情報によります。⁶ Otterのヘルプセンターの対応言語一覧（2026年11月10日更新）によります。
+
+## iPhoneだけで日本語の文字起こしはできますか？
+
+できます。[iPhoneユーザガイド](https://support.apple.com/ja-jp/guide/iphone/iph00953a982/ios)（iOS 27）によると、「ボイスメモ」はiPhone 12以降で、日本語を含む対応言語の録音を文字起こしでき、録音中も「文字起こし」ボタンで内容をリアルタイムに確認できます。全文は「文字起こしをコピー」でコピーでき、検索するとタイトルや文字起こしに言葉が含まれる録音が表示されます。この機能は一部の国や地域では利用できません。
+
+「メモ」アプリでは、添付ボタンから「オーディオを録音」を選ぶと、話した内容がメモに文字起こしされます（[「メモ」のユーザガイド](https://support.apple.com/ja-jp/guide/iphone/iphbe11247b5/ios)）。あとから「文字起こしを検索」「メモに文字起こしを追加」「文字起こしをコピー」が使え、Apple Intelligenceに対応したiPhoneでは文字起こしの要約も作れます。録った内容を読んだりコピーしたりするだけなら、iPhoneの標準アプリで足りることも多いでしょう。Androidでは使えず、手元の音声ファイルを取り込む手順もガイドには載っていません。
+
+## LINEのボイスメッセージや通話は文字起こしできますか？
+
+LINEの公式ガイドの[ボイスメッセージの送り方](https://guide.line.me/ja/chats-calls-notifications/chats/send-voicemessage.html)のページには、送り方の手順だけがあり、受け取ったボイスメッセージを文字にする方法は載っていません（2026年11月19日時点）。
+
+LINEが公式に案内しているのは、LINEラボの[通話レコーディング](https://guide.line.me/ja/services/linelabs-callrecording.html)です。スマートフォン版LINE（iOS・Android、バージョン26.16.0以上）で通話を録音でき、設定の［通話レコーディング］で［通話文字起こし］をオンにすると、音声通話の内容がテキストになります。ガイドによると、文字起こしは日本のLINEアカウント同士の1:1音声通話のみ、対応言語は日本語のみで、ビデオ通話やグループ通話では使えません。通話を始める前に設定をオンにする必要があり、初回は文字起こし機能のダウンロードが必要です。LINEラボの機能なので、予告なく利用できなくなる場合があります。
+
+ボイスメッセージや対面の会話、講義など、通話以外の音声は文字起こしアプリで扱うことになります。Verbiは、WhatsAppやTelegramのボイスメッセージを含む音声ファイルを、共有メニューや「ファイルをアップロード」から取り込んで文字起こしします（[手順](/ja/help/transcribe-audio-file/)）。
+
+## Googleのレコーダー（Pixel）
+
+Googleのレコーダー（Google Playでの名前は「[レコーダー](https://play.google.com/store/apps/details?id=com.google.android.apps.recorder&hl=ja)」）は、Pixel 3以降とPixel Tabletで使えます（[Googleのヘルプ](https://support.google.com/pixelphone/answer/16267668?hl=en)）。[対応言語の一覧](https://support.google.com/pixelphone/answer/16267698?hl=en)では、日本語がリアルタイムの文字起こし（Pixel 3〜5a、Pixel 6以降の両方）、録音をあらためて文字起こしする「Transcribe again」（Japanese (Japan)）、Pixel 8以降の要約のすべてに載っています。
+
+こんな人に: Pixelを使っていて、ほかのアプリを入れずに録音から文字起こしと要約まで済ませたい人。
+
+## Galaxyのボイスレコーダー（文字起こしアシスト）
+
+Galaxyでは、Galaxy AIの文字起こしアシストがボイスレコーダーアプリに入っています。Samsungの[サポートページ](https://www.samsung.com/sg/support/mobile-devices/how-to-use-transcribe-assist-on-the-galaxy-s24/)（シンガポール、英語）の対応言語一覧には日本語があり、要約を使うにはSamsungアカウントへのログインが必要です。対応する機種はモデルによって異なります。
+
+こんな人に: Galaxy AI対応のGalaxyを使っていて、標準の録音アプリで済ませたい人。
+
+## LINE WORKS AiNote
+
+LINE WORKS AiNoteは、LINE WORKS株式会社（LINE WORKS Corp.）の文字起こし・議事録サービスで、[公式サイト](https://line-works.com/ainote/free-solo/)によると、日本語、英語、中国語（簡体字・繁体字）、韓国語に対応し、スマートフォン用アプリを提供しています。[日本のApp Store](https://apps.apple.com/jp/app/line-works-ainote/id6670784765)の説明では、アプリでの録音と音声ファイルのアップロードによる文字起こし、話者の自動認識、用途別テンプレートやカスタムテンプレートでのAI要約、Web会議ツールとの連携が紹介されています。Android版は[Google Play](https://play.google.com/store/apps/details?id=com.gworks.ainote&hl=ja)にあります。公式サイトでは、前身のサービスを「CLOVA Note」と紹介しています。
+
+こんな人に: 会議の議事録を話者ごとに整理し、チームで共有したい人。
+
+## Otter
+
+OtterにはiPhoneとAndroidのアプリ、Web版、[Mac・Windows用のデスクトップアプリ](https://help.otter.ai/hc/en-us/articles/35973988280215-Otter-Desktop-App-Mac-Windows)があります。[ヘルプセンターの対応言語一覧](https://help.otter.ai/hc/en-us/articles/360047247414-Supported-Languages)（2026年11月10日更新）に日本語があり、会議、音声、動画を文字起こしできます。言語は録音やファイルの取り込みの前に選びます。[音声・動画ファイルを取り込む](https://help.otter.ai/hc/en-us/articles/360047733574-Import-an-audio-or-video-file)と、文字起こしとAIの要約が作られます。[日本のApp Store](https://apps.apple.com/jp/app/id1276437113)では、アプリの言語は英語と表示されています。
+
+こんな人に: パソコンでの会議が多く、英語の画面でも気にならない人。
+
+## Notta
+
+NottaはiPhoneとAndroidのアプリ、Web版、WindowsとmacOSのデスクトップアプリで使えます（[推奨環境](https://support.notta.ai/hc/en-us/articles/18119588493467-Supported-environments)）。日本語は[対応言語の一覧](https://support.notta.ai/hc/en-us/articles/4403155631131-What-languages-does-Notta-support)にあります。[日本のApp Store](https://apps.apple.com/jp/app/id1480649572)ではアプリが日本語で表示され、リアルタイムの文字起こし、録音・録画ファイルの取り込み、AI要約が紹介されています。
+
+こんな人に: スマートフォンとパソコンを行き来しながら、会議や商談を記録したい人。
+
+## Transkriptor
+
+TranskriptorにはiOSとAndroidのアプリ、Web版、Chrome拡張機能、デスクトップアプリがあり、[日本語サイト](https://transkriptor.com/ja/)では日本語が文字起こしの対応言語に入っています。[日本のApp Store](https://apps.apple.com/jp/app/id1610386353)（「Transkriptor - 音声をテキストに」）ではアプリが日本語で表示され、内蔵のオーディオレコーダー、音声・動画ファイルの取り込み、AI要約、文字起こしと対話できるAIチャットが紹介されています。
+
+こんな人に: パソコンやブラウザでも録音・文字起こしをしたい人。
+
+## Transcribe – 音声をテキストに変換（DENIVIP）
+
+Transcribe（DENIVIP Group OOO、App Store id1241342461）はiPhone、iPad、Macと、transcribe.comのWebエディタで使えます。[日本のApp Store](https://apps.apple.com/jp/app/id1241342461)ではアプリが日本語で表示され、内蔵レコーダーでのリアルタイム文字起こし、音声・動画ファイルのアップロード、話者の識別、自動要約、WhatsAppの音声メッセージの文字起こしが紹介されています。[ヘルプセンター](https://transcribe.com/help-center)の言語一覧にはJapanese (Japan)があります。似た名前のアプリがあるので、ダウンロード前に開発元を確認してください。
+
+こんな人に: iPhoneとMacを使い、ブラウザでも文字起こしを編集したい人。
+
+## Verbi
+
+VerbiはiPhoneとAndroidで使えるAIボイスレコーダーです。iPhoneはバージョン1.5.0、Androidは1.3.0からアプリを日本語で使え、そのときは要約、タイトル、チャットの回答も日本語で届きます。文字起こしは話された言語のままで、日本語を含む39言語に対応し、言語の自動検出もできます。
+
+アプリで録音する（Proならプランの時間の範囲で長い録音も。iPhoneでもAndroidでも画面ロック中も録音が続きます）、音声・動画ファイルを取り込む、WhatsAppやTelegramのボイスメッセージを共有する、YouTubeのリンクを貼る、のいずれかで文字起こしできます。要約は「授業ノート」「一般的な会議」「アクションアイテム」など9つのテンプレートから選べ、話された内容にとどまります。担当者や期限は、誰かが口にしたときだけ載ります。Proでは、すべての文字起こしへの要約に加え、話者の識別、文字起こしとのチャット、翻訳、TXT・PDFでの書き出しが使えます。無料プランでは毎月3回の要約とテキストのコピーが使えます。
+
+Verbiにはアカウントがなく、録音と文字起こしはスマートフォンに保存されます。文字起こしのために、音声は当社の音声認識プロバイダー（ElevenLabsとOpenAI）に送られます。詳しくは[プライバシーポリシー](https://theverbi.com/privacy-policy/)（英語）と[保存場所についてのヘルプ](/ja/help/privacy-and-storage/)をご覧ください。無料プランには、毎月60分の文字起こし、15日間の録音保存、毎月3回のAI要約が含まれます。
+
+こんな人に: 長い講義、会議、インタビューを録る人、WhatsAppやTelegramで長いボイスメッセージを受け取る人、iPhoneとAndroidの両方を使う人。VerbiにはWeb版やパソコン版はありません。
+
+## 日本語の文字起こしアプリはどう選べばいい？
+
+ほとんどのアプリが日本語に対応しているので、何を録って、テキストをどう使うかで選ぶのが近道です。表から整理すると:
+
+- 講義・授業: 録音と、あとで読める要約がほしい場面です。iPhoneの「メモ」はApple Intelligence対応機種で要約でき、PixelのレコーダーはPixel 8以降で要約できます。Notta、Transkriptor、Transcribe、VerbiもAI要約があり、Verbiの「授業ノート」テンプレートは先生が話した内容にとどまります。[講義を録音して文字起こしする方法](/ja/lecture-recorder-transcription/)もご覧ください。
+- 会議: パソコンで参加する会議なら、Otter、Notta、Transkriptorにデスクトップアプリがあり、LINE WORKS AiNoteはWeb会議ツールとの連携を紹介しています。Verbiはスマートフォンのマイクで録音し、ボットとして会議に参加することはありません。[AIで議事録を作る方法](/ja/ai-meeting-notes/)もご覧ください。
+- インタビュー: 話者を分けたいなら、LINE WORKS AiNoteとTranscribeはストアの説明で話者の識別を紹介しており、VerbiはProで話者を識別します。[インタビューの文字起こし](/ja/interview-transcription/)もご覧ください。
+- LINEの通話: 日本のLINEアカウント同士の1:1音声通話なら、LINEラボの通話レコーディングで文字起こしできます。ボイスメッセージの文字起こしは、LINEの公式ガイドには載っていません（2026年11月19日時点）。
+- 追加の費用をかけずに: iPhone 12以降の「ボイスメモ」と「メモ」、Pixelのレコーダー、対応Galaxyのボイスレコーダーは、端末の標準機能として日本語を文字起こしできます。ほかのアプリの料金はよく変わるため、ここでは載せていません。Verbiの無料プランには毎月60分の文字起こしが含まれます。
+- Android: Pixelならレコーダー、対応Galaxyならボイスレコーダーが使えます。アプリでは、LINE WORKS AiNote、Otter、Notta、Transkriptor、VerbiにAndroid版があります。
+- アプリの表示言語: 日本のApp Storeの情報では、LINE WORKS AiNote、Notta、Transkriptor、Transcribeが日本語で表示され、Verbiも日本語に対応しています。Otterは英語で表示されます。
+- プライバシー: 音声がどこで処理・保存されるかは、各アプリのプライバシーに関するページで確認してください。Verbiは録音をスマートフォンに保存し、文字起こしのために音声をプロバイダーに送ります。
+
+## Verbiで日本語の音声を文字起こしするには？
+
+1. App StoreまたはGoogle PlayからVerbiをダウンロードします。「設定」→「文字起こしの言語」で「日本語」を選ぶか、「自動検出」のままにします。要約を日本語で受け取るには、「設定」→「言語」で「日本語」を選びます。
+2. 録音するときは「録音して文字起こし」をタップします。話しながら言葉を見たいときは「ライブ文字起こし」を選びます。
+3. 手元の音声は「ファイルをアップロード」で選ぶか、「ボイスメモ」やWhatsAppなどのアプリからVerbiに共有します。iPhoneでは「Verbiに追加しました。アプリを開いて文字起こししてください。」と表示されたら、Verbiを開きます。
+4. iPhoneの「ボイスメモ」からは、標準の形式（.m4a）のまま共有してください。[Appleの書き出しのページ](https://support.apple.com/ja-jp/guide/iphone/iph831c37815/ios)によると、オプションの「編集可能」を選ぶとQuickTimeオーディオ形式で書き出され、この形式はVerbiでは読み込めません。
+5. テキストができたら、読んだり、検索したり、コピーしたりできます。無料プランでは毎月3回まで要約を作れ、Proではすべての文字起こしに要約が付き、TXT・PDFで書き出せます。詳しくは[音声をテキストに変換する方法](/ja/voice-to-text/)と[Verbiが対応する言語](/ja/help/languages/)をご覧ください。
+
+## よくある質問
+
+### iPhoneで録音を日本語の文字に起こすアプリは？
+
+iPhoneの標準アプリで可能です。Appleのユーザガイド（iOS 27、2026年11月19日確認）によると、「ボイスメモ」はiPhone 12以降で日本語を文字起こしでき、「メモ」はデバイスの言語が日本語のときに文字起こしできます。App Storeのアプリでは、LINE WORKS AiNote、Otter、Notta、Transkriptor、Transcribe、Verbiが日本語の文字起こしに対応しています。
+
+### 無料で使える文字起こしアプリはありますか？
+
+iPhoneの「ボイスメモ」と「メモ」、Pixelのレコーダー、対応Galaxyのボイスレコーダーは、端末の標準機能です。ほかのアプリの料金はよく変わるため、ここでは載せていません。各アプリのページで確認してください。Verbiは無料でダウンロードでき、無料プランには毎月60分の文字起こし、15日間の録音保存、毎月3回のAI要約が含まれ、アカウント登録は不要です。
+
+### LINEのボイスメッセージは文字起こしできますか？
+
+LINEの公式ガイドのボイスメッセージのページには、文字起こしの方法は載っていません（2026年11月19日時点）。LINEが案内しているのはLINEラボの通話レコーディングで、日本のLINEアカウント同士の1:1音声通話を日本語で文字起こしできます。
+
+### Otterは日本語を文字起こしできますか？
+
+はい。Otterのヘルプセンターの対応言語一覧（2026年11月10日更新）に日本語があり、会議、音声、動画が対象です。言語は録音や取り込みの前に選びます。日本のApp Storeでは、アプリの言語は英語と表示されています（2026年11月19日確認）。
+
+### 要約は日本語になりますか？
+
+Verbiでは、アプリを日本語にしていれば（iPhone 1.5.0、Android 1.3.0以降）、要約とチャットの回答は日本語で届きます。文字起こしは話された言語のままなので、英語の会議なら文字起こしは英語、要約は日本語になります。
+
+### この比較は誰が作りましたか？
+
+Verbiのチームです。ほかのアプリについては、公式サイト、ヘルプセンター、ストアの掲載情報に書かれていることだけを載せ、出典に記載がないものは「—」としています。
+
+## 出典
+
+このページのほかのアプリに関する情報は、各アプリの公式サイト、ヘルプセンター、ストアの掲載情報をもとに2026年11月19日に確認したものです。アプリの更新によって変わることがあります。
+
+- Apple: [「ボイスメモ」の文字起こし](https://support.apple.com/ja-jp/guide/iphone/iph00953a982/ios)、[「メモ」でオーディオを録音して文字に起こす](https://support.apple.com/ja-jp/guide/iphone/iphbe11247b5/ios)、[録音の書き出し](https://support.apple.com/ja-jp/guide/iphone/iph831c37815/ios)
+- Googleのレコーダー: [対応言語と要約](https://support.google.com/pixelphone/answer/16267698?hl=en)、[対応端末](https://support.google.com/pixelphone/answer/16267668?hl=en)（英語）、[Google Play](https://play.google.com/store/apps/details?id=com.google.android.apps.recorder&hl=ja)
+- Samsung: [Galaxy AIの文字起こしアシスト](https://www.samsung.com/sg/support/mobile-devices/how-to-use-transcribe-assist-on-the-galaxy-s24/)（シンガポール、英語）
+- LINE: [ボイスメッセージを送る](https://guide.line.me/ja/chats-calls-notifications/chats/send-voicemessage.html)、[通話レコーディングを利用する【LINEラボ】](https://guide.line.me/ja/services/linelabs-callrecording.html)
+- LINE WORKS AiNote: [公式サイト](https://line-works.com/ainote/free-solo/)、[App Store](https://apps.apple.com/jp/app/line-works-ainote/id6670784765)、[Google Play](https://play.google.com/store/apps/details?id=com.gworks.ainote&hl=ja)
+- Otter: [対応言語](https://help.otter.ai/hc/en-us/articles/360047247414-Supported-Languages)、[デスクトップアプリ](https://help.otter.ai/hc/en-us/articles/35973988280215-Otter-Desktop-App-Mac-Windows)、[ファイルの取り込み](https://help.otter.ai/hc/en-us/articles/360047733574-Import-an-audio-or-video-file)（英語）、[App Store](https://apps.apple.com/jp/app/id1276437113)、[Google Play](https://play.google.com/store/apps/details?id=com.aisense.otter&hl=ja)
+- Notta: [推奨環境](https://support.notta.ai/hc/en-us/articles/18119588493467-Supported-environments)、[対応言語](https://support.notta.ai/hc/en-us/articles/4403155631131-What-languages-does-Notta-support)（英語）、[App Store](https://apps.apple.com/jp/app/id1480649572)、[Google Play](https://play.google.com/store/apps/details?id=com.langogo.transcribe&hl=ja)
+- Transkriptor: [日本語サイト](https://transkriptor.com/ja/)、[App Store](https://apps.apple.com/jp/app/id1610386353)、[Google Play](https://play.google.com/store/apps/details?id=com.transkriptor.app&hl=ja)
+- Transcribe – 音声をテキストに変換（DENIVIP）: [App Store id1241342461](https://apps.apple.com/jp/app/id1241342461)、[ヘルプセンター](https://transcribe.com/help-center)
+
+---
+
+URL: https://theverbi.com/ko/korean-transcription-apps/
+Language: ko
+Last updated: 2026-11-19
+
+# 한국어 녹음을 텍스트로 바꿔 주는 앱 비교 (2026)
+
+한국어 음성은 휴대전화에 기본으로 들어 있는 앱으로도 텍스트로 바꿀 수 있습니다. iPhone 12 이상에서는 음성 메모와 메모 앱이 한국어를 전사하고, S24 시리즈 이후 갤럭시 스마트폰에서는 갤럭시 AI의 텍스트 변환 어시스트가 한국어를 지원합니다. 그래서 고를 때 중요한 것은 한국어 인식 여부보다 다른 점입니다. iPhone과 Android를 함께 쓰는지, 이미 가진 녹음 파일이나 메신저 음성 메시지를 가져올 수 있는지, 수업 노트나 회의록 같은 요약이 필요한지, 컴퓨터에서도 써야 하는지입니다. 아래 표는 각 개발사가 자기 페이지에 밝힌 내용만 모았으며, 모두 2026년 11월 19일에 확인했습니다.
+
+## 한국어 녹음을 텍스트로 바꿔 주는 앱은 무엇이 있나요?
+
+| 앱 | 플랫폼 | 한국어 텍스트 변환 | 한국어 앱 화면 | 휴대전화로 녹음 | 파일 가져오기 | AI 요약 |
+| --- | --- | --- | --- | --- | --- | --- |
+| 음성 메모 (Apple) | iPhone | 예, iPhone 12 이상¹ | 예 | 예, 녹음하면서 전사문 표시 | — | Apple Intelligence 글쓰기 도구로² |
+| 메모 (메모 속 "오디오 녹음") | iPhone | 예, iPhone 12 이상, iPhone 언어가 한국어일 때 | 예 | 예, 녹음하면서 전사문 표시 | — | 예, Apple Intelligence로² |
+| 텍스트 변환 어시스트 (삼성 갤럭시 AI) | S24 시리즈 이후 출시된 갤럭시 스마트폰³ | 예 | — | 예, 사전 설치된 삼성 앱으로³ | 사전 설치된 삼성 앱으로 녹음한 파일³ | 예, 삼성 계정 로그인 필요 |
+| 녹음기 (Google, Pixel 휴대전화) | Pixel 3 이상, Pixel Tablet | 다시 변환("Transcribe again")에서만⁴ | — | 예 | — | 예(Pixel 8 이상), 한국어는 요약 언어 목록에 없음(2026년 11월 19일 기준) |
+| 클로바노트 (NAVER) | iOS, Android, PC | 예, 한국어·영어·일본어·중국어 중 선택 | 예⁵ | 예 | 예 | 예: 요약, 주요 주제, 다음 할 일 |
+| Otter | iOS, Android, 웹, 컴퓨터(Mac, Windows) | 예⁶ | 아니요, 영어⁵ | 예, 실시간 | 예 | 예 |
+| Notta | iOS, Android, 웹, 컴퓨터(Windows, macOS) | 예 | 예⁵ | 예, 실시간 | 예 | 예 |
+| Transkriptor | iOS, Android, 웹, Chrome 확장 프로그램, 컴퓨터(Windows, Mac) | 예 | 예⁵ | 예, 실시간 | 예 | 예 |
+| Verbi | iPhone, Android | 예, 언어 자동 감지 | 예, iPhone 1.5.0·Android 1.3.0부터 | 예, 실시간 텍스트 변환 | 예, WhatsApp·Telegram 음성 메시지와 YouTube 링크도 | 예: 아홉 가지 템플릿, 앱이 한국어면 한국어로 |
+
+— 출처에 나와 있지 않습니다.
+
+¹ Apple 사용 설명서에 따르면 전사 기능은 일부 국가 또는 지역에서만 사용할 수 있습니다. ² iOS 27에서 Apple Intelligence는 iPhone 15 Pro, iPhone 15 Pro Max, iPhone 16 이상 모델에서 사용할 수 있습니다. ³ 삼성 갤럭시 AI 페이지 기준: 텍스트 변환 어시스트는 사전 설치된 삼성 전화, 삼성 노트, 삼성 통역 앱으로 녹음한 파일에서 쓸 수 있고, 3시간 이내의 오디오를 처리하며, 네트워크 연결과 삼성 계정 로그인이 필요합니다. 기능 제공 여부는 국가, One UI 버전, 기기 모델, 통신사에 따라 다를 수 있습니다. ⁴ Google 녹음기의 언어 목록에서 한국어(대한민국)는 기존 녹음을 다시 변환하는 "Transcribe again" 기능에만 있으며, 이 기능은 Google 서버에서 오디오를 처리할 수 있습니다. 실시간 변환 목록에는 한국어가 없습니다(2026년 11월 19일 기준). ⁵ 한국 App Store에 표시된 앱 언어 기준. ⁶ Otter 고객센터의 지원 언어 목록(2026년 11월 10일 업데이트)에 한국어가 있습니다. 한국 App Store 소개 문구는 영어, 스페인어, 프랑스어, 일본어를 나열합니다.
+
+## iPhone만으로 한국어 녹음을 텍스트로 바꿀 수 있나요?
+
+네, iPhone 12 이상이라면 가능합니다. [iPhone 사용 설명서](https://support.apple.com/ko-kr/guide/iphone/iph00953a982/ios)(iOS 27)에 따르면 음성 메모의 오디오 전사문은 영어, 스페인어, 포르투갈어, 이탈리아어, 프랑스어, 독일어, 일본어, 한국어, 중국어 간체와 번체로 제공되며, 일부 국가 또는 지역에서만 사용할 수 있습니다. 녹음하는 동안 전사문을 볼 수 있고, "전사문 복사"로 텍스트를 복사할 수 있습니다. Apple Intelligence가 있으면 글쓰기 도구로 전사문을 요약할 수 있는데, iOS 27에서는 iPhone 15 Pro, iPhone 15 Pro Max, iPhone 16 이상 모델이 필요합니다.
+
+메모 앱도 비슷합니다. 메모에서 첨부 파일 버튼을 누르고 "오디오 녹음"을 탭하면 되며, [메모 사용 설명서](https://support.apple.com/ko-kr/guide/iphone/iphbe11247b5/ios)에 따르면 iPhone 언어가 지원 언어 중 하나일 때 전사문이 만들어집니다. 끝난 뒤에는 "메모에 전사문 추가"나 "전사문 복사"를 고를 수 있고, Apple Intelligence로 요약도 만들 수 있습니다. 녹음 내용을 읽거나 복사하는 정도라면 Apple 앱으로 충분한 경우가 많습니다. 다만 이 페이지들은 다른 앱에서 받은 오디오 파일을 가져오는 방법은 다루지 않습니다.
+
+## 갤럭시: 텍스트 변환 어시스트
+
+[삼성 갤럭시 AI 페이지](https://www.samsung.com/sec/galaxy-ai/)에 따르면 텍스트 변환 어시스트는 녹음된 내용을 텍스트로 변환하고 탭 한 번으로 요약하거나 번역하며, 수업을 녹음한 뒤 요약 버튼으로 강의 노트를 만드는 예를 듭니다. 텍스트 변환 지원 언어에 한국어가 있고, 갤럭시 AI는 S24 시리즈 이후 출시된 스마트폰부터 지원됩니다. 같은 페이지의 각주에 따르면 텍스트 변환과 요약에는 네트워크 연결과 삼성 계정 로그인이 필요하고, 사전 설치된 삼성 전화, 삼성 노트, 삼성 통역 앱으로 녹음한 3시간 이내의 파일에서 동작합니다. [삼성 음성 녹음 앱](https://play.google.com/store/apps/details?id=com.sec.android.app.voicenote&hl=ko)의 Google Play 소개에도 음성에서 변환된 텍스트를 편집하고 다른 앱으로 공유하는 기능이 나와 있습니다.
+
+이런 분께 맞습니다: 최신 갤럭시를 쓰고, 삼성 앱으로 녹음한 내용을 휴대전화 안에서 바로 텍스트와 요약으로 보고 싶은 분.
+
+## Google 녹음기 (Pixel)
+
+Google 녹음기(Recorder, Google Play에서는 "[녹음기](https://play.google.com/store/apps/details?id=com.google.android.apps.recorder&hl=ko)")는 Pixel 3 이상과 Pixel Tablet에서 동작합니다([Google 도움말](https://support.google.com/pixelphone/answer/16267668?hl=en)). [언어 목록](https://support.google.com/pixelphone/answer/16267698?hl=en)에서 한국어(대한민국)는 이미 녹음한 파일을 다시 변환하는 "Transcribe again" 기능에만 있으며, 이 기능은 Google 서버에서 오디오를 처리할 수 있습니다. 실시간 변환과 요약(Pixel 8 이상)의 언어 목록에는 한국어가 없습니다(2026년 11월 19일 기준).
+
+이런 분께 맞습니다: 다른 앱을 설치하지 않고 이미 녹음한 파일을 Pixel에서 텍스트로 바꾸고 싶은 분.
+
+## 클로바노트 (NAVER)
+
+NAVER의 클로바노트는 [App Store](https://apps.apple.com/kr/app/id1530010245)와 [Google Play](https://play.google.com/store/apps/details?id=com.naver.clova.minute&hl=ko) 소개에 따르면 모바일과 PC에서 녹음을 시작할 수 있고, 음성 인식 언어로 한국어, 영어, 일본어, 중국어를 고를 수 있습니다. 녹음 중 메모와 북마크, AI가 정리하는 요약·주요 주제·다음 할 일, 노트 검색, 링크 공유를 제공하며, 통화 기록처럼 따로 녹음한 음성 파일도 불러올 수 있습니다. 모바일 앱과 PC는 자동으로 연동되고, 한국 App Store에는 앱 언어로 한국어가 표시됩니다. 비즈니스용 클로바노트도 따로 있습니다.
+
+이런 분께 맞습니다: 휴대전화로 녹음하고 PC에서 노트를 정리하며, 링크로 참석자에게 공유하고 싶은 분.
+
+## Otter
+
+Otter는 iPhone과 Android 앱, 웹, [Mac과 Windows용 데스크톱 앱](https://help.otter.ai/hc/en-us/articles/35973988280215-Otter-Desktop-App-Mac-Windows)을 제공합니다. 고객센터의 [지원 언어 목록](https://help.otter.ai/hc/en-us/articles/360047247414-Supported-Languages)에 한국어가 있어 회의, 오디오 녹음, 동영상 파일을 한국어로 변환할 수 있고, 언어는 녹음이나 파일 가져오기 전에 골라야 합니다. [Otter 블로그](https://otter.ai/blog/otter-ai-announces-its-biggest-multilingual-leap-yet-27-new-languages-and-multilingual-capabilities)는 2026년 11월 10일 새로 추가된 언어에 한국어를 포함했습니다. [한국 App Store](https://apps.apple.com/kr/app/id1276437113)에는 앱 언어로 영어만 표시되며, 실시간 녹음과 전사, 파일 가져오기, 자동 회의 요약이 소개되어 있습니다.
+
+이런 분께 맞습니다: 업무 회의를 녹음하고 휴대전화, 브라우저, 컴퓨터에서 모두 노트를 보고 싶으며 영어 화면이 불편하지 않은 분.
+
+## Notta
+
+Notta는 iPhone과 Android, 웹, Windows와 macOS용 데스크톱 앱에서 동작합니다([지원 환경](https://support.notta.ai/hc/en-us/articles/18119588493467-Supported-environments)). [지원 언어 목록](https://support.notta.ai/hc/en-us/articles/4403155631131-What-languages-does-Notta-support)의 단일 언어 변환에 한국어가 있으며, [한국 App Store 소개](https://apps.apple.com/kr/app/id1480649572)에는 실시간 변환, 오디오·동영상 파일 가져오기, AI 자동 요약이 나와 있고 앱 언어에 한국어가 있습니다.
+
+이런 분께 맞습니다: 휴대전화와 컴퓨터를 오가며 여러 언어로 녹음하는 분.
+
+## Transkriptor
+
+Transkriptor는 iOS와 Android 앱, 웹, Chrome 확장 프로그램, [Windows와 Mac용 데스크톱 앱](https://transkriptor.com/desktop-app/)을 제공합니다. [한국어 사이트](https://transkriptor.com/ko/)는 변환 언어에 한국어를 나열하고 실시간 녹음과 동시 전사, AI 요약을 소개합니다. [한국 App Store 소개](https://apps.apple.com/kr/app/id1610386353)("Transkriptor - 음성을 텍스트로")에는 앱 언어에 한국어가 있으며, 내장 녹음기, MP3·WAV·M4A 파일 변환, AI 요약, 텍스트와의 AI 채팅이 나와 있습니다.
+
+이런 분께 맞습니다: 컴퓨터에서 온라인 회의도 녹음하거나 브라우저 확장 프로그램을 쓰고 싶은 분.
+
+## 메신저 음성 메시지는 어떻게 하나요?
+
+WhatsApp은 설정의 "채팅"에서 음성 메시지 텍스트 변환을 켜면 받은 음성 메시지를 텍스트로 보여 줍니다. 고객센터에 따르면 [iPhone](https://faq.whatsapp.com/241617298315321/?cms_platform=iphone&locale=ko_KR)에서는 한국어가 iOS 16 이상과 iOS 17 이상 목록 모두에 있으며 Siri가 켜져 있어야 합니다. [Android](https://faq.whatsapp.com/241617298315321/?cms_platform=android&locale=ko_KR)에서는 현재 영어, 포르투갈어, 스페인어, 러시아어만 지원되어, 한국어는 목록에 없습니다(2026년 11월 19일 기준).
+
+카카오톡의 음성 메시지 텍스트 변환은 이 비교에 넣지 않았습니다. 2026년 11월 19일 기준으로 이 기능을 설명하는 카카오 공식 도움말 페이지를 확인할 수 없었기 때문입니다.
+
+긴 음성 메시지를 보관하거나 검색하고 요약하고 싶다면 텍스트 변환 앱으로 공유하세요. Verbi는 공유 메뉴로 WhatsApp과 Telegram 음성 메시지를 받아 처음부터 끝까지 변환하고 요약합니다([단계별 안내](/ko/help/transcribe-whatsapp-voice-messages/)). 다른 오디오 파일은 "파일 업로드"로 고를 수 있습니다([오디오 파일 변환하기](/ko/help/transcribe-audio-file/)).
+
+## Verbi
+
+Verbi는 iPhone과 Android용 AI 음성 녹음기이자 노트 앱입니다. iPhone 1.5.0, Android 1.3.0부터 앱을 한국어로 쓸 수 있고, 그러면 요약, 제목, 채팅 답변도 한국어로 나옵니다. 텍스트는 말한 언어 그대로 남으며, Verbi는 한국어를 포함한 39개 언어를 변환하고 언어를 자동으로 감지할 수 있습니다.
+
+앱에서 녹음하거나(Pro에서는 플랜 시간 안에서 긴 녹음도 처리하며, iPhone과 Android 모두 화면이 잠겨도 녹음이 계속됩니다), 오디오·동영상 파일을 가져오거나, WhatsApp·Telegram 음성 메시지를 공유하거나, YouTube 링크를 붙여 넣으면 됩니다. 요약은 "수업 노트", "일반 회의", "실행 항목" 등 아홉 가지 템플릿으로 만들며, 말한 내용에 충실합니다. 담당자나 기한은 누군가 말했을 때만 들어갑니다. Pro에서는 모든 텍스트에 요약이 붙고, 화자 구분, 텍스트와 채팅, 번역, TXT·PDF 내보내기도 쓸 수 있습니다. 무료 플랜에서는 매달 요약 3회와 텍스트 복사를 쓸 수 있습니다.
+
+Verbi는 계정이 필요 없고, 녹음과 텍스트는 휴대전화에 저장됩니다. 텍스트 변환을 위해 오디오는 음성 인식 제공업체(ElevenLabs와 OpenAI)로 전송되며, 자세한 내용은 [개인정보 처리방침](https://theverbi.com/privacy-policy/)(영어)에 있습니다. 무료 플랜에는 매달 60분의 텍스트 변환이 포함됩니다.
+
+이런 분께 맞습니다: 긴 강의, 회의, 인터뷰를 녹음하거나, 메신저로 긴 음성 메시지를 받거나, iPhone과 Android를 함께 쓰는 분. Verbi에는 웹 버전과 컴퓨터용 버전이 없습니다.
+
+## 한국어 텍스트 변환 앱은 어떻게 고르나요?
+
+무엇을 녹음하고 텍스트로 무엇을 할지에 따라 다릅니다. 표를 기준으로 정리하면 다음과 같습니다.
+
+- 대학 강의: 녹음과 요약이 필요합니다. iPhone의 음성 메모와 메모는 지원 모델에서 Apple Intelligence로 요약하고, 갤럭시의 텍스트 변환 어시스트는 강의 노트를 만드는 예를 듭니다. 클로바노트, Notta, Transkriptor, Verbi도 AI 요약을 만들며, Verbi의 "수업 노트" 템플릿은 강사가 말한 내용에 충실합니다. [강의 녹음과 수업 노트](/ko/lecture-recorder-transcription/)를 보세요.
+- 회의: 컴퓨터로 일한다면 Otter, Notta, Transkriptor에 Windows·Mac용 앱이 있고, 클로바노트는 모바일과 PC를 연동합니다. Verbi는 휴대전화 마이크로 녹음하며 통화에 봇으로 참여하지 않습니다. [AI 회의록](/ko/ai-meeting-notes/)을 보세요.
+- 인터뷰: 녹음해 둔 인터뷰를 변환하려면 클로바노트, Otter, Notta, Transkriptor, Verbi가 파일을 가져옵니다. Verbi는 Pro에서 화자를 구분합니다. [인터뷰 녹취](/ko/interview-transcription/)를 보세요.
+- 추가 비용 없이: iPhone 12 이상의 음성 메모와 메모, 지원되는 갤럭시의 텍스트 변환 어시스트가 이미 휴대전화에 있습니다. 다른 앱의 요금제는 자주 바뀌므로 여기서는 다루지 않습니다. Verbi의 무료 플랜에는 매달 60분의 텍스트 변환이 포함됩니다.
+- iPhone과 Android를 함께 쓰는 경우: 클로바노트, Otter, Notta, Transkriptor, Verbi에 두 플랫폼 앱이 모두 있습니다. Apple 앱은 iPhone, 텍스트 변환 어시스트는 갤럭시, Google 녹음기는 Pixel에서 동작합니다.
+- 다른 앱에서 받은 오디오: 텍스트 변환 어시스트는 사전 설치된 삼성 앱으로 녹음한 파일에서 동작합니다. 메신저 음성 메시지나 다른 앱의 녹음 파일은 파일을 가져오는 앱으로 공유하세요.
+- 한국어 앱 화면: 한국 App Store 기준으로 클로바노트, Notta, Transkriptor는 한국어로 표시되고, Verbi도 iPhone 1.5.0, Android 1.3.0부터 한국어로 쓸 수 있습니다. Otter는 영어로 표시됩니다.
+- 개인정보: 오디오가 어디서 처리되고 저장되는지는 각 앱의 개인정보 페이지를 확인하세요. 텍스트 변환 어시스트는 네트워크 연결과 삼성 계정 로그인이 필요하고, Google 녹음기의 다시 변환은 Google 서버를 쓸 수 있습니다. Verbi는 녹음을 휴대전화에 보관하고 오디오를 텍스트 변환 제공업체로 보냅니다([자세히 보기](/ko/help/privacy-and-storage/)).
+
+## Verbi로 한국어 녹음을 텍스트로 바꾸려면 어떻게 하나요?
+
+1. App Store나 Google Play에서 Verbi를 다운로드하세요. "설정" → "텍스트 변환 언어"에서 "한국어"를 고르거나 "자동 감지"로 두세요. 요약을 한국어로 받으려면 "설정" → "언어"에서 "한국어"를 고르세요.
+2. 새로 녹음하려면 "녹음 및 텍스트 변환"을 탭하세요. 말하는 동안 단어가 나타나는 것을 보려면 "실시간 텍스트 변환"을 고르세요.
+3. 이미 있는 오디오는 "파일 업로드"를 탭하거나, 음성 메모, WhatsApp, Telegram 같은 앱에서 Verbi로 공유하세요. iPhone에서는 "Verbi에 추가했습니다. 앱을 열어 텍스트로 변환하세요."가 나타나면 Verbi를 여세요.
+4. 음성 메모에서 공유할 때는 기본 형식(.m4a)으로 보내세요. [Apple의 내보내기 안내](https://support.apple.com/ko-kr/guide/iphone/iph831c37815/ios)에 따르면 "편집 가능"을 고르면 QuickTime 오디오 포맷으로 내보내지는데, Verbi는 이 형식을 읽지 않습니다.
+5. 텍스트가 준비되면 읽고, 검색하고, 복사하세요. 무료 플랜에는 매달 요약 3회가 포함되고, Pro에서는 모든 텍스트에 요약이 붙으며 TXT나 PDF로 내보낼 수 있습니다. 자세한 내용은 [음성을 텍스트로 변환하기](/ko/voice-to-text/)와 [Verbi가 지원하는 언어](/ko/help/languages/)를 보세요.
+
+## 자주 묻는 질문
+
+### iPhone에서 녹음을 텍스트로 바꿔 주는 앱은 무엇인가요?
+
+기본 앱으로도 됩니다. Apple 사용 설명서(iOS 27, 2026년 11월 19일 확인)에 따르면 음성 메모와 메모는 iPhone 12 이상에서 한국어를 전사합니다. App Store 앱 중에서는 클로바노트, Otter, Notta, Transkriptor, Verbi가 한국어를 텍스트로 변환합니다.
+
+### 갤럭시에서 녹음을 텍스트로 바꿀 수 있나요?
+
+삼성 갤럭시 AI 페이지에 따르면 S24 시리즈 이후 출시된 갤럭시 스마트폰에서 텍스트 변환 어시스트가 한국어를 지원합니다. 사전 설치된 삼성 전화, 삼성 노트, 삼성 통역 앱으로 녹음한 파일에서 동작하며, 네트워크 연결과 삼성 계정 로그인이 필요합니다. 다른 Android 휴대전화에서는 클로바노트, Otter, Notta, Transkriptor, Verbi 같은 앱을 쓸 수 있습니다.
+
+### 무료로 녹음을 텍스트로 바꿀 수 있나요?
+
+iPhone 12 이상의 음성 메모와 메모, 지원되는 갤럭시의 텍스트 변환 어시스트는 휴대전화에 이미 들어 있습니다. 다른 앱의 요금제는 자주 바뀌므로 여기서는 다루지 않으니 각 앱의 페이지를 확인하세요. Verbi는 무료로 다운로드할 수 있고, 무료 플랜에는 가입 없이 매달 60분의 텍스트 변환, 녹음 15일 보관, 매달 AI 요약 3회가 포함됩니다([자세히 보기](/ko/help/free-plan-vs-pro/)).
+
+### Otter는 한국어를 변환하나요?
+
+네. Otter 고객센터의 지원 언어 목록(2026년 11월 10일 업데이트)에 한국어가 있으며, 회의, 오디오 녹음, 동영상 파일에 쓸 수 있습니다. 언어는 녹음이나 가져오기 전에 고릅니다. 한국 App Store에는 앱 언어로 영어가 표시됩니다(2026년 11월 19일 확인).
+
+### 요약도 한국어로 나오나요?
+
+Verbi에서는 앱을 한국어로 설정하면 그렇습니다(iPhone 1.5.0, Android 1.3.0부터). 요약, 제목, 채팅 답변은 앱 언어로 나오고, 텍스트는 말한 언어 그대로 남습니다.
+
+### 이 비교는 누가 만들었나요?
+
+Verbi 팀입니다. 다른 앱에 대해서는 공식 페이지, 고객센터, 앱 스토어 소개에 나온 내용만 썼으며, 출처에 없는 내용은 "—"로 표시했습니다.
+
+## 출처
+
+이 페이지에 나온 다른 앱 정보는 각 앱의 공식 페이지, 고객센터, 앱 스토어 소개에서 가져왔으며 2026년 11월 19일에 확인했습니다. 앱이 업데이트되면 달라질 수 있습니다.
+
+- Apple: [음성 메모 전사](https://support.apple.com/ko-kr/guide/iphone/iph00953a982/ios), [메모에서 오디오 녹음과 전사](https://support.apple.com/ko-kr/guide/iphone/iphbe11247b5/ios), [녹음 내보내기](https://support.apple.com/ko-kr/guide/iphone/iph831c37815/ios)
+- 삼성: [갤럭시 AI](https://www.samsung.com/sec/galaxy-ai/), [음성 녹음 Google Play](https://play.google.com/store/apps/details?id=com.sec.android.app.voicenote&hl=ko)
+- Google 녹음기: [언어와 요약](https://support.google.com/pixelphone/answer/16267698?hl=en), [지원 기기](https://support.google.com/pixelphone/answer/16267668?hl=en)(영어), [Google Play](https://play.google.com/store/apps/details?id=com.google.android.apps.recorder&hl=ko)
+- 클로바노트: [App Store](https://apps.apple.com/kr/app/id1530010245), [Google Play](https://play.google.com/store/apps/details?id=com.naver.clova.minute&hl=ko)
+- WhatsApp: [Android 음성 메시지 텍스트 변환](https://faq.whatsapp.com/241617298315321/?cms_platform=android&locale=ko_KR), [iPhone 음성 메시지 텍스트 변환](https://faq.whatsapp.com/241617298315321/?cms_platform=iphone&locale=ko_KR)
+- Otter: [지원 언어](https://help.otter.ai/hc/en-us/articles/360047247414-Supported-Languages), [새 언어 발표 블로그](https://otter.ai/blog/otter-ai-announces-its-biggest-multilingual-leap-yet-27-new-languages-and-multilingual-capabilities), [데스크톱 앱](https://help.otter.ai/hc/en-us/articles/35973988280215-Otter-Desktop-App-Mac-Windows)(영어), [App Store](https://apps.apple.com/kr/app/id1276437113), [Google Play](https://play.google.com/store/apps/details?id=com.aisense.otter&hl=ko)
+- Notta: [지원 환경](https://support.notta.ai/hc/en-us/articles/18119588493467-Supported-environments), [지원 언어](https://support.notta.ai/hc/en-us/articles/4403155631131-What-languages-does-Notta-support)(영어), [App Store](https://apps.apple.com/kr/app/id1480649572), [Google Play](https://play.google.com/store/apps/details?id=com.langogo.transcribe&hl=ko)
+- Transkriptor: [한국어 사이트](https://transkriptor.com/ko/), [데스크톱 앱](https://transkriptor.com/desktop-app/), [App Store](https://apps.apple.com/kr/app/id1610386353), [Google Play](https://play.google.com/store/apps/details?id=com.transkriptor.app&hl=ko)
+
+---
+
+URL: https://theverbi.com/zh/chinese-transcription-apps/
+Language: zh-Hans
+Last updated: 2026-11-19
+
+# 中文录音转文字：哪些应用可以用？（2026）
+
+中文是手机自带功能覆盖得比较好的语言：iPhone 的“语音备忘录”和“备忘录”可以把简体中文和繁体中文的录音转成文字，Pixel 的录音机支持普通话，三星 Galaxy AI 支持简体中文和繁体中文（香港、台湾），微信在录制语音消息时也能转成文字。所以真正要问的，往往不是哪个应用“懂中文”，而是你的手机和你要录的内容：是 Android 还是 iPhone，是一小时的课堂还是一条语音消息，说的是普通话还是粤语，要不要中文摘要。下表汇总了各家在自己官方页面上的说明，核对于 2026 年 11 月 19 日。
+
+## 哪些应用可以把中文录音转成文字？
+
+| 应用 | 平台 | 转写中文 | 中文界面 | 在手机上录音 | 导入文件 | AI 摘要 |
+| --- | --- | --- | --- | --- | --- | --- |
+| 语音备忘录 (Apple) | iPhone | 是：简体中文和繁体中文，iPhone 12 或后续机型¹ | 是 | 是，录音时显示听写文本 | — | — |
+| iPhone 备忘录 (在备忘录中“录音”) | iPhone | 是：简体中文和繁体中文，iPhone 12 或后续机型¹ | 是 | 是，实时显示听写文本 | — | — |
+| Google 录音机 (Recorder，Pixel 手机) | Pixel 3 及更新机型、Pixel Tablet | 是：实时转写支持普通话，需 Pixel 6 及更新机型² | — | 是 | — | 是：Pixel 8 及更新机型，摘要语言包括普通话² |
+| 三星录音机 (Galaxy AI 转录助手) | 支持 Galaxy AI 的 Galaxy 设备 | 是：简体中文、繁体中文（香港、台湾） | — | 是 | — | 是，需登录三星账户 |
+| Otter | iOS、Android、网页、电脑（Mac、Windows） | 是：普通话（简体）和粤语³ | 否，英文⁴ | 是，实时转写 | 是 | 是 |
+| Notta | iOS、Android、网页、电脑（Windows、macOS） | 是：中文（简体、繁体）和粤语 | 是⁴ | 是，实时转写 | 是 | 是 |
+| Transkriptor | iOS、Android、网页、Chrome 扩展、电脑（Windows、Mac） | 是：普通话和粤语 | 是⁴ | 是 | 是 | 是 |
+| Transcribe – Speech to Text (DENIVIP · App Store id1241342461) | iPhone、iPad、Mac、网页 | 是：帮助中心的语言列表中有“Traditional Chinese” | 是⁴ | 是，实时转写 | 是 | 是 |
+| Verbi | iPhone、Android | 是，可自动检测语言 | 是，简体中文，iPhone 1.5.0 和 Android 1.3.0 起⁵ | 是，实时转写 | 是；也可导入 WhatsApp 和 Telegram 语音消息及 YouTube 链接 | 是：九种模板，App 为中文时用中文撰写 |
+
+— 来源中没有说明。
+
+¹ 据 Apple《iPhone 使用手册》，音频听写文本在 iPhone 12 或后续机型上针对英语、西班牙语、葡萄牙语、意大利语、法语、德语、日语、韩语、简体中文和繁体中文可用，并非在所有国家或地区都可用。该手册的中文页面没有提到这两个 App 的 AI 摘要。² 据 Google 帮助中心的语言列表；“重新转写”（Transcribe again）还列出普通话（简体，中国）和普通话（繁体，台湾）。核对于 2026 年 11 月 19 日，列表可能变化。³ Otter 帮助中心的语言列表（文章更新于 2026 年 11 月 10 日）；需要在录音或导入前选择所说的语言。⁴ App 的界面语言依据 App Store 新加坡区的应用页面。⁵ 手机语言设为繁体中文时，Verbi 显示英文，可在“设置”→“语言”中选择“简体中文”。
+
+## iPhone 不装别的 App 能把中文录音转成文字吗？
+
+能，从 iPhone 12 起。Apple 的[《iPhone 使用手册》](https://support.apple.com/zh-cn/guide/iphone/iph00953a982/ios)说明，“语音备忘录”在 iPhone 12 或后续机型上可为简体中文和繁体中文录音生成听写文本，但并非在所有国家或地区都可用。录音时波形会暂时消失，听写文本出现，当前的话会高亮；之后可以选取“拷贝听写文本”复制全部文字。用 iOS 17 或更低版本录的旧录音，打开时也会自动转写。
+
+“备忘录”App 也能在一条备忘录里做同样的事：点按“附件”按钮，再点按“录音”。据[备忘录的说明](https://support.apple.com/zh-cn/guide/iphone/iphbe11247b5/ios)，用支持的语言所说的话会自动转写；之后可以“在听写文本中查找”，或选择“将听写文本添加到备忘录”“拷贝听写文本”。如果只是想看或复制说过的话，Apple 自带的 App 可能就够了。它们不在 Android 上，也不接收 WhatsApp 或微信的语音消息。
+
+## WhatsApp 和微信的语音消息呢？
+
+WhatsApp 可以在你收到的语音消息下面显示文字：在“设置”的“聊天”中开启语音消息转写，文字在你的设备上生成。据 WhatsApp 帮助中心，[iPhone 版](https://faq.whatsapp.com/241617298315321/?cms_platform=iphone&locale=zh_CN)支持普通话，需要 iOS 16 或更新版本并启用 Siri；[Android 版](https://faq.whatsapp.com/241617298315321/?cms_platform=android&locale=zh_CN)的列表目前只有英语、葡萄牙语、西班牙语和俄语，中文不在其中（截至 2026 年 11 月 19 日）。
+
+微信（WeChat）的帮助中心说明，在[长按录制语音消息的过程中](https://cs.help.wechat.com/hc/zh-cn/articles/11917834863247)，手指向右上方滑动即可把语音转换为文字，目前仅支持普通话、英语和广东话。微信的一条语音消息[最长 60 秒](https://cs.help.wechat.com/hc/zh-cn/articles/11915240382863)。
+
+短消息看一眼就够的话，这些功能通常就够用。如果想保存文字、搜索、给一段长语音写摘要，或者让它和你的其他录音放在一起，可以把语音消息作为文件分享给转写应用。Verbi 可以从分享菜单接收 WhatsApp 和 Telegram 的语音消息，从头到尾转写并生成摘要（[操作方法](/zh/help/transcribe-whatsapp-voice-messages/)）。Transcribe（DENIVIP）的 App Store 页面也提到 WhatsApp 语音消息。
+
+## Google 录音机（Pixel）
+
+Google 录音机适用于 Pixel 3 及更新机型和 Pixel Tablet（[Google 帮助](https://support.google.com/pixelphone/answer/16267668?hl=en)）。据它的[语言列表](https://support.google.com/pixelphone/answer/16267698?hl=en)，Pixel 6 及更新机型的实时转写支持“Chinese (Mandarin)”；“重新转写”可选普通话（简体，中国）和普通话（繁体，台湾）。AI 摘要需要 Pixel 8 及更新机型，摘要语言同样包括普通话。帮助页面没有提到粤语。
+
+适合谁：用较新的 Pixel、说普通话、不想另装 App 的人。
+
+## 三星录音机（Galaxy AI）
+
+在 Galaxy 手机上，Galaxy AI 的转录助手在“录音机”App 里。据[三星新加坡的说明](https://www.samsung.com/sg/support/mobile-devices/how-to-use-transcribe-assist-on-the-galaxy-s24/)，支持的语言包括简体中文和繁体中文（香港、台湾）：选择一段录音，点按“Transcribe”，选择语言后再点一次即可。转写后还可以点按“Summary”生成带关键词的摘要，使用摘要需要登录三星账户。哪些机型可用取决于设备和地区。
+
+适合谁：用支持 Galaxy AI 的 Galaxy 手机、习惯用手机自带录音机的人。
+
+## Otter
+
+Otter 有 iPhone 和 Android 应用、网页版和 [Mac、Windows 电脑版](https://help.otter.ai/hc/en-us/articles/35973988280215-Otter-Desktop-App-Mac-Windows)；可以实时录音转写、[导入音频和视频文件](https://help.otter.ai/hc/en-us/articles/360047733574-Import-an-audio-or-video-file)，并生成摘要和会议笔记。它的[语言列表](https://help.otter.ai/hc/en-us/articles/360047247414-Supported-Languages)包括普通话（简体）和粤语；[帮助中心](https://help.otter.ai/hc/en-us/articles/26660468516631-Transcribe-conversations-in-different-languages-with-Otter)说明，选择会议或录音所说的语言后，转写和 AI 会议笔记都会是这种语言。[App Store 新加坡区的页面](https://apps.apple.com/sg/app/otter-transcribe-voice-notes/id1276437113)显示 App 界面只有英文。
+
+适合谁：主要在电脑上录会议、不介意英文界面的人；说粤语的会议也在它的语言列表里。
+
+## Notta
+
+Notta 支持 iPhone、Android、网页以及 Windows 和 macOS 电脑（[支持环境](https://support.notta.ai/hc/en-us/articles/18119588493467-Supported-environments)）。在 App 里，“+”按钮提供[导入文件、立即录音和实时转写线上会议](https://support.notta.ai/hc/en-us/articles/17604467003803-Introduction-about-Notta-App)；它的[语言列表](https://support.notta.ai/hc/en-us/articles/4403155631131-What-languages-does-Notta-support)包括中文（简体）、中文（繁体）和中文（粤语）。[App Store 新加坡区的页面](https://apps.apple.com/sg/app/notta-transcribe-voice-to-text/id1480649572)显示 App 有中文界面，并介绍了 AI 摘要。
+
+适合谁：在手机和电脑之间切换、希望实时转写线上会议的人。
+
+## Transkriptor
+
+Transkriptor 有 iOS 和 Android 应用、网页版、Chrome 扩展和 [Windows、Mac 电脑版](https://transkriptor.com/desktop-app/)。它的[简体中文网站](https://transkriptor.com/zh-hans/)说明支持中文（普通话和粤语），并可在转写后自动生成会议摘要；[App Store 新加坡区的页面](https://apps.apple.com/sg/app/transkriptor-speech-to-text/id1610386353)显示 App 有中文界面，并介绍了内置录音器、导入音频和视频文件，以及可以就转写提问、生成摘要的 AI 聊天。
+
+适合谁：也想在电脑上录音，或在浏览器里用扩展的人。
+
+## Transcribe – Speech to Text（DENIVIP）
+
+Transcribe（DENIVIP Group OOO，App Store id1241342461）支持 iPhone、iPad 和 Mac，并在 [transcribe.com](https://transcribe.com/) 提供网页编辑器。[App Store 新加坡区的页面](https://apps.apple.com/sg/app/transcribe-speech-to-text/id1241342461)显示 App 有中文界面，并介绍了实时转写的录音器、上传音频和视频、区分说话人、AI 摘要，以及转写 WhatsApp 语音消息；它的[帮助中心](https://transcribe.com/help-center)在语言列表中列出“Traditional Chinese”。还有名字相近的其他 App，下载前请核对开发者。
+
+适合谁：用 iPhone 和 Mac、也想在浏览器里编辑转写的人。
+
+## Verbi
+
+Verbi 是适用于 iPhone 和 Android 的 AI 录音应用。从 iPhone 1.5.0 和 Android 1.3.0 起，App 有简体中文界面，这时摘要、标题和聊天回答也用中文。转写文字保持说话时的语言：Verbi 可转写包括中文在内的 39 种语言，并能自动识别语言。它的语言列表写的是“中文”，没有单独列出粤语。
+
+你可以在 App 里录音（Pro 在套餐时长范围内支持长录音；在 iPhone 和 Android 上，锁屏后录音都会继续），导入音频或视频文件，分享 WhatsApp 或 Telegram 的语音消息，或粘贴 YouTube 链接。摘要有九种模板，例如“课堂笔记”“常规会议”和“行动项”，并严格依据所说的内容：负责人和日期只有在有人说出来时才会出现。使用 Pro，每份转写都有摘要，还能区分说话人、与转写聊天、翻译，以及导出为 TXT 或 PDF；免费套餐每月有 3 份摘要，并可复制文字。
+
+Verbi 不需要账户，录音和转写保存在你的手机上。转写时，音频会发送给我们的语音识别服务提供商，详见[隐私政策](https://theverbi.com/privacy-policy/)（英文）。免费套餐每月包含 60 分钟转写。
+
+适合谁：录长课堂、长会议和采访的人，收到长语音消息想留存的人，以及同时用 iPhone 和 Android 的人。Verbi 没有网页版或电脑版。
+
+## 怎样选择中文录音转文字的应用？
+
+大多数应用都支持中文，所以按你要录什么、录完要做什么来选。根据上表：
+
+- 课堂：需要录音，之后要笔记。Notta、Transkriptor、Transcribe 和 Verbi 都能生成 AI 摘要，Verbi 的“课堂笔记”模板只写老师讲过的内容。参见[怎样录课并转写](/zh/lecture-recorder-transcription/)。
+- 会议：如果你在电脑上工作，Otter、Notta 和 Transkriptor 有 Windows 和 Mac 应用。Verbi 用手机麦克风录音，不会以机器人身份加入通话；参见[用 AI 写会议纪要](/zh/ai-meeting-notes/)。
+- 采访：需要区分谁在说话的话，Transcribe 在应用页面中介绍了说话人区分，Verbi 的 Pro 也提供。详见[采访转写](/zh/interview-transcription/)。
+- 粤语：Otter、Notta 和 Transkriptor 的语言列表中有粤语，三星的列表中有繁体中文（香港），微信录制语音消息时可转换广东话。
+- 语音消息：iPhone 上的 WhatsApp 可以显示中文语音消息的文字；Android 版的语言列表中没有中文（截至 2026 年 11 月 19 日）。想保存、搜索或总结一段长语音，可以分享给能导入文件的应用，比如 Verbi。
+- 不花钱：iPhone 12 及后续机型自带“语音备忘录”和“备忘录”，Pixel 自带录音机，Galaxy 自带三星录音机。其他应用的套餐经常变化，所以这里不列出；Verbi 的免费套餐每月包含 60 分钟转写。
+- Android：Notta、Transkriptor、Otter 和 Verbi 都有 Android 应用；在 Pixel 和支持 Galaxy AI 的 Galaxy 上，自带录音机也能转写中文。
+- 中文界面：据 App Store 新加坡区的页面，Notta、Transkriptor 和 Transcribe 有中文界面，Verbi 也有简体中文界面；Otter 只有英文界面。
+- 隐私：音频在哪里处理、保存，请查看各应用的隐私说明。WhatsApp 的转写在设备上生成；Verbi 把录音保存在手机上，并把音频发送给转写服务提供商（[详情](/zh/help/privacy-and-storage/)）。
+
+## 怎样用 Verbi 把中文录音转成文字？
+
+1. 从 App Store 或 Google Play 下载 Verbi。在“设置”→“转写语言”中选择中文，或保持“自动检测”。想要中文摘要，请在“设置”→“语言”中选择“简体中文”。
+2. 要录音，点按“录音并转写”。想边说边看到文字，请选择“实时转写”。
+3. 对于已有的音频，点按“上传文件”，或从“语音备忘录”、WhatsApp 或其他 App 把它分享给 Verbi。在 iPhone 上，等出现“已添加到 Verbi。打开 App 即可转写。”后打开 Verbi。
+4. 从“语音备忘录”分享时，请使用默认的 .m4a 格式。据 [Apple 关于导出的说明](https://support.apple.com/zh-cn/guide/iphone/iph831c37815/ios)，“可编辑”选项导出的是 QuickTime 音频格式，Verbi 无法读取。
+5. 文字就绪后，可以阅读、搜索或复制。免费套餐每月有 3 份摘要；使用 Pro，每份转写都有摘要，并可导出为 TXT 或 PDF。更多内容见[语音转文字](/zh/voice-to-text/)和 [Verbi 支持的语言](/zh/help/languages/)。
+
+## 常见问题
+
+### iPhone 上用什么 App 把录音转成中文文字？
+
+iPhone 本身就可以：据 Apple《iPhone 使用手册》（核对于 2026 年 11 月 19 日），“语音备忘录”和“备忘录”在 iPhone 12 或后续机型上可转写简体中文和繁体中文，但并非在所有国家或地区都可用。App Store 上的 Otter、Notta、Transkriptor、Transcribe 和 Verbi 也都能转写中文。
+
+### 有免费的中文录音转文字应用吗？
+
+iPhone 自带“语音备忘录”和“备忘录”，Pixel 自带录音机，Galaxy 自带三星录音机，iPhone 上的 WhatsApp 也能转写收到的中文语音消息。其他应用的套餐经常变化，这里不列出，请查看各自的页面。Verbi 可免费下载，免费套餐每月包含 60 分钟转写、录音保留 15 天、每月 3 份 AI 摘要，无需注册账户。
+
+### 哪些应用能转写粤语？
+
+据各自的官方页面（核对于 2026 年 11 月 19 日），Otter、Notta 和 Transkriptor 的语言列表中有粤语；三星 Galaxy AI 转录助手支持繁体中文（香港）；微信在录制语音消息时可以把广东话转为文字。
+
+### WhatsApp 能把中文语音消息转成文字吗？
+
+在 iPhone 上可以：据 WhatsApp 帮助中心，需要 iOS 16 或更新版本并启用 Siri，然后在“设置”的“聊天”中开启语音消息转写。Android 版的语言列表目前只有英语、葡萄牙语、西班牙语和俄语（截至 2026 年 11 月 19 日）。想保存或总结一段长语音，可以把它分享给 Verbi。
+
+### 摘要会是中文吗？
+
+在 Verbi 中，App 界面设为简体中文时是中文：摘要和聊天回答使用 App 的界面语言，转写保持说话时的语言。所以一场英文会议，转写是英文，摘要是中文。
+
+### 这份对比是谁做的？
+
+Verbi 团队。关于其他应用，我们只采用它们官方页面、帮助中心和应用商店页面上的说明；来源没有说明的，标为“—”。
+
+## 资料来源
+
+本页关于其他应用的信息来自它们的官方页面、帮助中心和应用商店页面，核对于 2026年11月19日。应用更新后，这些信息可能会变化。
+
+- Apple：[语音备忘录的听写文本](https://support.apple.com/zh-cn/guide/iphone/iph00953a982/ios)、[在备忘录中录音](https://support.apple.com/zh-cn/guide/iphone/iphbe11247b5/ios)、[导出录音](https://support.apple.com/zh-cn/guide/iphone/iph831c37815/ios)
+- Google 录音机：[语言与摘要](https://support.google.com/pixelphone/answer/16267698?hl=en)、[支持的设备](https://support.google.com/pixelphone/answer/16267668?hl=en)（英文）、[Google Play](https://play.google.com/store/apps/details?id=com.google.android.apps.recorder&hl=zh_CN&gl=SG)
+- 三星：[Galaxy AI 转录助手](https://www.samsung.com/sg/support/mobile-devices/how-to-use-transcribe-assist-on-the-galaxy-s24/)（新加坡，英文）
+- WhatsApp：[Android 上的语音消息转写](https://faq.whatsapp.com/241617298315321/?cms_platform=android&locale=zh_CN)、[iPhone 上的语音消息转写](https://faq.whatsapp.com/241617298315321/?cms_platform=iphone&locale=zh_CN)
+- 微信（WeChat）：[录制中将语音转换为文字](https://cs.help.wechat.com/hc/zh-cn/articles/11917834863247)、[传送语音消息](https://cs.help.wechat.com/hc/zh-cn/articles/11915240382863)
+- Otter：[支持的语言](https://help.otter.ai/hc/en-us/articles/360047247414-Supported-Languages)、[用其他语言转写](https://help.otter.ai/hc/en-us/articles/26660468516631-Transcribe-conversations-in-different-languages-with-Otter)、[电脑版](https://help.otter.ai/hc/en-us/articles/35973988280215-Otter-Desktop-App-Mac-Windows)、[导入文件](https://help.otter.ai/hc/en-us/articles/360047733574-Import-an-audio-or-video-file)（英文）、[App Store](https://apps.apple.com/sg/app/otter-transcribe-voice-notes/id1276437113)、[Google Play](https://play.google.com/store/apps/details?id=com.aisense.otter&hl=zh_CN&gl=SG)
+- Notta：[支持环境](https://support.notta.ai/hc/en-us/articles/18119588493467-Supported-environments)、[支持的语言](https://support.notta.ai/hc/en-us/articles/4403155631131-What-languages-does-Notta-support)、[App 介绍](https://support.notta.ai/hc/en-us/articles/17604467003803-Introduction-about-Notta-App)（英文）、[App Store](https://apps.apple.com/sg/app/notta-transcribe-voice-to-text/id1480649572)、[Google Play](https://play.google.com/store/apps/details?id=com.langogo.transcribe&hl=zh_CN&gl=SG)
+- Transkriptor：[简体中文网站](https://transkriptor.com/zh-hans/)、[电脑版](https://transkriptor.com/desktop-app/)、[App Store](https://apps.apple.com/sg/app/transkriptor-speech-to-text/id1610386353)、[Google Play](https://play.google.com/store/apps/details?id=com.transkriptor.app&hl=zh_CN&gl=SG)
+- Transcribe – Speech to Text（DENIVIP）：[App Store id1241342461](https://apps.apple.com/sg/app/transcribe-speech-to-text/id1241342461)、[transcribe.com](https://transcribe.com/)、[帮助中心](https://transcribe.com/help-center)
+
+---
+
+URL: https://theverbi.com/id/aplikasi-transkripsi-bahasa-indonesia/
+Language: id
+Last updated: 2026-11-19
+
+# Aplikasi transkripsi audio bahasa Indonesia (2026)
+
+Banyak ponsel kini bisa mengubah suara menjadi teks, tetapi untuk bahasa Indonesia pilihannya lebih sempit. Bahasa Indonesia tidak ada dalam daftar bahasa transkripsi Memo Suara dan Catatan di panduan iPhone, maupun dalam daftar transkrip pesan suara WhatsApp (per 19 November 2026). Jadi untuk rekaman kuliah, rapat, wawancara, atau pesan suara panjang dalam bahasa Indonesia, biasanya Anda perlu aplikasi tersendiri, atau ponsel Galaxy dengan Galaxy AI. Tabel di bawah merangkum apa yang ditulis setiap pembuat aplikasi di halaman resminya sendiri, diperiksa pada 19 November 2026.
+
+## Aplikasi apa saja yang mentranskripsikan audio bahasa Indonesia?
+
+| Aplikasi | Platform | Transkripsi bahasa Indonesia | Aplikasi berbahasa Indonesia | Merekam di ponsel | Impor file | Ringkasan AI |
+| --- | --- | --- | --- | --- | --- | --- |
+| Memo Suara (Apple) | iPhone | Bahasa Indonesia tidak ada dalam daftar bahasa transkripsi (per 19 November 2026)¹ | Ya | Ya; transkripsi langsung untuk bahasa dalam daftar | — | Lewat Alat Tulis Apple Intelligence; bahasa Indonesia tidak ada dalam daftar bahasanya² |
+| Catatan di iPhone ("Rekam Audio" di catatan) | iPhone | Bahasa Indonesia tidak ada dalam daftar bahasa transkripsi (per 19 November 2026)¹ | Ya | Ya; transkripsi langsung untuk bahasa dalam daftar | — | Rangkuman dengan Apple Intelligence; bahasa Indonesia tidak ada dalam daftar bahasanya² |
+| Perekam Suara Google (Recorder, ponsel Pixel) | Pixel 3 atau lebih baru, Pixel Tablet | Hanya lewat transkripsi ulang ("Transcribe again")³ | — | Ya | — | Ada (Pixel 8 atau lebih baru); bahasa Indonesia tidak ada dalam daftar bahasa ringkasan |
+| Perekam Suara Samsung (Bantuan transkripsi (Galaxy AI)) | Perangkat Galaxy yang mendukung Galaxy AI | Ya, Bahasa Indonesia ada dalam daftar bahasa | — | Ya | — | Ya ("Ikhtisar"), dengan akun Samsung |
+| Otter | iOS, Android, web, komputer (Mac, Windows) | Ya⁴ | Tidak, berbahasa Inggris⁵ | Ya, langsung | Ya | Ya |
+| Notta | iOS, Android, web, komputer (Windows, macOS) | Ya; daftarnya juga memuat bahasa Jawa dan Sunda | Ya⁵ | Ya, langsung | Ya | Ya |
+| Transkriptor | iOS, Android, web, ekstensi Chrome, komputer (Windows, Mac) | Ya | Ya⁵ | Ya | Ya | Ya |
+| Transcribe – Speech to Text (DENIVIP · App Store id1241342461) | iPhone, iPad, Mac, web | Ya | Bahasa Indonesia tidak ada di antara bahasa aplikasi di App Store⁵ | Ya, dengan transkripsi langsung | Ya | Ya |
+| Verbi | iPhone, Android | Ya, dengan deteksi bahasa otomatis | Ya, sejak versi 1.5.0 (iPhone) dan 1.3.0 (Android) | Ya, dengan transkripsi langsung | Ya; juga pesan suara WhatsApp dan Telegram serta tautan YouTube | Ya: sembilan template, dalam bahasa Indonesia jika aplikasi berbahasa Indonesia |
+
+— Sumber tidak menyebutkannya.
+
+¹ Panduan Pengguna iPhone menyebut bahasa Inggris, Spanyol, Portugis, Italia, Prancis, Jerman, Jepang, Korea, Tionghoa Sederhana, dan Tionghoa Tradisional, di iPhone 12 atau lebih baru; fitur ini tidak tersedia di semua negara atau wilayah. ² Daftar bahasa Apple Intelligence ada di halaman panduan Catatan; di iOS 27, Apple Intelligence tersedia di iPhone 15 Pro, iPhone 15 Pro Max, atau iPhone 16 dan lebih baru. ³ "Indonesian (Indonesia)" ada dalam daftar fitur "Transcribe again", yang menurut Google dapat memproses audio di server Google, tetapi tidak ada dalam daftar transkripsi langsung. ⁴ Bahasa Indonesia ada dalam daftar bahasa di pusat bantuan Otter (artikel diperbarui 10 November 2026); deskripsi aplikasi di App Store masih menyebut bahasa Inggris, Spanyol, Prancis, dan Jepang. ⁵ Bahasa aplikasi menurut data App Store Indonesia.
+
+## Bisakah iPhone mentranskripsikan bahasa Indonesia tanpa aplikasi lain?
+
+Menurut [Panduan Pengguna iPhone](https://support.apple.com/id-id/guide/iphone/iph00953a982/ios), Memo Suara mentranskripsikan rekaman di iPhone 12 atau lebih baru dalam bahasa Inggris, Spanyol, Portugis, Italia, Prancis, Jerman, Jepang, Korea, Tionghoa Sederhana, dan Tionghoa Tradisional, dan fitur ini tidak tersedia di semua negara atau wilayah. Bahasa Indonesia tidak ada dalam daftar itu (per 19 November 2026). Untuk bahasa dalam daftar, teks muncul saat merekam dan bisa disalin dengan "Salin Transkrip".
+
+Catatan memakai syarat yang sama: "Rekam Audio" ada di setiap catatan, tetapi menurut [panduan Catatan](https://support.apple.com/id-id/guide/iphone/iphbe11247b5/ios) transkripsi hanya berjalan saat bahasa perangkat diatur ke salah satu bahasa tadi. Rangkuman Apple Intelligence juga bergantung pada bahasa, dan bahasa Indonesia tidak ada dalam daftar bahasanya di halaman yang sama. Rekamannya sendiri tetap tersimpan dalam bahasa apa pun, jadi file dari Memo Suara bisa Anda kirim ke aplikasi yang mentranskripsikan bahasa Indonesia.
+
+## Bagaimana dengan pesan suara WhatsApp?
+
+WhatsApp bisa menampilkan teks pesan suara yang Anda terima setelah "Transkrip pesan suara" dinyalakan di Pengaturan > Obrolan, dan teksnya dibuat di perangkat Anda. Menurut Pusat Bantuan, di [Android](https://faq.whatsapp.com/241617298315321/?cms_platform=android&locale=id_ID) fitur ini saat ini hanya tersedia dalam bahasa Inggris, Portugis, Rusia, dan Spanyol, dan di [iPhone](https://faq.whatsapp.com/241617298315321/?cms_platform=iphone&locale=id_ID) bahasa Indonesia tidak ada dalam daftar untuk iOS 16 maupun iOS 17 dan lebih baru (per 19 November 2026).
+
+Karena itu, untuk membaca, menyimpan, mencari, atau meringkas pesan suara berbahasa Indonesia, bagikan pesannya ke aplikasi transkripsi. Verbi menerima pesan suara WhatsApp dan Telegram dari menu bagikan, mentranskripsikannya dari awal sampai akhir, dan bisa meringkasnya ([langkah-langkahnya](/id/bantuan/transkripsi-pesan-suara-whatsapp/)). Halaman App Store Transcribe (DENIVIP) juga menyebut pesan suara WhatsApp.
+
+## Perekam Suara Google (Pixel)
+
+Aplikasi Recorder dari Google (di Google Play berbahasa Indonesia bernama "[Perekam Suara](https://play.google.com/store/apps/details?id=com.google.android.apps.recorder&hl=id)") berjalan di Pixel 3 atau lebih baru dan Pixel Tablet ([bantuan Google](https://support.google.com/pixelphone/answer/16267668?hl=en)). Dalam [daftar bahasanya](https://support.google.com/pixelphone/answer/16267698?hl=en), "Indonesian (Indonesia)" hanya ada untuk "Transcribe again", fitur yang mentranskripsikan ulang rekaman yang sudah ada dan dapat memproses audio di server Google. Bahasa Indonesia tidak ada dalam daftar transkripsi langsung maupun ringkasan (Pixel 8 atau lebih baru), per 19 November 2026.
+
+Cocok untuk: pemilik Pixel yang ingin mentranskripsikan rekaman yang sudah jadi tanpa memasang aplikasi lain.
+
+## Perekam Suara Samsung (Galaxy AI)
+
+Di ponsel Galaxy, fitur Bantuan transkripsi dari Galaxy AI ada di aplikasi Perekam Suara. [Panduan Samsung Indonesia](https://www.samsung.com/id/support/mobile-devices/bagaimana-cara-menggunakan-bantuan-transkripsi-di-galaxy-s24/) mencantumkan Bahasa Indonesia di antara bahasa yang didukung: pilih rekaman, ketuk "Transkripsi", pilih bahasa, lalu ketuk "Transkripsi" lagi. Teksnya juga bisa diterjemahkan dan diringkas lewat "Ikhtisar", yang memerlukan login ke akun Samsung; rekaman yang pendek tidak bisa diringkas. Model yang mendukung bergantung pada perangkat, dan panduan tersebut merujuk ke daftar Samsung.
+
+Cocok untuk: pemilik Galaxy yang mendukung Galaxy AI dan merekam dengan aplikasi bawaan ponsel.
+
+## Otter
+
+Otter punya aplikasi iPhone dan Android, versi web, dan [aplikasi untuk Mac dan Windows](https://help.otter.ai/hc/en-us/articles/35973988280215-Otter-Desktop-App-Mac-Windows); Otter merekam dan mentranskripsikan secara langsung, [mengimpor file audio dan video](https://help.otter.ai/hc/en-us/articles/360047733574-Import-an-audio-or-video-file), serta membuat ringkasan dan catatan rapat. Bahasa Indonesia ada dalam [daftar bahasanya](https://help.otter.ai/hc/en-us/articles/360047247414-Supported-Languages) (artikel diperbarui 10 November 2026), dan menurut [pusat bantuannya](https://help.otter.ai/hc/en-us/articles/26660468516631-Transcribe-conversations-in-different-languages-with-Otter) Anda memilih bahasa yang diucapkan sebelum merekam atau mengimpor agar transkrip dan catatan AI dibuat dalam bahasa itu. [App Store Indonesia](https://apps.apple.com/id/app/otter-transcribe-voice-notes/id1276437113) mencantumkan bahasa Inggris sebagai bahasa aplikasinya.
+
+Cocok untuk: yang merekam rapat kerja, terutama di komputer, dan tidak keberatan dengan menu berbahasa Inggris.
+
+## Notta
+
+Notta berjalan di iPhone dan Android, di browser, dan di aplikasi untuk Windows dan macOS ([lingkungan yang didukung](https://support.notta.ai/hc/en-us/articles/18119588493467-Supported-environments)). Di aplikasinya, tombol + menawarkan [impor file, rekam sekarang, dan transkripsi rapat langsung](https://support.notta.ai/hc/en-us/articles/17604467003803-Introduction-about-Notta-App). [Daftar bahasa](https://support.notta.ai/hc/en-us/articles/4403155631131-What-languages-does-Notta-support) untuk transkripsi satu bahasa memuat bahasa Indonesia, juga bahasa Jawa dan Basa Sunda, dan data [App Store Indonesia](https://apps.apple.com/id/app/notta-transcribe-voice-to-text/id1480649572) menunjukkan aplikasinya tersedia dalam bahasa Indonesia, dengan ringkasan AI.
+
+Cocok untuk: yang berpindah antara ponsel dan komputer, merekam dalam beberapa bahasa, atau ingin mentranskripsikan rapat online secara langsung.
+
+## Transkriptor
+
+Transkriptor punya aplikasi iOS dan Android, versi web, ekstensi Chrome, dan [aplikasi untuk Windows dan Mac](https://transkriptor.com/desktop-app/). [Situs berbahasa Indonesianya](https://transkriptor.com/id/) mencantumkan bahasa Indonesia di antara bahasa transkripsi dan menyebut perekaman suara, unggah file audio atau video, serta ringkasan rapat dari AI. Data [App Store Indonesia](https://apps.apple.com/id/app/transkriptor-speech-to-text/id1610386353) menunjukkan aplikasinya tersedia dalam bahasa Indonesia; deskripsinya menyebut perekam bawaan, chat AI dengan transkrip, dan ringkasan.
+
+Cocok untuk: yang juga ingin merekam dari komputer atau memakai ekstensi di browser.
+
+## Transcribe – Speech to Text (DENIVIP)
+
+Transcribe (DENIVIP Group OOO, App Store id1241342461) berjalan di iPhone, iPad, dan Mac, dengan editor web di [transcribe.com](https://transcribe.com/). [Pusat bantuannya](https://transcribe.com/help-center) mencantumkan bahasa Indonesia di antara bahasa yang didukung. [Halaman App Store-nya](https://apps.apple.com/id/app/transcribe-speech-to-text/id1241342461) menyebut perekam dengan transkripsi langsung, unggah audio dan video, pemisahan pembicara, ringkasan otomatis, dan transkripsi pesan suara WhatsApp; bahasa Indonesia tidak ada di antara bahasa aplikasinya. Ada aplikasi lain dengan nama mirip, jadi periksa nama pengembangnya sebelum mengunduh.
+
+Cocok untuk: pengguna iPhone dan Mac yang juga ingin menyunting transkrip di browser.
+
+## Verbi
+
+Verbi adalah perekam suara AI untuk iPhone dan Android. Sejak versi 1.5.0 di iPhone dan 1.3.0 di Android, aplikasinya tersedia dalam bahasa Indonesia, dan dengan itu ringkasan, judul, serta jawaban chat juga datang dalam bahasa Indonesia. Transkrip tetap dalam bahasa yang diucapkan: Verbi mentranskripsikan 39 bahasa, termasuk bahasa Indonesia dan Melayu, dan bisa mendeteksi bahasanya sendiri.
+
+Anda merekam di aplikasi (dengan Pro, rekaman panjang dalam batas jam paket Anda; di iPhone maupun Android, rekaman berlanjut saat layar terkunci), mengimpor file audio atau video, membagikan pesan suara WhatsApp atau Telegram, atau menempelkan tautan YouTube. Ringkasan mengikuti sembilan template, seperti Catatan Pelajaran, Rapat Umum, dan Daftar Tindakan, dan setia pada yang dikatakan: penanggung jawab dan tenggat muncul hanya jika ada yang menyebutkannya. Dengan Pro, setiap transkrip mendapat ringkasan, ditambah deteksi pembicara, chat dengan transkrip, terjemahan, dan ekspor TXT atau PDF; paket gratis mencakup 3 ringkasan sebulan dan menyalin teks.
+
+Verbi tidak memerlukan akun, dan rekaman serta transkrip disimpan di ponsel Anda. Untuk transkripsi, audio dikirim ke penyedia pengenalan suara kami (ElevenLabs dan OpenAI), seperti dijelaskan di [kebijakan privasi](https://theverbi.com/privacy-policy/) (dalam bahasa Inggris). Paket gratis mencakup 60 menit transkripsi sebulan, dan rekaman disimpan 15 hari.
+
+Cocok untuk: yang merekam kuliah, rapat, dan wawancara panjang, sering menerima pesan suara panjang di WhatsApp, atau memakai iPhone dan Android. Verbi tidak punya versi web atau komputer.
+
+## Bagaimana memilih aplikasi transkripsi bahasa Indonesia?
+
+Tergantung apa yang Anda rekam dan apa yang ingin Anda lakukan dengan teksnya. Berdasarkan tabel:
+
+- Kuliah: Anda perlu merekam lalu mendapat catatan. Bahasa Indonesia tidak ada dalam daftar transkripsi Memo Suara dan Catatan di panduan Apple (per 19 November 2026); Notta, Transkriptor, Transcribe, dan Verbi membuat ringkasan AI, dan template Catatan Pelajaran di Verbi setia pada yang diajarkan dosen. Lihat [cara merekam kuliah dan mendapat transkripnya](/id/rekam-kuliah-dan-transkrip/).
+- Rapat: jika Anda bekerja di komputer, Otter, Notta, dan Transkriptor punya aplikasi untuk Windows dan Mac. Verbi merekam lewat mikrofon ponsel dan tidak bergabung ke panggilan sebagai bot; lihat [notulen rapat dengan AI](/id/notulen-rapat-ai/).
+- Wawancara: Transcribe menyebut pemisahan pembicara di halaman App Store-nya, dan Verbi menawarkan deteksi pembicara dengan Pro. Selengkapnya di [transkripsi wawancara](/id/transkripsi-wawancara/).
+- Pesan suara WhatsApp: bahasa Indonesia tidak ada dalam daftar transkrip pesan suara WhatsApp (per 19 November 2026). Bagikan pesannya ke aplikasi yang mengimpor file, seperti Verbi.
+- Tanpa biaya: di ponsel Galaxy yang mendukung Galaxy AI, Perekam Suara bawaan mentranskripsikan bahasa Indonesia. Paket aplikasi lain sering berubah, jadi kami tidak mencantumkannya; paket gratis Verbi mencakup 60 menit transkripsi sebulan.
+- Android: Notta, Transkriptor, Otter, dan Verbi punya aplikasi Android; di Pixel, Perekam Suara Google mentranskripsikan bahasa Indonesia hanya lewat transkripsi ulang.
+- Bahasa daerah: daftar bahasa Notta juga memuat bahasa Jawa dan Sunda. Daftar 39 bahasa Verbi tidak memuat keduanya; lihat [bahasa yang didukung Verbi](/id/bantuan/bahasa/).
+- Aplikasi berbahasa Indonesia: menurut data App Store Indonesia, Notta dan Transkriptor tersedia dalam bahasa Indonesia, begitu juga Verbi sejak versi 1.5.0 di iPhone dan 1.3.0 di Android. Otter berbahasa Inggris, dan bahasa Indonesia tidak ada di antara bahasa aplikasi Transcribe.
+- Privasi: periksa halaman privasi tiap aplikasi untuk tahu di mana audio diproses dan disimpan. Google menyebut transkripsi ulang dapat memakai server Google; WhatsApp membuat transkrip di perangkat; Verbi menyimpan rekaman di ponsel dan mengirim audio ke penyedia transkripsi ([selengkapnya](/id/bantuan/privasi-dan-penyimpanan/)).
+
+## Bagaimana mentranskripsikan audio bahasa Indonesia dengan Verbi?
+
+1. Unduh Verbi dari App Store atau Google Play. Di "Pengaturan" → "Bahasa Transkripsi", pilih "Bahasa Indonesia", atau biarkan "Deteksi otomatis". Agar ringkasan datang dalam bahasa Indonesia, pilih "Bahasa Indonesia" di "Pengaturan" → "Bahasa".
+2. Untuk merekam, ketuk "Rekam & Transkripsi". Jika ingin melihat teks saat orang berbicara, pilih "Transkripsi Langsung".
+3. Untuk audio yang sudah ada, ketuk "Unggah File", atau bagikan ke Verbi dari Memo Suara, WhatsApp, Telegram, atau aplikasi lain. Di iPhone, tunggu pesan "Ditambahkan ke Verbi. Buka aplikasi untuk mentranskripsinya." lalu buka Verbi.
+4. Dari Memo Suara, bagikan dalam format bawaan (.m4a). Menurut [halaman Apple tentang mengekspor](https://support.apple.com/id-id/guide/iphone/iph831c37815/ios), pilihan "Dapat Diedit" mengekspor dalam format Audio QuickTime, yang tidak dibaca Verbi.
+5. Setelah teks siap, baca, cari, atau salin. Paket gratis mencakup 3 ringkasan sebulan; dengan Pro, setiap transkrip mendapat ringkasan dan Anda bisa mengekspor TXT atau PDF. Selengkapnya di [suara ke teks](/id/suara-ke-teks/) dan [cara mentranskripsikan file audio](/id/bantuan/transkripsi-file-audio/).
+
+## Pertanyaan umum
+
+### Aplikasi apa yang bisa mengubah rekaman bahasa Indonesia menjadi teks di iPhone?
+
+Memo Suara dan Catatan bawaan iPhone bisa mentranskripsikan, tetapi bahasa Indonesia tidak ada dalam daftar bahasanya di panduan Apple (per 19 November 2026). Dari App Store, Otter, Notta, Transkriptor, Transcribe, dan Verbi mencantumkan bahasa Indonesia di antara bahasa transkripsinya.
+
+### Apakah ada aplikasi transkripsi gratis untuk bahasa Indonesia?
+
+Di ponsel Galaxy yang mendukung Galaxy AI, Perekam Suara bawaan mencantumkan Bahasa Indonesia. Paket aplikasi lain sering berubah, jadi kami tidak mencantumkannya di sini; periksa halaman tiap aplikasi. Verbi gratis diunduh, dan paket gratisnya mencakup 60 menit transkripsi sebulan, rekaman disimpan 15 hari, dan 3 ringkasan AI sebulan, tanpa akun.
+
+### Apakah WhatsApp bisa mentranskripsikan pesan suara bahasa Indonesia?
+
+Menurut Pusat Bantuan WhatsApp, bahasa Indonesia tidak ada dalam daftar bahasa transkrip pesan suara, baik di Android maupun di iPhone (per 19 November 2026). Untuk mendapat teksnya, bagikan pesan suara ke aplikasi transkripsi seperti Verbi.
+
+### Apakah Otter mendukung bahasa Indonesia?
+
+Ya. Bahasa Indonesia ada dalam daftar bahasa di pusat bantuan Otter (artikel diperbarui 10 November 2026), untuk rapat, rekaman audio, dan file video; bahasanya dipilih sebelum merekam atau mengimpor. Menu aplikasinya berbahasa Inggris (diperiksa 19 November 2026).
+
+### Apakah ringkasannya dalam bahasa Indonesia?
+
+Di Verbi, ya, jika aplikasi diatur ke Bahasa Indonesia (sejak versi 1.5.0 di iPhone dan 1.3.0 di Android): ringkasan dan jawaban chat datang dalam bahasa aplikasi, sedangkan transkrip tetap dalam bahasa yang diucapkan. Jadi rapat berbahasa Inggris mendapat transkrip bahasa Inggris dan ringkasan bahasa Indonesia.
+
+### Siapa yang membuat perbandingan ini?
+
+Tim Verbi. Tentang aplikasi lain, kami hanya memakai apa yang tertulis di halaman resmi, pusat bantuan, dan halaman toko aplikasinya; yang tidak disebutkan sumber ditandai "—".
+
+## Sumber
+
+Informasi tentang aplikasi lain di halaman ini berasal dari situs resmi, pusat bantuan, dan halaman toko aplikasi masing-masing, diperiksa pada 19 November 2026. Informasinya bisa berubah seiring pembaruan aplikasi.
+
+- Apple: [transkripsi di Memo Suara](https://support.apple.com/id-id/guide/iphone/iph00953a982/ios), [merekam dan mentranskripsi audio di Catatan](https://support.apple.com/id-id/guide/iphone/iphbe11247b5/ios), [mengekspor rekaman](https://support.apple.com/id-id/guide/iphone/iph831c37815/ios)
+- Perekam Suara Google: [bahasa dan ringkasan](https://support.google.com/pixelphone/answer/16267698?hl=en), [perangkat](https://support.google.com/pixelphone/answer/16267668?hl=en) (dalam bahasa Inggris), [Google Play](https://play.google.com/store/apps/details?id=com.google.android.apps.recorder&hl=id)
+- Samsung: [Bantuan transkripsi dengan Galaxy AI](https://www.samsung.com/id/support/mobile-devices/bagaimana-cara-menggunakan-bantuan-transkripsi-di-galaxy-s24/)
+- WhatsApp: [transkrip pesan suara di Android](https://faq.whatsapp.com/241617298315321/?cms_platform=android&locale=id_ID) dan [di iPhone](https://faq.whatsapp.com/241617298315321/?cms_platform=iphone&locale=id_ID)
+- Otter: [bahasa](https://help.otter.ai/hc/en-us/articles/360047247414-Supported-Languages), [transkripsi dalam bahasa lain](https://help.otter.ai/hc/en-us/articles/26660468516631-Transcribe-conversations-in-different-languages-with-Otter), [aplikasi komputer](https://help.otter.ai/hc/en-us/articles/35973988280215-Otter-Desktop-App-Mac-Windows), [impor file](https://help.otter.ai/hc/en-us/articles/360047733574-Import-an-audio-or-video-file) (dalam bahasa Inggris), [App Store](https://apps.apple.com/id/app/otter-transcribe-voice-notes/id1276437113), [Google Play](https://play.google.com/store/apps/details?id=com.aisense.otter&hl=id)
+- Notta: [lingkungan yang didukung](https://support.notta.ai/hc/en-us/articles/18119588493467-Supported-environments), [bahasa](https://support.notta.ai/hc/en-us/articles/4403155631131-What-languages-does-Notta-support), [aplikasinya](https://support.notta.ai/hc/en-us/articles/17604467003803-Introduction-about-Notta-App) (dalam bahasa Inggris), [App Store](https://apps.apple.com/id/app/notta-transcribe-voice-to-text/id1480649572), [Google Play](https://play.google.com/store/apps/details?id=com.langogo.transcribe&hl=id)
+- Transkriptor: [situs berbahasa Indonesia](https://transkriptor.com/id/), [aplikasi komputer](https://transkriptor.com/desktop-app/), [App Store](https://apps.apple.com/id/app/transkriptor-speech-to-text/id1610386353), [Google Play](https://play.google.com/store/apps/details?id=com.transkriptor.app&hl=id)
+- Transcribe – Speech to Text (DENIVIP): [App Store id1241342461](https://apps.apple.com/id/app/transcribe-speech-to-text/id1241342461), [transcribe.com](https://transcribe.com/), [pusat bantuan](https://transcribe.com/help-center)
 
 ---
 
