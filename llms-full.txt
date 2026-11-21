@@ -16814,13 +16814,6 @@ Study (Pro, from version 1.6.0 on iPhone and 1.4.0 on Android): the Study tab of
 - About 2 days before, Verbi sends a notification, “Your recordings will be deleted soon”, if notifications are allowed. History also reminds you that the free plan keeps recordings 15 days.
 - To keep a recording, copy its text, or go Pro to export TXT or PDF and keep everything. See [how to export](/help/export-transcript/).
 
-## Can I try Pro by inviting a friend?
-
-- Yes: Settings → Account → Invite a friend gives 7 days of Pro, shown as Premium in the app, to both of you.
-- Your friend enters your 6-character code in Verbi, and their 7 days start right away. The invite text asks them to do this before they finish their first recording.
-- You get your 7 days when your friend finishes their first transcription. You can earn this reward for up to 5 friends.
-- Each device can get one invite reward, and reinstalling doesn’t reset it. If you already have a paid subscription, your reward days wait until it ends.
-
 ## Frequently asked questions
 
 ### When do my free minutes reset?
@@ -16880,13 +16873,6 @@ Last updated: 2026-11-18
 - Bildirimlere izin verdiyseniz Verbi yaklaşık 2 gün önce “Kayıtlarınız yakında silinecek” bildirimi gönderir. Geçmiş’te de ücretsiz planın kayıtları 15 gün sakladığı hatırlatılır.
 - Bir kaydı saklamak için metnini kopyalayın ya da TXT veya PDF olarak dışa aktarıp her şeyi saklamak için Pro’ya geçin. Bkz. [dışa aktarma](/tr/yardim/disa-aktarma/).
 
-## Bir arkadaşımı davet ederek Pro’yu deneyebilir miyim?
-
-- Evet: Ayarlar → Hesap → Arkadaşını davet et, ikinize de 7 gün Pro verir (uygulamada Premium olarak görünür).
-- Arkadaşınız 6 karakterlik kodunuzu Verbi’ye girer ve onun 7 günü hemen başlar. Davet metni bunu ilk kaydını bitirmeden önce yapmasını ister.
-- Siz 7 gününüzü, arkadaşınız ilk transkripsiyonunu tamamladığında kazanırsınız. Bu ödülü en fazla 5 arkadaş için kazanabilirsiniz.
-- Her cihaz bir davet ödülü alabilir; uygulamayı yeniden yüklemek bunu sıfırlamaz. Ücretli bir aboneliğiniz varsa ödül günleriniz abonelik bitince başlar.
-
 ## Sık sorulan sorular
 
 ### Ücretsiz dakikalarım ne zaman sıfırlanır?
@@ -16943,14 +16929,6 @@ Die 3 kostenlosen Zusammenfassungen gibt es am 1. jedes Monats neu. Unter jeder 
 - Im kostenlosen Plan löscht Verbi eine Aufnahme 15 Tage nach ihrem Datum endgültig, mit Audio, Transkript, Zusammenfassung, Übersetzung und Chat. Sie landet nicht in „Gelöschte Aufnahmen“.
 - Etwa 2 Tage vorher kommt eine Mitteilung, wenn du Mitteilungen erlaubt hast. Im Verlauf steht außerdem ein Hinweis, dass der Gratisplan Aufnahmen 15 Tage behält.
 - Willst du etwas behalten, kopiere den Text, oder wechsle zu Pro, um als TXT oder PDF zu exportieren und alles zu behalten.
-
-## Wie lade ich Freunde ein?
-
-1. Öffne „Einstellungen“ → „Konto“ → „Freunde einladen“ und teile deinen Code aus 6 Zeichen.
-2. Dein Freund gibt den Code ein, am besten bevor er seine erste Aufnahme abschließt. Seine 7 Tage Premium beginnen sofort.
-3. Deine 7 Tage Premium kommen, wenn er sein erstes Transkript fertig hat.
-
-Belohnt werden bis zu 5 Freunde. Pro Gerät gibt es nur eine Einladungsbelohnung; eine Neuinstallation ändert daran nichts. Hast du schon ein bezahltes Abo, warten die Tage, bis es endet.
 
 ## Häufige Fragen
 
@@ -17012,13 +16990,6 @@ Os 3 resumos grátis renovam no dia 1º de cada mês. Embaixo de cada resumo há
 - Para guardar uma gravação, copie o texto, ou passe para o Pro para exportar em TXT ou PDF e guardar tudo.
 - A limpeza só acontece depois que o app confirma, com conexão, que você está no plano grátis; abrir o app sem internet não apaga nada.
 
-## Convide um amigo: 7 dias de Premium
-
-- Em Settings → Account → Invite a friend (convidar um amigo), compartilhe o seu código de 6 caracteres.
-- O amigo digita o código e ganha 7 dias de Premium na hora; o convite pede que ele faça isso antes de terminar a primeira gravação.
-- Você ganha 7 dias quando o amigo termina a primeira transcrição, até 5 amigos.
-- Uma recompensa de convite por aparelho; reinstalar o app não muda isso. Se você já tem uma assinatura paga, os dias ganhos esperam até ela terminar.
-
 ## Perguntas frequentes
 
 ### Quando os minutos grátis recomeçam?
@@ -17079,13 +17050,6 @@ Los 3 resúmenes gratis se renuevan el día 1 de cada mes. Debajo de cada resume
 - Para conservar una grabación, copia el texto, o pásate a Pro para exportar en TXT o PDF y conservarlo todo.
 - El borrado solo ocurre después de que la app confirme, con conexión, que estás en el plan gratuito; abrir la app sin internet no borra nada.
 
-## Invita a un amigo: 7 días de Premium
-
-- En Ajustes → «Cuenta» → «Invita a un amigo», comparte tu código de 6 caracteres.
-- Tu amigo escribe el código y recibe 7 días de Premium al momento; la invitación le pide que lo haga antes de terminar su primera grabación.
-- Tú recibes 7 días cuando tu amigo termina su primera transcripción, hasta 5 amigos.
-- Una recompensa por invitación por dispositivo; reinstalar la app no cambia eso. Si ya tienes una suscripción de pago, los días ganados esperan a que termine.
-
 ## Preguntas frecuentes
 
 ### ¿Cuándo se renuevan los minutos gratis?
@@ -17145,13 +17109,6 @@ Les 3 résumés gratuits sont renouvelés le 1er de chaque mois. Sous chaque ré
 - Environ 2 jours avant, Verbi envoie la notification « Vos enregistrements seront bientôt supprimés », si les notifications sont autorisées. L’« Historique » rappelle aussi que l’offre gratuite conserve les enregistrements 15 jours.
 - Pour garder un enregistrement, copiez son texte, ou passez à Pro pour l’exporter en TXT ou PDF et tout conserver. Voir [comment exporter](/fr/aide/exporter-une-transcription/).
 
-## Peut-on essayer Pro en invitant un ami ?
-
-- Oui : « Paramètres » → « Compte » → « Inviter un ami » offre 7 jours de Pro, appelés Premium dans l’app, à chacun de vous deux.
-- Votre ami saisit votre code de 6 caractères dans Verbi, et ses 7 jours démarrent tout de suite. Le texte d’invitation lui demande de le faire avant de terminer son premier enregistrement.
-- Vous recevez vos 7 jours quand votre ami termine sa première transcription. Vous pouvez recevoir ce cadeau pour 5 amis au maximum.
-- Chaque appareil ne reçoit qu’un cadeau d’invitation, et réinstaller l’app n’y change rien. Si vous avez déjà un abonnement payant, vos jours offerts attendent la fin de celui-ci.
-
 ## Questions fréquentes
 
 ### Quand mes minutes gratuites repartent-elles à zéro ?
@@ -17208,16 +17165,6 @@ I 3 riassunti gratuiti si rinnovano il giorno 1 di ogni mese. Sotto ogni riassun
 - Con il piano gratuito Verbi cancella definitivamente una registrazione 15 giorni dopo la sua data, con audio, trascrizione, riassunto, traduzione e chat. Non finisce in «Deleted Recordings» (registrazioni eliminate).
 - Circa 2 giorni prima arriva una notifica, se hai permesso le notifiche. Nella cronologia compare anche un promemoria: il piano gratuito conserva le registrazioni per 15 giorni.
 - Per tenere qualcosa, copia il testo, oppure passa a Pro per esportare in TXT o PDF e conservare tutto.
-
-## Come invito un amico?
-
-1. Apri «Settings» (impostazioni) → «Account» → «Invite a friend» (invita un amico) e condividi il tuo codice di 6 caratteri.
-2. Il tuo amico inserisce il codice, meglio prima di finire la sua prima registrazione: i suoi 7 giorni di Premium partono subito.
-3. I tuoi 7 giorni arrivano quando il tuo amico completa la sua prima trascrizione.
-
-Vengono premiati fino a 5 amici. Su ogni dispositivo c’è un solo premio d’invito, anche reinstallando l’app. Se hai già un abbonamento a pagamento, i giorni aspettano che finisca.
-
-Le voci dell’app sono citate in inglese, con il significato tra parentesi. Dalla versione 1.4.0 su iPhone e 1.2.0 su Android l’app mostra queste voci in italiano: [ecco le lingue dell’app](/it/assistenza/lingue/).
 
 ## Domande frequenti
 
@@ -17278,13 +17225,6 @@ Last updated: 2026-11-18
 - قبل ذلك بنحو يومين يرسل Verbi إشعارًا إن كانت الإشعارات مسموحة. ويذكّرك «السجل» أيضًا بأن الباقة المجانية تحفظ التسجيلات 15 يومًا.
 - للاحتفاظ بتسجيل انسخ نصه، أو انتقل إلى Pro لتصدّر TXT أو PDF وتحتفظ بكل شيء. راجع [كيف أصدّر](/ar/help/export-transcript/).
 
-## هل يمكنني تجربة Pro بدعوة صديق؟
-
-- نعم: «الإعدادات» ← «الحساب» ← «ادعُ صديقًا» تمنحكما 7 أيام من Pro (تظهر في التطبيق باسم Premium).
-- يُدخل صديقك رمزك المكوّن من 6 خانات في Verbi، وتبدأ أيامه السبعة فورًا. ويطلب نص الدعوة منه ذلك قبل أن ينهي تسجيله الأول.
-- تحصل على أيامك السبعة عندما ينهي صديقك أول تفريغ له. ويمكنك كسب هذه المكافأة عن 5 أصدقاء.
-- يمكن لكل جهاز الحصول على مكافأة دعوة واحدة، ولا تعيد إعادة التثبيت ضبطها. وإن كان لديك اشتراك مدفوع فتنتظر أيام المكافأة انتهاءه.
-
 ## الأسئلة الشائعة
 
 ### متى تتجدد دقائقي المجانية؟
@@ -17343,13 +17283,6 @@ Last updated: 2026-11-18
 - Каждая запись безвозвратно удаляется через 15 дней после своей даты: аудио, расшифровка, резюме, перевод и чат. Сначала в «Удалённые записи» она не попадает.
 - Примерно за 2 дня до этого Verbi присылает уведомление, если уведомления разрешены. Во вкладке «История» тоже напоминается, что бесплатный тариф хранит записи 15 дней.
 - Чтобы сохранить запись, скопируйте её текст или перейдите на Pro, чтобы экспортировать в TXT или PDF и сохранить всё. См. [как экспортировать](/ru/help/export-transcript/).
-
-## Можно ли попробовать Pro, пригласив друга?
-
-- Да: «Настройки» → «Аккаунт» → «Пригласить друга» дарит вам обоим 7 дней Pro.
-- Друг вводит ваш код из 6 символов в Verbi, и его 7 дней начинаются сразу. В приглашении его просят сделать это до окончания первой записи.
-- Свои 7 дней вы получаете, когда друг завершит первую расшифровку. Такую награду можно получить за 5 друзей.
-- Каждое устройство может получить одну награду по приглашению, и переустановка её не сбрасывает. Если у вас уже есть платная подписка, дни награды ждут её окончания.
 
 ## Частые вопросы
 
@@ -17410,13 +17343,6 @@ Last updated: 2026-11-18
 - 通知が許可されていれば、削除の約2日前にVerbiが通知します。「履歴」にも、無料プランでは録音が15日間保存されることが表示されます。
 - 録音を残すには、テキストをコピーするか、Proにして、TXTやPDFで書き出してすべてを残します。[書き出し方](/ja/help/export-transcript/)をご覧ください。
 
-## 友達を招待してProを試せますか？
-
-- はい。「設定」→「アカウント」→「友達を招待」で、あなたと友達の両方にProの7日間が付きます。
-- 友達がVerbiにあなたの6文字のコードを入力すると、その7日間がすぐに始まります。招待のテキストでは、最初の録音を終える前に入力するようお願いしています。
-- あなたの7日間は、友達が最初の文字起こしを終えたときに付与されます。この特典は最大5人の友達分まで受け取れます。
-- 特典は1台の端末につき1回で、再インストールしてもリセットされません。すでに有料のサブスクリプションがある場合は、特典の日数はそれが終わるまで待機します。
-
 ## よくある質問
 
 ### 無料の時間はいつリセットされますか？
@@ -17475,13 +17401,6 @@ Last updated: 2026-11-18
 - 각 녹음은 날짜로부터 15일 뒤 영구 삭제됩니다. 오디오, 텍스트, 요약, 번역, 채팅이 모두 해당합니다. 먼저 "삭제된 녹음"으로 가지 않습니다.
 - 알림이 허용되어 있으면 약 2일 전에 Verbi가 알림을 보냅니다. "기록"에서도 무료 플랜은 녹음을 15일간 보관한다고 알려 줍니다.
 - 녹음을 남기려면 텍스트를 복사하거나, Pro로 TXT나 PDF를 내보내 모두 보관하세요. [내보내는 방법](/ko/help/export-transcript/)을 보세요.
-
-## 친구를 초대해서 Pro를 체험할 수 있나요?
-
-- 네. "설정" → "계정" → "친구 초대"로 나와 친구 모두에게 Pro 7일이 주어집니다.
-- 친구가 Verbi에 내 6자리 코드를 입력하면 친구의 7일이 바로 시작됩니다. 초대 문구는 첫 녹음을 마치기 전에 입력하라고 안내합니다.
-- 내 7일은 친구가 첫 텍스트 변환을 마칠 때 받습니다. 이 보상은 친구 5명까지 받을 수 있습니다.
-- 기기당 초대 보상은 한 번이며 재설치해도 초기화되지 않습니다. 이미 유료 구독이 있으면 보상 일수는 그 구독이 끝날 때까지 기다립니다.
 
 ## 자주 묻는 질문
 
@@ -17542,13 +17461,6 @@ Belajar (Pro, mulai versi 1.6.0 di iPhone dan 1.4.0 di Android): tab Belajar pad
 - Sekitar 2 hari sebelumnya, Verbi mengirim notifikasi jika notifikasi diizinkan. Riwayat juga mengingatkan Anda bahwa paket gratis menyimpan rekaman 15 hari.
 - Untuk menyimpan rekaman, salin teksnya, atau beralih ke Pro untuk mengekspor TXT atau PDF dan menyimpan semuanya. Lihat [cara mengekspor](/id/bantuan/ekspor-transkrip/).
 
-## Bisakah saya mencoba Pro dengan mengundang teman?
-
-- Bisa: Pengaturan → Akun → Undang teman memberi 7 hari Pro, yang di aplikasi tertulis Premium, kepada Anda berdua.
-- Teman Anda memasukkan kode 6 karakter Anda di Verbi, dan 7 harinya langsung dimulai. Teks undangan meminta mereka melakukannya sebelum menyelesaikan rekaman pertama.
-- Anda mendapat 7 hari saat teman Anda menyelesaikan transkripsi pertamanya. Hadiah ini bisa Anda dapatkan untuk hingga 5 teman.
-- Setiap perangkat bisa mendapat satu hadiah undangan, dan menginstal ulang tidak mereset. Jika Anda sudah punya langganan berbayar, hari hadiah menunggu sampai langganan itu berakhir.
-
 ## Pertanyaan umum
 
 ### Kapan menit gratis saya direset?
@@ -17607,13 +17519,6 @@ Leren (Pro, vanaf versie 1.6.0 op iPhone en 1.4.0 op Android): het tabblad Leren
 - Elke opname wordt 15 dagen na de datum definitief verwijderd: audio, transcript, samenvatting, vertaling en chat. Ze gaat niet eerst naar Verwijderde opnames.
 - Ongeveer 2 dagen eerder stuurt Verbi een melding, als meldingen zijn toegestaan. Geschiedenis herinnert je er ook aan dat het gratis abonnement opnames 15 dagen bewaart.
 - Om een opname te bewaren kopieer je de tekst, of neem je Pro om txt of pdf te exporteren en alles te bewaren. Zie [hoe je exporteert](/nl/hulp/transcript-exporteren/).
-
-## Kan ik Pro proberen door een vriend uit te nodigen?
-
-- Ja: Instellingen → Account → Nodig een vriend uit geeft jullie allebei 7 dagen Pro (in de app heet dat Premium).
-- Je vriend voert jouw code van 6 tekens in Verbi in, en zijn 7 dagen beginnen meteen. De uitnodigingstekst vraagt hem dit te doen voordat hij zijn eerste opname afrondt.
-- Jij krijgt je 7 dagen zodra je vriend zijn eerste transcriptie afrondt. Deze beloning kun je voor maximaal 5 vrienden verdienen.
-- Elk toestel kan één uitnodigingsbeloning krijgen, en opnieuw installeren reset dat niet. Heb je al een betaald abonnement, dan wachten je beloningsdagen tot het is afgelopen.
 
 ## Veelgestelde vragen
 
@@ -17674,13 +17579,6 @@ W planie bezpłatnym są też: Własne słownictwo, automatyczne tytuły, przypo
 - Na około 2 dni przed tym Verbi wysyła powiadomienie, jeśli powiadomienia są dozwolone. "Historia" też przypomina, że plan bezpłatny przechowuje nagrania 15 dni.
 - Aby zachować nagranie, skopiuj jego tekst albo przejdź na Pro, aby eksportować TXT lub PDF i zachować wszystko. Zobacz [jak eksportować](/pl/pomoc/eksport-transkrypcji/).
 
-## Czy mogę wypróbować Pro, zapraszając znajomego?
-
-- Tak: "Ustawienia" → "Konto" → "Zaproś znajomego" daje Wam obojgu 7 dni Pro.
-- Znajomy wpisuje Twój 6-znakowy kod w Verbi, a jego 7 dni zaczyna się od razu. Tekst zaproszenia prosi, aby zrobił to przed zakończeniem pierwszego nagrania.
-- Swoje 7 dni dostajesz, gdy znajomy ukończy pierwszą transkrypcję. Tę nagrodę możesz zdobyć za maksymalnie 5 znajomych.
-- Każde urządzenie może dostać jedną nagrodę za zaproszenie, a ponowna instalacja jej nie resetuje. Jeśli masz już płatną subskrypcję, dni nagrody czekają, aż się skończy.
-
 ## Najczęstsze pytania
 
 ### Kiedy odnawiają się moje bezpłatne minuty?
@@ -17739,13 +17637,6 @@ Last updated: 2026-11-18
 - 每条录音在其日期后 15 天被永久删除：音频、转写、摘要、翻译和聊天。它不会先进入“已删除的录音”。
 - 如果允许通知，大约提前 2 天 Verbi 会发送通知。“历史”中也会提醒你免费套餐保留录音 15 天。
 - 要保留一条录音，请复制它的文字，或升级到 Pro 导出 TXT 或 PDF 来保存全部内容。参阅[怎样导出](/zh/help/export-transcript/)。
-
-## 可以通过邀请好友试用 Pro 吗？
-
-- 可以：“设置”→“账户”→“邀请好友”会让你们两人各获得 7 天 Pro。
-- 你的好友在 Verbi 中输入你的 6 位邀请码，他的 7 天会立即开始。邀请文案会请他在完成第一条录音之前输入。
-- 当好友完成第一次转写后，你获得 7 天。你最多可以通过 5 位好友获得这项奖励。
-- 每台设备只能获得一次邀请奖励，重新安装也不会重置。如果你已有付费订阅，奖励天数会等到订阅结束后再生效。
 
 ## 常见问题
 
@@ -20240,7 +20131,6 @@ Vos enregistrements, transcriptions et résumés sont stockés sur votre télép
 - Heures Pro et MAX : le serveur de Verbi tient un compteur lié à un identifiant d’utilisateur anonyme de l’app : les secondes d’audio utilisées pendant la période et votre solde d’heures supplémentaires. Il ne contient ni audio, ni transcription, ni nom de fichier, et il est supprimé si vous nous demandez de supprimer vos données. Voir [heures supplémentaires](/fr/aide/heures-supplementaires/).
 - Les journaux de requêtes (adresse IP, agent utilisateur, adresse de la requête, titres des vidéos YouTube) sont conservés 30 jours.
 - L’audio d’une vidéo YouTube importée est supprimé au bout d’un jour, puis reste récupérable 7 jours.
-- Notre base de données ne contient que les données des invitations (« Inviter un ami »).
 - OpenAI indique ne pas utiliser les données de son API pour l’entraînement et garde des journaux de contrôle des abus 30 jours au plus. ElevenLabs conserve les données selon sa propre politique. Tout est détaillé dans la [politique de confidentialité](https://theverbi.com/privacy-policy/) (en anglais).
 
 ## Comment supprimer vos données et régler les statistiques ?
@@ -20745,7 +20635,6 @@ Restoring brings back Pro, not recordings: Verbi has no cloud sync, so recording
 - Important: the next time Verbi checks your plan, every recording older than 15 days is permanently deleted, without a warning. Before Pro ends, export what you want to keep as TXT or PDF.
 - Recordings you made this month while on Pro count toward the free plan’s 60 minutes.
 - [Extra hours](/help/extra-hours/) you bought stay usable after Pro ends, until they are used up.
-- The same applies when 7 days of Pro from an invite end. See [the free plan and Pro](/help/free-plan-vs-pro/).
 
 ## Frequently asked questions
 
@@ -20796,7 +20685,6 @@ Geri yükleme kayıtları değil, Pro’yu geri getirir: Verbi’de bulut eşitl
 - Önemli: Verbi planınızı bir sonraki kontrol edişinde 15 günden eski bütün kayıtlar uyarı verilmeden kalıcı olarak silinir. Pro bitmeden önce saklamak istediklerinizi TXT ya da PDF olarak dışa aktarın.
 - Bu ay Pro’dayken yaptığınız kayıtlar, ücretsiz plandaki 60 dakikadan düşer.
 - Satın aldığınız [ek saatler](/tr/yardim/ek-saat/) Pro bittikten sonra da, bitene kadar kullanılabilir.
-- Davetten gelen 7 günlük Pro bittiğinde de aynısı geçerlidir. Bkz. [ücretsiz plan ve Pro](/tr/yardim/ucretsiz-plan-ve-pro/).
 
 ## Sık sorulan sorular
 
@@ -20842,7 +20730,7 @@ Nutze auf dem Gerät dieselbe Apple-ID oder dasselbe Google-Konto wie beim Kauf;
 
 ## Was passiert, wenn Pro endet?
 
-- Verbi wechselt in den kostenlosen Plan, auch wenn eine Einladungsbelohnung endet. Übersetzung, KI-Chat, mehr als 3 Zusammenfassungen pro Monat, Sprechererkennung, Export und die Pro-Live-Transkription sind dann gesperrt.
+- Verbi wechselt in den kostenlosen Plan. Übersetzung, KI-Chat, mehr als 3 Zusammenfassungen pro Monat, Sprechererkennung, Export und die Pro-Live-Transkription sind dann gesperrt.
 - Vorhandene Transkripte, Zusammenfassungen, Übersetzungen und Sprechernamen bleiben in den verbliebenen Aufnahmen lesbar.
 - Wichtig: Bei der nächsten Prüfung, wenn du die App öffnest oder zu ihr zurückkehrst, löscht Verbi alle Aufnahmen, die älter als 15 Tage sind, endgültig und ohne Vorwarnung. Exportiere Wichtiges, solange Pro noch aktiv ist.
 - Aufnahmen, die du in diesem Monat mit Pro gemacht hast, zählen zu den 60 Gratisminuten des Monats.
@@ -20898,7 +20786,6 @@ Os nomes dos botões aparecem aqui em inglês, com o sentido em português entre
 - Transcrições, resumos, traduções e nomes de participantes continuam legíveis nas gravações que ficarem.
 - Atenção: na próxima vez que o app abrir e confirmar o plano grátis, todas as gravações com mais de 15 dias são apagadas de vez, sem aviso antes. Antes de o Pro terminar, exporte em TXT ou PDF o que quiser guardar.
 - As gravações feitas neste mês durante o Pro contam nos 60 minutos do mês grátis.
-- O mesmo vale quando terminam os dias de Premium ganhos com um convite.
 - As [horas extras](/pt/ajuda/horas-extras/) que você comprou continuam utilizáveis depois que o Pro termina, até acabarem.
 
 ## Perguntas frequentes
@@ -20946,7 +20833,6 @@ La suscripción se cancela en la tienda, no en la app: en iPhone, en los Ajustes
 - Atención: la próxima vez que la app se abra y confirme el plan gratuito, todas las grabaciones de más de 15 días se borran para siempre, sin aviso previo. Antes de que termine Pro, exporta en TXT o PDF lo que quieras conservar.
 - Las grabaciones hechas este mes con Pro cuentan para los 60 minutos del mes gratuito.
 - Las [horas extra](/es/ayuda/horas-extra/) que compraste se siguen pudiendo usar cuando Pro termina, hasta que se acaben.
-- Lo mismo ocurre cuando terminan los días de Premium ganados con una invitación.
 
 ## Preguntas frecuentes
 
@@ -20993,7 +20879,6 @@ La restauration rend Pro, pas les enregistrements : Verbi n’a pas de synchron
 - Important : la prochaine fois que Verbi vérifie votre offre, tous les enregistrements de plus de 15 jours sont supprimés définitivement, sans avertissement. Avant la fin de Pro, exportez en TXT ou PDF ce que vous voulez garder.
 - Les enregistrements faits ce mois-ci pendant Pro comptent dans les 60 minutes de l’offre gratuite.
 - Les [heures supplémentaires](/fr/aide/heures-supplementaires/) que vous avez achetées restent utilisables après la fin de Pro, jusqu’à épuisement.
-- C’est la même chose à la fin des 7 jours offerts par une invitation. Voir [l’offre gratuite et Pro](/fr/aide/offre-gratuite-et-pro/).
 
 ## Questions fréquentes
 
@@ -21041,7 +20926,7 @@ Le voci dell’app sono citate in inglese, con il significato tra parentesi. Dal
 
 ## Cosa succede quando Pro finisce?
 
-- Verbi passa al piano gratuito, anche quando finisce un premio d’invito. Traduzione, chat AI, riassunti oltre i 3 al mese, riconoscimento di chi parla, esportazione e trascrizione dal vivo Pro tornano bloccati.
+- Verbi passa al piano gratuito. Traduzione, chat AI, riassunti oltre i 3 al mese, riconoscimento di chi parla, esportazione e trascrizione dal vivo Pro tornano bloccati.
 - Trascrizioni, riassunti, traduzioni e nomi degli interlocutori già presenti restano leggibili nelle registrazioni che rimangono.
 - Importante: al controllo successivo, quando apri l’app o ci torni, Verbi cancella definitivamente e senza preavviso tutte le registrazioni più vecchie di 15 giorni. Esporta quello che ti serve finché Pro è ancora attivo.
 - Le registrazioni fatte con Pro nel mese in corso contano nei 60 minuti gratuiti del mese.
@@ -21096,7 +20981,6 @@ Last updated: 2026-11-16
 - مهم: في المرة التالية التي يتحقق فيها Verbi من باقتك يُحذف نهائيًا كل تسجيل أقدم من 15 يومًا، دون تحذير. قبل انتهاء Pro صدّر ما تريد الاحتفاظ به بصيغة TXT أو PDF.
 - التسجيلات التي أجريتها هذا الشهر وأنت على Pro تُحتسب من دقائق الباقة المجانية الـ 60.
 - تبقى [الساعات الإضافية](/ar/help/extra-hours/) التي اشتريتها قابلة للاستخدام بعد انتهاء Pro حتى تُستهلك.
-- وينطبق الأمر نفسه عندما تنتهي أيام Pro السبعة الممنوحة بدعوة. راجع [الباقة المجانية وPro](/ar/help/free-plan-vs-pro/).
 
 ## الأسئلة الشائعة
 
@@ -21147,7 +21031,6 @@ Last updated: 2026-11-16
 - Важно: при следующей проверке тарифа Verbi безвозвратно удаляет без предупреждения все записи старше 15 дней. Пока Pro не закончился, экспортируйте нужное в TXT или PDF.
 - Записи, сделанные в этом месяце на Pro, засчитываются в 60 минут бесплатного тарифа.
 - [Дополнительные часы](/ru/help/extra-hours/), которые вы купили, остаются доступными после окончания Pro, пока не будут израсходованы.
-- То же происходит, когда заканчиваются 7 дней Pro по приглашению. См. [бесплатный тариф и Pro](/ru/help/free-plan-vs-pro/).
 
 ## Частые вопросы
 
@@ -21198,7 +21081,6 @@ Verbi Proの請求はAppleまたはGoogleが行うので、解約はApp Storeま
 - 重要: 次にVerbiがプランを確認したとき、15日より古い録音はすべて、警告なしで完全に削除されます。Proが終わる前に、残したいものをTXTまたはPDFで書き出してください。
 - Proのあいだに今月録音したものは、無料プランの60分に数えられます。
 - 購入した[追加の時間](/ja/help/extra-hours/)は、Proの終了後も、使い切るまで使えます。
-- 招待でもらったProの7日間が終わったときも同じです。[無料プランとPro](/ja/help/free-plan-vs-pro/)をご覧ください。
 
 ## よくある質問
 
@@ -21249,7 +21131,6 @@ Verbi Pro는 Apple이나 Google이 결제를 처리하므로, App Store나 Googl
 - 중요: Verbi가 다음에 플랜을 확인할 때 15일이 지난 모든 녹음이 경고 없이 영구 삭제됩니다. Pro가 끝나기 전에 남기고 싶은 것을 TXT나 PDF로 내보내세요.
 - 이번 달 Pro로 만든 녹음은 무료 플랜의 60분에 계산됩니다.
 - 구매한 [추가 시간](/ko/help/extra-hours/)은 Pro가 끝난 뒤에도 다 쓸 때까지 쓸 수 있습니다.
-- 초대로 받은 Pro 7일이 끝날 때도 마찬가지입니다. [무료 플랜과 Pro](/ko/help/free-plan-vs-pro/)를 보세요.
 
 ## 자주 묻는 질문
 
@@ -21300,7 +21181,6 @@ Memulihkan mengembalikan Pro, bukan rekaman: Verbi tidak memiliki sinkronisasi c
 - Penting: saat berikutnya Verbi memeriksa paket Anda, setiap rekaman yang lebih lama dari 15 hari dihapus permanen, tanpa peringatan. Sebelum Pro berakhir, ekspor yang ingin Anda simpan sebagai TXT atau PDF.
 - Rekaman yang Anda buat bulan ini saat memakai Pro dihitung dalam 60 menit paket gratis.
 - [Jam ekstra](/id/bantuan/jam-ekstra/) yang Anda beli tetap bisa dipakai setelah Pro berakhir, sampai habis.
-- Hal yang sama berlaku saat 7 hari Pro dari undangan berakhir. Lihat [paket gratis dan Pro](/id/bantuan/paket-gratis-dan-pro/).
 
 ## Pertanyaan umum
 
@@ -21351,7 +21231,6 @@ Herstellen brengt Pro terug, niet je opnames: Verbi heeft geen cloudsynchronisat
 - Belangrijk: de volgende keer dat Verbi je abonnement controleert, wordt elke opname ouder dan 15 dagen definitief verwijderd, zonder waarschuwing. Exporteer voordat Pro afloopt wat je wilt houden als txt of pdf.
 - Opnames die je deze maand met Pro hebt gemaakt, tellen mee voor de 60 minuten van het gratis abonnement.
 - [Extra uren](/nl/hulp/extra-uren/) die je hebt gekocht blijven bruikbaar nadat Pro is afgelopen, tot ze op zijn.
-- Hetzelfde geldt als 7 dagen Pro uit een uitnodiging aflopen. Zie [het gratis abonnement en Pro](/nl/hulp/gratis-abonnement-en-pro/).
 
 ## Veelgestelde vragen
 
@@ -21402,7 +21281,6 @@ Przywrócenie przywraca Pro, a nie nagrania: Verbi nie ma synchronizacji z chmur
 - Ważne: przy następnym sprawdzeniu planu przez Verbi każde nagranie starsze niż 15 dni jest trwale usuwane, bez ostrzeżenia. Zanim Pro się skończy, wyeksportuj to, co chcesz zachować, do TXT lub PDF.
 - Nagrania zrobione w tym miesiącu w Pro liczą się do 60 minut planu bezpłatnego.
 - Kupione [dodatkowe godziny](/pl/pomoc/dodatkowe-godziny/) pozostają do użycia po zakończeniu Pro, dopóki się nie wyczerpią.
-- To samo dotyczy końca 7 dni Pro z zaproszenia. Zobacz [plan bezpłatny i Pro](/pl/pomoc/plan-bezplatny-i-pro/).
 
 ## Najczęstsze pytania
 
@@ -21453,7 +21331,6 @@ Verbi Pro 由 Apple 或 Google 收费，所以你要在 App Store 或 Google Pla
 - 重要：Verbi 下次检查你的套餐时，所有超过 15 天的录音都会被永久删除，且不会另行警告。在 Pro 结束前，请把想保留的内容导出为 TXT 或 PDF。
 - 你本月在 Pro 期间录制的内容，会计入免费套餐的 60 分钟。
 - 你购买的[额外时长](/zh/help/extra-hours/)在 Pro 结束后仍可使用，直到用完为止。
-- 邀请获得的 7 天 Pro 结束时同样如此。参阅[免费套餐和 Pro](/zh/help/free-plan-vs-pro/)。
 
 ## 常见问题
 
